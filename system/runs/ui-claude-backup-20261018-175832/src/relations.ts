@@ -1,0 +1,2 @@
+export const relationLabels: Record<string, string> = { depends_on: '依赖', uses: '使用', purchased: '购买', has_feedback: '收到反馈', has_participant: '参与者', affects: '影响', reported_cause: '报告的原因', followed_by: '后续事件', may_cause: '可能导致', shares_identifier_with: '共享标识', sister_product: '姊妹产品', version_of: '对应版本', replaced_by: '被替代为', merged_into: '功能并入', supports: '支持', upgraded_to: '升级为', attribute: '属性' };
+export const relationLabel = (predicate: string) => relationLabels[predicate] || '其他关联';

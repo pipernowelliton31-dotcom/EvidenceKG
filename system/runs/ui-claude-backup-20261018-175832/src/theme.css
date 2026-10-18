@@ -1,0 +1,103 @@
+/* Shared semantic palette. A theme changes every surface, including graph controls. */
+:root {
+  color-scheme: light;
+  --bg: #ffffff; --surface: #ffffff; --surface-soft: #f5f7fc; --sidebar: #f6f7fa;
+  --fg: #29334a; --fg-2: #536078; --fg-muted: #707d92;
+  --text: var(--fg); --muted: var(--fg-muted); --panel: var(--surface-soft); --mint: var(--accent); --line: #e1e6f0;
+  --accent: #5565d7; --accent-solid: #5868df; --accent-hover: #4958c9;
+  --accent-line: #a8b6eb; --on-accent: #ffffff; --bubble: #eeedfc;
+  --success: #287b68; --success-bg: #eef8f3; --success-line: #c7e4d6;
+  --danger: #af4c55; --danger-bg: #fff3f3; --danger-line: #edcbd0; --warning: #9b6b27;
+  --disabled: #cbd3e2; --scrollbar: #cdd5e3; --shadow: #20335c16;
+  --overlay: #24314c55; --focus-wash: #5868df12;
+  --graph-bg: #f7f9fd; --graph-glow: #e9eefc99;
+  --node-product: #916721; --node-tool: #147d73; --node-actor: #7860b5; --node-version: #347cb2;
+  --selection-bg: #2864c5; --selection-fg: #ffffff;
+}
+:root[data-theme="night"] {
+  color-scheme: dark;
+  --bg: #15181e; --surface: #1c2028; --surface-soft: #232934; --sidebar: #191d24;
+  --fg: #e5e9f0; --fg-2: #bec8d6; --fg-muted: #9aa8bc;
+  --line: #343d4c; --accent: #9dbbfa; --accent-solid: #4569bb; --accent-hover: #5077ca;
+  --accent-line: #607db4; --on-accent: #ffffff; --bubble: #29344a;
+  --success: #8ed7b9; --success-bg: #142f2a; --success-line: #295747;
+  --danger: #f0a2ad; --danger-bg: #331f2c; --danger-line: #663344; --warning: #d6b578;
+  --disabled: #314456; --scrollbar: #3a5063; --shadow: #00000038;
+  --overlay: #0d1018b8; --focus-wash: #8aaefa18;
+  --graph-bg: #191e27; --graph-glow: transparent;
+  --node-product: #eac67d; --node-tool: #66e4d3; --node-actor: #a897e7; --node-version: #74b7e4;
+}
+::selection { background: var(--selection-bg); color: var(--selection-fg); }
+body { background: var(--bg); color: var(--fg); }
+.workspace-v2 { background: var(--bg); color: var(--fg); }
+.workspace-v2 .sidebar { background: var(--sidebar); }
+.workspace-v2 .sidebar nav button svg, .workspace-v2 .brand-en { color: inherit; }
+.workspace-v2 .main { background: transparent; }
+.workspace-v2 .topbar { background: var(--surface); }
+.workspace-v2 .topbar-actions { display: flex; gap: 12px; align-items: center; flex-shrink: 0; }
+.topbar .theme-switch { display: flex; align-items: center; gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface-soft); }
+.topbar .theme-switch button { display: flex; gap: 5px; padding: 6px 9px; border-radius: 6px; color: var(--fg-muted); font-size: 11px; white-space: nowrap; }
+.topbar .theme-switch button[aria-pressed="true"] { background: var(--surface); color: var(--accent); box-shadow: 0 1px 4px var(--shadow); }
+.workspace-v2 .topbar .model-pill { max-width: 260px; }
+.topbar .model-pill span { max-width: 190px; }
+
+/* Remove legacy dark shells, not just the text color on top of them. */
+.workspace-v2 .turn .user-message { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.workspace-v2 .user-message p { background: var(--bubble); color: var(--fg); border: 1px solid var(--line); }
+.workspace-v2 .test-list { background: transparent; border: 0; border-radius: 0; overflow: visible; }
+.workspace-v2 .test-result-card { background: var(--surface); border-color: var(--line); }
+.workspace-v2 .test-result-card > summary { color: var(--fg-2); }
+.workspace-v2 .test-result-card > summary:hover { color: var(--accent); }
+.workspace-v2 .test-result-card[open] { border-color: var(--accent-line); }
+.workspace-v2 .test-result-card > summary .red { color: var(--danger); }
+.workspace-v2 .markdown, .workspace-v2 .reader-unit .markdown { color: var(--fg-2); }
+.workspace-v2 .markdown p, .workspace-v2 .markdown li { color: var(--fg-2); }
+.workspace-v2 .api-settings form label { color: var(--fg-2); }
+.workspace-v2 .api-settings label small, .workspace-v2 .api-settings label span { color: var(--fg-muted); }
+.workspace-v2 .reader-locator { border-color: var(--line); }
+.workspace-v2 .fact-detail p > span { color: var(--fg-2); }
+.workspace-v2 .selected-relation > span, .workspace-v2 .selected-relation small { color: var(--accent); }
+.workspace-v2 .graph-query-status .eyebrow, .workspace-v2 .graph-query-status small { color: var(--fg-muted); }
+.workspace-v2 .source-scope-popover > strong { color: var(--fg); }
+.workspace-v2 select { color-scheme: inherit; }
+.workspace-v2 option { background: var(--bg); color: var(--fg); }
+.workspace-v2 .sidebar-history, .workspace-v2 .conversation, .workspace-v2 .document-reader { scrollbar-color: var(--scrollbar) transparent; }
+.workspace-v2 .source-jump-note { overflow-wrap: anywhere; gap: 15px; }
+.workspace-v2 .source-jump-note button { flex-shrink: 0; }
+
+/* Canvas itself and every overlay use the same palette. */
+.workspace-v2 .graph-canvas { background: var(--graph-bg); border-color: var(--line); }
+.workspace-v2 .constellation { background: radial-gradient(ellipse at 50% 50%, var(--graph-glow), transparent 78%); }
+.workspace-v2 .graph-caption, .workspace-v2 .graph-caption small { color: var(--fg-muted); }
+.workspace-v2 .graph-caption .live-dot { background: var(--accent); box-shadow: 0 0 10px var(--focus-wash); }
+.workspace-v2 .graph-controls, .workspace-v2 .graph-category-tabs, .workspace-v2 .graph-node-picker select, .workspace-v2 .graph-hover { background: var(--surface); color: var(--fg-2); border-color: var(--line); box-shadow: 0 3px 12px var(--shadow); }
+.workspace-v2 .graph-controls button, .workspace-v2 .graph-category-tabs button { color: var(--fg-2); }
+.workspace-v2 .graph-controls button:hover, .workspace-v2 .graph-category-tabs button[aria-pressed="true"] { color: var(--accent); background: var(--surface-soft); }
+.workspace-v2 .graph-controls > span { background: var(--line); }
+.workspace-v2 .graph-hover span { color: var(--fg-muted); }
+.workspace-v2 .graph-legend { color: var(--fg-2); }
+.workspace-v2 .graph-source-scope { color: var(--fg-2); }
+.workspace-v2 .graph-legend small { color: var(--fg-muted); }
+.workspace-v2 .graph-caption { letter-spacing: .06em; }
+
+/* Static opaque surfaces keep night mode quiet, without decorative rendering. */
+:root[data-theme="night"] .workspace-v2,
+:root[data-theme="night"] .workspace-v2 .conversation,
+:root[data-theme="night"] .workspace-v2 .graph-page,
+:root[data-theme="night"] .workspace-v2 .composer-wrap { background: var(--bg); }
+.workspace-v2 .graph-expanded { background: var(--bg)!important; }
+.workspace-v2:has(.graph-expanded) .composer-wrap { background: var(--bg); }
+
+@media(max-width:800px) {
+  .workspace-v2 .topbar-actions { gap: 7px; }
+  .topbar .theme-switch button { display: flex; padding: 6px; }
+  .workspace-v2 .topbar .model-pill { max-width: 190px; font-size: 10px; }
+  .topbar .model-pill span { max-width: 135px; }
+}
+@media(max-width:600px) {
+  .workspace-v2 .topbar>div:first-child strong { display: none; }
+  .workspace-v2 .topbar-actions { flex: 1; justify-content: flex-end; }
+  .workspace-v2 .topbar { gap: 8px; padding-inline: 12px; }
+  .workspace-v2 .topbar .model-pill { max-width: 170px; padding: 7px; }
+  .topbar .model-pill span { max-width: 117px; }
+}

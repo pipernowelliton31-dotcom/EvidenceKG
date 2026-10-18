@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.3",
+  "fingerprint": "run_031e801da803ca0f198f",
+  "stage": "align",
+  "round": 2,
+  "pending_count": 0,
+  "alignment_mode": "cluster_select",
+  "stopped": true,
+  "concurrent_batches": true,
+  "batches": []
+}

@@ -1,0 +1,605 @@
+{
+  "id": "adefae7c3fd74dcfa8756c289934a97e",
+  "project_id": "2e709336dc164daf9384836cef8ecf5c",
+  "kind": "build",
+  "question": "",
+  "status": "completed",
+  "events": [
+    {
+      "id": 1,
+      "type": "run.started",
+      "elapsed_s": 0.0,
+      "message": "已创建运行"
+    },
+    {
+      "id": 2,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[检查] 检查已有知识图谱是否完整、可用…"
+    },
+    {
+      "id": 3,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[构图] 未发现可用的完整图谱，开始构图；匹配的 checkpoint 会继续复用。"
+    },
+    {
+      "id": 4,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[输入] 业务语料=3，排除的问题集/参考资料=0"
+    },
+    {
+      "id": 5,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[Parse] 正在本地解析材料…"
+    },
+    {
+      "id": 6,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "  parsed: “启明寻洛，脉续中原”实践团队答辩PPT(4).pdf"
+    },
+    {
+      "id": 7,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "  parsed: 启明寻洛，脉续中原-林硕锦-2243515519.docx"
+    },
+    {
+      "id": 8,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "  parsed: 黎雅诗-留部答辩ppt.pptx"
+    },
+    {
+      "id": 9,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "[Parse] unit_count=36 cached=True"
+    },
+    {
+      "id": 10,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "[Prepare] 已有抽取计划，继续复用。"
+    },
+    {
+      "id": 11,
+      "type": "stage.progress",
+      "elapsed_s": 0.4,
+      "message": "[Extraction wave 1] round=- pending=4 batches=1 tasks=4"
+    },
+    {
+      "id": 12,
+      "type": "stage.progress",
+      "elapsed_s": 10.4,
+      "message": "[Extraction] 等待模型，已耗时 10s，剩余 1 个批次…"
+    },
+    {
+      "id": 13,
+      "type": "stage.progress",
+      "elapsed_s": 20.4,
+      "message": "[Extraction] 等待模型，已耗时 20s，剩余 1 个批次…"
+    },
+    {
+      "id": 14,
+      "type": "stage.progress",
+      "elapsed_s": 30.4,
+      "message": "[Extraction] 等待模型，已耗时 30s，剩余 1 个批次…"
+    },
+    {
+      "id": 15,
+      "type": "stage.progress",
+      "elapsed_s": 40.4,
+      "message": "[Extraction] 等待模型，已耗时 40s，剩余 1 个批次…"
+    },
+    {
+      "id": 16,
+      "type": "stage.progress",
+      "elapsed_s": 50.1,
+      "message": "[extract] batch=0 tasks=4 time=49.7s tokens=14032"
+    },
+    {
+      "id": 17,
+      "type": "stage.progress",
+      "elapsed_s": 50.2,
+      "message": "  accept batch=0 pending=0"
+    },
+    {
+      "id": 18,
+      "type": "stage.progress",
+      "elapsed_s": 50.3,
+      "message": "[Extraction wave 2] round=- pending=0 batches=0 tasks=0"
+    },
+    {
+      "id": 19,
+      "type": "stage.progress",
+      "elapsed_s": 50.3,
+      "message": "[Extraction] 已完成。"
+    },
+    {
+      "id": 20,
+      "type": "stage.progress",
+      "elapsed_s": 50.5,
+      "message": "[Alignment wave 1] round=1 pending=26 batches=4 tasks=26"
+    },
+    {
+      "id": 21,
+      "type": "stage.progress",
+      "elapsed_s": 60.5,
+      "message": "[Alignment] 等待模型，已耗时 10s，剩余 4 个批次…"
+    },
+    {
+      "id": 22,
+      "type": "stage.progress",
+      "elapsed_s": 70.5,
+      "message": "[Alignment] 等待模型，已耗时 20s，剩余 4 个批次…"
+    },
+    {
+      "id": 23,
+      "type": "stage.progress",
+      "elapsed_s": 80.6,
+      "message": "[Alignment] 等待模型，已耗时 30s，剩余 4 个批次…"
+    },
+    {
+      "id": 24,
+      "type": "stage.progress",
+      "elapsed_s": 90.6,
+      "message": "[Alignment] 等待模型，已耗时 40s，剩余 4 个批次…"
+    },
+    {
+      "id": 25,
+      "type": "stage.progress",
+      "elapsed_s": 100.6,
+      "message": "[Alignment] 等待模型，已耗时 50s，剩余 4 个批次…"
+    },
+    {
+      "id": 26,
+      "type": "stage.progress",
+      "elapsed_s": 101.8,
+      "message": "[align] batch=0 tasks=8 time=51.3s tokens=15517"
+    },
+    {
+      "id": 27,
+      "type": "stage.progress",
+      "elapsed_s": 102.0,
+      "message": "  accept batch=0 round_now=1"
+    },
+    {
+      "id": 28,
+      "type": "stage.progress",
+      "elapsed_s": 102.4,
+      "message": "[align] batch=2 tasks=8 time=51.8s tokens=16432"
+    },
+    {
+      "id": 29,
+      "type": "stage.progress",
+      "elapsed_s": 102.5,
+      "message": "  accept batch=2 round_now=1"
+    },
+    {
+      "id": 30,
+      "type": "stage.progress",
+      "elapsed_s": 104.0,
+      "message": "[align] batch=3 tasks=2 time=53.4s tokens=5848"
+    },
+    {
+      "id": 31,
+      "type": "stage.progress",
+      "elapsed_s": 104.1,
+      "message": "  accept batch=3 round_now=1"
+    },
+    {
+      "id": 32,
+      "type": "stage.progress",
+      "elapsed_s": 114.1,
+      "message": "[Alignment] 等待模型，已耗时 64s，剩余 1 个批次…"
+    },
+    {
+      "id": 33,
+      "type": "stage.progress",
+      "elapsed_s": 124.1,
+      "message": "[Alignment] 等待模型，已耗时 74s，剩余 1 个批次…"
+    },
+    {
+      "id": 34,
+      "type": "stage.progress",
+      "elapsed_s": 134.1,
+      "message": "[Alignment] 等待模型，已耗时 84s，剩余 1 个批次…"
+    },
+    {
+      "id": 35,
+      "type": "stage.progress",
+      "elapsed_s": 144.1,
+      "message": "[Alignment] 等待模型，已耗时 94s，剩余 1 个批次…"
+    },
+    {
+      "id": 36,
+      "type": "stage.progress",
+      "elapsed_s": 154.2,
+      "message": "[Alignment] 等待模型，已耗时 104s，剩余 1 个批次…"
+    },
+    {
+      "id": 37,
+      "type": "stage.progress",
+      "elapsed_s": 164.2,
+      "message": "[Alignment] 等待模型，已耗时 114s，剩余 1 个批次…"
+    },
+    {
+      "id": 38,
+      "type": "stage.progress",
+      "elapsed_s": 174.2,
+      "message": "[Alignment] 等待模型，已耗时 124s，剩余 1 个批次…"
+    },
+    {
+      "id": 39,
+      "type": "stage.progress",
+      "elapsed_s": 184.2,
+      "message": "[Alignment] 等待模型，已耗时 134s，剩余 1 个批次…"
+    },
+    {
+      "id": 40,
+      "type": "stage.progress",
+      "elapsed_s": 194.2,
+      "message": "[Alignment] 等待模型，已耗时 144s，剩余 1 个批次…"
+    },
+    {
+      "id": 41,
+      "type": "stage.progress",
+      "elapsed_s": 203.9,
+      "message": "[align] batch=1 tasks=8 time=153.4s tokens=20487"
+    },
+    {
+      "id": 42,
+      "type": "stage.progress",
+      "elapsed_s": 204.0,
+      "message": "  accept batch=1 round_now=2"
+    },
+    {
+      "id": 43,
+      "type": "stage.progress",
+      "elapsed_s": 204.2,
+      "message": "[Alignment wave 2] round=2 pending=0 batches=0 tasks=0"
+    },
+    {
+      "id": 44,
+      "type": "stage.progress",
+      "elapsed_s": 204.2,
+      "message": "[Alignment] 已完成。"
+    },
+    {
+      "id": 45,
+      "type": "stage.progress",
+      "elapsed_s": 204.2,
+      "message": "[Build] 生成最终知识图谱…"
+    },
+    {
+      "id": 46,
+      "type": "stage.progress",
+      "elapsed_s": 204.4,
+      "message": "[Build] {'nodes': 75, 'edges': 60, 'facts': 114, 'evidence': 29, 'unresolved': 0}"
+    },
+    {
+      "id": 47,
+      "type": "stage.progress",
+      "elapsed_s": 204.5,
+      "message": "[构图] 已完成并通过完整性检查。"
+    },
+    {
+      "id": 48,
+      "type": "graph.updated",
+      "elapsed_s": 204.5,
+      "graph": {
+        "nodes": [
+          {
+            "id": "entity_065303515f3f35d2dc36",
+            "type": "AITool",
+            "name": "文旅融合+IP打造",
+            "aliases": [
+              "文旅融合+IP打造"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_54056206298bc6959447"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_1dda42319643224c2352",
+            "type": "AITool",
+            "name": "数字复原工程",
+            "aliases": [
+              "数字复原工程"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_92d6954911042b3d533e"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_329de5f13f79a429cb9c",
+            "type": "AITool",
+            "name": "3D投影复原",
+            "aliases": [
+              "3D投影复原"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_8f45e76da68032f5ee8e"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_4771582f490a91b5cbbf",
+            "type": "AITool",
+            "name": "实景演绎",
+            "aliases": [
+              "实景演绎"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_84be329d9252ec828835"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_47ffa145cb2377bb7646",
+            "type": "AITool",
+            "name": "游戏分级制",
+            "aliases": [
+              "游戏分级制"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_5525c3edfc4bd4441d4c"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ec19ba6d0f5fc2e194af"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_4ac7030bcc5c5a030637",
+            "type": "AITool",
+            "name": "VR灯光数字化展示",
+            "aliases": [
+              "VR灯光数字化展示"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_ae62ece29952912b5fac"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_59a7885be13653d09789",
+            "type": "AITool",
+            "name": "文化→文创",
+            "aliases": [
+              "文化→文创"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_edfba8c6653c8d0ecbdd"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_5a7e83862467dee979c8",
+            "type": "Product",
+            "name": "纪录片视频",
+            "aliases": [
+              "纪录片视频"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_8d44d437d78ee2e52119"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_555fa21bff43f8ca3a75"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_6a90842a12d7a68037f3",
+            "type": "Product",
+            "name": "珐琅樱韵",
+            "aliases": [
+              "珐琅樱韵"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_53f1c19a0c6d1658e83f"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_08516fe7ad1327b0cfb2"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_7e04584722575c1d8f82",
+            "type": "Product",
+            "name": "唐仕女俑",
+            "aliases": [
+              "唐仕女俑",
+              "文创设计及实物（唐仕女俑）"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_8217951dcfe265303160",
+              "m_95e6fda4228ba587dbb0"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5e30ba488a86a1ddb53b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_555fa21bff43f8ca3a75"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_808c356e3bc7f14399bc",
+            "type": "AITool",
+            "name": "现代化科技",
+            "aliases": [
+              "现代化科技"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_adbcfa6d77e9f681f781"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f5a0216bc220a713f944"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_88626d6f85413da00cca",
+            "type": "AITool",
+            "name": "精细化成本控制",
+            "aliases": [
+              "精细化成本控制"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_2fc9d97c45fa555264db"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ec19ba6d0f5fc2e194af"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_ba7200bfff800895e5a6",
+            "type": "AITool",
+            "name": "动态经费调度",
+            "aliases": [
+              "动态经费调度"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_8d3ac4c7ff373e6845c3"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ec19ba6d0f5fc2e194af"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          }
+        ],
+        "edges": [],
+        "layout": "architecture"
+      },
+      "message": "图谱已构建并通过校验"
+    },
+    {
+      "id": 49,
+      "type": "run.completed",
+      "elapsed_s": 204.5,
+      "message": "运行完成"
+    }
+  ],
+  "created_at": 1792165654.9385915
+}

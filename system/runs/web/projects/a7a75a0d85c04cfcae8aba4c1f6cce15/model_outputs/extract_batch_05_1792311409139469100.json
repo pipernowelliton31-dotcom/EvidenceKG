@@ -1,0 +1,1346 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_94010d646c1455e8b9e4",
+      "mentions": [
+        {
+          "local_id": "p1",
+          "type": "Product",
+          "name": "灵记日记"
+        },
+        {
+          "local_id": "p2",
+          "type": "Product",
+          "name": "番茄专注Pro"
+        },
+        {
+          "local_id": "p3",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "p4",
+          "type": "Product",
+          "name": "周报生成器"
+        },
+        {
+          "local_id": "p5",
+          "type": "Product",
+          "name": "接口调试大师"
+        },
+        {
+          "local_id": "p6",
+          "type": "Product",
+          "name": "创意素材包V3",
+          "aliases": [
+            "素材包V3"
+          ]
+        },
+        {
+          "local_id": "p7",
+          "type": "Product",
+          "name": "文案进阶课"
+        },
+        {
+          "local_id": "p8",
+          "type": "Product",
+          "name": "AI自动化手册"
+        },
+        {
+          "local_id": "p9",
+          "type": "Product",
+          "name": "思维导图工具"
+        },
+        {
+          "local_id": "p10",
+          "type": "Product",
+          "name": "配音TTS助手"
+        },
+        {
+          "local_id": "p11",
+          "type": "Product",
+          "name": "效率导航"
+        },
+        {
+          "local_id": "p12",
+          "type": "Product",
+          "name": "项目模板"
+        },
+        {
+          "local_id": "t_mowen",
+          "type": "AITool",
+          "name": "墨文"
+        },
+        {
+          "local_id": "t_tongyi",
+          "type": "AITool",
+          "name": "通义"
+        },
+        {
+          "local_id": "t_doubao",
+          "type": "AITool",
+          "name": "豆包"
+        },
+        {
+          "local_id": "t_kimi",
+          "type": "AITool",
+          "name": "Kimi"
+        },
+        {
+          "local_id": "t_mita",
+          "type": "AITool",
+          "name": "秘塔AI"
+        },
+        {
+          "local_id": "t_figma",
+          "type": "AITool",
+          "name": "Figma AI"
+        },
+        {
+          "local_id": "t_jimeng",
+          "type": "AITool",
+          "name": "即梦"
+        },
+        {
+          "local_id": "t_feishu",
+          "type": "AITool",
+          "name": "飞书智能"
+        },
+        {
+          "local_id": "t_gamma",
+          "type": "AITool",
+          "name": "Gamma"
+        },
+        {
+          "local_id": "t_xunfei",
+          "type": "AITool",
+          "name": "讯飞"
+        },
+        {
+          "local_id": "t_v0",
+          "type": "AITool",
+          "name": "v0.dev"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "p1",
+          "predicate": "uses_development_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p1",
+          "predicate": "uses_development_tool",
+          "object": "t_tongyi"
+        },
+        {
+          "subject": "p1",
+          "predicate": "maintained_by_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p1",
+          "predicate": "operated_by_tool",
+          "object": "t_doubao"
+        },
+        {
+          "subject": "p2",
+          "predicate": "maintained_by_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p2",
+          "predicate": "operated_by_tool",
+          "object": "t_doubao"
+        },
+        {
+          "subject": "p3",
+          "predicate": "uses_development_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p3",
+          "predicate": "uses_development_tool",
+          "object": "t_tongyi"
+        },
+        {
+          "subject": "p3",
+          "predicate": "operated_by_tool",
+          "object": "t_kimi"
+        },
+        {
+          "subject": "p4",
+          "predicate": "uses_development_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p4",
+          "predicate": "uses_development_tool",
+          "object": "t_kimi"
+        },
+        {
+          "subject": "p4",
+          "predicate": "operated_by_tool",
+          "object": "t_kimi"
+        },
+        {
+          "subject": "p5",
+          "predicate": "operated_by_tool",
+          "object": "t_mita"
+        },
+        {
+          "subject": "p6",
+          "predicate": "uses_development_tool",
+          "object": "t_figma"
+        },
+        {
+          "subject": "p6",
+          "predicate": "uses_development_tool",
+          "object": "t_jimeng"
+        },
+        {
+          "subject": "p6",
+          "predicate": "maintained_by_tool",
+          "object": "t_figma"
+        },
+        {
+          "subject": "p6",
+          "predicate": "operated_by_tool",
+          "object": "t_feishu"
+        },
+        {
+          "subject": "p7",
+          "predicate": "uses_development_tool",
+          "object": "t_kimi"
+        },
+        {
+          "subject": "p7",
+          "predicate": "uses_development_tool",
+          "object": "t_doubao"
+        },
+        {
+          "subject": "p7",
+          "predicate": "maintained_by_tool",
+          "object": "t_kimi"
+        },
+        {
+          "subject": "p7",
+          "predicate": "operated_by_tool",
+          "object": "t_gamma"
+        },
+        {
+          "subject": "p8",
+          "predicate": "uses_development_tool",
+          "object": "t_doubao"
+        },
+        {
+          "subject": "p8",
+          "predicate": "uses_development_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p8",
+          "predicate": "maintained_by_tool",
+          "object": "t_doubao"
+        },
+        {
+          "subject": "p8",
+          "predicate": "operated_by_tool",
+          "object": "t_kimi"
+        },
+        {
+          "subject": "p9",
+          "predicate": "uses_development_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p9",
+          "predicate": "uses_development_tool",
+          "object": "t_kimi"
+        },
+        {
+          "subject": "p9",
+          "predicate": "operated_by_tool",
+          "object": "t_kimi"
+        },
+        {
+          "subject": "p10",
+          "predicate": "uses_development_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p10",
+          "predicate": "uses_development_tool",
+          "object": "t_xunfei"
+        },
+        {
+          "subject": "p10",
+          "predicate": "operated_by_tool",
+          "object": "t_doubao"
+        },
+        {
+          "subject": "p11",
+          "predicate": "uses_development_tool",
+          "object": "t_mowen"
+        },
+        {
+          "subject": "p11",
+          "predicate": "uses_development_tool",
+          "object": "t_v0"
+        },
+        {
+          "subject": "p11",
+          "predicate": "operated_by_tool",
+          "object": "t_mita"
+        },
+        {
+          "subject": "p12",
+          "predicate": "uses_development_tool",
+          "object": "t_feishu"
+        },
+        {
+          "subject": "p12",
+          "predicate": "maintained_by_tool",
+          "object": "t_feishu"
+        },
+        {
+          "subject": "p12",
+          "predicate": "operated_by_tool",
+          "object": "t_feishu"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "APP"
+        },
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "7,600"
+        },
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "正常"
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "APP墨文"
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "2,900"
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "正常"
+        },
+        {
+          "subject": "p3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "插件"
+        },
+        {
+          "subject": "p3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "10,800"
+        },
+        {
+          "subject": "p3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "兼容性问题"
+        },
+        {
+          "subject": "p4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "小程序"
+        },
+        {
+          "subject": "p4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "2,600"
+        },
+        {
+          "subject": "p4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "已合并文案助手"
+        },
+        {
+          "subject": "p5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "桌面工具墨文"
+        },
+        {
+          "subject": "p5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "1,400"
+        },
+        {
+          "subject": "p5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "稳定"
+        },
+        {
+          "subject": "p6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "素材"
+        },
+        {
+          "subject": "p6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "—"
+        },
+        {
+          "subject": "p6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "V2停售替代"
+        },
+        {
+          "subject": "p7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "在线课程"
+        },
+        {
+          "subject": "p7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "580"
+        },
+        {
+          "subject": "p7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "稳定"
+        },
+        {
+          "subject": "p8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "电子书"
+        },
+        {
+          "subject": "p8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "840"
+        },
+        {
+          "subject": "p8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "稳定"
+        },
+        {
+          "subject": "p9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "在线工具"
+        },
+        {
+          "subject": "p9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "3,900"
+        },
+        {
+          "subject": "p9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "正常"
+        },
+        {
+          "subject": "p10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "在线工具"
+        },
+        {
+          "subject": "p10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "1,700"
+        },
+        {
+          "subject": "p10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "正常"
+        },
+        {
+          "subject": "p11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "网站"
+        },
+        {
+          "subject": "p11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "13,500"
+        },
+        {
+          "subject": "p11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "广告收入"
+        },
+        {
+          "subject": "p12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_type"
+          },
+          "value": "模板"
+        },
+        {
+          "subject": "p12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "900"
+        },
+        {
+          "subject": "p12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "正常"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_cb3617d0016fe516771f",
+      "mentions": [
+        {
+          "local_id": "m_appext",
+          "type": "Product",
+          "name": "APP扩展"
+        },
+        {
+          "local_id": "m_plugin",
+          "type": "Product",
+          "name": "插件订阅"
+        },
+        {
+          "local_id": "m_asset",
+          "type": "Product",
+          "name": "素材授权"
+        },
+        {
+          "local_id": "m_course",
+          "type": "Product",
+          "name": "课程附加"
+        },
+        {
+          "local_id": "m_ebook",
+          "type": "Product",
+          "name": "电子书附加"
+        },
+        {
+          "local_id": "m_online",
+          "type": "Product",
+          "name": "在线工具"
+        },
+        {
+          "local_id": "m_miniapp",
+          "type": "Product",
+          "name": "小程序内购"
+        },
+        {
+          "local_id": "m_template",
+          "type": "Product",
+          "name": "模板扩展"
+        },
+        {
+          "local_id": "m_website",
+          "type": "Product",
+          "name": "网站服务"
+        },
+        {
+          "local_id": "m_appiap",
+          "type": "Product",
+          "name": "APP内购"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m_appext",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "28元买断",
+              "platform": "iOS/Android",
+              "validity": "永久",
+              "authorized_users": "5人",
+              "features": "团队专注计时+排行榜"
+            }
+          ]
+        },
+        {
+          "subject": "m_plugin",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "8.9元/月",
+              "platform": "墨文创作台",
+              "validity": "月度",
+              "authorized_users": "1人",
+              "features": "基础写作补全+语法检查"
+            },
+            {
+              "price": "25.9元/月",
+              "platform": "墨文创作台",
+              "validity": "月度",
+              "authorized_users": "5人",
+              "features": "自定义片段+团队协作"
+            },
+            {
+              "price": "15元/月",
+              "platform": "VSCode",
+              "validity": "月度",
+              "authorized_users": "1人",
+              "features": "自定义图表+数据源"
+            }
+          ]
+        },
+        {
+          "subject": "m_asset",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "25元买断",
+              "platform": "Figma/PS/Sketch",
+              "validity": "永久",
+              "authorized_users": "1人",
+              "features": "含商业授权（已停售）",
+              "status": "已停售"
+            },
+            {
+              "price": "35元买断",
+              "platform": "Figma/PS/Sketch",
+              "validity": "永久",
+              "authorized_users": "1人",
+              "features": "含商业授权+3D素材"
+            }
+          ]
+        },
+        {
+          "subject": "m_course",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "15元/月",
+              "platform": "Web",
+              "validity": "月度",
+              "authorized_users": "1人",
+              "features": "每月2次在线答疑"
+            }
+          ]
+        },
+        {
+          "subject": "m_ebook",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "9.9元/年",
+              "platform": "PDF/EPUB",
+              "validity": "年度",
+              "authorized_users": "1人",
+              "features": "每年2次版本更新"
+            }
+          ]
+        },
+        {
+          "subject": "m_online",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "10元/月",
+              "platform": "Web",
+              "validity": "月度",
+              "authorized_users": "1人",
+              "features": "无限导图+AI分析"
+            },
+            {
+              "price": "12元/月",
+              "platform": "Web",
+              "validity": "月度",
+              "authorized_users": "1人",
+              "features": "50+AI音色选择"
+            },
+            {
+              "price": "100元/年",
+              "platform": "Web",
+              "validity": "年度",
+              "authorized_users": "1人",
+              "features": "优惠17%"
+            }
+          ]
+        },
+        {
+          "subject": "m_miniapp",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "9.9元买断",
+              "platform": "微信小程序",
+              "validity": "永久",
+              "authorized_users": "1人",
+              "features": "50+行业简历模板"
+            }
+          ]
+        },
+        {
+          "subject": "m_template",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "12元买断",
+              "platform": "Notion",
+              "validity": "永久",
+              "authorized_users": "1人",
+              "features": "敏捷开发6套模板"
+            },
+            {
+              "price": "10元买断",
+              "platform": "Notion",
+              "validity": "永久",
+              "authorized_users": "1人",
+              "features": "瀑布开发4套模板"
+            }
+          ]
+        },
+        {
+          "subject": "m_website",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "500元/月",
+              "platform": "Web",
+              "validity": "月度",
+              "authorized_users": "不限",
+              "features": "首页推荐位"
+            },
+            {
+              "price": "3000元/年",
+              "platform": "Web",
+              "validity": "年度",
+              "authorized_users": "不限",
+              "features": "工具置顶展示"
+            }
+          ]
+        },
+        {
+          "subject": "m_appiap",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "price": "48元/年",
+              "platform": "iOS/Android",
+              "validity": "年度",
+              "authorized_users": "1人",
+              "features": "优惠20%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_6cd01ffb3c1804717c4f",
+      "mentions": [
+        {
+          "local_id": "m_mowen",
+          "type": "AITool",
+          "name": "墨文"
+        },
+        {
+          "local_id": "m_tongyi_lingma",
+          "type": "AITool",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "m_figma_ai",
+          "type": "AITool",
+          "name": "Figma AI"
+        },
+        {
+          "local_id": "m_studio",
+          "type": "Product",
+          "name": "Studio"
+        },
+        {
+          "local_id": "m_toolchain",
+          "type": "DataAsset",
+          "name": "Tool链"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m_mowen",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_call_volume"
+          },
+          "value": "6万次"
+        },
+        {
+          "subject": "m_mowen",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "version_migration"
+          },
+          "value": "v2→v3"
+        },
+        {
+          "subject": "m_mowen",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "migration_note"
+          },
+          "value": "迁移后统计"
+        },
+        {
+          "subject": "m_mowen",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "v3_adaptation_progress"
+          },
+          "value": "已完成"
+        },
+        {
+          "subject": "m_mowen",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "v3_resume_update"
+          },
+          "value": "5月20日恢复更新"
+        },
+        {
+          "subject": "m_tongyi_lingma",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_call_volume"
+          },
+          "value": "2.5万次"
+        },
+        {
+          "subject": "m_tongyi_lingma",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "version"
+          },
+          "value": "v1.5"
+        },
+        {
+          "subject": "m_tongyi_lingma",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_quota"
+          },
+          "value": "50000次"
+        },
+        {
+          "subject": "m_tongyi_lingma",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_policy"
+          },
+          "value": "80→300次/月"
+        },
+        {
+          "subject": "m_tongyi_lingma",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_policy_impact"
+          },
+          "value": "影响P03付费价值"
+        },
+        {
+          "subject": "m_figma_ai",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_call_volume"
+          },
+          "value": "1.2千次"
+        },
+        {
+          "subject": "m_figma_ai",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "version"
+          },
+          "value": "v2"
+        },
+        {
+          "subject": "m_figma_ai",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "素材V3开发"
+        },
+        {
+          "subject": "m_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "total_cost"
+          },
+          "value": "245美元/月"
+        },
+        {
+          "subject": "m_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "cost_share"
+          },
+          "value": "占支出33%"
+        },
+        {
+          "subject": "m_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "total_revenue"
+          },
+          "value": "约18万/月"
+        },
+        {
+          "subject": "m_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "previous_q2_revenue"
+          },
+          "value": "Q2前约14万/月"
+        },
+        {
+          "subject": "m_toolchain",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "coverage"
+          },
+          "value": "17种"
+        },
+        {
+          "subject": "m_toolchain",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "scope"
+          },
+          "value": "全产品线"
+        },
+        {
+          "subject": "m_toolchain",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "automation_saved_labor"
+          },
+          "value": "约80小时/月"
+        },
+        {
+          "subject": "m_toolchain",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "automation_tools"
+          },
+          "value": "Make+n8n合计"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_0ecef7cd4f661de445f4",
+      "mentions": [
+        {
+          "local_id": "m_base",
+          "type": "Product",
+          "name": "素材包"
+        },
+        {
+          "local_id": "m_v2",
+          "type": "Version",
+          "name": "素材包V2"
+        },
+        {
+          "local_id": "m_v3",
+          "type": "Version",
+          "name": "素材包V3",
+          "aliases": [
+            "创意素材包V3"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_v2",
+          "predicate": "version_of",
+          "object": "m_base"
+        },
+        {
+          "subject": "m_v3",
+          "predicate": "version_of",
+          "object": "m_base"
+        },
+        {
+          "subject": "m_v3",
+          "predicate": "successor_of",
+          "object": "m_v2"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_v2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "features"
+          },
+          "value": {
+            "UI图标": "480个",
+            "插画素材": "180张",
+            "配色方案": "60套",
+            "3D素材": "无",
+            "动效模板": "无",
+            "商业授权": "包含",
+            "Figma兼容": "完整",
+            "PS兼容": "完整",
+            "Sketch兼容": "完整",
+            "稳定性": "4.2分",
+            "定价": "25元"
+          }
+        },
+        {
+          "subject": "m_v3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "features"
+          },
+          "value": {
+            "UI图标": "620个",
+            "插画素材": "230张",
+            "配色方案": "90套",
+            "3D素材": "130个",
+            "动效模板": "55个",
+            "商业授权": "包含",
+            "Figma兼容": "完整",
+            "PS兼容": "部分（3D不支持PS）",
+            "Sketch兼容": "完整",
+            "稳定性": "3.4分",
+            "定价": "35元",
+            "known_issue": "V3卡顿问题",
+            "3D素材兼容性": "3D素材仅Figma可用"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "unit_0a8c024f10b35a2d9434",
+      "mentions": [
+        {
+          "local_id": "p1",
+          "type": "Product",
+          "name": "番茄专注Pro"
+        },
+        {
+          "local_id": "p2",
+          "type": "Product",
+          "name": "周报生成器"
+        },
+        {
+          "local_id": "p3",
+          "type": "Product",
+          "name": "文案进阶课"
+        },
+        {
+          "local_id": "p4",
+          "type": "Product",
+          "name": "效率导航"
+        },
+        {
+          "local_id": "p5",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "p6",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "p7",
+          "type": "Product",
+          "name": "AI自动化手册"
+        },
+        {
+          "local_id": "p8",
+          "type": "Product",
+          "name": "AI简历优化"
+        },
+        {
+          "local_id": "p9",
+          "type": "Product",
+          "name": "思维导图工具"
+        },
+        {
+          "local_id": "p10",
+          "type": "Product",
+          "name": "配音TTS助手"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-05",
+            "rating": 4.0,
+            "comment": "简洁专注，但缺少桌面小组件支持",
+            "reviewer": "学生小张"
+          }
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-08",
+            "rating": 3.4,
+            "comment": "模板更新后旧周报导出格式不兼容",
+            "reviewer": "行政小李"
+          }
+        },
+        {
+          "subject": "p3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-10",
+            "rating": 3.7,
+            "comment": "内容不错，但缺少进阶实战课程",
+            "reviewer": "转行创作者老范"
+          }
+        },
+        {
+          "subject": "p4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-12",
+            "rating": 3.8,
+            "comment": "分类太细了，找东西有点麻烦",
+            "reviewer": "工具收藏者阿星"
+          }
+        },
+        {
+          "subject": "p5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-15",
+            "rating": 2.4,
+            "comment": "v3适配后仍有偶发崩溃，体验下降明显",
+            "reviewer": "后端工程师赵伟"
+          }
+        },
+        {
+          "subject": "p6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-18",
+            "rating": 2.9,
+            "comment": "动效模板导出格式太少，只有JSON",
+            "reviewer": "动画设计师May"
+          }
+        },
+        {
+          "subject": "p7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-20",
+            "rating": 4.2,
+            "comment": "案例丰富，但部分爬虫代码已过时",
+            "reviewer": "数据分析师小周"
+          }
+        },
+        {
+          "subject": "p8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-22",
+            "rating": 3.8,
+            "comment": "AI润色效果一般，但模板设计不错",
+            "reviewer": "应届毕业生小吴"
+          }
+        },
+        {
+          "subject": "p9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-25",
+            "rating": 4.4,
+            "comment": "导出PDF清晰度不够，矢量导出就好了",
+            "reviewer": "产品经理王磊"
+          }
+        },
+        {
+          "subject": "p10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_review"
+          },
+          "value": {
+            "date": "2026-07-28",
+            "rating": 3.1,
+            "comment": "多音字读错率较高，整体音色可以",
+            "reviewer": "有声书团队"
+          }
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

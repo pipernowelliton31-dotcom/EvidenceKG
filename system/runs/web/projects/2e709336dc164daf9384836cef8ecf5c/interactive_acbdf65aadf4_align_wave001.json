@@ -1,0 +1,5421 @@
+{
+  "schema_version": "1.3",
+  "fingerprint": "run_031e801da803ca0f198f",
+  "stage": "align",
+  "round": 1,
+  "pending_count": 26,
+  "alignment_mode": "cluster_select",
+  "stopped": false,
+  "concurrent_batches": true,
+  "batches": [
+    {
+      "batch_index": 0,
+      "round": 1,
+      "tasks": [
+        {
+          "task_id": "align_aa23cc680b9ca960d6f6",
+          "source_cluster": {
+            "entity_id": "entity_08bba2e1ef9a2e3a160a",
+            "representative_member_id": "m_551b189c0fc822605faf",
+            "type": "Actor",
+            "name": "西安交通大学",
+            "names": [
+              "西安交通大学"
+            ],
+            "member_count": 3,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "organize",
+                "neighbor_entity_id": "entity_88b86497fdfcccadad63",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "2026年暑期“三下乡”社会实践"
+                ],
+                "evidence_ids": [
+                  "ev_e63a51cd3a63347a8c5f"
+                ]
+              },
+              {
+                "direction": "in",
+                "predicate": "organized_by",
+                "neighbor_entity_id": "entity_e13ce485099817e508c0",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "启明寻洛、脉续中原 三下乡社会实践"
+                ],
+                "evidence_ids": [
+                  "ev_7414e1e75ed3af66934e"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_7414e1e75ed3af66934e",
+                "quote": "",
+                "locator": {
+                  "page": 3,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_08bba2e1ef9a2e3a160a",
+          "candidates": [
+            {
+              "entity_id": "entity_f7210b3db6c440afdae5",
+              "representative_member_id": "m_bf5cfc540762c6791cc3",
+              "type": "Actor",
+              "name": "西安交通大学“启明寻洛，脉续中原”实践队",
+              "names": [
+                "西安交通大学“启明寻洛，脉续中原”实践队"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_41cc15c95ac9015229fe",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "隋唐洛阳城国家遗址公园"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_915ac94bbff1e24162d0",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "龙门石窟"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_d2a5d831cb0ac797c660",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "洛阳博物馆"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_86d928dd4544296fae5e",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "二里头夏都遗址博物馆"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_df9b69cd5ed406cc813c",
+          "source_cluster": {
+            "entity_id": "entity_138399857cb65c013bfe",
+            "representative_member_id": "m_95e6fda4228ba587dbb0",
+            "type": "Product",
+            "name": "唐仕女俑",
+            "names": [
+              "唐仕女俑"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "designs",
+                "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "实践队"
+                ],
+                "evidence_ids": [
+                  "ev_555fa21bff43f8ca3a75"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_555fa21bff43f8ca3a75",
+                "quote": "",
+                "locator": {
+                  "page": 6,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_138399857cb65c013bfe",
+          "candidates": [
+            {
+              "entity_id": "entity_7e04584722575c1d8f82",
+              "representative_member_id": "m_8217951dcfe265303160",
+              "type": "Product",
+              "name": "文创设计及实物（唐仕女俑）",
+              "names": [
+                "文创设计及实物（唐仕女俑）"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "create",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_7fafe0869133ca2e3155",
+          "source_cluster": {
+            "entity_id": "entity_17c0ea735d2dfc1e9616",
+            "representative_member_id": "m_b46f8bcf7630349d7ac3",
+            "type": "DataAsset",
+            "name": "大河网",
+            "names": [
+              "大河网"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "publishes",
+                "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "实践队"
+                ],
+                "evidence_ids": [
+                  "ev_555fa21bff43f8ca3a75"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_555fa21bff43f8ca3a75",
+                "quote": "",
+                "locator": {
+                  "page": 6,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_17c0ea735d2dfc1e9616",
+          "candidates": [
+            {
+              "entity_id": "entity_17cef10bf205fc20f780",
+              "representative_member_id": "m_b431c2ddbdee40d39c7f",
+              "type": "DataAsset",
+              "name": "院级公众号",
+              "names": [
+                "院级公众号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publishes",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_77d51e6dc211bb87773c",
+              "representative_member_id": "m_bc8c731557941a74adce",
+              "type": "DataAsset",
+              "name": "校实践公众号",
+              "names": [
+                "校实践公众号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publishes",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_f00ee6b2f74ecdcf8fa4",
+          "source_cluster": {
+            "entity_id": "entity_17cef10bf205fc20f780",
+            "representative_member_id": "m_b431c2ddbdee40d39c7f",
+            "type": "DataAsset",
+            "name": "院级公众号",
+            "names": [
+              "院级公众号"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "publishes",
+                "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "实践队"
+                ],
+                "evidence_ids": [
+                  "ev_555fa21bff43f8ca3a75"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_555fa21bff43f8ca3a75",
+                "quote": "",
+                "locator": {
+                  "page": 6,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_17cef10bf205fc20f780",
+          "candidates": [
+            {
+              "entity_id": "entity_77deebd860e8a1a887cf",
+              "representative_member_id": "m_0f9ec980d49b7e9e8364",
+              "type": "DataAsset",
+              "name": "院级公众号文章",
+              "names": [
+                "院级公众号文章"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publish",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_77d51e6dc211bb87773c",
+              "representative_member_id": "m_bc8c731557941a74adce",
+              "type": "DataAsset",
+              "name": "校实践公众号",
+              "names": [
+                "校实践公众号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publishes",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_17c0ea735d2dfc1e9616",
+              "representative_member_id": "m_b46f8bcf7630349d7ac3",
+              "type": "DataAsset",
+              "name": "大河网",
+              "names": [
+                "大河网"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publishes",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_dca29e5b59fdf69c857d",
+          "source_cluster": {
+            "entity_id": "entity_294e5e7782f126e13b15",
+            "representative_member_id": "m_46fee5ed4ecbfa85b7f6",
+            "type": "DataAsset",
+            "name": "万岁山武侠城",
+            "names": [
+              "万岁山武侠城"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "西安交通大学“启明寻洛，脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_475522a3889c565df599",
+                "quote": "",
+                "locator": {
+                  "section": [],
+                  "table": 1,
+                  "row_start": 2,
+                  "row_end": 10
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_294e5e7782f126e13b15",
+          "candidates": [
+            {
+              "entity_id": "entity_d2a5d831cb0ac797c660",
+              "representative_member_id": "m_57673365b6f1f6a24c6a",
+              "type": "DataAsset",
+              "name": "洛阳博物馆",
+              "names": [
+                "洛阳博物馆"
+              ],
+              "member_count": 3,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_1dda42319643224c2352",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "数字复原工程"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_86d928dd4544296fae5e",
+              "representative_member_id": "m_1147262e839b2a8d9b15",
+              "type": "DataAsset",
+              "name": "二里头夏都遗址博物馆",
+              "names": [
+                "二里头夏都遗址博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_915ac94bbff1e24162d0",
+              "representative_member_id": "m_471d82a1f3280e50c273",
+              "type": "DataAsset",
+              "name": "龙门石窟",
+              "names": [
+                "龙门石窟"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_329de5f13f79a429cb9c",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "3D投影复原"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_f1602ff7641e38f33ef4",
+              "representative_member_id": "m_849193d8398cd65c474b",
+              "type": "DataAsset",
+              "name": "清明上河园",
+              "names": [
+                "清明上河园"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_4771582f490a91b5cbbf",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "实景演绎"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_41cc15c95ac9015229fe",
+              "representative_member_id": "m_bff4790778c18eaad740",
+              "type": "DataAsset",
+              "name": "隋唐洛阳城国家遗址公园",
+              "names": [
+                "隋唐洛阳城国家遗址公园"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_bb8d21dd2394f7852467",
+          "source_cluster": {
+            "entity_id": "entity_333bacf0896c23b424c8",
+            "representative_member_id": "m_95fc25023387993cfe35",
+            "type": "Actor",
+            "name": "黎雅诗",
+            "names": [
+              "黎雅诗"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_280b4a29f54f7d12e4bd",
+                "quote": "",
+                "locator": {
+                  "slide": 21
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_333bacf0896c23b424c8",
+          "candidates": [
+            {
+              "entity_id": "entity_3c026c8359de6ba73370",
+              "representative_member_id": "m_a10ae5e46cbda0811fe8",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "depicts",
+                  "neighbor_entity_id": "entity_2c0d1f5830fddf6f89e6",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "黎雅诗照片"
+                  ],
+                  "evidence_ids": [
+                    "ev_aea04bcc2edc25097171"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_aea04bcc2edc25097171",
+                  "quote": "",
+                  "locator": {
+                    "slide": 4
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_64c7c36e0b025ba0b13a",
+              "representative_member_id": "m_ddd2a39d038e29ca37c3",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participates_in",
+                  "neighbor_entity_id": "entity_b2881cd3a6ec7464dd86",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "西安交通大学英仔爱心社启明星部门部长换届答辩"
+                  ],
+                  "evidence_ids": [
+                    "ev_00a3bad61012d37f74c8"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_00a3bad61012d37f74c8",
+                  "quote": "",
+                  "locator": {
+                    "slide": 1
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_8985e94c47833a19d7db",
+              "representative_member_id": "m_32889a683086ce28a9d1",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_734e17078032f16e7c90",
+                  "quote": "",
+                  "locator": {
+                    "slide": 8
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_a9d59d729ebf55baca58",
+              "representative_member_id": "m_36fb5c8055a909b3a980",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "member_of",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_940c749710e501d0806d"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_940c749710e501d0806d",
+                  "quote": "",
+                  "locator": {
+                    "page": 8,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_ee48939873e5844637ea",
+              "representative_member_id": "m_ec92efbaa8d5a5d9455f",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participate_in",
+                  "neighbor_entity_id": "entity_88b86497fdfcccadad63",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2026年暑期“三下乡”社会实践"
+                  ],
+                  "evidence_ids": [
+                    "ev_e63a51cd3a63347a8c5f"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_e63a51cd3a63347a8c5f",
+                  "quote": "",
+                  "locator": {
+                    "page": 1,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_ddffa9659b67b3027d47",
+          "source_cluster": {
+            "entity_id": "entity_3c026c8359de6ba73370",
+            "representative_member_id": "m_a10ae5e46cbda0811fe8",
+            "type": "Actor",
+            "name": "黎雅诗",
+            "names": [
+              "黎雅诗"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "depicts",
+                "neighbor_entity_id": "entity_2c0d1f5830fddf6f89e6",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "黎雅诗照片"
+                ],
+                "evidence_ids": [
+                  "ev_aea04bcc2edc25097171"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_aea04bcc2edc25097171",
+                "quote": "",
+                "locator": {
+                  "slide": 4
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_3c026c8359de6ba73370",
+          "candidates": [
+            {
+              "entity_id": "entity_333bacf0896c23b424c8",
+              "representative_member_id": "m_95fc25023387993cfe35",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_280b4a29f54f7d12e4bd",
+                  "quote": "",
+                  "locator": {
+                    "slide": 21
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_64c7c36e0b025ba0b13a",
+              "representative_member_id": "m_ddd2a39d038e29ca37c3",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participates_in",
+                  "neighbor_entity_id": "entity_b2881cd3a6ec7464dd86",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "西安交通大学英仔爱心社启明星部门部长换届答辩"
+                  ],
+                  "evidence_ids": [
+                    "ev_00a3bad61012d37f74c8"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_00a3bad61012d37f74c8",
+                  "quote": "",
+                  "locator": {
+                    "slide": 1
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_8985e94c47833a19d7db",
+              "representative_member_id": "m_32889a683086ce28a9d1",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_734e17078032f16e7c90",
+                  "quote": "",
+                  "locator": {
+                    "slide": 8
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_a9d59d729ebf55baca58",
+              "representative_member_id": "m_36fb5c8055a909b3a980",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "member_of",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_940c749710e501d0806d"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_940c749710e501d0806d",
+                  "quote": "",
+                  "locator": {
+                    "page": 8,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_ee48939873e5844637ea",
+              "representative_member_id": "m_ec92efbaa8d5a5d9455f",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participate_in",
+                  "neighbor_entity_id": "entity_88b86497fdfcccadad63",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2026年暑期“三下乡”社会实践"
+                  ],
+                  "evidence_ids": [
+                    "ev_e63a51cd3a63347a8c5f"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_e63a51cd3a63347a8c5f",
+                  "quote": "",
+                  "locator": {
+                    "page": 1,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_485a31b161ac1e27a064",
+          "source_cluster": {
+            "entity_id": "entity_41cc15c95ac9015229fe",
+            "representative_member_id": "m_bff4790778c18eaad740",
+            "type": "DataAsset",
+            "name": "隋唐洛阳城国家遗址公园",
+            "names": [
+              "隋唐洛阳城国家遗址公园"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "西安交通大学“启明寻洛，脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_475522a3889c565df599",
+                "quote": "",
+                "locator": {
+                  "section": [],
+                  "table": 1,
+                  "row_start": 2,
+                  "row_end": 10
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_41cc15c95ac9015229fe",
+          "candidates": [
+            {
+              "entity_id": "entity_d2a5d831cb0ac797c660",
+              "representative_member_id": "m_57673365b6f1f6a24c6a",
+              "type": "DataAsset",
+              "name": "洛阳博物馆",
+              "names": [
+                "洛阳博物馆"
+              ],
+              "member_count": 3,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_1dda42319643224c2352",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "数字复原工程"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_86d928dd4544296fae5e",
+              "representative_member_id": "m_1147262e839b2a8d9b15",
+              "type": "DataAsset",
+              "name": "二里头夏都遗址博物馆",
+              "names": [
+                "二里头夏都遗址博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_915ac94bbff1e24162d0",
+              "representative_member_id": "m_471d82a1f3280e50c273",
+              "type": "DataAsset",
+              "name": "龙门石窟",
+              "names": [
+                "龙门石窟"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_329de5f13f79a429cb9c",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "3D投影复原"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_f1602ff7641e38f33ef4",
+              "representative_member_id": "m_849193d8398cd65c474b",
+              "type": "DataAsset",
+              "name": "清明上河园",
+              "names": [
+                "清明上河园"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_4771582f490a91b5cbbf",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "实景演绎"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_294e5e7782f126e13b15",
+              "representative_member_id": "m_46fee5ed4ecbfa85b7f6",
+              "type": "DataAsset",
+              "name": "万岁山武侠城",
+              "names": [
+                "万岁山武侠城"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        }
+      ]
+    },
+    {
+      "batch_index": 1,
+      "round": 1,
+      "tasks": [
+        {
+          "task_id": "align_bf6f89cc74642e37c827",
+          "source_cluster": {
+            "entity_id": "entity_64c7c36e0b025ba0b13a",
+            "representative_member_id": "m_ddd2a39d038e29ca37c3",
+            "type": "Actor",
+            "name": "黎雅诗",
+            "names": [
+              "黎雅诗"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "participates_in",
+                "neighbor_entity_id": "entity_b2881cd3a6ec7464dd86",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "西安交通大学英仔爱心社启明星部门部长换届答辩"
+                ],
+                "evidence_ids": [
+                  "ev_00a3bad61012d37f74c8"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_00a3bad61012d37f74c8",
+                "quote": "",
+                "locator": {
+                  "slide": 1
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_64c7c36e0b025ba0b13a",
+          "candidates": [
+            {
+              "entity_id": "entity_333bacf0896c23b424c8",
+              "representative_member_id": "m_95fc25023387993cfe35",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_280b4a29f54f7d12e4bd",
+                  "quote": "",
+                  "locator": {
+                    "slide": 21
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_3c026c8359de6ba73370",
+              "representative_member_id": "m_a10ae5e46cbda0811fe8",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "depicts",
+                  "neighbor_entity_id": "entity_2c0d1f5830fddf6f89e6",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "黎雅诗照片"
+                  ],
+                  "evidence_ids": [
+                    "ev_aea04bcc2edc25097171"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_aea04bcc2edc25097171",
+                  "quote": "",
+                  "locator": {
+                    "slide": 4
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_8985e94c47833a19d7db",
+              "representative_member_id": "m_32889a683086ce28a9d1",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_734e17078032f16e7c90",
+                  "quote": "",
+                  "locator": {
+                    "slide": 8
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_a9d59d729ebf55baca58",
+              "representative_member_id": "m_36fb5c8055a909b3a980",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "member_of",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_940c749710e501d0806d"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_940c749710e501d0806d",
+                  "quote": "",
+                  "locator": {
+                    "page": 8,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_ee48939873e5844637ea",
+              "representative_member_id": "m_ec92efbaa8d5a5d9455f",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participate_in",
+                  "neighbor_entity_id": "entity_88b86497fdfcccadad63",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2026年暑期“三下乡”社会实践"
+                  ],
+                  "evidence_ids": [
+                    "ev_e63a51cd3a63347a8c5f"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_e63a51cd3a63347a8c5f",
+                  "quote": "",
+                  "locator": {
+                    "page": 1,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_c3305ec97486ab2e9cfe",
+          "source_cluster": {
+            "entity_id": "entity_6cf3ed345339a729f9b2",
+            "representative_member_id": "m_15b10575875520060a10",
+            "type": "DataAsset",
+            "name": "隋唐洛阳城遗址",
+            "names": [
+              "隋唐洛阳城遗址"
+            ],
+            "member_count": 2,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "暑期实践活动“寻脉中原，读懂中国”"
+                ],
+                "evidence_ids": [
+                  "ev_cdca051b8c3ec0ea96c7"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "applies",
+                "neighbor_entity_id": "entity_4ac7030bcc5c5a030637",
+                "neighbor_type": "AITool",
+                "neighbor_names": [
+                  "VR灯光数字化展示"
+                ],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                "quote": "",
+                "locator": {
+                  "slide": 18
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_6cf3ed345339a729f9b2",
+          "candidates": [
+            {
+              "entity_id": "entity_d2a5d831cb0ac797c660",
+              "representative_member_id": "m_57673365b6f1f6a24c6a",
+              "type": "DataAsset",
+              "name": "洛阳博物馆",
+              "names": [
+                "洛阳博物馆"
+              ],
+              "member_count": 3,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_1dda42319643224c2352",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "数字复原工程"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_86d928dd4544296fae5e",
+              "representative_member_id": "m_1147262e839b2a8d9b15",
+              "type": "DataAsset",
+              "name": "二里头夏都遗址博物馆",
+              "names": [
+                "二里头夏都遗址博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_87ee1326f9572836d3ef",
+              "representative_member_id": "m_5ffb7ff3ace269e5a5ec",
+              "type": "DataAsset",
+              "name": "洛阳古墓博物馆",
+              "names": [
+                "洛阳古墓博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_59a7885be13653d09789",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "文化→文创"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_cc7e64c2d4ec42805a17",
+          "source_cluster": {
+            "entity_id": "entity_77d51e6dc211bb87773c",
+            "representative_member_id": "m_bc8c731557941a74adce",
+            "type": "DataAsset",
+            "name": "校实践公众号",
+            "names": [
+              "校实践公众号"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "publishes",
+                "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "实践队"
+                ],
+                "evidence_ids": [
+                  "ev_555fa21bff43f8ca3a75"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_555fa21bff43f8ca3a75",
+                "quote": "",
+                "locator": {
+                  "page": 6,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_77d51e6dc211bb87773c",
+          "candidates": [
+            {
+              "entity_id": "entity_fec69dd6ec9092a2e1e5",
+              "representative_member_id": "m_b8bd4b0f3b8d3c5cd511",
+              "type": "DataAsset",
+              "name": "校实践公众号文章",
+              "names": [
+                "校实践公众号文章"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publish",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_17cef10bf205fc20f780",
+              "representative_member_id": "m_b431c2ddbdee40d39c7f",
+              "type": "DataAsset",
+              "name": "院级公众号",
+              "names": [
+                "院级公众号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publishes",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_17c0ea735d2dfc1e9616",
+              "representative_member_id": "m_b46f8bcf7630349d7ac3",
+              "type": "DataAsset",
+              "name": "大河网",
+              "names": [
+                "大河网"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publishes",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_00dbf6adf69ee100e40b",
+          "source_cluster": {
+            "entity_id": "entity_77deebd860e8a1a887cf",
+            "representative_member_id": "m_0f9ec980d49b7e9e8364",
+            "type": "DataAsset",
+            "name": "院级公众号文章",
+            "names": [
+              "院级公众号文章"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "publish",
+                "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "“启明寻洛、脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_5e30ba488a86a1ddb53b"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                "quote": "",
+                "locator": {
+                  "page": 6,
+                  "table": 1,
+                  "bbox": [
+                    "14.4",
+                    "68.51999999999998",
+                    "427.2",
+                    "232.07999999999998"
+                  ],
+                  "row_start": 2,
+                  "row_end": 2
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_77deebd860e8a1a887cf",
+          "candidates": [
+            {
+              "entity_id": "entity_17cef10bf205fc20f780",
+              "representative_member_id": "m_b431c2ddbdee40d39c7f",
+              "type": "DataAsset",
+              "name": "院级公众号",
+              "names": [
+                "院级公众号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publishes",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_fec69dd6ec9092a2e1e5",
+              "representative_member_id": "m_b8bd4b0f3b8d3c5cd511",
+              "type": "DataAsset",
+              "name": "校实践公众号文章",
+              "names": [
+                "校实践公众号文章"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publish",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_a9bcfe0e2388684f22eb",
+              "representative_member_id": "m_8ad9638f2a5de55138fe",
+              "type": "DataAsset",
+              "name": "大河网新闻稿",
+              "names": [
+                "大河网新闻稿"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publish",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_ee022e05f497f6611f68",
+          "source_cluster": {
+            "entity_id": "entity_7e04584722575c1d8f82",
+            "representative_member_id": "m_8217951dcfe265303160",
+            "type": "Product",
+            "name": "文创设计及实物（唐仕女俑）",
+            "names": [
+              "文创设计及实物（唐仕女俑）"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "create",
+                "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "“启明寻洛、脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_5e30ba488a86a1ddb53b"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                "quote": "",
+                "locator": {
+                  "page": 6,
+                  "table": 1,
+                  "bbox": [
+                    "14.4",
+                    "68.51999999999998",
+                    "427.2",
+                    "232.07999999999998"
+                  ],
+                  "row_start": 2,
+                  "row_end": 2
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_7e04584722575c1d8f82",
+          "candidates": [
+            {
+              "entity_id": "entity_138399857cb65c013bfe",
+              "representative_member_id": "m_95e6fda4228ba587dbb0",
+              "type": "Product",
+              "name": "唐仕女俑",
+              "names": [
+                "唐仕女俑"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "designs",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_d6ddbb5349b63e43d6f0",
+          "source_cluster": {
+            "entity_id": "entity_86d928dd4544296fae5e",
+            "representative_member_id": "m_1147262e839b2a8d9b15",
+            "type": "DataAsset",
+            "name": "二里头夏都遗址博物馆",
+            "names": [
+              "二里头夏都遗址博物馆"
+            ],
+            "member_count": 2,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "西安交通大学“启明寻洛，脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              },
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "暑期实践活动“寻脉中原，读懂中国”"
+                ],
+                "evidence_ids": [
+                  "ev_cdca051b8c3ec0ea96c7"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_475522a3889c565df599",
+                "quote": "",
+                "locator": {
+                  "section": [],
+                  "table": 1,
+                  "row_start": 2,
+                  "row_end": 10
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_86d928dd4544296fae5e",
+          "candidates": [
+            {
+              "entity_id": "entity_d2a5d831cb0ac797c660",
+              "representative_member_id": "m_57673365b6f1f6a24c6a",
+              "type": "DataAsset",
+              "name": "洛阳博物馆",
+              "names": [
+                "洛阳博物馆"
+              ],
+              "member_count": 3,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_1dda42319643224c2352",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "数字复原工程"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_87ee1326f9572836d3ef",
+              "representative_member_id": "m_5ffb7ff3ace269e5a5ec",
+              "type": "DataAsset",
+              "name": "洛阳古墓博物馆",
+              "names": [
+                "洛阳古墓博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_59a7885be13653d09789",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "文化→文创"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_6cf3ed345339a729f9b2",
+              "representative_member_id": "m_15b10575875520060a10",
+              "type": "DataAsset",
+              "name": "隋唐洛阳城遗址",
+              "names": [
+                "隋唐洛阳城遗址"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_4ac7030bcc5c5a030637",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "VR灯光数字化展示"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_915ac94bbff1e24162d0",
+              "representative_member_id": "m_471d82a1f3280e50c273",
+              "type": "DataAsset",
+              "name": "龙门石窟",
+              "names": [
+                "龙门石窟"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_329de5f13f79a429cb9c",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "3D投影复原"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_f1602ff7641e38f33ef4",
+              "representative_member_id": "m_849193d8398cd65c474b",
+              "type": "DataAsset",
+              "name": "清明上河园",
+              "names": [
+                "清明上河园"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_4771582f490a91b5cbbf",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "实景演绎"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": true,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_dbe0cd036db9130da3ba",
+          "source_cluster": {
+            "entity_id": "entity_87ee1326f9572836d3ef",
+            "representative_member_id": "m_5ffb7ff3ace269e5a5ec",
+            "type": "DataAsset",
+            "name": "洛阳古墓博物馆",
+            "names": [
+              "洛阳古墓博物馆"
+            ],
+            "member_count": 2,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "暑期实践活动“寻脉中原，读懂中国”"
+                ],
+                "evidence_ids": [
+                  "ev_cdca051b8c3ec0ea96c7"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "applies",
+                "neighbor_entity_id": "entity_59a7885be13653d09789",
+                "neighbor_type": "AITool",
+                "neighbor_names": [
+                  "文化→文创"
+                ],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                "quote": "",
+                "locator": {
+                  "slide": 18
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_87ee1326f9572836d3ef",
+          "candidates": [
+            {
+              "entity_id": "entity_d2a5d831cb0ac797c660",
+              "representative_member_id": "m_57673365b6f1f6a24c6a",
+              "type": "DataAsset",
+              "name": "洛阳博物馆",
+              "names": [
+                "洛阳博物馆"
+              ],
+              "member_count": 3,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_1dda42319643224c2352",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "数字复原工程"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_86d928dd4544296fae5e",
+              "representative_member_id": "m_1147262e839b2a8d9b15",
+              "type": "DataAsset",
+              "name": "二里头夏都遗址博物馆",
+              "names": [
+                "二里头夏都遗址博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_6cf3ed345339a729f9b2",
+              "representative_member_id": "m_15b10575875520060a10",
+              "type": "DataAsset",
+              "name": "隋唐洛阳城遗址",
+              "names": [
+                "隋唐洛阳城遗址"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_4ac7030bcc5c5a030637",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "VR灯光数字化展示"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_46b978fc3b5dee431516",
+          "source_cluster": {
+            "entity_id": "entity_8985e94c47833a19d7db",
+            "representative_member_id": "m_32889a683086ce28a9d1",
+            "type": "Actor",
+            "name": "黎雅诗",
+            "names": [
+              "黎雅诗"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_734e17078032f16e7c90",
+                "quote": "",
+                "locator": {
+                  "slide": 8
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_8985e94c47833a19d7db",
+          "candidates": [
+            {
+              "entity_id": "entity_333bacf0896c23b424c8",
+              "representative_member_id": "m_95fc25023387993cfe35",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_280b4a29f54f7d12e4bd",
+                  "quote": "",
+                  "locator": {
+                    "slide": 21
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_3c026c8359de6ba73370",
+              "representative_member_id": "m_a10ae5e46cbda0811fe8",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "depicts",
+                  "neighbor_entity_id": "entity_2c0d1f5830fddf6f89e6",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "黎雅诗照片"
+                  ],
+                  "evidence_ids": [
+                    "ev_aea04bcc2edc25097171"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_aea04bcc2edc25097171",
+                  "quote": "",
+                  "locator": {
+                    "slide": 4
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_64c7c36e0b025ba0b13a",
+              "representative_member_id": "m_ddd2a39d038e29ca37c3",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participates_in",
+                  "neighbor_entity_id": "entity_b2881cd3a6ec7464dd86",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "西安交通大学英仔爱心社启明星部门部长换届答辩"
+                  ],
+                  "evidence_ids": [
+                    "ev_00a3bad61012d37f74c8"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_00a3bad61012d37f74c8",
+                  "quote": "",
+                  "locator": {
+                    "slide": 1
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_a9d59d729ebf55baca58",
+              "representative_member_id": "m_36fb5c8055a909b3a980",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "member_of",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_940c749710e501d0806d"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_940c749710e501d0806d",
+                  "quote": "",
+                  "locator": {
+                    "page": 8,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_ee48939873e5844637ea",
+              "representative_member_id": "m_ec92efbaa8d5a5d9455f",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participate_in",
+                  "neighbor_entity_id": "entity_88b86497fdfcccadad63",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2026年暑期“三下乡”社会实践"
+                  ],
+                  "evidence_ids": [
+                    "ev_e63a51cd3a63347a8c5f"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_e63a51cd3a63347a8c5f",
+                  "quote": "",
+                  "locator": {
+                    "page": 1,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        }
+      ]
+    },
+    {
+      "batch_index": 2,
+      "round": 1,
+      "tasks": [
+        {
+          "task_id": "align_8d926998f1e98783b5a9",
+          "source_cluster": {
+            "entity_id": "entity_915ac94bbff1e24162d0",
+            "representative_member_id": "m_471d82a1f3280e50c273",
+            "type": "DataAsset",
+            "name": "龙门石窟",
+            "names": [
+              "龙门石窟"
+            ],
+            "member_count": 2,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "西安交通大学“启明寻洛，脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "applies",
+                "neighbor_entity_id": "entity_329de5f13f79a429cb9c",
+                "neighbor_type": "AITool",
+                "neighbor_names": [
+                  "3D投影复原"
+                ],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_986302e516339fe02bb9",
+                "quote": "",
+                "locator": {
+                  "page": 4,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_915ac94bbff1e24162d0",
+          "candidates": [
+            {
+              "entity_id": "entity_d2a5d831cb0ac797c660",
+              "representative_member_id": "m_57673365b6f1f6a24c6a",
+              "type": "DataAsset",
+              "name": "洛阳博物馆",
+              "names": [
+                "洛阳博物馆"
+              ],
+              "member_count": 3,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_1dda42319643224c2352",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "数字复原工程"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_86d928dd4544296fae5e",
+              "representative_member_id": "m_1147262e839b2a8d9b15",
+              "type": "DataAsset",
+              "name": "二里头夏都遗址博物馆",
+              "names": [
+                "二里头夏都遗址博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_f1602ff7641e38f33ef4",
+              "representative_member_id": "m_849193d8398cd65c474b",
+              "type": "DataAsset",
+              "name": "清明上河园",
+              "names": [
+                "清明上河园"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_4771582f490a91b5cbbf",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "实景演绎"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_294e5e7782f126e13b15",
+              "representative_member_id": "m_46fee5ed4ecbfa85b7f6",
+              "type": "DataAsset",
+              "name": "万岁山武侠城",
+              "names": [
+                "万岁山武侠城"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_41cc15c95ac9015229fe",
+              "representative_member_id": "m_bff4790778c18eaad740",
+              "type": "DataAsset",
+              "name": "隋唐洛阳城国家遗址公园",
+              "names": [
+                "隋唐洛阳城国家遗址公园"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_67e347352d00f90d86b7",
+          "source_cluster": {
+            "entity_id": "entity_a31c72a6fd2212c20566",
+            "representative_member_id": "m_a202458b7eac37f2189f",
+            "type": "Actor",
+            "name": "启明星",
+            "names": [
+              "启明星"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_6ceadd1709db3e13cabe",
+                "quote": "",
+                "locator": {
+                  "slide": 20
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_a31c72a6fd2212c20566",
+          "candidates": [
+            {
+              "entity_id": "entity_c18edd2bb6f2578cf5e5",
+              "representative_member_id": "m_f9fca96764184d437162",
+              "type": "Actor",
+              "name": "启明星",
+              "names": [
+                "启明星"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "organizes",
+                  "neighbor_entity_id": "entity_39c67d668f4cde814691",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "“星心相印”新生引导"
+                  ],
+                  "evidence_ids": [
+                    "ev_4022ba9752de270b457f"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_4022ba9752de270b457f",
+                  "quote": "",
+                  "locator": {
+                    "slide": 16
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_9d62e009c4de99d2b2aa",
+          "source_cluster": {
+            "entity_id": "entity_a9bcfe0e2388684f22eb",
+            "representative_member_id": "m_8ad9638f2a5de55138fe",
+            "type": "DataAsset",
+            "name": "大河网新闻稿",
+            "names": [
+              "大河网新闻稿"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "publish",
+                "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "“启明寻洛、脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_5e30ba488a86a1ddb53b"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                "quote": "",
+                "locator": {
+                  "page": 6,
+                  "table": 1,
+                  "bbox": [
+                    "14.4",
+                    "68.51999999999998",
+                    "427.2",
+                    "232.07999999999998"
+                  ],
+                  "row_start": 2,
+                  "row_end": 2
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_a9bcfe0e2388684f22eb",
+          "candidates": [
+            {
+              "entity_id": "entity_77deebd860e8a1a887cf",
+              "representative_member_id": "m_0f9ec980d49b7e9e8364",
+              "type": "DataAsset",
+              "name": "院级公众号文章",
+              "names": [
+                "院级公众号文章"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publish",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_fec69dd6ec9092a2e1e5",
+              "representative_member_id": "m_b8bd4b0f3b8d3c5cd511",
+              "type": "DataAsset",
+              "name": "校实践公众号文章",
+              "names": [
+                "校实践公众号文章"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publish",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_61a010a4354eeec0055c",
+          "source_cluster": {
+            "entity_id": "entity_a9d59d729ebf55baca58",
+            "representative_member_id": "m_36fb5c8055a909b3a980",
+            "type": "Actor",
+            "name": "黎雅诗",
+            "names": [
+              "黎雅诗"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "member_of",
+                "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "“启明寻洛、脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_940c749710e501d0806d"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_940c749710e501d0806d",
+                "quote": "",
+                "locator": {
+                  "page": 8,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_a9d59d729ebf55baca58",
+          "candidates": [
+            {
+              "entity_id": "entity_333bacf0896c23b424c8",
+              "representative_member_id": "m_95fc25023387993cfe35",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_280b4a29f54f7d12e4bd",
+                  "quote": "",
+                  "locator": {
+                    "slide": 21
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_3c026c8359de6ba73370",
+              "representative_member_id": "m_a10ae5e46cbda0811fe8",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "depicts",
+                  "neighbor_entity_id": "entity_2c0d1f5830fddf6f89e6",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "黎雅诗照片"
+                  ],
+                  "evidence_ids": [
+                    "ev_aea04bcc2edc25097171"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_aea04bcc2edc25097171",
+                  "quote": "",
+                  "locator": {
+                    "slide": 4
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_64c7c36e0b025ba0b13a",
+              "representative_member_id": "m_ddd2a39d038e29ca37c3",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participates_in",
+                  "neighbor_entity_id": "entity_b2881cd3a6ec7464dd86",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "西安交通大学英仔爱心社启明星部门部长换届答辩"
+                  ],
+                  "evidence_ids": [
+                    "ev_00a3bad61012d37f74c8"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_00a3bad61012d37f74c8",
+                  "quote": "",
+                  "locator": {
+                    "slide": 1
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_8985e94c47833a19d7db",
+              "representative_member_id": "m_32889a683086ce28a9d1",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_734e17078032f16e7c90",
+                  "quote": "",
+                  "locator": {
+                    "slide": 8
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_ee48939873e5844637ea",
+              "representative_member_id": "m_ec92efbaa8d5a5d9455f",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participate_in",
+                  "neighbor_entity_id": "entity_88b86497fdfcccadad63",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2026年暑期“三下乡”社会实践"
+                  ],
+                  "evidence_ids": [
+                    "ev_e63a51cd3a63347a8c5f"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_e63a51cd3a63347a8c5f",
+                  "quote": "",
+                  "locator": {
+                    "page": 1,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_df6a6c13aca9c6c8b333",
+          "source_cluster": {
+            "entity_id": "entity_c18edd2bb6f2578cf5e5",
+            "representative_member_id": "m_f9fca96764184d437162",
+            "type": "Actor",
+            "name": "启明星",
+            "names": [
+              "启明星"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "organizes",
+                "neighbor_entity_id": "entity_39c67d668f4cde814691",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "“星心相印”新生引导"
+                ],
+                "evidence_ids": [
+                  "ev_4022ba9752de270b457f"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_4022ba9752de270b457f",
+                "quote": "",
+                "locator": {
+                  "slide": 16
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_c18edd2bb6f2578cf5e5",
+          "candidates": [
+            {
+              "entity_id": "entity_a31c72a6fd2212c20566",
+              "representative_member_id": "m_a202458b7eac37f2189f",
+              "type": "Actor",
+              "name": "启明星",
+              "names": [
+                "启明星"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_6ceadd1709db3e13cabe",
+                  "quote": "",
+                  "locator": {
+                    "slide": 20
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_8c52964ae70703edfd31",
+          "source_cluster": {
+            "entity_id": "entity_d2a5d831cb0ac797c660",
+            "representative_member_id": "m_57673365b6f1f6a24c6a",
+            "type": "DataAsset",
+            "name": "洛阳博物馆",
+            "names": [
+              "洛阳博物馆"
+            ],
+            "member_count": 3,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "西安交通大学“启明寻洛，脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              },
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "暑期实践活动“寻脉中原，读懂中国”"
+                ],
+                "evidence_ids": [
+                  "ev_cdca051b8c3ec0ea96c7"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "applies",
+                "neighbor_entity_id": "entity_1dda42319643224c2352",
+                "neighbor_type": "AITool",
+                "neighbor_names": [
+                  "数字复原工程"
+                ],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                "quote": "",
+                "locator": {
+                  "slide": 18
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_d2a5d831cb0ac797c660",
+          "candidates": [
+            {
+              "entity_id": "entity_86d928dd4544296fae5e",
+              "representative_member_id": "m_1147262e839b2a8d9b15",
+              "type": "DataAsset",
+              "name": "二里头夏都遗址博物馆",
+              "names": [
+                "二里头夏都遗址博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_87ee1326f9572836d3ef",
+              "representative_member_id": "m_5ffb7ff3ace269e5a5ec",
+              "type": "DataAsset",
+              "name": "洛阳古墓博物馆",
+              "names": [
+                "洛阳古墓博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_59a7885be13653d09789",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "文化→文创"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_6cf3ed345339a729f9b2",
+              "representative_member_id": "m_15b10575875520060a10",
+              "type": "DataAsset",
+              "name": "隋唐洛阳城遗址",
+              "names": [
+                "隋唐洛阳城遗址"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_4ac7030bcc5c5a030637",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "VR灯光数字化展示"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_915ac94bbff1e24162d0",
+              "representative_member_id": "m_471d82a1f3280e50c273",
+              "type": "DataAsset",
+              "name": "龙门石窟",
+              "names": [
+                "龙门石窟"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_329de5f13f79a429cb9c",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "3D投影复原"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_f1602ff7641e38f33ef4",
+              "representative_member_id": "m_849193d8398cd65c474b",
+              "type": "DataAsset",
+              "name": "清明上河园",
+              "names": [
+                "清明上河园"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_4771582f490a91b5cbbf",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "实景演绎"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": true,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_dc155faddf5b1564f981",
+          "source_cluster": {
+            "entity_id": "entity_ee48939873e5844637ea",
+            "representative_member_id": "m_ec92efbaa8d5a5d9455f",
+            "type": "Actor",
+            "name": "黎雅诗",
+            "names": [
+              "黎雅诗"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "participate_in",
+                "neighbor_entity_id": "entity_88b86497fdfcccadad63",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "2026年暑期“三下乡”社会实践"
+                ],
+                "evidence_ids": [
+                  "ev_e63a51cd3a63347a8c5f"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_e63a51cd3a63347a8c5f",
+                "quote": "",
+                "locator": {
+                  "page": 1,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_ee48939873e5844637ea",
+          "candidates": [
+            {
+              "entity_id": "entity_333bacf0896c23b424c8",
+              "representative_member_id": "m_95fc25023387993cfe35",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_280b4a29f54f7d12e4bd",
+                  "quote": "",
+                  "locator": {
+                    "slide": 21
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_3c026c8359de6ba73370",
+              "representative_member_id": "m_a10ae5e46cbda0811fe8",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "depicts",
+                  "neighbor_entity_id": "entity_2c0d1f5830fddf6f89e6",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "黎雅诗照片"
+                  ],
+                  "evidence_ids": [
+                    "ev_aea04bcc2edc25097171"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_aea04bcc2edc25097171",
+                  "quote": "",
+                  "locator": {
+                    "slide": 4
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_64c7c36e0b025ba0b13a",
+              "representative_member_id": "m_ddd2a39d038e29ca37c3",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "participates_in",
+                  "neighbor_entity_id": "entity_b2881cd3a6ec7464dd86",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "西安交通大学英仔爱心社启明星部门部长换届答辩"
+                  ],
+                  "evidence_ids": [
+                    "ev_00a3bad61012d37f74c8"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_00a3bad61012d37f74c8",
+                  "quote": "",
+                  "locator": {
+                    "slide": 1
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_8985e94c47833a19d7db",
+              "representative_member_id": "m_32889a683086ce28a9d1",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_734e17078032f16e7c90",
+                  "quote": "",
+                  "locator": {
+                    "slide": 8
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_a9d59d729ebf55baca58",
+              "representative_member_id": "m_36fb5c8055a909b3a980",
+              "type": "Actor",
+              "name": "黎雅诗",
+              "names": [
+                "黎雅诗"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "member_of",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_940c749710e501d0806d"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_940c749710e501d0806d",
+                  "quote": "",
+                  "locator": {
+                    "page": 8,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_db3118cdd3b3c7ad8e49",
+          "source_cluster": {
+            "entity_id": "entity_f1602ff7641e38f33ef4",
+            "representative_member_id": "m_849193d8398cd65c474b",
+            "type": "DataAsset",
+            "name": "清明上河园",
+            "names": [
+              "清明上河园"
+            ],
+            "member_count": 2,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "西安交通大学“启明寻洛，脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "applies",
+                "neighbor_entity_id": "entity_4771582f490a91b5cbbf",
+                "neighbor_type": "AITool",
+                "neighbor_names": [
+                  "实景演绎"
+                ],
+                "evidence_ids": [
+                  "ev_986302e516339fe02bb9"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_986302e516339fe02bb9",
+                "quote": "",
+                "locator": {
+                  "page": 4,
+                  "bbox": [
+                    "0",
+                    "0",
+                    "960",
+                    "540"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_f1602ff7641e38f33ef4",
+          "candidates": [
+            {
+              "entity_id": "entity_d2a5d831cb0ac797c660",
+              "representative_member_id": "m_57673365b6f1f6a24c6a",
+              "type": "DataAsset",
+              "name": "洛阳博物馆",
+              "names": [
+                "洛阳博物馆"
+              ],
+              "member_count": 3,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_1dda42319643224c2352",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "数字复原工程"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+                  "quote": "",
+                  "locator": {
+                    "slide": 18
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_86d928dd4544296fae5e",
+              "representative_member_id": "m_1147262e839b2a8d9b15",
+              "type": "DataAsset",
+              "name": "二里头夏都遗址博物馆",
+              "names": [
+                "二里头夏都遗址博物馆"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_b4fe9a806a1d13c8ca1e",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "暑期实践活动“寻脉中原，读懂中国”"
+                  ],
+                  "evidence_ids": [
+                    "ev_cdca051b8c3ec0ea96c7"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_915ac94bbff1e24162d0",
+              "representative_member_id": "m_471d82a1f3280e50c273",
+              "type": "DataAsset",
+              "name": "龙门石窟",
+              "names": [
+                "龙门石窟"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "applies",
+                  "neighbor_entity_id": "entity_329de5f13f79a429cb9c",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "3D投影复原"
+                  ],
+                  "evidence_ids": [
+                    "ev_986302e516339fe02bb9"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_986302e516339fe02bb9",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_294e5e7782f126e13b15",
+              "representative_member_id": "m_46fee5ed4ecbfa85b7f6",
+              "type": "DataAsset",
+              "name": "万岁山武侠城",
+              "names": [
+                "万岁山武侠城"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_41cc15c95ac9015229fe",
+              "representative_member_id": "m_bff4790778c18eaad740",
+              "type": "DataAsset",
+              "name": "隋唐洛阳城国家遗址公园",
+              "names": [
+                "隋唐洛阳城国家遗址公园"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "visits",
+                  "neighbor_entity_id": "entity_f7210b3db6c440afdae5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "西安交通大学“启明寻洛，脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        }
+      ]
+    },
+    {
+      "batch_index": 3,
+      "round": 1,
+      "tasks": [
+        {
+          "task_id": "align_dc940cb6f11c25e5002a",
+          "source_cluster": {
+            "entity_id": "entity_f7210b3db6c440afdae5",
+            "representative_member_id": "m_bf5cfc540762c6791cc3",
+            "type": "Actor",
+            "name": "西安交通大学“启明寻洛，脉续中原”实践队",
+            "names": [
+              "西安交通大学“启明寻洛，脉续中原”实践队"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_41cc15c95ac9015229fe",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "隋唐洛阳城国家遗址公园"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_915ac94bbff1e24162d0",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "龙门石窟"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_d2a5d831cb0ac797c660",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "洛阳博物馆"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "visits",
+                "neighbor_entity_id": "entity_86d928dd4544296fae5e",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "二里头夏都遗址博物馆"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_475522a3889c565df599",
+                "quote": "",
+                "locator": {
+                  "section": [],
+                  "table": 1,
+                  "row_start": 2,
+                  "row_end": 10
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_f7210b3db6c440afdae5",
+          "candidates": [
+            {
+              "entity_id": "entity_08bba2e1ef9a2e3a160a",
+              "representative_member_id": "m_551b189c0fc822605faf",
+              "type": "Actor",
+              "name": "西安交通大学",
+              "names": [
+                "西安交通大学"
+              ],
+              "member_count": 3,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "organize",
+                  "neighbor_entity_id": "entity_88b86497fdfcccadad63",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2026年暑期“三下乡”社会实践"
+                  ],
+                  "evidence_ids": [
+                    "ev_e63a51cd3a63347a8c5f"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "organized_by",
+                  "neighbor_entity_id": "entity_e13ce485099817e508c0",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "启明寻洛、脉续中原 三下乡社会实践"
+                  ],
+                  "evidence_ids": [
+                    "ev_7414e1e75ed3af66934e"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_7414e1e75ed3af66934e",
+                  "quote": "",
+                  "locator": {
+                    "page": 3,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_9e5052c46c89fa28c113",
+          "source_cluster": {
+            "entity_id": "entity_fec69dd6ec9092a2e1e5",
+            "representative_member_id": "m_b8bd4b0f3b8d3c5cd511",
+            "type": "DataAsset",
+            "name": "校实践公众号文章",
+            "names": [
+              "校实践公众号文章"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "publish",
+                "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "“启明寻洛、脉续中原”实践队"
+                ],
+                "evidence_ids": [
+                  "ev_5e30ba488a86a1ddb53b"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                "quote": "",
+                "locator": {
+                  "page": 6,
+                  "table": 1,
+                  "bbox": [
+                    "14.4",
+                    "68.51999999999998",
+                    "427.2",
+                    "232.07999999999998"
+                  ],
+                  "row_start": 2,
+                  "row_end": 2
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_fec69dd6ec9092a2e1e5",
+          "candidates": [
+            {
+              "entity_id": "entity_77d51e6dc211bb87773c",
+              "representative_member_id": "m_bc8c731557941a74adce",
+              "type": "DataAsset",
+              "name": "校实践公众号",
+              "names": [
+                "校实践公众号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publishes",
+                  "neighbor_entity_id": "entity_00fb8e877f4aea24c732",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_555fa21bff43f8ca3a75"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_555fa21bff43f8ca3a75",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "960",
+                      "540"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_77deebd860e8a1a887cf",
+              "representative_member_id": "m_0f9ec980d49b7e9e8364",
+              "type": "DataAsset",
+              "name": "院级公众号文章",
+              "names": [
+                "院级公众号文章"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publish",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_a9bcfe0e2388684f22eb",
+              "representative_member_id": "m_8ad9638f2a5de55138fe",
+              "type": "DataAsset",
+              "name": "大河网新闻稿",
+              "names": [
+                "大河网新闻稿"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "publish",
+                  "neighbor_entity_id": "entity_a2fe758f57bb37b30d2a",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "“启明寻洛、脉续中原”实践队"
+                  ],
+                  "evidence_ids": [
+                    "ev_5e30ba488a86a1ddb53b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5e30ba488a86a1ddb53b",
+                  "quote": "",
+                  "locator": {
+                    "page": 6,
+                    "table": 1,
+                    "bbox": [
+                      "14.4",
+                      "68.51999999999998",
+                      "427.2",
+                      "232.07999999999998"
+                    ],
+                    "row_start": 2,
+                    "row_end": 2
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        }
+      ]
+    }
+  ]
+}

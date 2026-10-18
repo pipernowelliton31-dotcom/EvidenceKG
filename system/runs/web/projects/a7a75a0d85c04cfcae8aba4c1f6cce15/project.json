@@ -1,0 +1,22 @@
+{
+  "id": "a7a75a0d85c04cfcae8aba4c1f6cce15",
+  "name": "测试集B_工作室运营手册 等资料",
+  "roles": {
+    "测试集B_工作室运营手册.docx": "corpus",
+    "测试集B_产品运营分析报告.pptx": "corpus",
+    "测试集B_分析问题集.docx": "questions",
+    "测试集B_产品架构图.png": "corpus",
+    "测试集B_运营数据记录.xlsx": "corpus",
+    "测试集B_产品规格与定价文档.pdf": "corpus"
+  },
+  "source_binding": {
+    "测试集B_工作室运营手册.docx": "a52b73c23e2bdef1c5395b05fac2094676c3d2ad6a085b4686905bd49e519128",
+    "测试集B_产品运营分析报告.pptx": "156fd311ed58af880c3997c7d5d7ba99a49eae95d63067f4675e910832d635ad",
+    "测试集B_分析问题集.docx": "617c605aff4c9670332da1898d4e9de74d6afe2da3609749fc5a9d091ccf3ab2",
+    "测试集B_产品架构图.png": "0f665dd6b8294f272ef852438679f21efc5db90ca588f0b904748d4f49e39eba",
+    "测试集B_运营数据记录.xlsx": "344b6815328672a8340ab4c4d15b18992fb5a45ed70cd257fd727d37d38d6708",
+    "测试集B_产品规格与定价文档.pdf": "c38188378e935e5d3de4c7be254d9e202665dd94faf572b7ab5110009eaef306"
+  },
+  "user_uploaded": true,
+  "work_dir": "work"
+}

@@ -1,0 +1,257 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_6041b452cb3e569fe46d",
+      "mentions": [
+        {
+          "local_id": "m_1",
+          "type": "Actor",
+          "name": "“启明寻洛、脉续中原”实践队"
+        },
+        {
+          "local_id": "m_2",
+          "type": "Event",
+          "name": "三下乡"
+        },
+        {
+          "local_id": "m_3",
+          "type": "Event",
+          "name": "调研"
+        },
+        {
+          "local_id": "m_4",
+          "type": "Location",
+          "name": "河南洛阳"
+        },
+        {
+          "local_id": "m_5",
+          "type": "Location",
+          "name": "开封"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_1",
+          "predicate": "use_platform",
+          "object": "m_2"
+        },
+        {
+          "subject": "m_1",
+          "predicate": "conduct",
+          "object": "m_3"
+        },
+        {
+          "subject": "m_3",
+          "predicate": "location",
+          "object": "m_4"
+        },
+        {
+          "subject": "m_3",
+          "predicate": "location",
+          "object": "m_5"
+        }
+      ],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_fcce9dd1be2c0f4f1fc2",
+      "mentions": [
+        {
+          "local_id": "m_1",
+          "type": "Actor",
+          "name": "“启明寻洛、脉续中原”实践队"
+        },
+        {
+          "local_id": "m_2",
+          "type": "DataAsset",
+          "name": "大河网新闻稿"
+        },
+        {
+          "local_id": "m_3",
+          "type": "DataAsset",
+          "name": "校实践公众号文章"
+        },
+        {
+          "local_id": "m_4",
+          "type": "DataAsset",
+          "name": "院级公众号文章"
+        },
+        {
+          "local_id": "m_5",
+          "type": "Product",
+          "name": "文创设计及实物（唐仕女俑）"
+        },
+        {
+          "local_id": "m_6",
+          "type": "DataAsset",
+          "name": "纪录片视频"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_1",
+          "predicate": "publish",
+          "object": "m_2",
+          "qualifiers": {
+            "platform": "大河网"
+          }
+        },
+        {
+          "subject": "m_1",
+          "predicate": "publish",
+          "object": "m_3",
+          "qualifiers": {
+            "platform": "校实践公众号"
+          }
+        },
+        {
+          "subject": "m_1",
+          "predicate": "publish",
+          "object": "m_4",
+          "qualifiers": {
+            "platform": "院级公众号"
+          }
+        },
+        {
+          "subject": "m_1",
+          "predicate": "create",
+          "object": "m_5"
+        },
+        {
+          "subject": "m_1",
+          "predicate": "create",
+          "object": "m_6"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "count"
+          },
+          "value": 2
+        },
+        {
+          "subject": "m_3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "count"
+          },
+          "value": 1
+        },
+        {
+          "subject": "m_4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "count"
+          },
+          "value": 3
+        },
+        {
+          "subject": "m_6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "count"
+          },
+          "value": 1
+        }
+      ]
+    },
+    {
+      "task_id": "unit_d9819e5ae9b8f1fee534",
+      "mentions": [
+        {
+          "local_id": "m_1",
+          "type": "Actor",
+          "name": "西安交通大学"
+        },
+        {
+          "local_id": "m_2",
+          "type": "Event",
+          "name": "2026年暑期“三下乡”社会实践"
+        },
+        {
+          "local_id": "m_3",
+          "type": "Actor",
+          "name": "黎雅诗"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_1",
+          "predicate": "organize",
+          "object": "m_2"
+        },
+        {
+          "subject": "m_3",
+          "predicate": "participate_in",
+          "object": "m_2"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026.9.16"
+        },
+        {
+          "subject": "m_3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "role"
+          },
+          "value": "答辩人"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_9dfbe140ed2cf01012d4",
+      "mentions": [
+        {
+          "local_id": "m_1",
+          "type": "Actor",
+          "name": "“启明寻洛、脉续中原”实践队"
+        },
+        {
+          "local_id": "m_2",
+          "type": "Actor",
+          "name": "黎雅诗"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_2",
+          "predicate": "member_of",
+          "object": "m_1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026.9.16"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_774392fcd630f7ca7483",
+      "mentions": [
+        {
+          "local_id": "m_1",
+          "type": "Actor",
+          "name": "西安交通大学"
+        }
+      ],
+      "relations": [],
+      "assertions": []
+    }
+  ],
+  "fingerprint": "run_031e801da803ca0f198f"
+}

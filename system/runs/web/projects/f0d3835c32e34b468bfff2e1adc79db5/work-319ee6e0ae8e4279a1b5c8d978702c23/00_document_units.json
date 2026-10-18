@@ -1,0 +1,4433 @@
+{
+  "fingerprint": "run_32421f2d375c226a0323",
+  "documents": [
+    {
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "path": "启明寻洛，脉续中原-林硕锦-2243515519.docx",
+      "sha256": "587f26d2bc4378eee196cdd8033fd96b19cb9f9e18250086d0416b063f88326e",
+      "format": "docx",
+      "role": "corpus",
+      "parse_status": "parsed"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "path": "英仔爱心社2025年度总结材料(1).docx",
+      "sha256": "e88737b142251716d38115c0d26fca6e66c36eb9af712e5d74b16960ab36ce83",
+      "format": "docx",
+      "role": "corpus",
+      "parse_status": "parsed"
+    }
+  ],
+  "units": [
+    {
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "format": "docx",
+      "locator": {
+        "section": [],
+        "paragraph_start": 1,
+        "paragraph_end": 1,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学思想政治理论课实践教学活动记录册",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_528c8f2ef191664f296f"
+    },
+    {
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "format": "docx",
+      "locator": {
+        "section": [],
+        "table": 1,
+        "row_start": 2,
+        "row_end": 10
+      },
+      "content_md": "| 姓名 | 林硕锦 | 学号 | 2243515519 | 指导老师 | 刘晗梦 |\n| --- | --- | --- | --- | --- | --- |\n| 书院 | 励志书院 | 班级 | 信计2401 |  |  |\n| 实践时间 | 2026.7.19-2026.7.25 | 累计实践学时 | 60 |  |  |\n| 实践类型 | □红色寻访    □体验教育    □社会观察    □其他<br>☑主题调研    □理论宣讲    □志愿服务 |  |  |  |  |\n| 实践活动简介（200字左右，活动开展情况、主要心得、政策建议等概要）<br><br>2026年7月19日至25日，西安交通大学“启明寻洛，脉续中原”实践队赴洛阳、开封开展中原文化传承主题调研。实践队走访隋唐洛阳城国家遗址公园、龙门石窟、洛阳博物馆、二里头夏都遗址博物馆、清明上河园和万岁山武侠城，通过现场考察、讲解交流与游客访谈，了解文化遗产保护和文旅传播现状。调研中，游客普遍认可数字互动和沉浸式演艺带来的文化体验，也反映高温天气下休憩设施不足、演出抢票困难。建议景区完善遮阴休息和票务服务，并在保留文化内核的前提下改进演出表达。<br> |  |  |  |  |  |\n| 实践活动总结（不少于2000字，可附页）<br><br>2026年7月19日至25日，西安交通大学“启明寻洛，脉续中原”实践队赴洛阳、开封开展主题调研。此次实践以中原文化的保护与传播为主线，希望通过实地考察回答两个问题：厚重的历史如何被当代公众读懂，传统文化又应以怎样的方式进入青年生活。实践期间，队伍走进遗址、石窟、博物馆和文旅景区，在讲解与采访中不断修正自己对“文化传承”的认识。它不是对古代符号的简单复刻，而是要守住真实的历史根基，再找到适合当代人的表达方式。<br>7月19日晚，实践队抵达洛阳后前往隋唐洛阳城国家遗址公园。夜色中的天堂与九洲池，使已经消失的宫城格局重新获得可见的轮廓。下沉广场的演出借助舞台叙事呈现隋唐风貌，观众不必先掌握大量史料，也能由人物和故事进入那段历史。这样的呈现方式让我意识到，遗址保护并不意味着让历史停留在静止的展板上。合理的复原和演绎能够为公众建立理解入口，但内容越具观赏性，越需要清楚说明复原依据，避免让艺术加工取代历史事实。<br>当晚，队员还采访了外国游客和身着传统服饰的小朋友。外国游客对洛阳古城的建筑气象和文化氛围给予了积极评价，小朋友则用朴素的语言表达了对传统服饰和古都故事的喜爱。两类受访者的回答让我看到，文化认同往往从一次具体的观看开始。传播者不必一味追求宏大表述，先让人愿意靠近、产生好奇，历史才有机会被进一步了解。<br>7月20日，实践队来到龙门石窟。伊河从两山之间穿过，石窟沿西山崖壁铺展开来，这一地理格局本身就构成了龙门独特的文化景观。沿栈道前行，宾阳三洞、万佛洞、莲花洞和奉先寺等窟龛依次进入视野。不同造像在面容和衣纹上的差异，记录了审美风格随时代发生的变化。尤其站在卢舍那大佛前，宏大的尺度并未带来距离感，平和的神态反而使人感到一种安定的力量。千年石刻能够保存至今，背后是长期而细致的保护工作，也提醒我们在参观时尊重文物本体和景区秩序。<br>在龙门石窟，实践队围绕景区变化和文化讲解采访了导游。受访者提到，讲解的价值不只是说明年代和名称，更重要的是把零散的造像信息放回历史语境，让游客知道“为什么这样雕刻”。我们也与外国游客进行了交流。语言不同并未妨碍他对石窟艺术作出真诚回应，这让我更加直观地感受到，优秀文化遗产具有跨越语言的感染力。不过，跨文化传播仍需要准确、清晰的阐释，不能只依赖视觉震撼。<br>7月21日上午，实践队走进洛阳博物馆。都城沙盘将洛阳历代城市格局集中呈现，馆藏文物则把宏观历史落实到具体生活。器物上的磨损和纹饰，让过去不再只是朝代名称。以唐三彩马为例，其饱满造型和流动釉色不仅体现制陶水平，也折射出唐代洛阳开放的城市气质。博物馆的意义正在于此：它把分散的文物组织成有脉络的叙事，使参观者能够从一件器物出发，逐步理解一座城市。<br>翌日，实践队前往二里头夏都遗址博物馆。宫殿建筑模型和遗迹复原展示了早期都邑的空间秩序，陶器、青铜礼器和绿松石器则提供了认识社会分工与礼制发展的实物线索。绿松石兽面纹铜牌饰和龙形器给我留下了深刻印象。细小材料被组合成完整图案，说明当时已经形成较高水平的工艺组织。二里头遗址是探索夏文化和早期国家的重要考古遗址，面对相关历史问题，更应尊重考古证据，避免把尚待研究的结论写成简单确定的故事。<br>馆内的数字展陈为考古成果传播提供了另一种思路。象形符号互动装置要求参观者先观察图形，再选择可能的含义，屏幕会呈现不同选项的分布。知识不再被动地从展板传向观众，而是在判断和反馈中逐渐形成。另一处装置把问答设计成“拨打电话”，参观者拿起听筒，仿佛同古人展开对话。熟悉的动作降低了理解门槛，也自然激发了继续探索的兴趣。数字技术并未削弱文物的真实性，恰当使用时，它能够补足背景信息，让镇馆珍品背后的考古过程更容易被看见。<br>随后，实践队前往开封。清明上河园以《清明上河图》为蓝本重构北宋汴京的市井空间，虹桥和沿河商铺使画卷中的城市生活获得了现实尺度。园内的民俗表演与市井互动把静态图像转化为现场情境，游客得以从日常生活而非帝王叙事进入宋文化。调研中，受访游客普遍认可这种沉浸式呈现，同时也有人关注演出安全。这一反馈说明，文化景区既要提高内容质量，也要把人员保护和现场秩序放在稳定运营的基础位置。<br>在万岁山武侠城，大型实景演出《三打祝家庄》最具感染力。演员的现场配合和情节推进，使武侠故事具有很强的临场感。园区并未把自己局限为纯粹的古风场景，搏击馆、音乐酒吧和七八十年代街区等现代内容与武侠演出并置，形成了面向年轻游客的复合空间。这种融合表明，传统文化可以进入当代娱乐，但创新不能只停留在造景和热度上。只有人物精神、历史背景和价值内核得到认真阐释，文化消费才可能转化为持续的文化兴趣。<br>一周的实践使我明白，中原文化的当代表达没有单一答案。龙门石窟强调保护真实遗存，博物馆依靠文物建立历史脉络，文旅景区则通过现场情境吸引公众。这些路径各有优势，也都要处理内容准确性与传播效果之间的关系。今后的文化传播应让专业研究更早进入策划环节，并在互动项目中说明史实依据。针对青少年，可按照年龄和知识基础设计不同层次的讲解。高强度实景演出则应把安全规范落实到排练和现场管理中。<br>对我而言，这次实践最大的收获，是不再把文化传承理解成一句口号。它发生在文物得到妥善保护时，也发生在一次准确讲解和一次真诚交流中。青年既是传统文化的受众，也可以成为传播者。今后我会更加主动地了解历史背景，尊重专业研究，用清楚、可靠的方式分享所见所思，让中原文脉在真实而持续的关注中延续下去。 |  |  |  |  |  |\n| <br>我保证上述内容的真实性，若有不实处，本人承担一切后果。<br><br><br>学生（签名）                    2026年7月26日<br> |  |  |  |  |  |\n| <br><br><br><br>指导老师意见 | <br><br>本次实践主题明确，组织安排合理。实践队能够认真参与洛阳、开封各调研点位的实地考察，主动记录并思考传统文化保护与当代表达之间的关系，形成了较完整的实践总结。材料内容真实，观点较为深入，达到了思想政治理论课实践教学要求。希望今后继续关注文化遗产保护，在学习和社会观察中增强责任意识。<br><br>指导老师签字：<br>2026年7月28日<br><br> |  |  |  |  |\n| <br><br><br>挂靠单位意见<br> | <br><br><br><br><br>签字：  <br><br>公章：          <br><br>年     月    日<br><br>                                    |  |  |  |  |\n| <br>校团委审核意见 | <br><br>通过       □不通过<br><br>                                          公章：<br><br>年     月    日<br>                                     |  |  |  |  |",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "structured": {
+        "kind": "source_xml_table",
+        "records": [
+          [
+            {
+              "row": 2,
+              "cell": 1,
+              "text": "书院",
+              "grid_span": 2,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 2,
+              "text": "励志书院",
+              "grid_span": 2,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 3,
+              "text": "班级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 4,
+              "text": "信计2401",
+              "grid_span": 2,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 3,
+              "cell": 1,
+              "text": "实践时间",
+              "grid_span": 2,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 2,
+              "text": "2026.7.19-2026.7.25",
+              "grid_span": 2,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 3,
+              "text": "累计实践学时",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 4,
+              "text": "60",
+              "grid_span": 2,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 4,
+              "cell": 1,
+              "text": "实践类型",
+              "grid_span": 2,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 2,
+              "text": "□红色寻访    □体验教育    □社会观察    □其他\n☑主题调研    □理论宣讲    □志愿服务",
+              "grid_span": 5,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 5,
+              "cell": 1,
+              "text": "实践活动简介（200字左右，活动开展情况、主要心得、政策建议等概要）\n\n2026年7月19日至25日，西安交通大学“启明寻洛，脉续中原”实践队赴洛阳、开封开展中原文化传承主题调研。实践队走访隋唐洛阳城国家遗址公园、龙门石窟、洛阳博物馆、二里头夏都遗址博物馆、清明上河园和万岁山武侠城，通过现场考察、讲解交流与游客访谈，了解文化遗产保护和文旅传播现状。调研中，游客普遍认可数字互动和沉浸式演艺带来的文化体验，也反映高温天气下休憩设施不足、演出抢票困难。建议景区完善遮阴休息和票务服务，并在保留文化内核的前提下改进演出表达。\n",
+              "grid_span": 7,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 6,
+              "cell": 1,
+              "text": "实践活动总结（不少于2000字，可附页）\n\n2026年7月19日至25日，西安交通大学“启明寻洛，脉续中原”实践队赴洛阳、开封开展主题调研。此次实践以中原文化的保护与传播为主线，希望通过实地考察回答两个问题：厚重的历史如何被当代公众读懂，传统文化又应以怎样的方式进入青年生活。实践期间，队伍走进遗址、石窟、博物馆和文旅景区，在讲解与采访中不断修正自己对“文化传承”的认识。它不是对古代符号的简单复刻，而是要守住真实的历史根基，再找到适合当代人的表达方式。\n7月19日晚，实践队抵达洛阳后前往隋唐洛阳城国家遗址公园。夜色中的天堂与九洲池，使已经消失的宫城格局重新获得可见的轮廓。下沉广场的演出借助舞台叙事呈现隋唐风貌，观众不必先掌握大量史料，也能由人物和故事进入那段历史。这样的呈现方式让我意识到，遗址保护并不意味着让历史停留在静止的展板上。合理的复原和演绎能够为公众建立理解入口，但内容越具观赏性，越需要清楚说明复原依据，避免让艺术加工取代历史事实。\n当晚，队员还采访了外国游客和身着传统服饰的小朋友。外国游客对洛阳古城的建筑气象和文化氛围给予了积极评价，小朋友则用朴素的语言表达了对传统服饰和古都故事的喜爱。两类受访者的回答让我看到，文化认同往往从一次具体的观看开始。传播者不必一味追求宏大表述，先让人愿意靠近、产生好奇，历史才有机会被进一步了解。\n7月20日，实践队来到龙门石窟。伊河从两山之间穿过，石窟沿西山崖壁铺展开来，这一地理格局本身就构成了龙门独特的文化景观。沿栈道前行，宾阳三洞、万佛洞、莲花洞和奉先寺等窟龛依次进入视野。不同造像在面容和衣纹上的差异，记录了审美风格随时代发生的变化。尤其站在卢舍那大佛前，宏大的尺度并未带来距离感，平和的神态反而使人感到一种安定的力量。千年石刻能够保存至今，背后是长期而细致的保护工作，也提醒我们在参观时尊重文物本体和景区秩序。\n在龙门石窟，实践队围绕景区变化和文化讲解采访了导游。受访者提到，讲解的价值不只是说明年代和名称，更重要的是把零散的造像信息放回历史语境，让游客知道“为什么这样雕刻”。我们也与外国游客进行了交流。语言不同并未妨碍他对石窟艺术作出真诚回应，这让我更加直观地感受到，优秀文化遗产具有跨越语言的感染力。不过，跨文化传播仍需要准确、清晰的阐释，不能只依赖视觉震撼。\n7月21日上午，实践队走进洛阳博物馆。都城沙盘将洛阳历代城市格局集中呈现，馆藏文物则把宏观历史落实到具体生活。器物上的磨损和纹饰，让过去不再只是朝代名称。以唐三彩马为例，其饱满造型和流动釉色不仅体现制陶水平，也折射出唐代洛阳开放的城市气质。博物馆的意义正在于此：它把分散的文物组织成有脉络的叙事，使参观者能够从一件器物出发，逐步理解一座城市。\n翌日，实践队前往二里头夏都遗址博物馆。宫殿建筑模型和遗迹复原展示了早期都邑的空间秩序，陶器、青铜礼器和绿松石器则提供了认识社会分工与礼制发展的实物线索。绿松石兽面纹铜牌饰和龙形器给我留下了深刻印象。细小材料被组合成完整图案，说明当时已经形成较高水平的工艺组织。二里头遗址是探索夏文化和早期国家的重要考古遗址，面对相关历史问题，更应尊重考古证据，避免把尚待研究的结论写成简单确定的故事。\n馆内的数字展陈为考古成果传播提供了另一种思路。象形符号互动装置要求参观者先观察图形，再选择可能的含义，屏幕会呈现不同选项的分布。知识不再被动地从展板传向观众，而是在判断和反馈中逐渐形成。另一处装置把问答设计成“拨打电话”，参观者拿起听筒，仿佛同古人展开对话。熟悉的动作降低了理解门槛，也自然激发了继续探索的兴趣。数字技术并未削弱文物的真实性，恰当使用时，它能够补足背景信息，让镇馆珍品背后的考古过程更容易被看见。\n随后，实践队前往开封。清明上河园以《清明上河图》为蓝本重构北宋汴京的市井空间，虹桥和沿河商铺使画卷中的城市生活获得了现实尺度。园内的民俗表演与市井互动把静态图像转化为现场情境，游客得以从日常生活而非帝王叙事进入宋文化。调研中，受访游客普遍认可这种沉浸式呈现，同时也有人关注演出安全。这一反馈说明，文化景区既要提高内容质量，也要把人员保护和现场秩序放在稳定运营的基础位置。\n在万岁山武侠城，大型实景演出《三打祝家庄》最具感染力。演员的现场配合和情节推进，使武侠故事具有很强的临场感。园区并未把自己局限为纯粹的古风场景，搏击馆、音乐酒吧和七八十年代街区等现代内容与武侠演出并置，形成了面向年轻游客的复合空间。这种融合表明，传统文化可以进入当代娱乐，但创新不能只停留在造景和热度上。只有人物精神、历史背景和价值内核得到认真阐释，文化消费才可能转化为持续的文化兴趣。\n一周的实践使我明白，中原文化的当代表达没有单一答案。龙门石窟强调保护真实遗存，博物馆依靠文物建立历史脉络，文旅景区则通过现场情境吸引公众。这些路径各有优势，也都要处理内容准确性与传播效果之间的关系。今后的文化传播应让专业研究更早进入策划环节，并在互动项目中说明史实依据。针对青少年，可按照年龄和知识基础设计不同层次的讲解。高强度实景演出则应把安全规范落实到排练和现场管理中。\n对我而言，这次实践最大的收获，是不再把文化传承理解成一句口号。它发生在文物得到妥善保护时，也发生在一次准确讲解和一次真诚交流中。青年既是传统文化的受众，也可以成为传播者。今后我会更加主动地了解历史背景，尊重专业研究，用清楚、可靠的方式分享所见所思，让中原文脉在真实而持续的关注中延续下去。",
+              "grid_span": 7,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 7,
+              "cell": 1,
+              "text": "\n我保证上述内容的真实性，若有不实处，本人承担一切后果。\n\n\n学生（签名）                    2026年7月26日\n",
+              "grid_span": 7,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 8,
+              "cell": 1,
+              "text": "\n\n\n\n指导老师意见",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 2,
+              "text": "\n\n本次实践主题明确，组织安排合理。实践队能够认真参与洛阳、开封各调研点位的实地考察，主动记录并思考传统文化保护与当代表达之间的关系，形成了较完整的实践总结。材料内容真实，观点较为深入，达到了思想政治理论课实践教学要求。希望今后继续关注文化遗产保护，在学习和社会观察中增强责任意识。\n\n指导老师签字：\n2026年7月28日\n\n",
+              "grid_span": 6,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 9,
+              "cell": 1,
+              "text": "\n\n\n挂靠单位意见\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 2,
+              "text": "\n\n\n\n\n签字：  \n\n公章：          \n\n年     月    日\n\n                                   ",
+              "grid_span": 6,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 10,
+              "cell": 1,
+              "text": "\n校团委审核意见",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 2,
+              "text": "\n\n通过       □不通过\n\n                                          公章：\n\n年     月    日\n                                    ",
+              "grid_span": 6,
+              "vertical_merge": null
+            }
+          ]
+        ],
+        "header_cells": [
+          {
+            "row": 1,
+            "cell": 1,
+            "text": "姓名",
+            "grid_span": 2,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 2,
+            "text": "林硕锦",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 3,
+            "text": "学号",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 4,
+            "text": "2243515519",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 5,
+            "text": "指导老师",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 6,
+            "text": "刘晗梦",
+            "grid_span": 1,
+            "vertical_merge": null
+          }
+        ]
+      },
+      "unit_id": "unit_7a1731908d720d597070"
+    },
+    {
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "format": "docx",
+      "locator": {
+        "section": [],
+        "paragraph_start": 2,
+        "paragraph_end": 2,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "说明：按照《西安交通大学思政课实践教学管理办法》要求，本记录册为交大本科生获得思政实践学分的必要材料。实践学生本人填写，组织单位认定，学生交由辅导员收集后报备至马克思主义学院留存。",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_faa988ec76d5092b2357"
+    },
+    {
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image1.png"
+      },
+      "content_md": "DOCX embedded image: image1.png",
+      "asset_refs": [
+        "assets/doc_e6e0f281c06f39e259ef/image1.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_06bdb9c79f7af79cca04"
+    },
+    {
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image1.jpg"
+      },
+      "content_md": "DOCX embedded image: image1.jpg",
+      "asset_refs": [
+        "assets/doc_e6e0f281c06f39e259ef/image1.jpg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_1af7226d82851718bde3"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [],
+        "paragraph": 1
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_a3af4690866f4c6298f1"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [],
+        "paragraph_start": 2,
+        "paragraph_end": 7,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "2024-2025学年学生社团\n\n年度总结\n\n社团全称：英仔爱心社\n\n填报人姓名电话：王力川 18381993211\n\n社团指导老师姓名：刘晗梦\n\n2026年3月",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_c9911a246fcd14403d14"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况"
+        ],
+        "paragraph_start": 9,
+        "paragraph_end": 9,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "# 社团运营情况",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_5068b2cebd4e6e879f4a"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团新媒体平台运营情况"
+        ],
+        "paragraph_start": 10,
+        "paragraph_end": 10,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "## 社团新媒体平台运营情况",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_002c3727f13229a6a9b3"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团新媒体平台运营情况",
+          "新媒体平台基本信息"
+        ],
+        "paragraph_start": 11,
+        "paragraph_end": 12,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "### 新媒体平台基本信息\n\n社团在所有新媒体平台用作宣传的官方账号，如微信公众号、抖音、B站等。",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_040923713b4cef0c68f8"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团新媒体平台运营情况",
+          "新媒体平台基本信息"
+        ],
+        "table": 1,
+        "row_start": 2,
+        "row_end": 4
+      },
+      "content_md": "| 平台 | 账号名称 | 运营者 | 运营者在<br>社团内职务 |\n| --- | --- | --- | --- |\n| 微信公众号 | 英仔爱心社 | 杨可欣<br>王紫彤 | 宣传部部长 |\n| B站 | xjtu英仔爱心社官方 | 赵淑琳<br>杨可欣 | 宣传部部长 |\n| 抖音 | 英仔爱心社 | 赵淑琳<br>王紫彤 | 宣传部部长 |",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "structured": {
+        "kind": "source_xml_table",
+        "records": [
+          [
+            {
+              "row": 2,
+              "cell": 1,
+              "text": "微信公众号",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 2,
+              "text": "英仔爱心社",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 3,
+              "text": "杨可欣\n王紫彤",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 4,
+              "text": "宣传部部长",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 3,
+              "cell": 1,
+              "text": "B站",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 2,
+              "text": "xjtu英仔爱心社官方",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 3,
+              "text": "赵淑琳\n杨可欣",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 4,
+              "text": "宣传部部长",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 4,
+              "cell": 1,
+              "text": "抖音",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 2,
+              "text": "英仔爱心社",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 3,
+              "text": "赵淑琳\n王紫彤",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 4,
+              "text": "宣传部部长",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        ],
+        "header_cells": [
+          {
+            "row": 1,
+            "cell": 1,
+            "text": "平台",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 2,
+            "text": "账号名称",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 3,
+            "text": "运营者",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 4,
+            "text": "运营者在\n社团内职务",
+            "grid_span": 1,
+            "vertical_merge": null
+          }
+        ]
+      },
+      "unit_id": "unit_1ac6806406869aa96209"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团新媒体平台运营情况",
+          "新媒体平台建设主要成果"
+        ],
+        "paragraph_start": 13,
+        "paragraph_end": 18,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "### 新媒体平台建设主要成果\n\n1)公众号名称：英仔爱心社\n\n主要成果：自2025年5月至2026年5月期间，英仔爱心社公众号关注人数从7087增长至8279人；共发布推送186篇，累计阅读量5万3千余次，其中包括：原创文章175篇，转载文章11篇。原创推送平均阅读量约305次/篇。期间公众号文章获得交大新闻网、交大团委等校内外媒体报道。\n\n2)哔哩哔哩账号名称：xjtu英仔爱心社官方\n\n主要成果：本账号自创建以来，共发布视频37个，总时长超过600分钟，共计获得点赞量777，粉丝数252，播放量13677次。\n\n对应附图证明如下：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_5549451b9bb0677965de"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团新媒体平台运营情况",
+          "新媒体平台建设主要成果"
+        ],
+        "paragraph": 19
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_d7d53df903c4a7a642cb"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团新媒体平台运营情况",
+          "新媒体平台建设主要成果"
+        ],
+        "paragraph": 20
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_e85af9152f5fc4788520"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团新媒体平台运营情况",
+          "新媒体平台建设主要成果"
+        ],
+        "paragraph_start": 21,
+        "paragraph_end": 22,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "2)抖音账号名称：英仔爱心社\n\n主要成果：作为新兴开创的视频账号，本账号自创建以来，共发布视频19个，共计获得点赞量296，粉丝数45。",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_5cbd4a1fdbe97ae0eb4e"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团新媒体平台运营情况",
+          "新媒体平台建设主要成果"
+        ],
+        "paragraph": 23
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_803d2ddeaa6882bf934a"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况"
+        ],
+        "paragraph_start": 25,
+        "paragraph_end": 26,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "## 社团主要活动举办情况\n\n本条由社团自行编写，以社团服务师生的活动为主，每个活动包括举办时间、地点，附图不宜过多，不包括社团内部建设活动（如聚餐等）。",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_0accc6a7b9f4479a88c6"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况",
+          "社团代表活动"
+        ],
+        "paragraph_start": 27,
+        "paragraph_end": 27,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "### 社团代表活动",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_bfc1e90afb4e8b9b5d08"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况",
+          "社团代表活动"
+        ],
+        "table": 2,
+        "row_start": 2,
+        "row_end": 5
+      },
+      "content_md": "| 序号 | 活动名称 | 时间 | 地点 | 参加人数 | 活动梗概 |\n| --- | --- | --- | --- | --- | --- |\n| 1 | “公益知行：志愿服务实训<br>与能力提升”综能课<br> | 2026年5月-2026年6月<br>【综能课时间不准确】 | 西安交通大学 | 80 | 本课程以“理论+实训+实战”为核心，聚焦大学生高频志愿场景，覆盖银发关怀、支教服务、设计排版、户外环保、特殊儿童关爱五大实用模块，同步讲授活动策划方法与软件操作技能，全程搭配真实志愿实践，让你从零基础快速成长为专业志愿者。<br> |\n| 2 | 2026薪火π重庆大学交流活动<br> | 2026年4月25日至26日<br> | 重庆大学 | 100余人 | 来自五湖四海的青年学子，因共同的信念相聚于山城重庆，携手追寻公益之道，播撒唐爱火种，共筑温暖星河。 |\n| 3 | 【普利司通】“丝路同心结・筑梦共成长”主题帮扶活动<br> | 2026年4月1日至14日 | 西安市浐灞丝路学校<br> | 100余人 | 活动聚焦新疆在陕外来务工人员家庭的少数民族子女成长，用知行合一的方式点亮丝路少年的梦想。本次系列支教涵盖西迁精神传承与红色文化浸润、道路交通安全、秦岭生态保护等多个主题 |\n| 5 | “公益启航：志愿服务技能培训”综能课<br><br> | 2025年10月至11月 | 西安交通大学 | 80 | 本课程旨在为大学生提供一个从“认知”到“实践”的公益能力培养平台。课程内容将带领同学们从“初识志愿服务”开始，逐步深入活动策划、宣传技能、专项服务等多个核心模块。<br> |",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "structured": {
+        "kind": "source_xml_table",
+        "records": [
+          [
+            {
+              "row": 2,
+              "cell": 1,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 2,
+              "text": "“公益知行：志愿服务实训\n与能力提升”综能课\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 3,
+              "text": "2026年5月-2026年6月\n【综能课时间不准确】",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 4,
+              "text": "西安交通大学",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 5,
+              "text": "80",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 6,
+              "text": "本课程以“理论+实训+实战”为核心，聚焦大学生高频志愿场景，覆盖银发关怀、支教服务、设计排版、户外环保、特殊儿童关爱五大实用模块，同步讲授活动策划方法与软件操作技能，全程搭配真实志愿实践，让你从零基础快速成长为专业志愿者。\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 3,
+              "cell": 1,
+              "text": "2",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 2,
+              "text": "2026薪火π重庆大学交流活动\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 3,
+              "text": "2026年4月25日至26日\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 4,
+              "text": "重庆大学",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 5,
+              "text": "100余人",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 6,
+              "text": "来自五湖四海的青年学子，因共同的信念相聚于山城重庆，携手追寻公益之道，播撒唐爱火种，共筑温暖星河。",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 4,
+              "cell": 1,
+              "text": "3",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 2,
+              "text": "【普利司通】“丝路同心结・筑梦共成长”主题帮扶活动\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 3,
+              "text": "2026年4月1日至14日",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 4,
+              "text": "西安市浐灞丝路学校\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 5,
+              "text": "100余人",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 6,
+              "text": "活动聚焦新疆在陕外来务工人员家庭的少数民族子女成长，用知行合一的方式点亮丝路少年的梦想。本次系列支教涵盖西迁精神传承与红色文化浸润、道路交通安全、秦岭生态保护等多个主题",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 5,
+              "cell": 1,
+              "text": "5",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 2,
+              "text": "“公益启航：志愿服务技能培训”综能课\n\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 3,
+              "text": "2025年10月至11月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 4,
+              "text": "西安交通大学",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 5,
+              "text": "80",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 6,
+              "text": "本课程旨在为大学生提供一个从“认知”到“实践”的公益能力培养平台。课程内容将带领同学们从“初识志愿服务”开始，逐步深入活动策划、宣传技能、专项服务等多个核心模块。\n",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        ],
+        "header_cells": [
+          {
+            "row": 1,
+            "cell": 1,
+            "text": "序号",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 2,
+            "text": "活动名称",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 3,
+            "text": "时间",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 4,
+            "text": "地点",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 5,
+            "text": "参加人数",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 6,
+            "text": "活动梗概",
+            "grid_span": 1,
+            "vertical_merge": null
+          }
+        ]
+      },
+      "unit_id": "unit_733099e5eec0b494e76d"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况",
+          "社团代表活动"
+        ],
+        "paragraph_start": 28,
+        "paragraph_end": 45,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "请附表内活动的新闻链接。\n\n活动1的新闻链接：\n\nhttps://mp.weixin.qq.com/s/q3DpHWpvyVcKu8AObLGzkA\n\n活动2的新闻链接：\n\nhttps://mp.weixin.qq.com/s/ORG2iON-OyLN8XGztBMbdg\n\n活动3的新闻链接：\n\nhttps://mp.weixin.qq.com/s/4GfcUWefK1MidAGxbm12Vw\n\nhttps://mp.weixin.qq.com/s/d1mrH-cMN1mxwjx4S3YWXA\n\nhttps://mp.weixin.qq.com/s/VcFRq2Y2ID3-tNrGQ2FUuQ\n\nhttps://mp.weixin.qq.com/s/T5pHtpzn2t34serr2EKV2w\n\n活动4的新闻链接：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_9f6a8a16afdf54bd2e0e"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况",
+          "https://mp.weixin.qq.com/s/tadzCU5qPloWperxiv1DLw"
+        ],
+        "paragraph_start": 46,
+        "paragraph_end": 46,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "### https://mp.weixin.qq.com/s/tadzCU5qPloWperxiv1DLw",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_2e4509a57350ead41e2d"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况",
+          "社团例会开展情况："
+        ],
+        "paragraph_start": 49,
+        "paragraph_end": 49,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "### 社团例会开展情况：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_0f6ee9e5d3c1677c9b04"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况",
+          "社团例会开展情况："
+        ],
+        "table": 3,
+        "row_start": 2,
+        "row_end": 9
+      },
+      "content_md": "| 月份 | 社团负责人例会次数 | 全社管理团队例会次数 | 社团内设部门例会次数 |\n| --- | --- | --- | --- |\n| 2024.9 | 1 | 1 | 11 |\n| 2024.10 | 1 | 0 | 21 |\n| 2024.11 | 1 | 0 | 21 |\n| 2024.12 | 1 | 1 | 20 |\n| 2025.2 | 1 | 0 | 4 |\n| 2025.3 | 1 | 0 | 21 |\n| 2025.4 | 1 | 0 | 20 |\n| 2025.5 | 1 | 1 | 20 |",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "structured": {
+        "kind": "source_xml_table",
+        "records": [
+          [
+            {
+              "row": 2,
+              "cell": 1,
+              "text": "2024.9",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 2,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 3,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 4,
+              "text": "11",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 3,
+              "cell": 1,
+              "text": "2024.10",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 2,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 3,
+              "text": "0",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 4,
+              "text": "21",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 4,
+              "cell": 1,
+              "text": "2024.11",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 2,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 3,
+              "text": "0",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 4,
+              "text": "21",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 5,
+              "cell": 1,
+              "text": "2024.12",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 2,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 3,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 4,
+              "text": "20",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 6,
+              "cell": 1,
+              "text": "2025.2",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 2,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 3,
+              "text": "0",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 4,
+              "text": "4",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 7,
+              "cell": 1,
+              "text": "2025.3",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 2,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 3,
+              "text": "0",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 4,
+              "text": "21",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 8,
+              "cell": 1,
+              "text": "2025.4",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 2,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 3,
+              "text": "0",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 4,
+              "text": "20",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 9,
+              "cell": 1,
+              "text": "2025.5",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 2,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 3,
+              "text": "1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 4,
+              "text": "20",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        ],
+        "header_cells": [
+          {
+            "row": 1,
+            "cell": 1,
+            "text": "月份",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 2,
+            "text": "社团负责人例会次数",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 3,
+            "text": "全社管理团队例会次数",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 4,
+            "text": "社团内设部门例会次数",
+            "grid_span": 1,
+            "vertical_merge": null
+          }
+        ]
+      },
+      "unit_id": "unit_29b1e783a13fa2020a83"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况",
+          "社团团组织生活学习记录："
+        ],
+        "paragraph_start": 50,
+        "paragraph_end": 50,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "### 社团团组织生活学习记录：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_a1d83ce9c36a61d85d4d"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团主要活动举办情况",
+          "社团团组织生活学习记录："
+        ],
+        "table": 4,
+        "row_start": 2,
+        "row_end": 12
+      },
+      "content_md": "| 社团团组织生活学习记录 |  |  |\n| --- | --- | --- |\n| 月份 | 是否开展团组织生活 | 团组织生活主题/内容 |\n| 9月 | 是 | 本次团组织生活会共分为三个部分，分别是：“学习党的二十届三中全会精神”、“团支部换届选举”、“暑期社会实践经验交流分享”。<br>图1 团支部成员共同学习会议精神<br>会议第一部分内容是：中国共产党第二十届中央委员会第三次全体会议，于2024年7月15日至18日在北京举行。中央委员会总书记习近平作重要讲话。西安交通大学一直爱心社团支书冯琳雅带领大家共同学习了三中全会审议通过的《决议》等文件，引导全体团员学习领会全会精神。大家共同回顾了75年间国家面貌和人民生活发生根本性变化，特别是党的十八大以来，中国特色社会主义新时代的变革性实践、突破性进展和标志性成果，团支书鼓励团支部成员结合专业所学，与实现中华民族伟大复兴的中国梦同心同行，努力成长为堪当民族复兴重任的时代新人。团支部成员认真学习全会精神，坚定不移跟党走，坚持党的领导，共同树立为民族伟大复兴而努力的高远理想。<br><br>图2 团支部成员分享经验<br>会议第二部分内容是：听党话、跟党走始终是共青团坚守的政治生命，党有号召、团有行动始终是一代代共青团员的政治信念。为进一步加强共青团组织建设，在本次团组织生活会上，团支书冯琳雅主持完成了团支部换届工作，依据《中国共产主义青年团章程》和《共青团基层组织选举规则》的有关规定，经大家一致意见，选出了一名宣传委员和一名组织委员，大家一直希望，在新的学年，团支部要紧紧围绕在党组织身边，坚定不移跟党走，不仅要做好上级党组织安排的各项具体工作，也要能够弘扬校园正气，展示青春活力，用青春的激情为团旗增辉，用青春的活力给团徽添彩，用切实的行动为共青团贡献力量。<br>会议第三部分内容是：暑期实践总结与经验分享。接下来，项目部门部长们也总结分享了暑期社会实践活动的经验，互相交流了实践活动开展中的收获与感悟。去往玉树地区参与支教活动的团支部成员为大家讲述了当地的自然和人文环境以及在当地开展支教活动、与当地人民沟通交流中遇到的一些困难以及克服困难的方法和经验，这也激发了其他支部成员的兴趣，大家热情讨论，许多支部成员也对这个英仔爱心社的固定性实践活动产生了浓厚的兴趣。之后，团支书冯琳雅与大家共同讨论，将各部门活动特色与团日主题相结合，布置组织开展主题团日活动的任务。 |\n| 10月 | 是 | 本次团组织生活会共分为五个部分，分别是：回顾党史和新中国史、从志愿服务出发看国家战略、讨论交流环节、国防安全主题教育、观看《大先生》话剧视频。<br>第一部分内容是英仔爱心社团支书带领成员回顾党史和新中国史。在新中国成立75周年之际，社团成员一起回顾党史和新中国史，了解党在各个时期的奋斗历程与新中国成立后的重大历史事件，可以帮助成员梳理正确的历史观、民族观和国家观，增强其社会责任感与使命感。<br><br>图1 回顾党史和新中国史<br>第二部分内容是励志书院航天学院党支部书记分享“从志愿服务出发看国家战略”相关内容。通过分享他在玉树地区支教的经验和感受，激发社团成员对志愿服务活动的关注和热情。作为学院师生联合党支部书记，他也会分享在志愿服务领域的国家政策，帮助大家更好地了解当前相关领域的国家战略，拓宽视野，提升社会责任感。<br><br>图2“从志愿服务出发看国家战略”<br>第三部分内容是讨论交流环节。两个社团的参会同学与汇报分享人进行交流互动，激发其积极性和主动性，也有利于传递志愿服务和社团工作等方面的经验。通过共同学习与讨论，能够增强社团成员之间的沟通和理解，提升社团的凝聚力。成员在共同参与活动的过程中，分享彼此的见解和经验，形成更紧密的团队关系。<br>第四部分内容是唐仲英爱心社团支书带领学习国防安全主题教育。围绕刚过去的九月“全民国防教育月”主题，帮助社团成员了解国家安全知识，增强国家安全意识，树立爱国主义精神。两个社团团支部通过共同开展组织生活会，可以促进资源共享，通过分享社团在活动策划、宣传、组织等方面的经验和教训，成员们可以学习到其他社团的组织经验和方法。这不仅能提高自身的组织能力，也能为未来的活动提供参考，提高双方社团的活动质量和效率。<br><br>图3国防安全主题教育<br>第五部分内容是观看《大先生》话剧视频。通过组织社团成员共同观看讲述西迁精神的《大先生》系列话剧，可以增进社团成员对西迁故事的了解，从具体而生动的故事中感悟前辈的爱国情怀，更好地传承西迁精神。 |\n| 11月 | 是 | 英仔爱心社团支部紧密围绕“党的二十届三中全会精神的学习与贯彻”、“最佳团日决赛评比的筹备工作”，以及“鼓励成员积极参与校园政治生活”三大核心主题，开展团组织生活会。这些活动不仅加深了我们对党的最新理论成果的理解，也极大地增强了团组织的凝聚力和向心力，具体情况如下：<br>一、深入学习党的二十届三中全会精神，筑牢思想根基<br>为积极响应党的号召，我们团支部把学习党的二十届三中全会精神作为首要任务。我们组织集中研讨学习，引导团员们从政治高度认识和理解会议精神。习近平总书记指出，党的十八届三中全会开启了新时代全面深化改革、系统整体设计推进改革新征程，开创了我国改革开放全新局面，具有划时代意义。他也强调到：守正创新是进一步全面深化改革必须牢牢把握、始终坚守的重大原则。改革是一项系统工程，需要讲求科学方法，处理好方方面面的关系。会上，团员们积极互动，结合自身实际，分享学习心得，形成了良好的讨论和学习氛围。通过这一系列学习活动，团员们的政治理论素养得到了显著提升，为接下来的工作和学习奠定了坚实的思想基础。<br>图1：支部成员学习讨论会议精神<br>二、精心筹备最佳团日决赛评比，展现青春风采<br>为迎接即将到来的最佳团日决赛评比，我们团支部从形式设计、活动策划、组织分工再到具体实施，每一步都力求精益求精。首先，我们明确了团日决赛活动的主题、目标和预期效果，并根据团员的特长和兴趣进行了合理分工，确保每个环节都有专人负责推进。在活动策划阶段，我们广泛收集团员们的创意和建议，经过多次讨论和修改，最终确定了一个既符合时代主题又能充分展现青年风采的答辩方案。在准备决赛的过程中，我们加强了团队成员间的沟通与协作，共同克服了一个又一个挑战，充分展示了青年团员的青春活力和创造力。<br>图2：成员讨论“最佳团日”决赛分工<br>三、积极参与校园政治生活，贡献青春力量<br>作为新时代的大学生，我们深知参与校园政治生活的重要性。因此，我们团支部积极鼓励成员参与学代会、学生会等组织的各项活动，为学校的管理和发展建言献策。鼓励大家在学代会上就大家关心的热点问题进行讨论，提出了富有建设性的意见和建议。承担起一名学生的责任和义务，积极发声，主动为学校制定更加科学合理的政策提供一些参考。通过这些活动，不仅增强了支部成员自身的责任感和使命感，也激发了更多同学参与校园政治生活的热情，共同为构建和谐校园贡献青春力量。<br>总之，本次团组织生活在全体团员的共同努力下取得了显著成效，不仅加深了我们对党的二十届三中全会精神的理解，也提升了团组织的凝聚力和战斗力。未来，我们将继续秉承“服务大局、服务青年”的宗旨，不断创新活动形式和内容，为培养更多优秀的青年人才贡献智慧和力量。 |\n| 12月 | 是 | 本次团组织生活会共分为两个部分，分别是“走实走深思想教育工作”、“寒假社会实践工作动员会”。<br>团支书冯琳雅再次强调社团团支部于青年思想教育工作的重要性，指出社团团支部是高校基层团支部的有机组成部分，与广大青年学生保持着密切、广泛的联系，是高校的重要育人基地，承担着团结、引导和教育青年学生的具体工作。高校社团团支部建设的好坏，是否具有凝聚力和活力，关系着高校共青团改革创新的推进、影响力的生成，也关系着广大团员青年的成长成才。进一步落实组织育人实效，全面融入“大思政”教育格局，充分发挥团组织在学生社团中的政治功能，积极扩大团组织的有效覆盖面，提升学生社团的组织活力，推动学生社团发挥好第二课堂的思想政治教育阵地功能，让学生社团成员在社团活动中提高思想政治素质、延伸专业能力、培养学习兴趣、丰富业余生活，坚定广大青年学生听党话、跟党走的理想信念。努力营造良好氛围，推动学生社团健康发展。随后，支部成员集体学习习近平总书记最新重要讲话精神，并积极分享心得感悟。<br>会议第二项，总结了过去一年中社团在社会实践中所取得的成绩，并集体研讨2024—2025寒假社会实践相关事宜，会上积极发挥了团 支部凝聚力和组织力，动员支部成员了解参加寒假社会实践，为学生提供更多指导支持，提前规划、筹备寒假社会实践的组队、报名、选题等各项工作，成员们热情高涨。<br>团员心得感悟<br>团员尹厚泽：<br>高校社团团支部要贯彻落实习近平总书记关于青年工作的重要思想、为党做好新时代青年工作，关键是按照总书记对年轻干部特别<br>是对团干部提出的重要要求，以从严从实之风加强团的干部队伍建设。着力提高政治判断力、政治领悟力、政治执行力，切实在思想上政治 上行动上同以习近平同志为核心的党中央保持高度一致，以实际行动彰显对党绝对忠诚。着力提升专业能力，持之以恒大兴调查研究，全面提高感知青年现象、把握青年规律、破解青年问题、协调青年政策等能力，努力成为青年工作的行家里手。着力激发斗争精神，敢于动真碰硬、善于攻坚克难，自觉为党冲锋在前、扛事分忧，不断焕发新时代共青团昂扬向上、敢战能胜的良好风貌。 |\n| 1月 | 否 | 无 |\n| 2月 | 否 | 无 |\n| 3月 | 是 | 本次团组织生活会共分为三个部分，涵盖了学习两会精神、总结寒假社会实践以及弘扬雷锋精神开展志愿服务月活动，旨在全方位提升团员青年的政治素养、实践能力和社会责任感，让青春在为祖国、为民族、为人民、为人类的不懈奋斗中绽放绚丽之花。具体情况如下：<br>一、聚焦两会：学思践悟，共话发展<br>全国两会是我国政治生活中的重要事件，承载着国家发展的重要使命，为团员青年了解国家大政方针、明确时代责任提供了宝贵契机。各团支部积极响应号召，通过集中学习、热烈研讨等多元形式，组织团员青年全面深入地学习两会精神。<br>在学习过程中，团员青年们密切关注全国两会动态，从开闭幕式的庄重氛围，到政府工作报告的深刻解读，再到青年关切的建议提案，他们都保持着高度的热情和敏锐的洞察力。在团支部组织的专题学习和交流研讨中，团员青年们结合自身专业学习实际，畅谈学习两会精神的感悟。工科专业的团员青年围绕科技创新、产业升级等话题，探讨如何将专业知识运用到推动国家科技进步和产业发展中；文科专业的团员青年则从文化传承、社会治理等角度，分享如何为国家软实力提升和社会和谐稳定贡献力量。通过这些交流，团员青年们不仅深化了对两会精神的理解，更凝聚起干事创业的强大力量，坚定了砥砺前行的信心。<br>二、回顾实践：总结经验，转化成果<br>寒假社会实践是团员青年走出校园、了解社会、锻炼自我的重要途径。各二级团组织高度重视寒假社会实践的总结工作，扎实推进各项任务，力求将实践成果最大化转化。<br>利用媒体平台展示优秀项目，成为宣传社会实践成果的重要手段。通过图文并茂的报道、生动形象的视频，一个个优秀实践项目得以广泛传播，吸引了众多团员青年的关注和学习。举办实践分享会则为实践团队提供了交流经验的平台，团队成员们走上讲台，分享实践中的收获与挑战，讲述如何在调研中深入了解社会需求，如何在服务中提升自身能力，如何在团队协作中共同成长。这些经验的传播，为其他团员青年提供了有益的借鉴，加速了实践经验在团员青年群体中的推广和应用。<br>三、传承精神：志愿同行，践行初心<br>弘扬雷锋精神，开展“学雷锋志愿服务月”系列活动，是本次团组织生活会的重要组成部分。各二级团组织精心部署，引领团员青年深入学习贯彻习近平总书记关于志愿服务的重要论述和系列重要指示批示精神，积极投身社会实践与志愿服务，用实际行动诠释雷锋精神的时代内涵。<br>在活动中，各二级团组织积极挖掘学雷锋先进典型，通过宣传他们的事迹，发挥榜样的示范引领作用。这些先进典型来自不同的专业和领域，但都有着共同的特点：在平凡的岗位上默默奉献，在志愿服务中展现担当。他们的故事激励着更多团员青年投身志愿服务，形成了人人争当志愿者、人人践行雷锋精神的良好氛围。团支部将学雷锋活动日常化，鼓励团员青年踊跃参与“星航计划”公共区域巡航、基础学科辅导、“文明餐桌”等形式多样的志愿服务。团员青年们积极响应，在志愿服务中，他们耐心为同学解答学习中的难题，认真维护公共区域的秩序和卫生，细心参与实验室安全管理，倡导文明用餐理念，用实际行动践行雷锋精神，将雷锋精神内化于心，外化于行，融入日常，化作经常。<br>本次团组织生活会通过三个部分的有机结合，为团员青年提供了一个全面提升自我、展现青春风采的平台。在学习两会精神中，团员青年们明确了时代责任，坚定了理想信念；在总结寒假社会实践中，他们积累了经验，提升了实践能力；在弘扬雷锋精神的志愿服务中，他们践行了初心使命，传递了青春正能量。相信在未来的日子里，团员青年们将继续在团组织的引领下，以更加饱满的热情和昂扬的斗志，投身于学习、工作和社会服务中，为实现中华民族伟大复兴的中国梦贡献青春力量。 |\n| 4月 | 是 | 英仔爱心社团支部于四月精心组织开展团组织生活会，此次生活会内容丰富且充实，涵盖“贯彻中央八项规定，营造风清气正环境”“夯实基层团务建设，激发青年奋进力量”“校庆纪念活动：传承西迁精神，厚植爱国荣校情怀”“国家安全日主题活动：增强防范意识，守护国家利益”四部分内容。<br>第一部分内容为：贯彻中央八项规定，营造风清气正环境。<br>中央八项规定及其实施细则精神是营造良好政治生态和社会环境的重要准则。英仔爱心社团支部积极响应号召，以召开专题组织生活会的形式，深入开展贯彻中央八项规定精神的学习教育活动。在会议中，团支部对照典型案例以及学校的相关规范，引导团员青年认真学习、深刻领会中央八项规定的内涵与要求。通过对典型案例的剖析，团员青年们更加清晰地认识到违反规定的严重后果，从而时刻保持警醒，严格要求自己。在学习过程中，大家积极交流讨论，分享自己的学习心得与体会，进一步加深了对中央八项规定精神的理解和认同。通过这样的学习教育活动，旨在让团员青年们将中央八项规定精神内化为自己的行为准则，在日常生活和学习中自觉遵守，共同营造风清气正的环境。<br><br>图1 支部成员认真学习中央八项规定内容<br>第二部分内容为：夯实基层团务建设，激发青年奋进力量。<br>基层团务建设是共青团工作的重要基础，对于激发团员青年的积极性和创造力具有重要意义。团组织高度重视基层团务建设工作。在推荐过程中，坚持公平、公正、公开的原则，广泛动员优秀团员青年参与，为他们提供了展示自我的平台。同时，积极动员优秀团员青年参评“青年岗位能手”，指导“青年文明号”的创建申报工作，鼓励团员青年在各自的岗位上勇于担当、积极作为，争取获得荣誉奖项。团支部也积极参与新时代青年先锋集体的评选活动，充分运用团员教育评议和先进性评价结果，做好新时代青年先锋的推荐工作。通过这些活动，引导青年在实践熔炉中淬炼“越是艰险越向前”的奋斗品格，激发他们的奋进动力，让他们在为集体和社会的贡献中实现自身价值。<br>第三部分内容为：校庆纪念活动：传承西迁精神，厚植爱国荣校情怀。<br>4月8日是我校建校129周年暨迁校69周年校庆日，这是一个具有特殊意义的日子。团组织以此为契机，组织团员青年深入学习贯彻总书记莅校考察时的重要讲话精神，重温西迁精神的核心精髓和时代内涵。西迁精神是我校的宝贵精神财富，蕴含着爱国、奉献、拼搏、创新的深刻内涵。通过学习，团员青年们深刻认识到自己肩负的使命与责任，立志争做西迁精神的新传人。<br>团支部也广泛动员团员参与校庆系列活动，积极组织卫生清理等志愿实践活动，让团员青年们在实践中感受母校的发展历程和辉煌成就，增强对母校的认同感和归属感。同时，结合校史知识竞赛、主题团日等活动，将爱国荣校教育融入日常。通过这些活动，不仅丰富了团员青年的校园生活，更让他们在潜移默化中厚植了爱国荣校情怀，激发了他们为母校争光、为国家奉献的热情。<br>第四部分内容为：国家安全日主题活动：增强防范意识，守护国家利益。<br>4月15日迎来了第十个全民国家安全教育日，国家安全是国家生存发展的基石，增强全民国家安全意识是维护国家安全的重要保障。团组织积极开展“国家安全日”主题活动，通过举办知识竞赛等系列活动，鼓励团员青年深入学习国家安全法律法规，增强安全意识和防范能力。<br>团支书为团员们讲解国家安全的重要性、当前面临的安全形势以及如何防范安全风险等方面的知识，让他们对国家安全有了更全面、更深入的认识。知识竞赛则以生动有趣的形式，激发了团员青年们的学习积极性，进一步巩固了他们所学的国家安全知识。团支部还创新活动形式，联系支部实际，鼓励团员青年分享学习心得。通过这些活动，引导团员青年深刻认识到维护国家主权、安全、发展利益的重要性，激励他们挺身而出，为维护国家安全贡献自己的力量。<br><br>图2：成员学习国家安全知识<br>英仔爱心社团支部四月团组织生活会通过这四个部分的内容，从思想建设、基层团务、校庆纪念、国家安全等多个维度入手，为团员青年们提供了丰富的学习和实践机会。通过这些活动的开展，不仅增强了团员青年们的政治意识、责任意识和安全意识，更激发了他们的奋斗热情和爱国情怀，为他们的成长和发展奠定了坚实的基础。相信在今后的工作和学习中，团员青年们将以更加饱满的热情和更加昂扬的斗志，投身到各项事业中去，为实现个人价值和国家发展贡献自己的青春力量。 |\n| 5月 | 是 | 本次团组织生活会紧密围绕《西安交通大学团组织生活指导意见（2025年5月）》的要求展开，旨在引领团员青年深入学习贯彻习近平总书记重要讲话精神，汲取榜样力量，落实“五育并举”，强化团员管理，具体内容如下：<br>（一）学习贯彻习近平总书记重要讲话及回信精神，凝聚青年奋斗力量<br>团支部书记张煜奇带领全体团员深入学习习近平总书记重要讲话《激励新时代青年在中国式现代化建设中挺膺担当》和给谢依特小学戍边支教西部计划志愿者服务队队员重要回信精神。结合英仔爱心社长期开展的支教、社区服务等实践活动，团员们围绕“青年如何在服务国家战略中实现个人价值”展开热烈讨论。<br>团员郭嘉文分享道：“谢依特小学支教团队的事迹让我深受触动，他们用青春和知识守护边疆学子，这种奉献精神<br>图1：团员同学进行分享<br>与我们社团‘用爱传递希望’的宗旨高度契合。作为青年团员，我们应将个人理想融入国家发展，在支教服务中锤炼本领，为乡村教育振兴贡献力量”。<br>张煜奇总结指出，全体团员要以总书记讲话为指引，立足社团公益属性，将学习成果转化为实际行动，在即将开展的暑期玉树支教活动中，用心传授知识，用爱关怀学生，展现交大学子的责任与担当。<br>（二）汲取榜样力量，争做新时代青年先锋<br>为发挥榜样的示范引领作用，团支部组织团员学习2025年度中国青年五四奖章获得者及学校“新时代青年先锋”的先进事迹。通过观看五四评优表彰视频、阅读优秀集体和个人事迹材料，团员们深刻感悟到榜样背后的奋斗精神和责任担当。<br>宣传委员吕永奇介绍了我校“新时代青年先锋集体”——唐仲英爱心社的志愿服务事迹，重点分享了他们在乡村振兴、社区服务中的创新举措和显著成效。他表示：“这些榜样就在我们身边，他们用实际行动诠释了‘奉献、友爱、互助、进步’的志愿精神。我们要对标先进，优化社团活动设计，提升志愿服务的精准度和实效性”。<br>随后，团支部启动“英仔青年先锋”评选活动，鼓励团员自荐或推荐身边的优秀典型，通过树立身边榜样，激发团员的奋进动力，形成“学先进、争先进、当先进”的良好氛围。<br>（三）扎实开展体美劳教育，推动“五育并举”落地见效<br>根据指导意见中“五育并举”的要求，团支部结合社团特色，策划并部署了体美劳教育系列活动：<br>体育活动：鼓励团员参与第六十二届校运会，组织社团内部“健身打卡”活动，倡导健康生活方式，增强身体素质。<br>劳育活动：持续开展“文明餐桌”志愿服务，同时拓展“校园环境美化”劳动实践，组织团员定期清理校园卫生死角、维护公共设施，培养劳动意识和责任感。<br>组织委员黄殿坤表示：“体美劳教育是促进团员全面发展的重要抓手，我们要将这些活动与社团常规志愿服务有机结合，让团员在实践中锻炼体魄、陶冶情操、磨砺意志”。<br>（四）规范团员管理，深化从严治团要求<br>为落实全面从严治团要求，团支部开展了入团程序规范性核查工作，重点针对2025年新发展团员的入团志愿书、团课培训记录、推优程序等材料进行逐一核查，确保入团手续规范完备。<br>同时，部署2025年下半年发展团员工作，制定详细的团课培训计划。培训将围绕党的二十大精神、团的基础知识、志愿服务理念等内容展开，通过集中授课、实践教学、小组研讨等形式，强化入团积极分子的政治意识和责任担当。<br>此外，团支部组织全体团员重温入团誓词，通过庄严的仪式教育，引导团员牢记入团初心，增强团员身份认同感和荣誉感。张煜奇强调：“我们要始终坚持党建带团建，加强党团支部联系，在团组织生活中强化政治锻造，确保团组织的先进性和纯洁性。”<br>本次团组织生活会紧扣学校指导意见，内容丰富、务实高效。通过理论学习、榜样引领、活动策划和团员管理，进一步凝聚了团员思想共识，明确了工作方向。未来，英仔爱心社团支部将持续聚焦青年成长需求，创新活动形式，提升服务质效，引领团员青年在中国式现代化建设中挺膺担当，为学校“双一流”建设和社会发展贡献青春力量。 |\n| 6月 | 否 | 无 |",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "structured": {
+        "kind": "source_xml_table",
+        "records": [
+          [
+            {
+              "row": 2,
+              "cell": 1,
+              "text": "月份",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 2,
+              "text": "是否开展团组织生活",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 3,
+              "text": "团组织生活主题/内容",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 3,
+              "cell": 1,
+              "text": "9月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 2,
+              "text": "是",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 3,
+              "text": "本次团组织生活会共分为三个部分，分别是：“学习党的二十届三中全会精神”、“团支部换届选举”、“暑期社会实践经验交流分享”。\n图1 团支部成员共同学习会议精神\n会议第一部分内容是：中国共产党第二十届中央委员会第三次全体会议，于2024年7月15日至18日在北京举行。中央委员会总书记习近平作重要讲话。西安交通大学一直爱心社团支书冯琳雅带领大家共同学习了三中全会审议通过的《决议》等文件，引导全体团员学习领会全会精神。大家共同回顾了75年间国家面貌和人民生活发生根本性变化，特别是党的十八大以来，中国特色社会主义新时代的变革性实践、突破性进展和标志性成果，团支书鼓励团支部成员结合专业所学，与实现中华民族伟大复兴的中国梦同心同行，努力成长为堪当民族复兴重任的时代新人。团支部成员认真学习全会精神，坚定不移跟党走，坚持党的领导，共同树立为民族伟大复兴而努力的高远理想。\n\n图2 团支部成员分享经验\n会议第二部分内容是：听党话、跟党走始终是共青团坚守的政治生命，党有号召、团有行动始终是一代代共青团员的政治信念。为进一步加强共青团组织建设，在本次团组织生活会上，团支书冯琳雅主持完成了团支部换届工作，依据《中国共产主义青年团章程》和《共青团基层组织选举规则》的有关规定，经大家一致意见，选出了一名宣传委员和一名组织委员，大家一直希望，在新的学年，团支部要紧紧围绕在党组织身边，坚定不移跟党走，不仅要做好上级党组织安排的各项具体工作，也要能够弘扬校园正气，展示青春活力，用青春的激情为团旗增辉，用青春的活力给团徽添彩，用切实的行动为共青团贡献力量。\n会议第三部分内容是：暑期实践总结与经验分享。接下来，项目部门部长们也总结分享了暑期社会实践活动的经验，互相交流了实践活动开展中的收获与感悟。去往玉树地区参与支教活动的团支部成员为大家讲述了当地的自然和人文环境以及在当地开展支教活动、与当地人民沟通交流中遇到的一些困难以及克服困难的方法和经验，这也激发了其他支部成员的兴趣，大家热情讨论，许多支部成员也对这个英仔爱心社的固定性实践活动产生了浓厚的兴趣。之后，团支书冯琳雅与大家共同讨论，将各部门活动特色与团日主题相结合，布置组织开展主题团日活动的任务。",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 4,
+              "cell": 1,
+              "text": "10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 2,
+              "text": "是",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 3,
+              "text": "本次团组织生活会共分为五个部分，分别是：回顾党史和新中国史、从志愿服务出发看国家战略、讨论交流环节、国防安全主题教育、观看《大先生》话剧视频。\n第一部分内容是英仔爱心社团支书带领成员回顾党史和新中国史。在新中国成立75周年之际，社团成员一起回顾党史和新中国史，了解党在各个时期的奋斗历程与新中国成立后的重大历史事件，可以帮助成员梳理正确的历史观、民族观和国家观，增强其社会责任感与使命感。\n\n图1 回顾党史和新中国史\n第二部分内容是励志书院航天学院党支部书记分享“从志愿服务出发看国家战略”相关内容。通过分享他在玉树地区支教的经验和感受，激发社团成员对志愿服务活动的关注和热情。作为学院师生联合党支部书记，他也会分享在志愿服务领域的国家政策，帮助大家更好地了解当前相关领域的国家战略，拓宽视野，提升社会责任感。\n\n图2“从志愿服务出发看国家战略”\n第三部分内容是讨论交流环节。两个社团的参会同学与汇报分享人进行交流互动，激发其积极性和主动性，也有利于传递志愿服务和社团工作等方面的经验。通过共同学习与讨论，能够增强社团成员之间的沟通和理解，提升社团的凝聚力。成员在共同参与活动的过程中，分享彼此的见解和经验，形成更紧密的团队关系。\n第四部分内容是唐仲英爱心社团支书带领学习国防安全主题教育。围绕刚过去的九月“全民国防教育月”主题，帮助社团成员了解国家安全知识，增强国家安全意识，树立爱国主义精神。两个社团团支部通过共同开展组织生活会，可以促进资源共享，通过分享社团在活动策划、宣传、组织等方面的经验和教训，成员们可以学习到其他社团的组织经验和方法。这不仅能提高自身的组织能力，也能为未来的活动提供参考，提高双方社团的活动质量和效率。\n\n图3国防安全主题教育\n第五部分内容是观看《大先生》话剧视频。通过组织社团成员共同观看讲述西迁精神的《大先生》系列话剧，可以增进社团成员对西迁故事的了解，从具体而生动的故事中感悟前辈的爱国情怀，更好地传承西迁精神。",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 5,
+              "cell": 1,
+              "text": "11月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 2,
+              "text": "是",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 3,
+              "text": "英仔爱心社团支部紧密围绕“党的二十届三中全会精神的学习与贯彻”、“最佳团日决赛评比的筹备工作”，以及“鼓励成员积极参与校园政治生活”三大核心主题，开展团组织生活会。这些活动不仅加深了我们对党的最新理论成果的理解，也极大地增强了团组织的凝聚力和向心力，具体情况如下：\n一、深入学习党的二十届三中全会精神，筑牢思想根基\n为积极响应党的号召，我们团支部把学习党的二十届三中全会精神作为首要任务。我们组织集中研讨学习，引导团员们从政治高度认识和理解会议精神。习近平总书记指出，党的十八届三中全会开启了新时代全面深化改革、系统整体设计推进改革新征程，开创了我国改革开放全新局面，具有划时代意义。他也强调到：守正创新是进一步全面深化改革必须牢牢把握、始终坚守的重大原则。改革是一项系统工程，需要讲求科学方法，处理好方方面面的关系。会上，团员们积极互动，结合自身实际，分享学习心得，形成了良好的讨论和学习氛围。通过这一系列学习活动，团员们的政治理论素养得到了显著提升，为接下来的工作和学习奠定了坚实的思想基础。\n图1：支部成员学习讨论会议精神\n二、精心筹备最佳团日决赛评比，展现青春风采\n为迎接即将到来的最佳团日决赛评比，我们团支部从形式设计、活动策划、组织分工再到具体实施，每一步都力求精益求精。首先，我们明确了团日决赛活动的主题、目标和预期效果，并根据团员的特长和兴趣进行了合理分工，确保每个环节都有专人负责推进。在活动策划阶段，我们广泛收集团员们的创意和建议，经过多次讨论和修改，最终确定了一个既符合时代主题又能充分展现青年风采的答辩方案。在准备决赛的过程中，我们加强了团队成员间的沟通与协作，共同克服了一个又一个挑战，充分展示了青年团员的青春活力和创造力。\n图2：成员讨论“最佳团日”决赛分工\n三、积极参与校园政治生活，贡献青春力量\n作为新时代的大学生，我们深知参与校园政治生活的重要性。因此，我们团支部积极鼓励成员参与学代会、学生会等组织的各项活动，为学校的管理和发展建言献策。鼓励大家在学代会上就大家关心的热点问题进行讨论，提出了富有建设性的意见和建议。承担起一名学生的责任和义务，积极发声，主动为学校制定更加科学合理的政策提供一些参考。通过这些活动，不仅增强了支部成员自身的责任感和使命感，也激发了更多同学参与校园政治生活的热情，共同为构建和谐校园贡献青春力量。\n总之，本次团组织生活在全体团员的共同努力下取得了显著成效，不仅加深了我们对党的二十届三中全会精神的理解，也提升了团组织的凝聚力和战斗力。未来，我们将继续秉承“服务大局、服务青年”的宗旨，不断创新活动形式和内容，为培养更多优秀的青年人才贡献智慧和力量。",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 6,
+              "cell": 1,
+              "text": "12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 2,
+              "text": "是",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 3,
+              "text": "本次团组织生活会共分为两个部分，分别是“走实走深思想教育工作”、“寒假社会实践工作动员会”。\n团支书冯琳雅再次强调社团团支部于青年思想教育工作的重要性，指出社团团支部是高校基层团支部的有机组成部分，与广大青年学生保持着密切、广泛的联系，是高校的重要育人基地，承担着团结、引导和教育青年学生的具体工作。高校社团团支部建设的好坏，是否具有凝聚力和活力，关系着高校共青团改革创新的推进、影响力的生成，也关系着广大团员青年的成长成才。进一步落实组织育人实效，全面融入“大思政”教育格局，充分发挥团组织在学生社团中的政治功能，积极扩大团组织的有效覆盖面，提升学生社团的组织活力，推动学生社团发挥好第二课堂的思想政治教育阵地功能，让学生社团成员在社团活动中提高思想政治素质、延伸专业能力、培养学习兴趣、丰富业余生活，坚定广大青年学生听党话、跟党走的理想信念。努力营造良好氛围，推动学生社团健康发展。随后，支部成员集体学习习近平总书记最新重要讲话精神，并积极分享心得感悟。\n会议第二项，总结了过去一年中社团在社会实践中所取得的成绩，并集体研讨2024—2025寒假社会实践相关事宜，会上积极发挥了团 支部凝聚力和组织力，动员支部成员了解参加寒假社会实践，为学生提供更多指导支持，提前规划、筹备寒假社会实践的组队、报名、选题等各项工作，成员们热情高涨。\n团员心得感悟\n团员尹厚泽：\n高校社团团支部要贯彻落实习近平总书记关于青年工作的重要思想、为党做好新时代青年工作，关键是按照总书记对年轻干部特别\n是对团干部提出的重要要求，以从严从实之风加强团的干部队伍建设。着力提高政治判断力、政治领悟力、政治执行力，切实在思想上政治 上行动上同以习近平同志为核心的党中央保持高度一致，以实际行动彰显对党绝对忠诚。着力提升专业能力，持之以恒大兴调查研究，全面提高感知青年现象、把握青年规律、破解青年问题、协调青年政策等能力，努力成为青年工作的行家里手。着力激发斗争精神，敢于动真碰硬、善于攻坚克难，自觉为党冲锋在前、扛事分忧，不断焕发新时代共青团昂扬向上、敢战能胜的良好风貌。",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 7,
+              "cell": 1,
+              "text": "1月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 2,
+              "text": "否",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 3,
+              "text": "无",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 8,
+              "cell": 1,
+              "text": "2月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 2,
+              "text": "否",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 3,
+              "text": "无",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 9,
+              "cell": 1,
+              "text": "3月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 2,
+              "text": "是",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 3,
+              "text": "本次团组织生活会共分为三个部分，涵盖了学习两会精神、总结寒假社会实践以及弘扬雷锋精神开展志愿服务月活动，旨在全方位提升团员青年的政治素养、实践能力和社会责任感，让青春在为祖国、为民族、为人民、为人类的不懈奋斗中绽放绚丽之花。具体情况如下：\n一、聚焦两会：学思践悟，共话发展\n全国两会是我国政治生活中的重要事件，承载着国家发展的重要使命，为团员青年了解国家大政方针、明确时代责任提供了宝贵契机。各团支部积极响应号召，通过集中学习、热烈研讨等多元形式，组织团员青年全面深入地学习两会精神。\n在学习过程中，团员青年们密切关注全国两会动态，从开闭幕式的庄重氛围，到政府工作报告的深刻解读，再到青年关切的建议提案，他们都保持着高度的热情和敏锐的洞察力。在团支部组织的专题学习和交流研讨中，团员青年们结合自身专业学习实际，畅谈学习两会精神的感悟。工科专业的团员青年围绕科技创新、产业升级等话题，探讨如何将专业知识运用到推动国家科技进步和产业发展中；文科专业的团员青年则从文化传承、社会治理等角度，分享如何为国家软实力提升和社会和谐稳定贡献力量。通过这些交流，团员青年们不仅深化了对两会精神的理解，更凝聚起干事创业的强大力量，坚定了砥砺前行的信心。\n二、回顾实践：总结经验，转化成果\n寒假社会实践是团员青年走出校园、了解社会、锻炼自我的重要途径。各二级团组织高度重视寒假社会实践的总结工作，扎实推进各项任务，力求将实践成果最大化转化。\n利用媒体平台展示优秀项目，成为宣传社会实践成果的重要手段。通过图文并茂的报道、生动形象的视频，一个个优秀实践项目得以广泛传播，吸引了众多团员青年的关注和学习。举办实践分享会则为实践团队提供了交流经验的平台，团队成员们走上讲台，分享实践中的收获与挑战，讲述如何在调研中深入了解社会需求，如何在服务中提升自身能力，如何在团队协作中共同成长。这些经验的传播，为其他团员青年提供了有益的借鉴，加速了实践经验在团员青年群体中的推广和应用。\n三、传承精神：志愿同行，践行初心\n弘扬雷锋精神，开展“学雷锋志愿服务月”系列活动，是本次团组织生活会的重要组成部分。各二级团组织精心部署，引领团员青年深入学习贯彻习近平总书记关于志愿服务的重要论述和系列重要指示批示精神，积极投身社会实践与志愿服务，用实际行动诠释雷锋精神的时代内涵。\n在活动中，各二级团组织积极挖掘学雷锋先进典型，通过宣传他们的事迹，发挥榜样的示范引领作用。这些先进典型来自不同的专业和领域，但都有着共同的特点：在平凡的岗位上默默奉献，在志愿服务中展现担当。他们的故事激励着更多团员青年投身志愿服务，形成了人人争当志愿者、人人践行雷锋精神的良好氛围。团支部将学雷锋活动日常化，鼓励团员青年踊跃参与“星航计划”公共区域巡航、基础学科辅导、“文明餐桌”等形式多样的志愿服务。团员青年们积极响应，在志愿服务中，他们耐心为同学解答学习中的难题，认真维护公共区域的秩序和卫生，细心参与实验室安全管理，倡导文明用餐理念，用实际行动践行雷锋精神，将雷锋精神内化于心，外化于行，融入日常，化作经常。\n本次团组织生活会通过三个部分的有机结合，为团员青年提供了一个全面提升自我、展现青春风采的平台。在学习两会精神中，团员青年们明确了时代责任，坚定了理想信念；在总结寒假社会实践中，他们积累了经验，提升了实践能力；在弘扬雷锋精神的志愿服务中，他们践行了初心使命，传递了青春正能量。相信在未来的日子里，团员青年们将继续在团组织的引领下，以更加饱满的热情和昂扬的斗志，投身于学习、工作和社会服务中，为实现中华民族伟大复兴的中国梦贡献青春力量。",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 10,
+              "cell": 1,
+              "text": "4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 2,
+              "text": "是",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 3,
+              "text": "英仔爱心社团支部于四月精心组织开展团组织生活会，此次生活会内容丰富且充实，涵盖“贯彻中央八项规定，营造风清气正环境”“夯实基层团务建设，激发青年奋进力量”“校庆纪念活动：传承西迁精神，厚植爱国荣校情怀”“国家安全日主题活动：增强防范意识，守护国家利益”四部分内容。\n第一部分内容为：贯彻中央八项规定，营造风清气正环境。\n中央八项规定及其实施细则精神是营造良好政治生态和社会环境的重要准则。英仔爱心社团支部积极响应号召，以召开专题组织生活会的形式，深入开展贯彻中央八项规定精神的学习教育活动。在会议中，团支部对照典型案例以及学校的相关规范，引导团员青年认真学习、深刻领会中央八项规定的内涵与要求。通过对典型案例的剖析，团员青年们更加清晰地认识到违反规定的严重后果，从而时刻保持警醒，严格要求自己。在学习过程中，大家积极交流讨论，分享自己的学习心得与体会，进一步加深了对中央八项规定精神的理解和认同。通过这样的学习教育活动，旨在让团员青年们将中央八项规定精神内化为自己的行为准则，在日常生活和学习中自觉遵守，共同营造风清气正的环境。\n\n图1 支部成员认真学习中央八项规定内容\n第二部分内容为：夯实基层团务建设，激发青年奋进力量。\n基层团务建设是共青团工作的重要基础，对于激发团员青年的积极性和创造力具有重要意义。团组织高度重视基层团务建设工作。在推荐过程中，坚持公平、公正、公开的原则，广泛动员优秀团员青年参与，为他们提供了展示自我的平台。同时，积极动员优秀团员青年参评“青年岗位能手”，指导“青年文明号”的创建申报工作，鼓励团员青年在各自的岗位上勇于担当、积极作为，争取获得荣誉奖项。团支部也积极参与新时代青年先锋集体的评选活动，充分运用团员教育评议和先进性评价结果，做好新时代青年先锋的推荐工作。通过这些活动，引导青年在实践熔炉中淬炼“越是艰险越向前”的奋斗品格，激发他们的奋进动力，让他们在为集体和社会的贡献中实现自身价值。\n第三部分内容为：校庆纪念活动：传承西迁精神，厚植爱国荣校情怀。\n4月8日是我校建校129周年暨迁校69周年校庆日，这是一个具有特殊意义的日子。团组织以此为契机，组织团员青年深入学习贯彻总书记莅校考察时的重要讲话精神，重温西迁精神的核心精髓和时代内涵。西迁精神是我校的宝贵精神财富，蕴含着爱国、奉献、拼搏、创新的深刻内涵。通过学习，团员青年们深刻认识到自己肩负的使命与责任，立志争做西迁精神的新传人。\n团支部也广泛动员团员参与校庆系列活动，积极组织卫生清理等志愿实践活动，让团员青年们在实践中感受母校的发展历程和辉煌成就，增强对母校的认同感和归属感。同时，结合校史知识竞赛、主题团日等活动，将爱国荣校教育融入日常。通过这些活动，不仅丰富了团员青年的校园生活，更让他们在潜移默化中厚植了爱国荣校情怀，激发了他们为母校争光、为国家奉献的热情。\n第四部分内容为：国家安全日主题活动：增强防范意识，守护国家利益。\n4月15日迎来了第十个全民国家安全教育日，国家安全是国家生存发展的基石，增强全民国家安全意识是维护国家安全的重要保障。团组织积极开展“国家安全日”主题活动，通过举办知识竞赛等系列活动，鼓励团员青年深入学习国家安全法律法规，增强安全意识和防范能力。\n团支书为团员们讲解国家安全的重要性、当前面临的安全形势以及如何防范安全风险等方面的知识，让他们对国家安全有了更全面、更深入的认识。知识竞赛则以生动有趣的形式，激发了团员青年们的学习积极性，进一步巩固了他们所学的国家安全知识。团支部还创新活动形式，联系支部实际，鼓励团员青年分享学习心得。通过这些活动，引导团员青年深刻认识到维护国家主权、安全、发展利益的重要性，激励他们挺身而出，为维护国家安全贡献自己的力量。\n\n图2：成员学习国家安全知识\n英仔爱心社团支部四月团组织生活会通过这四个部分的内容，从思想建设、基层团务、校庆纪念、国家安全等多个维度入手，为团员青年们提供了丰富的学习和实践机会。通过这些活动的开展，不仅增强了团员青年们的政治意识、责任意识和安全意识，更激发了他们的奋斗热情和爱国情怀，为他们的成长和发展奠定了坚实的基础。相信在今后的工作和学习中，团员青年们将以更加饱满的热情和更加昂扬的斗志，投身到各项事业中去，为实现个人价值和国家发展贡献自己的青春力量。",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 11,
+              "cell": 1,
+              "text": "5月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 11,
+              "cell": 2,
+              "text": "是",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 11,
+              "cell": 3,
+              "text": "本次团组织生活会紧密围绕《西安交通大学团组织生活指导意见（2025年5月）》的要求展开，旨在引领团员青年深入学习贯彻习近平总书记重要讲话精神，汲取榜样力量，落实“五育并举”，强化团员管理，具体内容如下：\n（一）学习贯彻习近平总书记重要讲话及回信精神，凝聚青年奋斗力量\n团支部书记张煜奇带领全体团员深入学习习近平总书记重要讲话《激励新时代青年在中国式现代化建设中挺膺担当》和给谢依特小学戍边支教西部计划志愿者服务队队员重要回信精神。结合英仔爱心社长期开展的支教、社区服务等实践活动，团员们围绕“青年如何在服务国家战略中实现个人价值”展开热烈讨论。\n团员郭嘉文分享道：“谢依特小学支教团队的事迹让我深受触动，他们用青春和知识守护边疆学子，这种奉献精神\n图1：团员同学进行分享\n与我们社团‘用爱传递希望’的宗旨高度契合。作为青年团员，我们应将个人理想融入国家发展，在支教服务中锤炼本领，为乡村教育振兴贡献力量”。\n张煜奇总结指出，全体团员要以总书记讲话为指引，立足社团公益属性，将学习成果转化为实际行动，在即将开展的暑期玉树支教活动中，用心传授知识，用爱关怀学生，展现交大学子的责任与担当。\n（二）汲取榜样力量，争做新时代青年先锋\n为发挥榜样的示范引领作用，团支部组织团员学习2025年度中国青年五四奖章获得者及学校“新时代青年先锋”的先进事迹。通过观看五四评优表彰视频、阅读优秀集体和个人事迹材料，团员们深刻感悟到榜样背后的奋斗精神和责任担当。\n宣传委员吕永奇介绍了我校“新时代青年先锋集体”——唐仲英爱心社的志愿服务事迹，重点分享了他们在乡村振兴、社区服务中的创新举措和显著成效。他表示：“这些榜样就在我们身边，他们用实际行动诠释了‘奉献、友爱、互助、进步’的志愿精神。我们要对标先进，优化社团活动设计，提升志愿服务的精准度和实效性”。\n随后，团支部启动“英仔青年先锋”评选活动，鼓励团员自荐或推荐身边的优秀典型，通过树立身边榜样，激发团员的奋进动力，形成“学先进、争先进、当先进”的良好氛围。\n（三）扎实开展体美劳教育，推动“五育并举”落地见效\n根据指导意见中“五育并举”的要求，团支部结合社团特色，策划并部署了体美劳教育系列活动：\n体育活动：鼓励团员参与第六十二届校运会，组织社团内部“健身打卡”活动，倡导健康生活方式，增强身体素质。\n劳育活动：持续开展“文明餐桌”志愿服务，同时拓展“校园环境美化”劳动实践，组织团员定期清理校园卫生死角、维护公共设施，培养劳动意识和责任感。\n组织委员黄殿坤表示：“体美劳教育是促进团员全面发展的重要抓手，我们要将这些活动与社团常规志愿服务有机结合，让团员在实践中锻炼体魄、陶冶情操、磨砺意志”。\n（四）规范团员管理，深化从严治团要求\n为落实全面从严治团要求，团支部开展了入团程序规范性核查工作，重点针对2025年新发展团员的入团志愿书、团课培训记录、推优程序等材料进行逐一核查，确保入团手续规范完备。\n同时，部署2025年下半年发展团员工作，制定详细的团课培训计划。培训将围绕党的二十大精神、团的基础知识、志愿服务理念等内容展开，通过集中授课、实践教学、小组研讨等形式，强化入团积极分子的政治意识和责任担当。\n此外，团支部组织全体团员重温入团誓词，通过庄严的仪式教育，引导团员牢记入团初心，增强团员身份认同感和荣誉感。张煜奇强调：“我们要始终坚持党建带团建，加强党团支部联系，在团组织生活中强化政治锻造，确保团组织的先进性和纯洁性。”\n本次团组织生活会紧扣学校指导意见，内容丰富、务实高效。通过理论学习、榜样引领、活动策划和团员管理，进一步凝聚了团员思想共识，明确了工作方向。未来，英仔爱心社团支部将持续聚焦青年成长需求，创新活动形式，提升服务质效，引领团员青年在中国式现代化建设中挺膺担当，为学校“双一流”建设和社会发展贡献青春力量。",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 12,
+              "cell": 1,
+              "text": "6月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 12,
+              "cell": 2,
+              "text": "否",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 12,
+              "cell": 3,
+              "text": "无",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        ],
+        "header_cells": [
+          {
+            "row": 1,
+            "cell": 1,
+            "text": "社团团组织生活学习记录",
+            "grid_span": 3,
+            "vertical_merge": null
+          }
+        ]
+      },
+      "unit_id": "unit_fc130afee48cc79f5707"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团获奖情况"
+        ],
+        "paragraph_start": 51,
+        "paragraph_end": 52,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "## 社团获奖情况\n\n本条按照比赛级别由高到低的顺序编排，同级别比赛按照获奖级别从高到低的顺序编排，世界级、国家级、省部级、市级、校级（不包含社团自己举办的赛事活动），获奖时间精确到月份，格式如下：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_2a358f9267ceea0f80b6"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团获奖情况"
+        ],
+        "table": 5,
+        "row_start": 2,
+        "row_end": 17
+      },
+      "content_md": "| 比赛名称 | 比赛级别 | 奖项/名次 | 获奖时间 | 主办单位 |\n| --- | --- | --- | --- | --- |\n| 2024年“榜样100”全国优秀大学生社团 | 国家级 | TOP100教<br>育类社团 | 2024年10月 | 中国大学<br>生知行促<br>进计划；<br>青年影响<br>力创新中<br>心 |\n| 2024年“榜样100”全国优秀大学生团队 | 国家级 | TOP100教<br>育类社团 | 2024年10月 | 中国大学<br>生知行促<br>进计划；<br>青年影响<br>力创新中<br>心 |\n| 2024年“榜样100”全国优秀大学生团队 | 国家级 | TOP100教<br>育类社团 | 2024年10月 | 中国大学<br>生知行促<br>进计划；<br>青年影响<br>力创新中<br>心 |\n| 2024年西门子爱绿教育计划—中国大学生社会实践项目 | 国家级 | 全国优秀奖 | 2024年11月 | 中国大学<br>生知行促<br>进计划；<br>青年影响<br>力创新中<br>心 |\n| 2024年第八届立邦“为爱上色”中国大学生农村支教奖 | 国家级 | 全国优秀奖 | 2024年12月 | 中国大学<br>生知行促<br>进计划；<br>青年影响<br>力创新中<br>心 |\n| 唐仲英基金会2023-2024学年社团公益活动 | 国家级 | 优秀奖 | 2025年1月 | 唐仲英基金会 |\n| 2023-2024学<br>年校级“文明<br>社团”评选 | 校级 | 文明社团 | 2024年10月 | 共青团西<br>安交通大<br>学委员会；<br>学生社团<br>指导中心 |\n| 2022-2023学<br>年校级“五星级社团”评选 | 校级 | 五星级社团 | 2024年10月 | 共青团西<br>安交通大<br>学委员会；<br>学生社团<br>指导中心 |\n| 第三十九届<br>“最佳团日” | 校级 | 一等奖 | 2024年11月 | 共青团西<br>安交通大<br>学委员会 |\n| 西安交通大学第九届社会实践青年研究年会 | 校级 | 一等奖 | 2024年12月 | 马克思主义学院、共青团西安交通大学委员会 |\n| 西安交通大学第九届社会实践青年研究年会 | 校级 | 二等奖 | 2024年12月 | 马克思主义学院、共青团西安交通大学委员会 |\n| 西安交通大学第九届社会实践青年研究年会 | 校级 | 三等奖 | 2024年12月 | 马克思主义学院、共青团西安交通大学委员会 |\n| 西安交通大学第九届社会实践青年研究年会 | 校级 | 三等奖 | 2024年12月 | 马克思主义学院、共青团西安交通大学委员会 |\n| 新时代青少年先锋集体 | 校级 |  | 2025年5月 | 共青团西安交通大学委员会 |\n| 2024年度学雷锋志愿服务优秀集体评选 | 校级 | 优秀项目 | 2025年5月 | 共青团西安交通大学委员会 |\n| 2024年仲英榜样 | 院级 | 集体互助之星 | 2024年6月 | 仲英书院 |",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "structured": {
+        "kind": "source_xml_table",
+        "records": [
+          [
+            {
+              "row": 2,
+              "cell": 1,
+              "text": "2024年“榜样100”全国优秀大学生社团",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 2,
+              "text": "国家级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 3,
+              "text": "TOP100教\n育类社团",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 4,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 5,
+              "text": "中国大学\n生知行促\n进计划；\n青年影响\n力创新中\n心",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 3,
+              "cell": 1,
+              "text": "2024年“榜样100”全国优秀大学生团队",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 2,
+              "text": "国家级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 3,
+              "text": "TOP100教\n育类社团",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 4,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 5,
+              "text": "中国大学\n生知行促\n进计划；\n青年影响\n力创新中\n心",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 4,
+              "cell": 1,
+              "text": "2024年“榜样100”全国优秀大学生团队",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 2,
+              "text": "国家级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 3,
+              "text": "TOP100教\n育类社团",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 4,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 4,
+              "cell": 5,
+              "text": "中国大学\n生知行促\n进计划；\n青年影响\n力创新中\n心",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 5,
+              "cell": 1,
+              "text": "2024年西门子爱绿教育计划—中国大学生社会实践项目",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 2,
+              "text": "国家级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 3,
+              "text": "全国优秀奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 4,
+              "text": "2024年11月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 5,
+              "text": "中国大学\n生知行促\n进计划；\n青年影响\n力创新中\n心",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 6,
+              "cell": 1,
+              "text": "2024年第八届立邦“为爱上色”中国大学生农村支教奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 2,
+              "text": "国家级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 3,
+              "text": "全国优秀奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 4,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 5,
+              "text": "中国大学\n生知行促\n进计划；\n青年影响\n力创新中\n心",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 7,
+              "cell": 1,
+              "text": "唐仲英基金会2023-2024学年社团公益活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 2,
+              "text": "国家级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 3,
+              "text": "优秀奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 4,
+              "text": "2025年1月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 5,
+              "text": "唐仲英基金会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 8,
+              "cell": 1,
+              "text": "2023-2024学\n年校级“文明\n社团”评选",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 3,
+              "text": "文明社团",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 4,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 5,
+              "text": "共青团西\n安交通大\n学委员会；\n学生社团\n指导中心",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 9,
+              "cell": 1,
+              "text": "2022-2023学\n年校级“五星级社团”评选",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 3,
+              "text": "五星级社团",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 4,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 5,
+              "text": "共青团西\n安交通大\n学委员会；\n学生社团\n指导中心",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 10,
+              "cell": 1,
+              "text": "第三十九届\n“最佳团日”",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 3,
+              "text": "一等奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 4,
+              "text": "2024年11月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 5,
+              "text": "共青团西\n安交通大\n学委员会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 11,
+              "cell": 1,
+              "text": "西安交通大学第九届社会实践青年研究年会",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 11,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 11,
+              "cell": 3,
+              "text": "一等奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 11,
+              "cell": 4,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 11,
+              "cell": 5,
+              "text": "马克思主义学院、共青团西安交通大学委员会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 12,
+              "cell": 1,
+              "text": "西安交通大学第九届社会实践青年研究年会",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 12,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 12,
+              "cell": 3,
+              "text": "二等奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 12,
+              "cell": 4,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 12,
+              "cell": 5,
+              "text": "马克思主义学院、共青团西安交通大学委员会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 13,
+              "cell": 1,
+              "text": "西安交通大学第九届社会实践青年研究年会",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 13,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 13,
+              "cell": 3,
+              "text": "三等奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 13,
+              "cell": 4,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 13,
+              "cell": 5,
+              "text": "马克思主义学院、共青团西安交通大学委员会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 14,
+              "cell": 1,
+              "text": "西安交通大学第九届社会实践青年研究年会",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 14,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 14,
+              "cell": 3,
+              "text": "三等奖",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 14,
+              "cell": 4,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 14,
+              "cell": 5,
+              "text": "马克思主义学院、共青团西安交通大学委员会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 15,
+              "cell": 1,
+              "text": "新时代青少年先锋集体",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 15,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 15,
+              "cell": 3,
+              "text": "",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 15,
+              "cell": 4,
+              "text": "2025年5月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 15,
+              "cell": 5,
+              "text": "共青团西安交通大学委员会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 16,
+              "cell": 1,
+              "text": "2024年度学雷锋志愿服务优秀集体评选",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 16,
+              "cell": 2,
+              "text": "校级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 16,
+              "cell": 3,
+              "text": "优秀项目",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 16,
+              "cell": 4,
+              "text": "2025年5月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 16,
+              "cell": 5,
+              "text": "共青团西安交通大学委员会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 17,
+              "cell": 1,
+              "text": "2024年仲英榜样",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 17,
+              "cell": 2,
+              "text": "院级",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 17,
+              "cell": 3,
+              "text": "集体互助之星",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 17,
+              "cell": 4,
+              "text": "2024年6月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 17,
+              "cell": 5,
+              "text": "仲英书院",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        ],
+        "header_cells": [
+          {
+            "row": 1,
+            "cell": 1,
+            "text": "比赛名称",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 2,
+            "text": "比赛级别",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 3,
+            "text": "奖项/名次",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 4,
+            "text": "获奖时间",
+            "grid_span": 1,
+            "vertical_merge": null
+          },
+          {
+            "row": 1,
+            "cell": 5,
+            "text": "主办单位",
+            "grid_span": 1,
+            "vertical_merge": null
+          }
+        ]
+      },
+      "unit_id": "unit_b77c531eae890fedb0ed"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团财务状况"
+        ],
+        "paragraph_start": 53,
+        "paragraph_end": 54,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "## 社团财务状况\n\n财务状况包括社团的总收支、财务用途等。建议使用图表，需明确每一笔进、出账并写明来源或用途。",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_907489e4b432930c90ac"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "社团运营情况",
+          "社团财务状况"
+        ],
+        "table": 6,
+        "row_start": 2,
+        "row_end": 37
+      },
+      "content_md": "| 进项明细 |  |  |\n| --- | --- | --- |\n| 金额(元) | 经费来源 | 进项形式 |\n| ¥16998.65 | 唐仲英基金会 | 每学期将所需报销项目报给社团指导老师，由社团老师发起申请进行报销 |\n| 出项明细 |  |  |\n| 金额（元） | 时间 | 支出名目（活动） |\n| ¥5134.64 | 2024年8月 | 玉树支教 |\n| ¥1117.9 | 2024年9月 | 招新物料 |\n| ¥200 | 2024年9月 | 常务部2024春季刊、2024夏季刊打印费 |\n| ¥243.42 | 2024年10月 | 交流部破冰大会 |\n| ¥132.21 | 2024年10月 | 交流部猫鼠游戏 |\n| ¥364.98 | 2024年10月 | 心项目从心出发活动物资 |\n| ¥410 | 2024年10月 | 开社大会物资 |\n| ¥180.5 | 2024年10月 | 向日葵重阳节西安肿瘤医院敬老活动 |\n| ¥245.66 | 2024年10月 | 萤火明信片漂流活动 |\n| ¥1728 | 2024年11月 | 彬州数学讲座车票 |\n| ¥300 | 2024年11月 | 常青藤志愿者招募 |\n| ¥306.41 | 2024年12月 | 启明星义卖活动 |\n| ¥200 | 2024年12月 | 洩湖文姬助学活动 |\n| ¥302.92 | 2024年12月 | 前卫九峰回访活动 |\n| ¥86.06 | 2024年12月 | 前卫义卖活动 |\n| ¥223 | 2024年12月 | 启明星守望者活动 |\n| ¥158.8 | 2024年12月 | 启明星脸谱活动 |\n| ¥499.1 | 2025年3月 | 交流部春游活动 |\n| ¥54.7 | 2025年3月 | 萤火明信片交流活动 |\n| ¥58.73 | 2025年3月 | 心项目樱花节活动 |\n| ¥335.99 | 2025年3月 | 心项目双十一活动 |\n| ¥174 | 2025年4月 | 常务2024秋季刊、2025冬季刊打印费 |\n| ¥246.87 | 2025年4月 | 启明星樱花节活动 |\n| ¥66 | 2025年4月 | 启明星守望者活动 |\n| ¥55 | 2025年4月 | 交流部照片墙 |\n| ¥325 | 2025年4月 | 交流部冬至饺子宴 |\n| ¥46.52 | 2025年4月 | 常青藤活动车费 |\n| ¥46.59 | 2025年4月 | 常青藤护理院绘画活动 |\n| ¥237.3 | 2025年4月 | 前卫助学活动 |\n| ¥138.35 | 2025年4月 | 前卫爱心义卖 |\n| ¥3380 | 2025年5月 | 薪火π唐仲英德育奖学金交流会住宿费 |\n| ¥16998.65 |  | 总计 |",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "structured": {
+        "kind": "source_xml_table",
+        "records": [
+          [
+            {
+              "row": 2,
+              "cell": 1,
+              "text": "金额(元)",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 2,
+              "text": "经费来源",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 2,
+              "cell": 3,
+              "text": "进项形式",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 3,
+              "cell": 1,
+              "text": "¥16998.65",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 2,
+              "text": "唐仲英基金会",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 3,
+              "cell": 3,
+              "text": "每学期将所需报销项目报给社团指导老师，由社团老师发起申请进行报销",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 4,
+              "cell": 1,
+              "text": "出项明细",
+              "grid_span": 3,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 5,
+              "cell": 1,
+              "text": "金额（元）",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 2,
+              "text": "时间",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 5,
+              "cell": 3,
+              "text": "支出名目（活动）",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 6,
+              "cell": 1,
+              "text": "¥5134.64",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 2,
+              "text": "2024年8月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 6,
+              "cell": 3,
+              "text": "玉树支教",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 7,
+              "cell": 1,
+              "text": "¥1117.9",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 2,
+              "text": "2024年9月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 7,
+              "cell": 3,
+              "text": "招新物料",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 8,
+              "cell": 1,
+              "text": "¥200",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 2,
+              "text": "2024年9月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 8,
+              "cell": 3,
+              "text": "常务部2024春季刊、2024夏季刊打印费",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 9,
+              "cell": 1,
+              "text": "¥243.42",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 2,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 9,
+              "cell": 3,
+              "text": "交流部破冰大会",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 10,
+              "cell": 1,
+              "text": "¥132.21",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 2,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 10,
+              "cell": 3,
+              "text": "交流部猫鼠游戏",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 11,
+              "cell": 1,
+              "text": "¥364.98",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 11,
+              "cell": 2,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 11,
+              "cell": 3,
+              "text": "心项目从心出发活动物资",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 12,
+              "cell": 1,
+              "text": "¥410",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 12,
+              "cell": 2,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 12,
+              "cell": 3,
+              "text": "开社大会物资",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 13,
+              "cell": 1,
+              "text": "¥180.5",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 13,
+              "cell": 2,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 13,
+              "cell": 3,
+              "text": "向日葵重阳节西安肿瘤医院敬老活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 14,
+              "cell": 1,
+              "text": "¥245.66",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 14,
+              "cell": 2,
+              "text": "2024年10月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 14,
+              "cell": 3,
+              "text": "萤火明信片漂流活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 15,
+              "cell": 1,
+              "text": "¥1728",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 15,
+              "cell": 2,
+              "text": "2024年11月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 15,
+              "cell": 3,
+              "text": "彬州数学讲座车票",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 16,
+              "cell": 1,
+              "text": "¥300",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 16,
+              "cell": 2,
+              "text": "2024年11月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 16,
+              "cell": 3,
+              "text": "常青藤志愿者招募",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 17,
+              "cell": 1,
+              "text": "¥306.41",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 17,
+              "cell": 2,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 17,
+              "cell": 3,
+              "text": "启明星义卖活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 18,
+              "cell": 1,
+              "text": "¥200",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 18,
+              "cell": 2,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 18,
+              "cell": 3,
+              "text": "洩湖文姬助学活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 19,
+              "cell": 1,
+              "text": "¥302.92",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 19,
+              "cell": 2,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 19,
+              "cell": 3,
+              "text": "前卫九峰回访活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 20,
+              "cell": 1,
+              "text": "¥86.06",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 20,
+              "cell": 2,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 20,
+              "cell": 3,
+              "text": "前卫义卖活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 21,
+              "cell": 1,
+              "text": "¥223",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 21,
+              "cell": 2,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 21,
+              "cell": 3,
+              "text": "启明星守望者活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 22,
+              "cell": 1,
+              "text": "¥158.8",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 22,
+              "cell": 2,
+              "text": "2024年12月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 22,
+              "cell": 3,
+              "text": "启明星脸谱活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 23,
+              "cell": 1,
+              "text": "¥499.1",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 23,
+              "cell": 2,
+              "text": "2025年3月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 23,
+              "cell": 3,
+              "text": "交流部春游活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 24,
+              "cell": 1,
+              "text": "¥54.7",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 24,
+              "cell": 2,
+              "text": "2025年3月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 24,
+              "cell": 3,
+              "text": "萤火明信片交流活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 25,
+              "cell": 1,
+              "text": "¥58.73",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 25,
+              "cell": 2,
+              "text": "2025年3月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 25,
+              "cell": 3,
+              "text": "心项目樱花节活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 26,
+              "cell": 1,
+              "text": "¥335.99",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 26,
+              "cell": 2,
+              "text": "2025年3月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 26,
+              "cell": 3,
+              "text": "心项目双十一活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 27,
+              "cell": 1,
+              "text": "¥174",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 27,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 27,
+              "cell": 3,
+              "text": "常务2024秋季刊、2025冬季刊打印费",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 28,
+              "cell": 1,
+              "text": "¥246.87",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 28,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 28,
+              "cell": 3,
+              "text": "启明星樱花节活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 29,
+              "cell": 1,
+              "text": "¥66",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 29,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 29,
+              "cell": 3,
+              "text": "启明星守望者活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 30,
+              "cell": 1,
+              "text": "¥55",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 30,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 30,
+              "cell": 3,
+              "text": "交流部照片墙",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 31,
+              "cell": 1,
+              "text": "¥325",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 31,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 31,
+              "cell": 3,
+              "text": "交流部冬至饺子宴",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 32,
+              "cell": 1,
+              "text": "¥46.52",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 32,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 32,
+              "cell": 3,
+              "text": "常青藤活动车费",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 33,
+              "cell": 1,
+              "text": "¥46.59",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 33,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 33,
+              "cell": 3,
+              "text": "常青藤护理院绘画活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 34,
+              "cell": 1,
+              "text": "¥237.3",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 34,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 34,
+              "cell": 3,
+              "text": "前卫助学活动",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 35,
+              "cell": 1,
+              "text": "¥138.35",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 35,
+              "cell": 2,
+              "text": "2025年4月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 35,
+              "cell": 3,
+              "text": "前卫爱心义卖",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 36,
+              "cell": 1,
+              "text": "¥3380",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 36,
+              "cell": 2,
+              "text": "2025年5月",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 36,
+              "cell": 3,
+              "text": "薪火π唐仲英德育奖学金交流会住宿费",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ],
+          [
+            {
+              "row": 37,
+              "cell": 1,
+              "text": "¥16998.65",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 37,
+              "cell": 2,
+              "text": "",
+              "grid_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "row": 37,
+              "cell": 3,
+              "text": "总计",
+              "grid_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        ],
+        "header_cells": [
+          {
+            "row": 1,
+            "cell": 1,
+            "text": "进项明细",
+            "grid_span": 3,
+            "vertical_merge": null
+          }
+        ]
+      },
+      "unit_id": "unit_f8ca3b7c2f0bdc011e2e"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望"
+        ],
+        "paragraph_start": 55,
+        "paragraph_end": 71,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "# 未来展望\n\n此项由社团根据实际情况自行编写。\n\n1、存在的问题：\n\n不同部门，特别是项目部门间的活动内容存在显著的差异。这种差异不仅体现在活动内容和目标上，也导致了部门间的志愿者交流互动相对较少。因此，如何打破这种隔阂、增进部门间的合作方式，成为了一个亟待解决的问题。需要进一步商讨和探索。\n\n尽管社团已经建立了明确的章程、组织结构和人员管理制度，但在实际操作中，尤其是在组织大型活动时，信息通知和各部门反馈的效率仍有待提升。为了确保活动的顺利进行，需要优化社团内部管理和活动开展的规范性和系统性。具体而言，我们应该加强部门间的信息沟通和协调，确保信息能够准确、及时地传达给每一个相关部门和志愿者。同时，我们也需要完善反馈机制，确保各部门能够及时反馈活动进展和遇到的问题，以便我们及时调整和改进。\n\n此外，我们注意到当前活动影像存档事宜存在较大的完善空间。尤其是部分项目部门对于活动留痕的意识仍不足，这可能导致在未来回顾和总结活动时缺乏有力的证据和资料。因此，需要在社团内部强调活动留痕的重要性，并完善影像收集汇总的方式。通过制定明确的影像收集标准和流程，以确保每一次活动都能留下完整的影像资料，为未来的工作提供有力的支持。\n\n志愿者对于参与社团内部互动活动的积极性相对较低。为了激发志愿者的参与热情，需要创新宣传和内容形式，增加一定的激励机制。通过设计有趣、有意义的互动活动，我们可以吸引更多志愿者参与其中。同时，我们也可以设立一些奖励措施，如提供积分兑换等，以激励志愿者更加积极地参与社团的各项活动。\n\n2、未来的计划：\n\n英仔爱心社未来的建设蓝图，将围绕活动规范化运作与成员全面化培养两大核心要点展开。\n\n在活动规范化运作层面，我们将构建一套严密且精细的活动管理机制。针对社团内种类繁多的活动，我们将制定一套涵盖活动申请、筹备、执行到总结宣传全流程的标准化操作指南。每一个环节都将有明确的要求和规范，确保活动从策划之初就沿着正确的轨道前行。同时，我们会严格遵循学校团委、各级部门以及社团指导中心的规定，做好各环节的报备审查工作，让社团活动在合法合规的框架内开展。安全始终是活动顺利进行的重中之重，我们将构建全方位的安全保障体系。在活动筹备阶段，提前对活动可能存在的安全风险进行全面细致的评估，依据评估结果制定详尽且具有高度针对性的安全预案和活动应急方案。从活动场地的安全设施检查到活动过程中的安全监督与应急处理，每一个细节都不容忽视，全方位保障参与人员的人身安全。作为公益社团，我们深知活动内涵的重要性。在追求活动多样性的同时，我们会深入挖掘公益主题，紧密结合社会热点和实际需求，策划举办一系列具有深刻思想内涵、高社会价值且能引发公众广泛共鸣的公益活动。我们也会积极探索创新活动形式，借助新媒体的传播优势，增强活动的吸引力和影响力，吸引更多人关注并投身公益事业。此外，我们会密切关注国家政策方针的动态，将社团活动与国家发展战略紧密结合，以实际行动为社会发展贡献力量，通过公益活动传递正能量，引导更多人关注社会问题，共同营造良好的社会氛围。在财务管理和事务管理方面，我们会制定科学合理的报销流程和其他需报备登记事项的规范准则，明确各项事务的办理标准和时间节点，加强财务管理，确保社团经费使用透明、合理，让社团运作更加专业高效。\n\n在成员全面化培养方面，对于社团管理者，我们会加强系统培训，通过组织专题讲座、案例分析、经验分享等丰富多样的活动，提升社长团、部长团的领导能力。培养创新思维能力，能够准确把握社团发展方向，带领团队不断突破创新。对于全体成员，我们会提供丰富多元的培训课程和实践机会，培训内容涵盖公益理念、组织策划、沟通协调、团队协作等多个方面。我们注重培养成员的公益品质和社会责任感，让他们在参与社团活动的过程中，不断提升自身的综合素质和核心竞争力。充分发挥学生社团在大学育人体系中的独特作用，为成员的成长成才搭建广阔平台，使每一位从英仔爱心社走出去的成员都能成为具有社会担当和创新精神的全面发展型人才。\n\n未来，英仔爱心社将始终坚守“服务社会、奉献爱心、推己及人、薪火相传”的理念，在公益的道路上坚定不移地前行，携手更多公益伙伴，用爱与行动书写更加绚丽的公益篇章。\n\n3、对学校社团管理工作的建议：\n\n在确保符合相关规定的前提下，可以对现有的报备流程进行优化，去除部分繁琐、不必要的环节和手，实现报备信息的快速提交、审核和反馈，减少社团成员的时间和精力成本，提高办事效率，让社团能够更专注于活动的策划和组织。\n\n针对活动、场地申请等事务处理进度慢的问题，可以设立专门的实时反馈渠道，便于及时沟通，确保申请事项得到及时、有效的处理，为社团活动的顺利开展提供有力保障。\n\n已学习《西安交通大学学生社团建设管理办法》：是",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_8ff2f4a2f2129c632e11"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 72,
+        "paragraph_end": 73,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "### 附件：\n\n1. 社团第一负责人成绩单",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_4883c03b37924b4c0c31"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 74
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_4c8e28cd93bff6aa6fea"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 75,
+        "paragraph_end": 149,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "2.社团章程等社团内部重要文件（内部管理制度、荣誉激励制度等）\n\n西安交通大学英仔爱心社办公室使用准则\n\n一、英仔爱心社办公室是存放社团公共财产，召开小型会议，开展小型活动的社团共有场所，办公室需要全体社员合理利用并维护。\n\n二、各部门借用办公室需提前48小时线上填写办公室使用的共享表格。两天内需急用办公室，需在通知群单独发消息说明，向常务部报备。\n\n三、部长及以上人员可自由进出办公室，社内其他人员需要向其部长报备申请，社外人员谢绝入内。\n\n四、使用办公室需遵守《办公室卫生安全条例》。各部门或个人在进出办公室后需保证办公室整洁。离开办公室时，必须把自己产生的垃圾全部带走，使用过的物品归于原位，椅子放回原处。最后一位离开的人需关闭电源，关好门窗。\n\n五、办公室中摆件不可随意挪动，非本部门物资未经所属部门允许不可使用。\n\n六、借用办公室的公共物品（书籍，桌游等）需填写物资借用的共享文档，并在常务部同意后方可借用。\n\n七、个人物品不可在办公室存放超过一天，尽可能随走随带，造成的物品丢失自行负责。\n\n八、因个人原因造成的办公室安全问题，需承担相应责任。\n\n九、办公室实行每两周一次大扫除。每次轮流安排三个部门，每部门每次需派出两人进行办公室卫生打扫。\n\n十、如有破坏公物或者乱丢垃圾杂物等行为，一经发现，取消个人使用办公室资格，部门则负责未来两周办公室卫生保洁。\n\n注：本制度的最终解释权归英仔爱心社常务部所有。\n\n附常务部部长联系方式：\n\n尹厚泽15152056939\n\n李一敏19903303646\n\n樊兆浦19653065710\n\n游梓荆15275209023\n\n西安交通大学英仔爱心社办公室卫生制度\n\n办公室实行两周一次大扫除。每次轮流安排三个部门，每部门每次需派出两人进行办公室卫生打扫。另外，办公室的日常卫生由各部门例会后负责打扫。每周会进行核查以及进一步打扫清洁。每个部门的部长在确定例会时间后，确定出每次例会后进行办公室清洁工作的干事和部长，保证每次例会结束后办公室的整洁。具体做法：\n\n1）在每次例会以及活动借用办公室之后，要求在离开时保证座椅摆放整齐，桌面保持清洁，地面上无明显垃圾污渍，垃圾桶及时清理，塑料袋及时更换，将垃圾扔到楼下的垃圾筒里，不要留下垃圾堆在办公室。在离开时一定保证关灯断电。\n\n2）每个部门开完例会或者举行活动之后，离开时由部长拍摄整洁的办公室发至微信群中打卡，拍摄内容包括桌面的清洁，桌椅的摆放整齐，地面的清洁，清洁物品的摆放，垃圾桶内清洁等。\n\n3）办公室大扫除须扫地、拖地、擦桌子、摆放凳子，请各部门做好人员安排，积极配合清理。\n\n4）不要在办公室就餐，味道比较大以及容易腐烂的食物禁止食用。\n\n5）使用办公室时必须让办公室负责人统计好，如若擅自进入办公室会作出处罚。个人物品不可在办公室存放超过一天，尽可能随走随带，过时将扔掉，造成的物品丢失自行负责。\n\n6）投影仪使用后及时整理好，每次使用后办公室桌子上应空无杂物。\n\n7）如有破坏公物或者乱丢垃圾杂物等行为，一经发现，取消个人使用办公室资格，部门则负责未来两周办公室卫生保洁。\n\n注：本制度的最终解释权归英仔爱心社常务部所有。\n\n西安交通大学英仔爱心社财务管理制度\n\n为了进一步加强西安交通大学英仔爱心社的制度建设，规范财务管理，常务部自2021学年开始实行财务公开透明制度，特根据唐仲英基金会及学校的相关要求，制定本《西安交通大学英仔爱心社财务管理制度》。具体内容如下：\n\n第一章  财务管理原则 \n\n第一条 西安交通大学英仔爱心社下设财务小组，具体负责社团财务的具体管理与执行。财务小组成员包括：社长、副社长及财务负责人员（主管财务的常务部部长、管理财务的常务部干事）。\n\n第二条  社团的资金主要来源于唐仲英基金会提供的社会活动经费和学校的支持等。\n\n第三条  社团资金归全体成员所有，任何人不得私自占有、挪用，违反者将给予通报批评，并做出相应的处理。\n\n第四条  社员对财务管理工作享有知情权，社团财务负责人员需将资金的来源、去向主次登记清楚，并保存好原始凭证，定期向社团成员公布并接受社团全体成员的监督。\n\n第五条  社团经费的使用坚持先审批、后使用的原则，每次经费的使用必须先通过财务小组的批准，否则不予报销；报销时须持原始发票或相关凭证。\n\n第六条  社团经费的使用必须提前3天提交预算，交给财务负责人员（否则财务小组可拒绝报销），再由财务小组审核确认，如其项目或数额不合理，财务小组将会与该项目负责人沟通商议。\n\n第二章  财务管理实施细则 \n\n第一条  资金使用 \n\n一、社团的建设费用；\n\n二、举办各类爱心活动的相关费用，包括交通费、住宿费、活动用品购置费、打印复印费等；\n\n三、经过财务负责人、社长团批准的合理的其他费用。\n\n第二条  操作规则 \n\n一、凭票据报销，坚持先批准后报销的原则。\n\n二、财务小组对动用资金有决定权。干事买东西之前需要向部长申请，社员购买物品前均需向财务负责人（主管财务的常务部部长）申请，预算通过后方可购买。如果未经过申请擅自购买物品，且此花费不能得到英仔爱心社认可的话，自行承担消费。每一笔费用支出或收入后，必须报知财务负责人员以供记录。\n\n四、交易结束后尽量向开票单位索要发票（正式的报销只认发票，不认收据），报销金额超过 50 元（包括 50 元）的，必须持有发票才予以报销。\n\n五、收款单位开出票据时，注意票据上是否印有该单位的印章；开具发票时，如是购买文具、书籍等，需附上销售清单，销售清单上也必须印有该单位的印章；如从发票上不能看出资金的使用方向，则也需附上印有该单位印章的销售清单；【例：某次印制横幅收到的发票是定额专用发票，收款单位显示是“西安赛欧科技发展有限公司”，从整个票面上根本看不出是印制横幅的发票，此时就需附上销售清单（销售清单可为空白的，需盖上印章）】。\n\n六、每次活动开展前，相关负责人须提前三天向财务负责人员提交活动预算；活动结束后，相关负责人须向财务负责人提交志愿者名单。\n\n七、报销频率定为两周一次。\n\n第三章  附则 \n\n第一条  本财务制度于 2012 年 11 月 1 日起实施 \n\n第二条  本财务制度于 2021年 8 月 24 日修改 \n\n第三条  本制度解释权归西安交通大学英仔爱心社所有\n\n西安交通大学英仔爱心社物资使用及管理制度\n\n第一条 目的：为使英仔爱心社的日常工作顺利进行，避免办公用品的浪费与非正常损坏，特制定本制度。 \n\n第二条 办公用品的购买：新学期初由常务部征求各部门意见，统一购买、更新英仔爱心社的基本办公用品，各部门根据自身需要向常务部递交购物清单，经各直属部门副社签字同意后即可购买。 \n\n第三条 办公用品的保管：各部门人员对英仔爱心社办公用品有保管义务，若在各部门使用期间出现损坏或丢失，由各部门自行赔偿。 \n\n第四条 消耗性办公用品的使用：各部门要节约使用各种办公用品，若消耗性办公用品使用完毕或非人为损坏，可向常务部申请重新购买配置。申请购买配置办公用品时，需在常务部工作人员处如实登记申请购买配置的办公用品的名称和数量。 \n\n第五条 办公用品的借用：在申请借用办公室的办公用品时，各部门填写 《西安交通大学英仔爱心社物资借用登记表》经常务部同意后方可借用，并要在规定时间内归还原处。申请人和部门须对借出物品负责，如有损坏或丢失需视情况在两天内购回新的相同物品。 \n\n第六条 切勿在使用时或使用后随意乱放，更不能归为己有。 \n\n第七条 英仔爱心社购置办公用品程序： \n\n（一）常务部统一购置英仔各部门日常工作所需物品 。\n\n（二）各部门独立工作需要物品购置程序： 填写购置单，部门部长和副社长审批签字，购买物品开具发票，到常务部凭发票报销 。\n\n备注： \n\n1.每次购置物品时，最终审批签字者对此次购置活动负责； \n\n2.要求各成员在购置时，需要具有高度的节约意识，尽量做到价格低，质量高； \n\n3.要求各成员校外购置物品时索要正规国税、地税发票（发票需盖上相关单位财务印章，日期，单位名称）；校内购置时须出具学校统一的西安交通大学收据；若无法开出相关发票，需向常务部说明情况再进行报销。另外，希望所有社员在康三购物时养成拿小票的习惯，并将小票放在办公室的固定位置（可和常务部财务负责人商量）。\n\n4.出现紧急状况无法立即找到相关审批负责人时，可由部长签字同意购置，但须在当天之内向副社做出解释，否则，出现问题者后果自负。 \n\n第七条 以上工作制度自 2024 年 7 月 22 日起实施，望英仔爱心社每位成员密切配合，切实履行。 \n\n第八条 本制度由西安交通大学英仔爱心社常务部制定，自颁布之日起执行，最终解释权归西安交通大学英仔爱心社常务部所有。",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_0a16a66d477e89a5aa2f"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 151
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_1effa66f75d0c1abc6d6"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 152,
+        "paragraph_end": 158,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "备注：\n\n1、请申请人本人如实填写此表格；\n\n2、请避开英仔爱心社例会时间；\n\n3、使用后请务必清扫本办公室。\n\n如对办公室申请使用情况有不明之处，请联系常务部部长。\n\n西安交通大学英仔爱心社物资购置申请表",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_c2e36ce07d89d90ff602"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 159
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_0c917c82e30352158e2e"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 160,
+        "paragraph_end": 172,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "备注：\n\n1.购置物品时一定要先发申请后购买，如若最后不同意，常务部概不负责。\n\n2.申请时一定要按照申请流程进行，如若出错，概不负责。\n\n3.物品一定要开好社团规定要求的发票，如若没有发票或开错发票，费用由申请人个人承担。\n\n4.如若物品在运输过程中出现质量问题，费用由个人承担，详情请见物资管理制度。\n\n5.此表为干事申请样板，如若部长申请购置，流程则从通过副社开始进行。\n\n3.社团指导教师评价（针对本学年社团工作，需带签名或公章）\n\n英仔爱心社指导教师评价意见\n\n英仔爱心社在2024年的表现尤为亮眼。在这一年里,英仔爱心社成功地实施了包括各类传统公益活动如中学助学、陕博志愿讲解、大学游、老年大学陕博游、敬老服务、特殊儿童帮扶活动在内的各项公益活动,展现了其强大的组织力和社会责任感。同时该社团紧跟时代脉搏,勇于创新,致力于不断开拓新的公益项目。\n\n凭借扎实的行动,英仔爱心社在过去一年中硕果累累。他们线上线下并举,精心策划并执行了超过30项、总计80余场公益活动,获得了校内外媒体的广泛报道。这一系列努力赢得了社会的高度认可,荣获多项殊荣: 2024年度“榜样100”全国优秀大学生社团；西安交通大学第三十九届“最佳团日”活动一等奖；西安交通大学第九届社会实践青年研究年会一等奖1项、二等奖1项、三等奖2项；唐仲英基金会2023-2024学年社团公益活动优秀奖；西安交通大学2024年新时代青少年先锋集体；2024年第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖；西安交通大学陕西历史博物馆志愿服务队获2024年“仲英榜样”集体互助之星；“大手拉小手”项目获西安交通大学2024年度学雷锋志愿服务优秀项目； “知行秦川，梦启今夏”支教团获2024年度“榜样100”全国优秀大学生团队；梦绽格桑原，玉树支教团获2024年度“榜样100”全国优秀大学生团队、2024年第七届西门子爱绿教育计划全国优秀奖。这些荣誉是对英仔爱心社不忘初心、持续创新的最好证明。社团活动内容日益丰富,质量显著提升,社会影响深远,充分彰显了其作为学生社团的卓越风范。\n\n一年以来,英仔爱心社不忘初心,积极创新,活动内容不断丰富,活动质量不断提高,活动效果极好,是非常优秀的学生社团!\n\n指导教师:",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_226ecdce4a368795ae89"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 172
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_571c8816e150709a9bbe"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 174,
+        "paragraph_end": 176,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "2025年5月21日\n\n4.社团业务指导单位评价（针对本学年社团工作，需带签名或公章）",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_5dc7e18795dae74d1aee"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 177
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_e15817397584a67c23be"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 179,
+        "paragraph_end": 182,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "5.社团荣誉证明（仅认可比赛官方提供的证明）\n\n2024年度“榜样100”全国优秀大学生社团\n\n奖项推送链接：https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw\n\n奖项截图证明：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_978ccec685a4fa872a7c"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 183
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_63045ecb73cf15d35b34"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 184,
+        "paragraph_end": 186,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "2024年度“榜样100”全国优秀大学生团队——“知行秦川，梦启今夏”支教团（“知行秦川，梦启今夏”支教团属于英仔爱心社）\n\n奖项推送链接：https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw\n\n奖项截图证明：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_1df1ebd333e6c909e73e"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 187
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_1ab89cc1a0eb094159dc"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 188,
+        "paragraph_end": 190,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "2024年度“榜样100”全国优秀大学生团队——梦绽格桑原，玉树支教团（梦绽格桑原，玉树支教团属于英仔爱心社）\n\n奖项推送链接：https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw\n\n奖项截图证明：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_cde68c145de0197d06f2"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 191
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_8811e619816d6161edea"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 192,
+        "paragraph_end": 194,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "第七届西门子爱绿教育计划全国优秀奖——梦绽格桑原-玉树支教团（梦绽格桑原，玉树支教团属于英仔爱心社）\n\n奖项推送链接：https://mp.weixin.qq.com/s/cgQBdFaIlOcsym1a6_9KGg\n\n奖项截图证明：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_56a6334f56b9b9b1f9c0"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 195
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_82404ac9cf79efafd11a"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 196,
+        "paragraph_end": 198,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "2024年第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖（“知行秦川，梦启今夏”支教团属于英仔爱心社）\n\n奖项推送链接：https://mp.weixin.qq.com/s/q2YlDcofpiVEZYrNwwdJ1A\n\n奖项证明：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_b30df0174f2821927f30"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 199
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_d836c348e20a52d4a707"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 200,
+        "paragraph_end": 200,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学2023-2024学年文明社团",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_a0f1d91ec5bc95e4329c"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 201
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_c837da9580eb9c617f5d"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 202,
+        "paragraph_end": 202,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学2023-2024学年五星级社团",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_29efd31c4d674bff4149"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 203
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_f1029046fe1fc61a6089"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 204,
+        "paragraph_end": 204,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学第三十九届“最佳团日”一等奖",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_9d31c1034cec1b7648bc"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 204
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_98d1db66752de3bff919"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 205,
+        "paragraph_end": 205,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学第九届社会实践青年研究年会一等奖(“梦绽格桑原，玉树支教团”属于英仔爱心社)",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_df954059bae062fadb3b"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 206
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_db0936ff5b78b43923d7"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 207,
+        "paragraph_end": 207,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学第九届社会实践青年研究年会二等奖(“知行秦川，梦启今夏”支教团属于英仔爱心社)",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_572af94e37f1f2c9fb3e"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 208
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_05edade89e4bf2ee63e5"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 209,
+        "paragraph_end": 209,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学第九届社会实践青年研究年会三等奖(“梦绽格桑原，玉树支教团”属于英仔爱心社)",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_7858633fbb63d4370b6a"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 210
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_7be26e480af63ec0e75b"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 211,
+        "paragraph_end": 211,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学第九届社会实践青年研究年会三等奖(“知行秦川，梦启今夏”支教团属于英仔爱心社)",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_9be3045bee9db4fe88cf"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 212
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_ad279cad2a65624d3907"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 213,
+        "paragraph_end": 215,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "唐仲英基金会2023-2024学年社团公益活动优秀奖\n\n奖项推送链接：https://mp.weixin.qq.com/s/WfT6qWPk4AAwtCvXU933MQ\n\n奖项截图证明：",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_9caff1c04fc3465d105c"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 216
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_2574d0b63578042872dc"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 217,
+        "paragraph_end": 217,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安市莲湖区千千爱特殊教育培训中心颁发爱心证书",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_5425c351928cfa331554"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 218
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_f82c724ec73dec5ee1d6"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 219,
+        "paragraph_end": 219,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "新时代青少年先锋集体",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_93ce7a05b8852de09fc2"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 220
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_3b91381da2db6d612ce7"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 221,
+        "paragraph_end": 221,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学陕西历史博物馆志愿服务队获2024年“仲英榜样”集体互助之星",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_3bdfe30eff4af15a8e7f"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 222
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_b14b956c442694217b05"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 223,
+        "paragraph_end": 223,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "大手拉小手”项目获西安交通大学2024年度学雷锋志愿服务优秀项目",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_2e1cfbb38e5812be2d1c"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 224
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_c1cf8347ae163e001552"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph_start": 225,
+        "paragraph_end": 225,
+        "precision": "source_xml_blocks"
+      },
+      "content_md": "西安交通大学第七届公益之星大赛中，“青春伴夕阳，真情暖桑榆”项目获得最佳社会奖",
+      "asset_refs": [],
+      "parse_warnings": [],
+      "unit_id": "unit_3efe1338cb848ef30577"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "section": [
+          "未来展望",
+          "附件："
+        ],
+        "paragraph": 226
+      },
+      "content_md": "嵌入图形：需检查原始 DOCX 图形内容。",
+      "asset_refs": [],
+      "parse_warnings": [
+        "docx_embedded_drawing_requires_host_review"
+      ],
+      "unit_id": "unit_f55c760ca0cf689de7ec"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image1.png"
+      },
+      "content_md": "DOCX embedded image: image1.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image1.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_4d64d2d761c0cfb1b8c5"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image10.jpeg"
+      },
+      "content_md": "DOCX embedded image: image10.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image10.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_c120100a93a5b123572a"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image11.jpeg"
+      },
+      "content_md": "DOCX embedded image: image11.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image11.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_a64eca5fc4e3f2009f8f"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image12.jpeg"
+      },
+      "content_md": "DOCX embedded image: image12.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image12.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_8e3d2820f9e09ff4f9ce"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image13.jpeg"
+      },
+      "content_md": "DOCX embedded image: image13.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image13.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_22919d14959c4b09d4fc"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image14.jpeg"
+      },
+      "content_md": "DOCX embedded image: image14.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image14.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_d7fb2401018767f49558"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image15.jpeg"
+      },
+      "content_md": "DOCX embedded image: image15.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image15.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_b7223fdcb1e2b07a3feb"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image16.jpeg"
+      },
+      "content_md": "DOCX embedded image: image16.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image16.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_a98888755050ab53fb5a"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image17.jpeg"
+      },
+      "content_md": "DOCX embedded image: image17.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image17.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_b5dca1512adfacb7ad6a"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image18.png"
+      },
+      "content_md": "DOCX embedded image: image18.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image18.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_0a4a0b05d1b50c3e1d7f"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image19.png"
+      },
+      "content_md": "DOCX embedded image: image19.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image19.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_d4d6b252d46c75dcf6dd"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image2.png"
+      },
+      "content_md": "DOCX embedded image: image2.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image2.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_a75453a9aa3d7ba1f250"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image20.jpeg"
+      },
+      "content_md": "DOCX embedded image: image20.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image20.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_249f8c2dc9c53c8354c8"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image21.jpeg"
+      },
+      "content_md": "DOCX embedded image: image21.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image21.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_3a82fdaa3c5a2a9ee224"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image22.jpeg"
+      },
+      "content_md": "DOCX embedded image: image22.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image22.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_e3570502c372269fbf79"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image23.jpeg"
+      },
+      "content_md": "DOCX embedded image: image23.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image23.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_22a488445606f3b14c7f"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image24.jpeg"
+      },
+      "content_md": "DOCX embedded image: image24.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image24.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_13e9268b4c9d4dc0cad4"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image25.jpeg"
+      },
+      "content_md": "DOCX embedded image: image25.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image25.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_bf779845113f19b454f9"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image26.jpeg"
+      },
+      "content_md": "DOCX embedded image: image26.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image26.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_ec063b85dea0548f4ad9"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image27.jpeg"
+      },
+      "content_md": "DOCX embedded image: image27.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image27.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_45e5a0d79d7b69feab69"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image28.jpeg"
+      },
+      "content_md": "DOCX embedded image: image28.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image28.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_2cb1800279b389f590fc"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image29.png"
+      },
+      "content_md": "DOCX embedded image: image29.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image29.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_e3d8e8955d91a1c499e8"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image3.png"
+      },
+      "content_md": "DOCX embedded image: image3.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image3.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_904e45c1320688701bec"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image30.jpeg"
+      },
+      "content_md": "DOCX embedded image: image30.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image30.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_926cf4d8479f681e9c8d"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image31.png"
+      },
+      "content_md": "DOCX embedded image: image31.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image31.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_dccf086f5aecb412a664"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image32.jpeg"
+      },
+      "content_md": "DOCX embedded image: image32.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image32.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_33e2f97798268dac7a52"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image33.jpeg"
+      },
+      "content_md": "DOCX embedded image: image33.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image33.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_e66e1c50e8d81097942e"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image34.jpeg"
+      },
+      "content_md": "DOCX embedded image: image34.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image34.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_b734fdbc1f26eef64033"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image35.jpeg"
+      },
+      "content_md": "DOCX embedded image: image35.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image35.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_e02a756c1c14a36f017e"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image36.jpeg"
+      },
+      "content_md": "DOCX embedded image: image36.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image36.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_03ff918ee54977ad61ab"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image37.png"
+      },
+      "content_md": "DOCX embedded image: image37.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image37.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_2072e6910d1e427aaeb5"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image38.jpeg"
+      },
+      "content_md": "DOCX embedded image: image38.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image38.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_df792f1a6482c0c7a5af"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image4.png"
+      },
+      "content_md": "DOCX embedded image: image4.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image4.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_10e7b3824046efb94ca6"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image5.png"
+      },
+      "content_md": "DOCX embedded image: image5.png",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image5.png"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_d70d11c632b018e8d341"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image6.jpeg"
+      },
+      "content_md": "DOCX embedded image: image6.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image6.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_cb31226214739383dd28"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image7.jpeg"
+      },
+      "content_md": "DOCX embedded image: image7.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image7.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_8d8ae10660a68851f830"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image8.jpeg"
+      },
+      "content_md": "DOCX embedded image: image8.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image8.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_a2b9b92a12fae87baf22"
+    },
+    {
+      "document_id": "doc_a341d81efa259ba0a868",
+      "format": "docx",
+      "locator": {
+        "media_part": "word/media/image9.jpeg"
+      },
+      "content_md": "DOCX embedded image: image9.jpeg",
+      "asset_refs": [
+        "assets/doc_a341d81efa259ba0a868/image9.jpeg"
+      ],
+      "parse_warnings": [
+        "host_visual_review_required"
+      ],
+      "unit_id": "unit_b7adcaaacb364220468e"
+    }
+  ]
+}

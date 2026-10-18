@@ -1,0 +1,290 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_733099e5eec0b494e76d",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "“公益知行：志愿服务实训与能力提升”综能课"
+        },
+        {
+          "local_id": "m2",
+          "type": "Event",
+          "name": "2026薪火π重庆大学交流活动"
+        },
+        {
+          "local_id": "m3",
+          "type": "Event",
+          "name": "【普利司通】“丝路同心结・筑梦共成长”主题帮扶活动"
+        },
+        {
+          "local_id": "m4",
+          "type": "Event",
+          "name": "“公益启航：志愿服务技能培训”综能课"
+        },
+        {
+          "local_id": "m5",
+          "type": "Actor",
+          "name": "普利司通"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m3",
+          "predicate": "sponsored_by",
+          "object": "m5"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "value": "2026年5月-2026年6月【综能课时间不准确】"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "value": "西安交通大学"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "participants_count"
+          },
+          "value": "80"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "value": "2026年4月25日至26日"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "value": "重庆大学"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "participants_count"
+          },
+          "value": "100余人"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "value": "2026年4月1日至14日"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "value": "西安市浐灞丝路学校"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "participants_count"
+          },
+          "value": "100余人"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "value": "2025年10月至11月"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "value": "西安交通大学"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "participants_count"
+          },
+          "value": "80"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_29b1e783a13fa2020a83",
+      "mentions": [
+        {
+          "local_id": "club",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "meeting_statistics"
+          },
+          "value": {
+            "2024.9": {
+              "社团负责人例会次数": 1,
+              "全社管理团队例会次数": 1,
+              "社团内设部门例会次数": 11
+            },
+            "2024.10": {
+              "社团负责人例会次数": 1,
+              "全社管理团队例会次数": 0,
+              "社团内设部门例会次数": 21
+            },
+            "2024.11": {
+              "社团负责人例会次数": 1,
+              "全社管理团队例会次数": 0,
+              "社团内设部门例会次数": 21
+            },
+            "2024.12": {
+              "社团负责人例会次数": 1,
+              "全社管理团队例会次数": 1,
+              "社团内设部门例会次数": 20
+            },
+            "2025.2": {
+              "社团负责人例会次数": 1,
+              "全社管理团队例会次数": 0,
+              "社团内设部门例会次数": 4
+            },
+            "2025.3": {
+              "社团负责人例会次数": 1,
+              "全社管理团队例会次数": 0,
+              "社团内设部门例会次数": 21
+            },
+            "2025.4": {
+              "社团负责人例会次数": 1,
+              "全社管理团队例会次数": 0,
+              "社团内设部门例会次数": 20
+            },
+            "2025.5": {
+              "社团负责人例会次数": 1,
+              "全社管理团队例会次数": 1,
+              "社团内设部门例会次数": 20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "unit_5cbd4a1fdbe97ae0eb4e",
+      "mentions": [
+        {
+          "local_id": "acc1",
+          "type": "DataAsset",
+          "name": "英仔爱心社抖音账号",
+          "aliases": [
+            "英仔爱心社"
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "acc1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "videos_published"
+          },
+          "value": 19
+        },
+        {
+          "subject": "acc1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "likes"
+          },
+          "value": 296
+        },
+        {
+          "subject": "acc1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "followers"
+          },
+          "value": 45
+        }
+      ]
+    },
+    {
+      "task_id": "unit_907489e4b432930c90ac",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_c9911a246fcd14403d14",
+      "mentions": [
+        {
+          "local_id": "club",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "reporter",
+          "type": "Actor",
+          "name": "王力川"
+        },
+        {
+          "local_id": "advisor",
+          "type": "Actor",
+          "name": "刘晗梦"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "advisor",
+          "predicate": "advises",
+          "object": "club"
+        },
+        {
+          "subject": "reporter",
+          "predicate": "submits_report_for",
+          "object": "club"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "reporter",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "phone"
+          },
+          "value": "18381993211"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_32421f2d375c226a0323"
+}

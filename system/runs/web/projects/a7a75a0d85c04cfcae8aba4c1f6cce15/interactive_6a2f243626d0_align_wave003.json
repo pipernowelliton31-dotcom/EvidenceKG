@@ -1,0 +1,1913 @@
+{
+  "schema_version": "1.3",
+  "fingerprint": "run_d645a1ecf5d985abd818",
+  "stage": "align",
+  "round": 2,
+  "pending_count": 5,
+  "alignment_mode": "cluster_select",
+  "stopped": false,
+  "concurrent_batches": true,
+  "batches": [
+    {
+      "batch_index": 0,
+      "round": 2,
+      "tasks": [
+        {
+          "task_id": "align_77c59a728e8d0442f472",
+          "source_cluster": {
+            "entity_id": "entity_05bae8ef99c9a51d9749",
+            "representative_member_id": "m_0b6db0de4e263222792e",
+            "type": "AITool",
+            "name": "飞书智能表格",
+            "names": [
+              "飞书智能",
+              "飞书智能伙伴",
+              "飞书智能管理",
+              "飞书智能表格"
+            ],
+            "member_count": 5,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "uses_tool",
+                "neighbor_entity_id": "entity_94935cd0b3d5caf60e61",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "Qinghe Studio",
+                  "Studio",
+                  "青禾工作室"
+                ],
+                "evidence_ids": [
+                  "ev_2693f40b603c04147a24"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "depends_on",
+                "neighbor_entity_id": "entity_76d716a45d03a0946010",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "PM模板"
+                ],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "direction": "in",
+                "predicate": "operated_by_tool",
+                "neighbor_entity_id": "entity_d8360811da0fbc30a586",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "V3",
+                  "asset-pack-v3",
+                  "创意素材包V3",
+                  "创意素材包V3（新）"
+                ],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "direction": "in",
+                "predicate": "uses_development_tool",
+                "neighbor_entity_id": "entity_1759e0ea37719833e90f",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "项目模板",
+                  "项目模板套件"
+                ],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_79f192e9484865379a63",
+                "quote": "",
+                "locator": {
+                  "image": "测试集B_产品架构图.png",
+                  "width": 1600,
+                  "height": 1100
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_05bae8ef99c9a51d9749",
+          "candidates": [
+            {
+              "entity_id": "entity_cd2e0e247add22cec0c9",
+              "representative_member_id": "m_01f99f956e3b277b948a",
+              "type": "AITool",
+              "name": "通义灵码",
+              "names": [
+                "通义",
+                "通义灵码"
+              ],
+              "member_count": 17,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "competes_with",
+                  "neighbor_entity_id": "entity_ae66e529e0e36c14b4fb",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "AI写作助手",
+                    "AI写作助手插件",
+                    "AI写作工具",
+                    "P03"
+                  ],
+                  "evidence_ids": [
+                    "ev_6afc3a2c4d4768edbace"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "affects",
+                  "neighbor_entity_id": "entity_ae66e529e0e36c14b4fb",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "AI写作助手",
+                    "AI写作助手插件",
+                    "AI写作工具",
+                    "P03"
+                  ],
+                  "evidence_ids": [
+                    "ev_41724f97a4ebd01f915a"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "uses_tool",
+                  "neighbor_entity_id": "entity_94935cd0b3d5caf60e61",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "Qinghe Studio",
+                    "Studio",
+                    "青禾工作室"
+                  ],
+                  "evidence_ids": [
+                    "ev_2693f40b603c04147a24"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "substitutes_for",
+                  "neighbor_entity_id": "entity_ae66e529e0e36c14b4fb",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "AI写作助手",
+                    "AI写作助手插件",
+                    "AI写作工具",
+                    "P03"
+                  ],
+                  "evidence_ids": [
+                    "ev_da85737377145ac6e33a"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_1f562e274cc1d21d0ed9",
+                  "quote": "| 13 | False | A13; B13; C13; D13; E13; F13; G13; H13 | A13=2026-05; B13=通义灵码; C13=2500; D13=0;…",
+                  "locator": {
+                    "sheet": "AI工具使用统计",
+                    "sheet_state": "visible",
+                    "row_start": 1,
+                    "row_end": 26,
+                    "cell_range": "A1:H26",
+                    "cells": [
+                      "A13",
+                      "B13",
+                      "C13",
+                      "D13",
+                      "E13",
+                      "F13",
+                      "G13",
+                      "H13"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_e8a23d00fc0380d237a1",
+              "representative_member_id": "m_398365996034f8fddba8",
+              "type": "AITool",
+              "name": "豆包",
+              "names": [
+                "豆包"
+              ],
+              "member_count": 5,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "uses_tool",
+                  "neighbor_entity_id": "entity_94935cd0b3d5caf60e61",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "Qinghe Studio",
+                    "Studio",
+                    "青禾工作室"
+                  ],
+                  "evidence_ids": [
+                    "ev_2693f40b603c04147a24"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "depends_on",
+                  "neighbor_entity_id": "entity_67d68ea52b0238238e4a",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "周报"
+                  ],
+                  "evidence_ids": [
+                    "ev_caa29a3b4b157475ed1d"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "depends_on",
+                  "neighbor_entity_id": "entity_b2aad78e98b6aab7e660",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "copy-buddy",
+                    "文案AI",
+                    "文案助手",
+                    "文案工具"
+                  ],
+                  "evidence_ids": [
+                    "ev_caa29a3b4b157475ed1d"
+                  ]
+                },
+                {
+                  "direction": "in",
+                  "predicate": "operated_by_tool",
+                  "neighbor_entity_id": "entity_e652f9266b464edcfcee",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "note-app",
+                    "日记APP",
+                    "日记应用",
+                    "灵记日记"
+                  ],
+                  "evidence_ids": [
+                    "ev_8927583cc890837cfb8e"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_8927583cc890837cfb8e",
+                  "quote": "",
+                  "locator": {
+                    "page": 7,
+                    "table": 1,
+                    "bbox": [
+                      "40.0",
+                      "125.51970000000006",
+                      "555.2756",
+                      "346.51970000000006"
+                    ],
+                    "row_start": 1,
+                    "row_end": 13
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_f3db2d831a4200ed45a2",
+          "source_cluster": {
+            "entity_id": "entity_7f70c83616eb47192784",
+            "representative_member_id": "m_3695c9ee764e9ea66218",
+            "type": "Actor",
+            "name": "自由设计师林清",
+            "names": [
+              "自由设计师林清"
+            ],
+            "member_count": 11,
+            "identifiers": [],
+            "attributes": {
+              "actor_kind": [
+                "unknown"
+              ],
+              "roles": [
+                "customer"
+              ]
+            },
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "purchased",
+                "neighbor_entity_id": "entity_cf0ecba3af847d6348c7",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "Python手册"
+                ],
+                "evidence_ids": [
+                  "ev_da50140ca7864235567f"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "purchased",
+                "neighbor_entity_id": "entity_fe093681792819db51fa",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "V2",
+                  "asset-pack-v2",
+                  "创意素材包V2",
+                  "素材V2"
+                ],
+                "evidence_ids": [
+                  "ev_20ad4e62cee9d2335c26"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "purchased",
+                "neighbor_entity_id": "entity_3fc5315e7f69ea66173d",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "晨间灵感模板"
+                ],
+                "evidence_ids": [
+                  "ev_eff717adfd80bc102138"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "feedback_on",
+                "neighbor_entity_id": "entity_d8360811da0fbc30a586",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "V3",
+                  "asset-pack-v3",
+                  "创意素材包V3",
+                  "创意素材包V3（新）"
+                ],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_eff717adfd80bc102138",
+                "quote": "| 78 | False | A78; B78; C78; D78; E78; F78; G78; H78; I78; J78 | A78=2026-04-07; B78=ORD-20260…",
+                "locator": {
+                  "sheet": "订单明细",
+                  "sheet_state": "visible",
+                  "row_start": 45,
+                  "row_end": 86,
+                  "cell_range": "A45:J86",
+                  "cells": [
+                    "A78",
+                    "B78",
+                    "C78",
+                    "D78",
+                    "E78",
+                    "F78",
+                    "G78",
+                    "H78",
+                    "I78",
+                    "J78"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_7f70c83616eb47192784",
+          "candidates": [
+            {
+              "entity_id": "entity_23d42903791bed03ba55",
+              "representative_member_id": "m_2196be2c5b20dd868760",
+              "type": "Actor",
+              "name": "产品经理Zoe",
+              "names": [
+                "产品经理Zoe"
+              ],
+              "member_count": 9,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_fe093681792819db51fa",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "V2",
+                    "asset-pack-v2",
+                    "创意素材包V2",
+                    "素材V2"
+                  ],
+                  "evidence_ids": [
+                    "ev_115bd682f161b20f3200"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_3fc5315e7f69ea66173d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "晨间灵感模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_5a02d52bde899b9e71ec"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_e652f9266b464edcfcee",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "note-app",
+                    "日记APP",
+                    "日记应用",
+                    "灵记日记"
+                  ],
+                  "evidence_ids": [
+                    "ev_c89f654df299a5ed560e"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "feedback_on",
+                  "neighbor_entity_id": "entity_92f0d87f31432cfaa031",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "PMD模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_212c5fc9c7d15623ca9c"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_5a35130e5a93b84a1b4d",
+                  "quote": "| 90 | False | A90; B90; C90; D90; E90; F90; G90; H90; I90 | A90=2026-05-05; B90=ORD-20260505-0…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 87,
+                    "row_end": 126,
+                    "cell_range": "A87:J126",
+                    "cells": [
+                      "A90",
+                      "B90",
+                      "C90",
+                      "D90",
+                      "E90",
+                      "F90",
+                      "G90",
+                      "H90",
+                      "I90"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_47fd4244a6db256e37e5",
+              "representative_member_id": "m_250294e5ed8ad3838ec6",
+              "type": "Actor",
+              "name": "晨光工作室",
+              "names": [
+                "晨光工作室"
+              ],
+              "member_count": 9,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_d8360811da0fbc30a586",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "V3",
+                    "asset-pack-v3",
+                    "创意素材包V3",
+                    "创意素材包V3（新）"
+                  ],
+                  "evidence_ids": [
+                    "ev_c5055deda61a4b044b54"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_cf0ecba3af847d6348c7",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "Python手册"
+                  ],
+                  "evidence_ids": [
+                    "ev_e35143b0d817168be59a"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_fe093681792819db51fa",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "V2",
+                    "asset-pack-v2",
+                    "创意素材包V2",
+                    "素材V2"
+                  ],
+                  "evidence_ids": [
+                    "ev_0ad469454217f58a85ab"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_3fc5315e7f69ea66173d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "晨间灵感模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_1c35323c970f121b274b"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_4f789fbf2db670b5493c",
+                  "quote": "| 6 | False | A6; B6; C6; D6; E6; F6; G6; H6; I6 | A6=2025-10-07; B6=ORD-20251007-0004; C6=晨间灵感…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 1,
+                    "row_end": 44,
+                    "cell_range": "A1:J44",
+                    "cells": [
+                      "A6",
+                      "B6",
+                      "C6",
+                      "D6",
+                      "E6",
+                      "F6",
+                      "G6",
+                      "H6",
+                      "I6"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_7d5f1caf9eaf54a96a59",
+              "representative_member_id": "m_1666c6c2ba0a2fb17f4b",
+              "type": "Actor",
+              "name": "纸鸢设计工作室",
+              "names": [
+                "纸鸢设计",
+                "纸鸢设计工作室"
+              ],
+              "member_count": 9,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_1759e0ea37719833e90f",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "项目模板",
+                    "项目模板套件"
+                  ],
+                  "evidence_ids": [
+                    "ev_73ef2988f5faee345b6c"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_d8360811da0fbc30a586",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "V3",
+                    "asset-pack-v3",
+                    "创意素材包V3",
+                    "创意素材包V3（新）"
+                  ],
+                  "evidence_ids": [
+                    "ev_b38b69c9706b6f1d506f"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_cf0ecba3af847d6348c7",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "Python手册"
+                  ],
+                  "evidence_ids": [
+                    "ev_f513ff18545327dcab20"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "feedback_on",
+                  "neighbor_entity_id": "entity_d8360811da0fbc30a586",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "V3",
+                    "asset-pack-v3",
+                    "创意素材包V3",
+                    "创意素材包V3（新）"
+                  ],
+                  "evidence_ids": [
+                    "ev_212c5fc9c7d15623ca9c"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_f513ff18545327dcab20",
+                  "quote": "| 84 | False | A84; B84; C84; D84; E84; F84; G84; H84; I84 | A84=2026-04-19; B84=ORD-20260419-0…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 45,
+                    "row_end": 86,
+                    "cell_range": "A45:J86",
+                    "cells": [
+                      "A84",
+                      "B84",
+                      "C84",
+                      "D84",
+                      "E84",
+                      "F84",
+                      "G84",
+                      "H84",
+                      "I84"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_4db7946b905a9dbd8182",
+              "representative_member_id": "m_20c5107983fa4689d54b",
+              "type": "Actor",
+              "name": "动画设计师May",
+              "names": [
+                "动画设计师May"
+              ],
+              "member_count": 8,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "name_tokens",
+                "attribute:actor_kind"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_023da4c83880f9a35629",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "数据大屏模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_9f9dad1daee0b05fbcff"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_abe3a087cca18bae187d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "weekly-gen",
+                    "周报AI",
+                    "周报工具",
+                    "周报生成"
+                  ],
+                  "evidence_ids": [
+                    "ev_f53af08ae99ecaaa42ab"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_4e9730b66317f4846824",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "pomodoro-pro",
+                    "专注工具",
+                    "专注计时器",
+                    "番茄专注Pro"
+                  ],
+                  "evidence_ids": [
+                    "ev_ffb08ffd6cc14d6e0198"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_25c90abeb706a4d76c6d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "配音TTS工具"
+                  ],
+                  "evidence_ids": [
+                    "ev_5ec8d73cded650ba6e0f"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_6ac646e7444ab60ac37c",
+                  "quote": "| 31 | False | A31; B31; C31; D31; E31; F31; G31; H31; I31 | A31=2025-12-09; B31=ORD-20251209-0…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 1,
+                    "row_end": 44,
+                    "cell_range": "A1:J44",
+                    "cells": [
+                      "A31",
+                      "B31",
+                      "C31",
+                      "D31",
+                      "E31",
+                      "F31",
+                      "G31",
+                      "H31",
+                      "I31"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_3df46c231d826e3536ce",
+              "representative_member_id": "m_01323e2600db7d133cc4",
+              "type": "Actor",
+              "name": "程序员陈默",
+              "names": [
+                "程序员陈默"
+              ],
+              "member_count": 11,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_a09377687e7d9d1980d6",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "copy-ai",
+                    "copy-buddy",
+                    "文案AI",
+                    "文案助手"
+                  ],
+                  "evidence_ids": [
+                    "ev_feb46b5ab720ad6a9598"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_023da4c83880f9a35629",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "数据大屏模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_1e475cb9262e1b739fc1"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_abe3a087cca18bae187d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "weekly-gen",
+                    "周报AI",
+                    "周报工具",
+                    "周报生成"
+                  ],
+                  "evidence_ids": [
+                    "ev_9cd765676fbd0a50d7bd"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "feedback_on",
+                  "neighbor_entity_id": "entity_ae66e529e0e36c14b4fb",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "AI写作助手",
+                    "AI写作助手插件",
+                    "AI写作工具",
+                    "P03"
+                  ],
+                  "evidence_ids": [
+                    "ev_212c5fc9c7d15623ca9c"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_670545db61951396b039",
+                  "quote": "| 122 | False | A122; B122; C122; D122; E122; F122; G122; H122; I122 | A122=2026-07-21; B122=OR…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 87,
+                    "row_end": 126,
+                    "cell_range": "A87:J126",
+                    "cells": [
+                      "A122",
+                      "B122",
+                      "C122",
+                      "D122",
+                      "E122",
+                      "F122",
+                      "G122",
+                      "H122",
+                      "I122"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": true,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_be1c4f8706fb1d8f6dca",
+          "source_cluster": {
+            "entity_id": "entity_af632b328c5cdee958ee",
+            "representative_member_id": "m_0050802980f582056451",
+            "type": "Actor",
+            "name": "周然",
+            "names": [
+              "周然",
+              "周然（青禾工作室创始人）"
+            ],
+            "member_count": 42,
+            "identifiers": [],
+            "attributes": {
+              "actor_kind": [
+                "person"
+              ]
+            },
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "responsible_for",
+                "neighbor_entity_id": "entity_4932fed2198d570bba67",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "定价策略AB实验"
+                ],
+                "evidence_ids": [
+                  "ev_f6ddbc6862ce052dea09"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "responsible_for",
+                "neighbor_entity_id": "entity_92f0d87f31432cfaa031",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "PMD模板"
+                ],
+                "evidence_ids": [
+                  "ev_deb345cbdfa4df521b05"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "responsible_for",
+                "neighbor_entity_id": "entity_686be5d8cef8542636ea",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "商品化插件",
+                  "数据可视化插件"
+                ],
+                "evidence_ids": [
+                  "ev_deb345cbdfa4df521b05"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "responsible_for",
+                "neighbor_entity_id": "entity_25e9b486a69c2cb96c11",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "AI简历优化",
+                  "AI简历优化工具",
+                  "resume-ai",
+                  "智能简历"
+                ],
+                "evidence_ids": [
+                  "ev_deb345cbdfa4df521b05"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_1b518859302ee8c4afbf",
+                "quote": "| 30 | False | A30; B30; C30; D30; E30; F30; G30; H30 | A30=2026-06-20; B30=CHG-029; C30=周报精灵; …",
+                "locator": {
+                  "sheet": "产品变更记录",
+                  "sheet_state": "visible",
+                  "row_start": 1,
+                  "row_end": 31,
+                  "cell_range": "A1:I31",
+                  "cells": [
+                    "A30",
+                    "B30",
+                    "C30",
+                    "D30",
+                    "E30",
+                    "F30",
+                    "G30",
+                    "H30"
+                  ]
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_af632b328c5cdee958ee",
+          "candidates": [
+            {
+              "entity_id": "entity_ca0c165d4feab389edce",
+              "representative_member_id": "m_58d87ecb9f99f37b55a8",
+              "type": "Actor",
+              "name": "周然",
+              "names": [
+                "周然"
+              ],
+              "member_count": 2,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "prepared_report_for",
+                  "neighbor_entity_id": "entity_94935cd0b3d5caf60e61",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "Qinghe Studio",
+                    "Studio",
+                    "青禾工作室"
+                  ],
+                  "evidence_ids": [
+                    "ev_a6ceba63a260eb106860"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_41724f97a4ebd01f915a",
+                  "quote": "",
+                  "locator": {
+                    "slide": 6
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_94935cd0b3d5caf60e61",
+              "representative_member_id": "m_1d177b3f1f7493af6c50",
+              "type": "Actor",
+              "name": "青禾工作室",
+              "names": [
+                "Qinghe Studio",
+                "Studio",
+                "青禾工作室"
+              ],
+              "member_count": 16,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "prepared_report_for",
+                  "neighbor_entity_id": "entity_ca0c165d4feab389edce",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "周然"
+                  ],
+                  "evidence_ids": [
+                    "ev_a6ceba63a260eb106860"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "uses_tool",
+                  "neighbor_entity_id": "entity_ee75e8c360a00e174377",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "墨文创作台",
+                    "墨文创作台 v3",
+                    "墨文创作平台"
+                  ],
+                  "evidence_ids": [
+                    "ev_2693f40b603c04147a24"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "uses_tool",
+                  "neighbor_entity_id": "entity_cd2e0e247add22cec0c9",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "通义",
+                    "通义灵码"
+                  ],
+                  "evidence_ids": [
+                    "ev_2693f40b603c04147a24"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "uses_tool",
+                  "neighbor_entity_id": "entity_e8a23d00fc0380d237a1",
+                  "neighbor_type": "AITool",
+                  "neighbor_names": [
+                    "豆包"
+                  ],
+                  "evidence_ids": [
+                    "ev_2693f40b603c04147a24"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_2693f40b603c04147a24",
+                  "quote": "",
+                  "locator": {
+                    "page": 4,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "595.2756",
+                      "841.8898"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_c031f0a30841031dfb09",
+          "source_cluster": {
+            "entity_id": "entity_b418fd76ca07ec12d3c9",
+            "representative_member_id": "m_09640e2b01ddebaec7a3",
+            "type": "Actor",
+            "name": "王教授",
+            "names": [
+              "王教授"
+            ],
+            "member_count": 10,
+            "identifiers": [],
+            "attributes": {
+              "actor_kind": [
+                "unknown"
+              ],
+              "roles": [
+                "customer"
+              ]
+            },
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "purchased",
+                "neighbor_entity_id": "entity_4e9730b66317f4846824",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "pomodoro-pro",
+                  "专注工具",
+                  "专注计时器",
+                  "番茄专注Pro"
+                ],
+                "evidence_ids": [
+                  "ev_b52a1f72be8f3cacc50e"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "purchased",
+                "neighbor_entity_id": "entity_25c90abeb706a4d76c6d",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "配音TTS工具"
+                ],
+                "evidence_ids": [
+                  "ev_c85847ad9b6f95ef33ee"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "feedback_on",
+                "neighbor_entity_id": "entity_e3dfecaa6c70905005e7",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "AI自动化手册"
+                ],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "purchased",
+                "neighbor_entity_id": "entity_25e9b486a69c2cb96c11",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "AI简历优化",
+                  "AI简历优化工具",
+                  "resume-ai",
+                  "智能简历"
+                ],
+                "evidence_ids": [
+                  "ev_f68d791e527c31ca8421"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_212c5fc9c7d15623ca9c",
+                "quote": "",
+                "locator": {
+                  "page": 10,
+                  "table": 1,
+                  "bbox": [
+                    "40.0",
+                    "153.51970000000006",
+                    "555.2756",
+                    "590.5197000000001"
+                  ],
+                  "row_start": 2,
+                  "row_end": 16
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_b418fd76ca07ec12d3c9",
+          "candidates": [
+            {
+              "entity_id": "entity_cfca773c34667bcec098",
+              "representative_member_id": "m_392ae091d614ecb166e8",
+              "type": "Actor",
+              "name": "独立开发者阿凯",
+              "names": [
+                "独立开发者阿凯"
+              ],
+              "member_count": 10,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_25e9b486a69c2cb96c11",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "AI简历优化",
+                    "AI简历优化工具",
+                    "resume-ai",
+                    "智能简历"
+                  ],
+                  "evidence_ids": [
+                    "ev_8b134020de9aca4677f1"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_a09377687e7d9d1980d6",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "copy-ai",
+                    "copy-buddy",
+                    "文案AI",
+                    "文案助手"
+                  ],
+                  "evidence_ids": [
+                    "ev_2b9d7b34db8a6e5a850b"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_023da4c83880f9a35629",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "数据大屏模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_1e343cc4b0a6e7bd57c0"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "feedback_on",
+                  "neighbor_entity_id": "entity_ae66e529e0e36c14b4fb",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "AI写作助手",
+                    "AI写作助手插件",
+                    "AI写作工具",
+                    "P03"
+                  ],
+                  "evidence_ids": [
+                    "ev_212c5fc9c7d15623ca9c"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_2b9d7b34db8a6e5a850b",
+                  "quote": "| 67 | False | A67; B67; C67; D67; E67; F67; G67; H67; I67 | A67=2026-03-09; B67=ORD-20260309-0…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 45,
+                    "row_end": 86,
+                    "cell_range": "A45:J86",
+                    "cells": [
+                      "A67",
+                      "B67",
+                      "C67",
+                      "D67",
+                      "E67",
+                      "F67",
+                      "G67",
+                      "H67",
+                      "I67"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_1b48c4ac0256057747ed",
+              "representative_member_id": "m_0210af6dc04e14eb8847",
+              "type": "Actor",
+              "name": "学知教育",
+              "names": [
+                "学知教育",
+                "学知教育平台"
+              ],
+              "member_count": 9,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_25c90abeb706a4d76c6d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "配音TTS工具"
+                  ],
+                  "evidence_ids": [
+                    "ev_1845e936eb2f8f6ac2d1"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_25e9b486a69c2cb96c11",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "AI简历优化",
+                    "AI简历优化工具",
+                    "resume-ai",
+                    "智能简历"
+                  ],
+                  "evidence_ids": [
+                    "ev_f3dc178d23084bd55c8e"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_a09377687e7d9d1980d6",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "copy-ai",
+                    "copy-buddy",
+                    "文案AI",
+                    "文案助手"
+                  ],
+                  "evidence_ids": [
+                    "ev_e7c15416ad58b5e37fe8"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_023da4c83880f9a35629",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "数据大屏模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_3c35af0e592e5a9e550d"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_1845e936eb2f8f6ac2d1",
+                  "quote": "| 55 | False | A55; B55; C55; D55; E55; F55; G55; H55; I55 | A55=2026-02-09; B55=ORD-20260209-0…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 45,
+                    "row_end": 86,
+                    "cell_range": "A45:J86",
+                    "cells": [
+                      "A55",
+                      "B55",
+                      "C55",
+                      "D55",
+                      "E55",
+                      "F55",
+                      "G55",
+                      "H55",
+                      "I55"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_4db7946b905a9dbd8182",
+              "representative_member_id": "m_20c5107983fa4689d54b",
+              "type": "Actor",
+              "name": "动画设计师May",
+              "names": [
+                "动画设计师May"
+              ],
+              "member_count": 8,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_023da4c83880f9a35629",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "数据大屏模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_9f9dad1daee0b05fbcff"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_abe3a087cca18bae187d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "weekly-gen",
+                    "周报AI",
+                    "周报工具",
+                    "周报生成"
+                  ],
+                  "evidence_ids": [
+                    "ev_f53af08ae99ecaaa42ab"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_4e9730b66317f4846824",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "pomodoro-pro",
+                    "专注工具",
+                    "专注计时器",
+                    "番茄专注Pro"
+                  ],
+                  "evidence_ids": [
+                    "ev_ffb08ffd6cc14d6e0198"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_25c90abeb706a4d76c6d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "配音TTS工具"
+                  ],
+                  "evidence_ids": [
+                    "ev_5ec8d73cded650ba6e0f"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_6ac646e7444ab60ac37c",
+                  "quote": "| 31 | False | A31; B31; C31; D31; E31; F31; G31; H31; I31 | A31=2025-12-09; B31=ORD-20251209-0…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 1,
+                    "row_end": 44,
+                    "cell_range": "A1:J44",
+                    "cells": [
+                      "A31",
+                      "B31",
+                      "C31",
+                      "D31",
+                      "E31",
+                      "F31",
+                      "G31",
+                      "H31",
+                      "I31"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_3df46c231d826e3536ce",
+              "representative_member_id": "m_01323e2600db7d133cc4",
+              "type": "Actor",
+              "name": "程序员陈默",
+              "names": [
+                "程序员陈默"
+              ],
+              "member_count": 11,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_a09377687e7d9d1980d6",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "copy-ai",
+                    "copy-buddy",
+                    "文案AI",
+                    "文案助手"
+                  ],
+                  "evidence_ids": [
+                    "ev_feb46b5ab720ad6a9598"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_023da4c83880f9a35629",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "数据大屏模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_1e475cb9262e1b739fc1"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_abe3a087cca18bae187d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "weekly-gen",
+                    "周报AI",
+                    "周报工具",
+                    "周报生成"
+                  ],
+                  "evidence_ids": [
+                    "ev_9cd765676fbd0a50d7bd"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "feedback_on",
+                  "neighbor_entity_id": "entity_ae66e529e0e36c14b4fb",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "AI写作助手",
+                    "AI写作助手插件",
+                    "AI写作工具",
+                    "P03"
+                  ],
+                  "evidence_ids": [
+                    "ev_212c5fc9c7d15623ca9c"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_670545db61951396b039",
+                  "quote": "| 122 | False | A122; B122; C122; D122; E122; F122; G122; H122; I122 | A122=2026-07-21; B122=OR…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 87,
+                    "row_end": 126,
+                    "cell_range": "A87:J126",
+                    "cells": [
+                      "A122",
+                      "B122",
+                      "C122",
+                      "D122",
+                      "E122",
+                      "F122",
+                      "G122",
+                      "H122",
+                      "I122"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_7f70c83616eb47192784",
+              "representative_member_id": "m_3695c9ee764e9ea66218",
+              "type": "Actor",
+              "name": "自由设计师林清",
+              "names": [
+                "自由设计师林清"
+              ],
+              "member_count": 11,
+              "identifiers": [],
+              "attributes": {
+                "actor_kind": [
+                  "unknown"
+                ],
+                "roles": [
+                  "customer"
+                ]
+              },
+              "signals": [
+                "attribute:actor_kind"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_cf0ecba3af847d6348c7",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "Python手册"
+                  ],
+                  "evidence_ids": [
+                    "ev_da50140ca7864235567f"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_fe093681792819db51fa",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "V2",
+                    "asset-pack-v2",
+                    "创意素材包V2",
+                    "素材V2"
+                  ],
+                  "evidence_ids": [
+                    "ev_20ad4e62cee9d2335c26"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "purchased",
+                  "neighbor_entity_id": "entity_3fc5315e7f69ea66173d",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "晨间灵感模板"
+                  ],
+                  "evidence_ids": [
+                    "ev_eff717adfd80bc102138"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "feedback_on",
+                  "neighbor_entity_id": "entity_d8360811da0fbc30a586",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "V3",
+                    "asset-pack-v3",
+                    "创意素材包V3",
+                    "创意素材包V3（新）"
+                  ],
+                  "evidence_ids": [
+                    "ev_212c5fc9c7d15623ca9c"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_eff717adfd80bc102138",
+                  "quote": "| 78 | False | A78; B78; C78; D78; E78; F78; G78; H78; I78; J78 | A78=2026-04-07; B78=ORD-20260…",
+                  "locator": {
+                    "sheet": "订单明细",
+                    "sheet_state": "visible",
+                    "row_start": 45,
+                    "row_end": 86,
+                    "cell_range": "A45:J86",
+                    "cells": [
+                      "A78",
+                      "B78",
+                      "C78",
+                      "D78",
+                      "E78",
+                      "F78",
+                      "G78",
+                      "H78",
+                      "I78",
+                      "J78"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": true,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_c737457b78a3f784babb",
+          "source_cluster": {
+            "entity_id": "entity_bc8ecf79962f7779a77d",
+            "representative_member_id": "m_113aacaa07a76da49368",
+            "type": "Version",
+            "name": "v3",
+            "names": [
+              "v3"
+            ],
+            "member_count": 5,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "upgraded_to",
+                "neighbor_entity_id": "entity_ee75e8c360a00e174377",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "墨文创作台",
+                  "墨文创作台 v3",
+                  "墨文创作平台"
+                ],
+                "evidence_ids": [
+                  "ev_b4f70a0ca1e06c8bf336"
+                ]
+              },
+              {
+                "direction": "in",
+                "predicate": "compatibility_issue_with",
+                "neighbor_entity_id": "entity_f7aab68d25a826b5b18e",
+                "neighbor_type": "AITool",
+                "neighbor_names": [
+                  "AI写作助手",
+                  "AI写作助手插件",
+                  "AI写作工具",
+                  "写作助手"
+                ],
+                "evidence_ids": [
+                  "ev_b4f70a0ca1e06c8bf336"
+                ]
+              },
+              {
+                "direction": "in",
+                "predicate": "released_version",
+                "neighbor_entity_id": "entity_fd22e8542cf9674d2983",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "墨文v3发布"
+                ],
+                "evidence_ids": [
+                  "ev_41724f97a4ebd01f915a"
+                ]
+              },
+              {
+                "direction": "in",
+                "predicate": "compatibility_issue_with",
+                "neighbor_entity_id": "entity_ae66e529e0e36c14b4fb",
+                "neighbor_type": "Product",
+                "neighbor_names": [
+                  "AI写作助手",
+                  "AI写作助手插件",
+                  "AI写作工具",
+                  "P03"
+                ],
+                "evidence_ids": [
+                  "ev_41724f97a4ebd01f915a"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_41724f97a4ebd01f915a",
+                "quote": "",
+                "locator": {
+                  "slide": 6
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_bc8ecf79962f7779a77d",
+          "candidates": [
+            {
+              "entity_id": "entity_482e0d0a3ae247d95985",
+              "representative_member_id": "m_801edf0100a5692fdc21",
+              "type": "Version",
+              "name": "V3",
+              "names": [
+                "V3"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "replaced_by",
+                  "neighbor_entity_id": "entity_aee7f11f69f4dfd4f009",
+                  "neighbor_type": "Product",
+                  "neighbor_names": [
+                    "素材"
+                  ],
+                  "evidence_ids": [
+                    "ev_e7a1fe8ce8817fd4f8fd"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_e7a1fe8ce8817fd4f8fd",
+                  "quote": "",
+                  "locator": {
+                    "page": 5,
+                    "bbox": [
+                      "0",
+                      "0",
+                      "595.2756",
+                      "841.8898"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        }
+      ]
+    }
+  ]
+}

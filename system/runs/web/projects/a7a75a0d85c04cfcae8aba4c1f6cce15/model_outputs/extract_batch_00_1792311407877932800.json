@@ -1,0 +1,899 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_978031d7dbebb70c053f",
+      "mentions": [
+        {
+          "local_id": "qinghe_studio",
+          "type": "Actor",
+          "name": "青禾工作室",
+          "aliases": [
+            "Qinghe Studio"
+          ]
+        },
+        {
+          "local_id": "zhou_ran",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "p04",
+          "type": "Product",
+          "name": "晨间灵感模板",
+          "identifiers": [
+            "P04",
+            "idea-tpl"
+          ]
+        },
+        {
+          "local_id": "p11",
+          "type": "Product",
+          "name": "营销文案助手",
+          "aliases": [
+            "文案助手"
+          ],
+          "identifiers": [
+            "P11",
+            "copy-buddy"
+          ]
+        },
+        {
+          "local_id": "p05",
+          "type": "Product",
+          "name": "周报精灵",
+          "identifiers": [
+            "P05",
+            "weekly-gen"
+          ]
+        },
+        {
+          "local_id": "p18",
+          "type": "Product",
+          "name": "效率工具导航",
+          "aliases": [
+            "效率导航"
+          ],
+          "identifiers": [
+            "P18",
+            "tool-nav"
+          ]
+        },
+        {
+          "local_id": "p01",
+          "type": "Product",
+          "name": "灵记日记",
+          "identifiers": [
+            "P01",
+            "note-app"
+          ]
+        },
+        {
+          "local_id": "p02",
+          "type": "Product",
+          "name": "番茄专注Pro",
+          "identifiers": [
+            "P02",
+            "focus-pro"
+          ]
+        },
+        {
+          "local_id": "p06",
+          "type": "Product",
+          "name": "接口调试大师",
+          "identifiers": [
+            "P06",
+            "api-probe"
+          ]
+        },
+        {
+          "local_id": "p03",
+          "type": "Product",
+          "name": "AI写作工具",
+          "aliases": [
+            "灵犀写作助手",
+            "写作助手",
+            "写作插件",
+            "灵犀写作插件"
+          ],
+          "identifiers": [
+            "P03",
+            "lark-writer"
+          ]
+        },
+        {
+          "local_id": "p08",
+          "type": "Product",
+          "name": "数据大屏模板",
+          "identifiers": [
+            "P08",
+            "dash-tpl"
+          ]
+        },
+        {
+          "local_id": "p09",
+          "type": "Product",
+          "name": "文案进阶课",
+          "identifiers": [
+            "P09",
+            "copy-course"
+          ]
+        },
+        {
+          "local_id": "p10",
+          "type": "Product",
+          "name": "Python自动化手册",
+          "identifiers": [
+            "P10",
+            "py-auto-book"
+          ]
+        },
+        {
+          "local_id": "p07",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "identifiers": [
+            "P07",
+            "asset-pack-v2"
+          ]
+        },
+        {
+          "local_id": "p12",
+          "type": "Product",
+          "name": "思维导图工具",
+          "identifiers": [
+            "P12",
+            "mindmap-pro"
+          ]
+        },
+        {
+          "local_id": "p13",
+          "type": "Product",
+          "name": "创意素材包V3（新）",
+          "identifiers": [
+            "P13",
+            "asset-pack-v3"
+          ]
+        },
+        {
+          "local_id": "p17",
+          "type": "Product",
+          "name": "配音TTS助手",
+          "identifiers": [
+            "P17",
+            "tts-voice"
+          ]
+        },
+        {
+          "local_id": "p14",
+          "type": "Product",
+          "name": "AI简历优化",
+          "identifiers": [
+            "P14",
+            "resume-ai"
+          ]
+        },
+        {
+          "local_id": "p15",
+          "type": "Product",
+          "name": "数据可视化插件",
+          "aliases": [
+            "商品化插件"
+          ],
+          "identifiers": [
+            "P15",
+            "viz-chart"
+          ]
+        },
+        {
+          "local_id": "p16",
+          "type": "Product",
+          "name": "项目模板套件",
+          "identifiers": [
+            "P16",
+            "pm-tpl"
+          ]
+        },
+        {
+          "local_id": "t01",
+          "type": "AITool",
+          "name": "墨文创作台",
+          "identifiers": [
+            "T01"
+          ]
+        },
+        {
+          "local_id": "t02",
+          "type": "AITool",
+          "name": "通义灵码",
+          "identifiers": [
+            "T02"
+          ]
+        },
+        {
+          "local_id": "t03",
+          "type": "AITool",
+          "name": "Figma AI",
+          "identifiers": [
+            "T03"
+          ]
+        },
+        {
+          "local_id": "t04",
+          "type": "AITool",
+          "name": "即梦AI",
+          "identifiers": [
+            "T04"
+          ]
+        },
+        {
+          "local_id": "t05",
+          "type": "AITool",
+          "name": "Kimi",
+          "identifiers": [
+            "T05"
+          ]
+        },
+        {
+          "local_id": "t06",
+          "type": "AITool",
+          "name": "豆包",
+          "identifiers": [
+            "T06"
+          ]
+        },
+        {
+          "local_id": "t07",
+          "type": "AITool",
+          "name": "可灵AI",
+          "identifiers": [
+            "T07"
+          ]
+        },
+        {
+          "local_id": "t08",
+          "type": "AITool",
+          "name": "飞书智能管理",
+          "identifiers": [
+            "T08"
+          ]
+        },
+        {
+          "local_id": "t09",
+          "type": "AITool",
+          "name": "Make",
+          "identifiers": [
+            "T09"
+          ]
+        },
+        {
+          "local_id": "t10",
+          "type": "AITool",
+          "name": "n8n",
+          "identifiers": [
+            "T10"
+          ]
+        },
+        {
+          "local_id": "t11",
+          "type": "AITool",
+          "name": "讯飞听见",
+          "identifiers": [
+            "T11"
+          ]
+        },
+        {
+          "local_id": "t12",
+          "type": "AITool",
+          "name": "剪映AI",
+          "identifiers": [
+            "T12"
+          ]
+        },
+        {
+          "local_id": "t13",
+          "type": "AITool",
+          "name": "Gamma",
+          "identifiers": [
+            "T13"
+          ]
+        },
+        {
+          "local_id": "t14",
+          "type": "AITool",
+          "name": "秘塔AI",
+          "identifiers": [
+            "T14"
+          ]
+        },
+        {
+          "local_id": "t15",
+          "type": "AITool",
+          "name": "v0.dev",
+          "identifiers": [
+            "T15"
+          ]
+        },
+        {
+          "local_id": "t16",
+          "type": "AITool",
+          "name": "Replit",
+          "identifiers": [
+            "T16"
+          ]
+        },
+        {
+          "local_id": "t17",
+          "type": "AITool",
+          "name": "Tableau",
+          "identifiers": [
+            "T17"
+          ]
+        },
+        {
+          "local_id": "u01",
+          "type": "Actor",
+          "name": "自由设计师林清",
+          "identifiers": [
+            "U01"
+          ]
+        },
+        {
+          "local_id": "u02",
+          "type": "Actor",
+          "name": "程序员陈默",
+          "identifiers": [
+            "U02"
+          ]
+        },
+        {
+          "local_id": "u03",
+          "type": "Actor",
+          "name": "高校新媒体社",
+          "aliases": [
+            "高校新媒社",
+            "名校高能社"
+          ],
+          "identifiers": [
+            "U03"
+          ]
+        },
+        {
+          "local_id": "u04",
+          "type": "Actor",
+          "name": "晨光工作室",
+          "identifiers": [
+            "U04"
+          ]
+        },
+        {
+          "local_id": "u05",
+          "type": "Actor",
+          "name": "独立开发者阿凯",
+          "identifiers": [
+            "U05"
+          ]
+        },
+        {
+          "local_id": "u06",
+          "type": "Actor",
+          "name": "蓝鲸电商市场部",
+          "identifiers": [
+            "U06"
+          ]
+        },
+        {
+          "local_id": "u07",
+          "type": "Actor",
+          "name": "纸鸢设计工作室",
+          "identifiers": [
+            "U07"
+          ]
+        },
+        {
+          "local_id": "u08",
+          "type": "Actor",
+          "name": "学知教育平台",
+          "identifiers": [
+            "U08"
+          ]
+        },
+        {
+          "local_id": "u09",
+          "type": "Actor",
+          "name": "效率控阿岚",
+          "identifiers": [
+            "U09"
+          ]
+        },
+        {
+          "local_id": "u10",
+          "type": "Actor",
+          "name": "悦读传媒",
+          "identifiers": [
+            "U10"
+          ]
+        },
+        {
+          "local_id": "u11",
+          "type": "Actor",
+          "name": "王教授",
+          "identifiers": [
+            "U11"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "p11",
+          "predicate": "merged_into",
+          "object": "p05",
+          "qualifiers": {
+            "former_status": "付费产品"
+          }
+        },
+        {
+          "subject": "p03",
+          "predicate": "depends_on",
+          "object": "t01",
+          "qualifiers": {
+            "basis": "P03基于墨文创作台开发"
+          }
+        },
+        {
+          "subject": "p03",
+          "predicate": "sister_product",
+          "object": "p15",
+          "qualifiers": {
+            "common_basis": "同为墨文生插件"
+          }
+        },
+        {
+          "subject": "zhou_ran",
+          "predicate": "affiliated_with",
+          "object": "qinghe_studio"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "qinghe_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "architecture_title"
+          },
+          "value": "青禾工作室·产品架构图"
+        },
+        {
+          "subject": "qinghe_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "architecture_version"
+          },
+          "value": "v1.0"
+        },
+        {
+          "subject": "qinghe_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_date"
+          },
+          "value": "2026-06-30"
+        },
+        {
+          "subject": "p04",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "免费产品区"
+        },
+        {
+          "subject": "p11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "免费产品区"
+        },
+        {
+          "subject": "p05",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "免费产品区"
+        },
+        {
+          "subject": "p18",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "免费产品区"
+        },
+        {
+          "subject": "p01",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p02",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p06",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p08",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p09",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p07",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p13",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p17",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p15",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p16",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_area"
+          },
+          "value": "付费产品区"
+        },
+        {
+          "subject": "p03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "core_product"
+          },
+          "value": true
+        },
+        {
+          "subject": "p03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "document_name_mapping"
+          },
+          "value": {
+            "PDF": "灵犀写作助手",
+            "Word": "写作助手",
+            "Excel": "写作插件 P03",
+            "PPT": "灵犀写作插件",
+            "图片": "AI写作工具"
+          }
+        },
+        {
+          "subject": "p07",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "停售"
+        },
+        {
+          "subject": "p11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "former_status"
+          },
+          "value": "付费产品"
+        },
+        {
+          "subject": "t01",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "写作平台"
+        },
+        {
+          "subject": "t02",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "编程"
+        },
+        {
+          "subject": "t03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "设计"
+        },
+        {
+          "subject": "t04",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "设计"
+        },
+        {
+          "subject": "t05",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "写作"
+        },
+        {
+          "subject": "t06",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "写作"
+        },
+        {
+          "subject": "t07",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "视频"
+        },
+        {
+          "subject": "t08",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "管理"
+        },
+        {
+          "subject": "t09",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "自动化"
+        },
+        {
+          "subject": "t10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "自动化"
+        },
+        {
+          "subject": "t11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "语音"
+        },
+        {
+          "subject": "t12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "语音"
+        },
+        {
+          "subject": "t13",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "演示"
+        },
+        {
+          "subject": "t14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "搜索"
+        },
+        {
+          "subject": "t15",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "前端"
+        },
+        {
+          "subject": "t16",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "编程"
+        },
+        {
+          "subject": "t17",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_category"
+          },
+          "value": "分析"
+        },
+        {
+          "subject": "u01",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u02",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "naming_definition"
+          },
+          "value": "高校新媒体社 → 高校新媒社，同一实体两个称呼"
+        },
+        {
+          "subject": "u04",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u05",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u06",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u07",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u08",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u09",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        },
+        {
+          "subject": "u11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_region"
+          },
+          "value": "客户画像区域"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

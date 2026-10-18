@@ -1,0 +1,727 @@
+{
+  "schema_version": "1.3",
+  "fingerprint": "run_031e801da803ca0f198f",
+  "policy": "full_coverage_sparse_extraction_with_semantic_overlay",
+  "units": [
+    {
+      "unit_id": "unit_d9819e5ae9b8f1fee534",
+      "mode": "llm_batch",
+      "priority": 21,
+      "score": 1,
+      "chars": 970,
+      "format": "pdf",
+      "structured_kind": "pdf_page",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 1,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_774392fcd630f7ca7483",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 2808,
+      "format": "pdf",
+      "structured_kind": "pdf_page",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_8f7cc0cde41fbcfbe416",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 5158,
+      "format": "pdf",
+      "structured_kind": "pdf_page",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_6041b452cb3e569fe46d",
+      "mode": "llm_structured",
+      "priority": 72,
+      "score": 2,
+      "chars": 305,
+      "format": "pdf",
+      "structured_kind": "pdf_table",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": true,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_70bdd28f4d0ec6498113",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 3567,
+      "format": "pdf",
+      "structured_kind": "pdf_page",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_bcc7cc5490179678b8ea",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 1944,
+      "format": "pdf",
+      "structured_kind": "pdf_page",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_dbfc2496f7f27d3693ab",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 1869,
+      "format": "pdf",
+      "structured_kind": "pdf_page",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_fcce9dd1be2c0f4f1fc2",
+      "mode": "llm_structured",
+      "priority": 72,
+      "score": 2,
+      "chars": 203,
+      "format": "pdf",
+      "structured_kind": "pdf_table",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": true,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_b7c343684aab83912ef9",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 2622,
+      "format": "pdf",
+      "structured_kind": "pdf_page",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_9dfbe140ed2cf01012d4",
+      "mode": "llm_batch",
+      "priority": 21,
+      "score": 1,
+      "chars": 1502,
+      "format": "pdf",
+      "structured_kind": "pdf_page",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 1,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_528c8f2ef191664f296f",
+      "mode": "auto_no_facts",
+      "priority": 0,
+      "score": 0,
+      "chars": 22,
+      "format": "docx",
+      "structured_kind": "",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_7a1731908d720d597070",
+      "mode": "llm_semantic",
+      "priority": 65,
+      "score": 5,
+      "chars": 3492,
+      "format": "docx",
+      "structured_kind": "source_xml_table",
+      "signals": {
+        "relation": 2,
+        "metric": 2,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 6,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_faa988ec76d5092b2357",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 90,
+      "format": "docx",
+      "structured_kind": "",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_06bdb9c79f7af79cca04",
+      "mode": "auto_no_facts",
+      "priority": 0,
+      "score": 0,
+      "chars": 31,
+      "format": "docx",
+      "structured_kind": "",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_1af7226d82851718bde3",
+      "mode": "auto_no_facts",
+      "priority": 0,
+      "score": 0,
+      "chars": 31,
+      "format": "docx",
+      "structured_kind": "",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_dedf2dbc2e87d6c2bf68",
+      "mode": "llm_batch",
+      "priority": 21,
+      "score": 1,
+      "chars": 49,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 1,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_0af5249f051ca0c56479",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 38,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_c6b621ee5939382f7af6",
+      "mode": "auto_no_facts",
+      "priority": 0,
+      "score": 0,
+      "chars": 13,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_e25c02f0bf8f91ad1cf6",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 150,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_903dd229f19adc762fb8",
+      "mode": "auto_no_facts",
+      "priority": 0,
+      "score": 0,
+      "chars": 13,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_23589ef4842629721243",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 149,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_0e1216d890a1a40814a0",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 125,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_7dad138cb16a8ec8059b",
+      "mode": "llm_batch",
+      "priority": 21,
+      "score": 1,
+      "chars": 31,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 1,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_6a7fea9a40a8617e3b81",
+      "mode": "auto_no_facts",
+      "priority": 0,
+      "score": 0,
+      "chars": 13,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_83490ad7ae1cbd61fa53",
+      "mode": "llm_batch",
+      "priority": 21,
+      "score": 1,
+      "chars": 179,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 6,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_a240fd556c7d66b11b94",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 37,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_b0cb4fb7381dd70411e3",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 61,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_de7962b4fc53a2a3c837",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 75,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_73f02472b1d651948aec",
+      "mode": "auto_no_facts",
+      "priority": 0,
+      "score": 0,
+      "chars": 13,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_0dec6fd329a032c55392",
+      "mode": "llm_batch",
+      "priority": 22,
+      "score": 2,
+      "chars": 262,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 1,
+        "metric": 1,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_aee5b7e76f59f263058d",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 192,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_f0187db9f99bdd9547f7",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 214,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_61a6d9bd09d2676302e7",
+      "mode": "llm_batch",
+      "priority": 21,
+      "score": 1,
+      "chars": 185,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 1,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_3c4515f250047dc2f220",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 87,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_0d5568dee160b57219e1",
+      "mode": "llm_batch",
+      "priority": 20,
+      "score": 0,
+      "chars": 192,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 0,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    },
+    {
+      "unit_id": "unit_72fe5e3dafcea651e780",
+      "mode": "llm_batch",
+      "priority": 21,
+      "score": 1,
+      "chars": 39,
+      "format": "pptx",
+      "structured_kind": "pptx_shapes",
+      "signals": {
+        "relation": 0,
+        "metric": 0,
+        "event": 0,
+        "alias": 0,
+        "id_like": 0,
+        "date": 1,
+        "hidden": false,
+        "table_like": false,
+        "visual": false
+      }
+    }
+  ]
+}

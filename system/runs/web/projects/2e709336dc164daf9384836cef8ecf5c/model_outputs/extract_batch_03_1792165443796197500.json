@@ -1,0 +1,314 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_de7962b4fc53a2a3c837",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "樱花节"
+        },
+        {
+          "local_id": "m2",
+          "type": "Product",
+          "name": "珐琅樱韵"
+        },
+        {
+          "local_id": "m3",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m3",
+          "predicate": "organizes",
+          "object": "m1"
+        },
+        {
+          "subject": "m2",
+          "predicate": "part_of",
+          "object": "m1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "planner_context"
+          },
+          "value": "担任轮值部长后承担策划的活动"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "incident"
+          },
+          "value": "材料不够用，现场集思广益“沙瓶”游戏"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "teaching_content"
+          },
+          "value": "掐丝珐琅的教学"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_aee5b7e76f59f263058d",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "“星心相印”新生引导"
+        },
+        {
+          "local_id": "m2",
+          "type": "Actor",
+          "name": "启明星"
+        },
+        {
+          "local_id": "m3",
+          "type": "Activity",
+          "name": "学长学姐领航划"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m2",
+          "predicate": "organizes",
+          "object": "m1"
+        },
+        {
+          "subject": "m1",
+          "predicate": "includes",
+          "object": "m3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "value": "新生入学后2-3个月"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "reward"
+          },
+          "value": "集体活动证明"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "purpose"
+          },
+          "value": "解答新生学业、生活迷惑，缓解焦虑"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "online_mode"
+          },
+          "value": "长期在线Q&A ＋资源库"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "offline_mode"
+          },
+          "value": "热点交流会"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_f0187db9f99bdd9547f7",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "“跃起来”运动系列"
+        },
+        {
+          "local_id": "m2",
+          "type": "Activity",
+          "name": "布袋围攻"
+        },
+        {
+          "local_id": "m3",
+          "type": "Activity",
+          "name": "沙包躲避战"
+        },
+        {
+          "local_id": "m4",
+          "type": "Activity",
+          "name": "乒乓颠球"
+        },
+        {
+          "local_id": "m5",
+          "type": "Activity",
+          "name": "蒙眼走线"
+        },
+        {
+          "local_id": "m6",
+          "type": "Category",
+          "name": "常驻互动"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "includes",
+          "object": "m2"
+        },
+        {
+          "subject": "m1",
+          "predicate": "includes",
+          "object": "m3"
+        },
+        {
+          "subject": "m6",
+          "predicate": "includes",
+          "object": "m4"
+        },
+        {
+          "subject": "m6",
+          "predicate": "includes",
+          "object": "m5"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "rules"
+          },
+          "value": "参与者套上布袋，分攻守两方，被攻方形成矩形包围淘汰出局。采用限时轮回制，交换攻守方，相同时间内淘汰对手多胜利"
+        },
+        {
+          "subject": "m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "benefit"
+          },
+          "value": "释放多巴胺为同学们解压，提高身体素质、肢体灵活性"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_3c4515f250047dc2f220",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "System",
+          "name": "两人搭档制"
+        },
+        {
+          "local_id": "m2",
+          "type": "Training",
+          "name": "技术培训"
+        },
+        {
+          "local_id": "m3",
+          "type": "Event",
+          "name": "定期例会、温情团建"
+        },
+        {
+          "local_id": "m4",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m5",
+          "type": "Location",
+          "name": "丝路欢乐世界"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m4",
+          "predicate": "implements",
+          "object": "m1"
+        },
+        {
+          "subject": "m4",
+          "predicate": "conducts",
+          "object": "m2"
+        },
+        {
+          "subject": "m4",
+          "predicate": "conducts",
+          "object": "m3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "description"
+          },
+          "value": "结对子办事 效率与友谊双赢"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "content"
+          },
+          "value": "秀米、剪辑培训"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "frequency"
+          },
+          "value": "两周一次例会，每学期1次集体活动"
+        },
+        {
+          "subject": "m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "name"
+          },
+          "value": "丝路欢乐世界"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_0d5568dee160b57219e1",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "启明星"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "testimonial"
+          },
+          "value": "在启明星，我学到了以前从未接触的技能，摆摊与同学们交流让我从内向胆小渐渐大方开朗，部门里的任务安排、搭档合作、集体活动让不同班级、不同专业的我们相聚相识，在大学也交到玩在一起的朋友。启明星为刚刚步入大学的我指明了不少方向，无论是校园生活、专业课程还是各类竞赛、学业信息。"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_031e801da803ca0f198f"
+}

@@ -1,0 +1,5944 @@
+{
+  "fingerprint": "run_32421f2d375c226a0323",
+  "extractions": {
+    "unit_528c8f2ef191664f296f": {
+      "task_id": "unit_528c8f2ef191664f296f",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_06bdb9c79f7af79cca04": {
+      "task_id": "unit_06bdb9c79f7af79cca04",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_1af7226d82851718bde3": {
+      "task_id": "unit_1af7226d82851718bde3",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_a3af4690866f4c6298f1": {
+      "task_id": "unit_a3af4690866f4c6298f1",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_5068b2cebd4e6e879f4a": {
+      "task_id": "unit_5068b2cebd4e6e879f4a",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_002c3727f13229a6a9b3": {
+      "task_id": "unit_002c3727f13229a6a9b3",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_040923713b4cef0c68f8": {
+      "task_id": "unit_040923713b4cef0c68f8",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_d7d53df903c4a7a642cb": {
+      "task_id": "unit_d7d53df903c4a7a642cb",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_e85af9152f5fc4788520": {
+      "task_id": "unit_e85af9152f5fc4788520",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_803d2ddeaa6882bf934a": {
+      "task_id": "unit_803d2ddeaa6882bf934a",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_0accc6a7b9f4479a88c6": {
+      "task_id": "unit_0accc6a7b9f4479a88c6",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_bfc1e90afb4e8b9b5d08": {
+      "task_id": "unit_bfc1e90afb4e8b9b5d08",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_2e4509a57350ead41e2d": {
+      "task_id": "unit_2e4509a57350ead41e2d",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_0f6ee9e5d3c1677c9b04": {
+      "task_id": "unit_0f6ee9e5d3c1677c9b04",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_a1d83ce9c36a61d85d4d": {
+      "task_id": "unit_a1d83ce9c36a61d85d4d",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_4883c03b37924b4c0c31": {
+      "task_id": "unit_4883c03b37924b4c0c31",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_4c8e28cd93bff6aa6fea": {
+      "task_id": "unit_4c8e28cd93bff6aa6fea",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_1effa66f75d0c1abc6d6": {
+      "task_id": "unit_1effa66f75d0c1abc6d6",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_0c917c82e30352158e2e": {
+      "task_id": "unit_0c917c82e30352158e2e",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_571c8816e150709a9bbe": {
+      "task_id": "unit_571c8816e150709a9bbe",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_5dc7e18795dae74d1aee": {
+      "task_id": "unit_5dc7e18795dae74d1aee",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_e15817397584a67c23be": {
+      "task_id": "unit_e15817397584a67c23be",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_63045ecb73cf15d35b34": {
+      "task_id": "unit_63045ecb73cf15d35b34",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_1ab89cc1a0eb094159dc": {
+      "task_id": "unit_1ab89cc1a0eb094159dc",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_8811e619816d6161edea": {
+      "task_id": "unit_8811e619816d6161edea",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_82404ac9cf79efafd11a": {
+      "task_id": "unit_82404ac9cf79efafd11a",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_d836c348e20a52d4a707": {
+      "task_id": "unit_d836c348e20a52d4a707",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_a0f1d91ec5bc95e4329c": {
+      "task_id": "unit_a0f1d91ec5bc95e4329c",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_c837da9580eb9c617f5d": {
+      "task_id": "unit_c837da9580eb9c617f5d",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_29efd31c4d674bff4149": {
+      "task_id": "unit_29efd31c4d674bff4149",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_f1029046fe1fc61a6089": {
+      "task_id": "unit_f1029046fe1fc61a6089",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_9d31c1034cec1b7648bc": {
+      "task_id": "unit_9d31c1034cec1b7648bc",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_98d1db66752de3bff919": {
+      "task_id": "unit_98d1db66752de3bff919",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_df954059bae062fadb3b": {
+      "task_id": "unit_df954059bae062fadb3b",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_db0936ff5b78b43923d7": {
+      "task_id": "unit_db0936ff5b78b43923d7",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_572af94e37f1f2c9fb3e": {
+      "task_id": "unit_572af94e37f1f2c9fb3e",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_05edade89e4bf2ee63e5": {
+      "task_id": "unit_05edade89e4bf2ee63e5",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_7858633fbb63d4370b6a": {
+      "task_id": "unit_7858633fbb63d4370b6a",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_7be26e480af63ec0e75b": {
+      "task_id": "unit_7be26e480af63ec0e75b",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_9be3045bee9db4fe88cf": {
+      "task_id": "unit_9be3045bee9db4fe88cf",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_ad279cad2a65624d3907": {
+      "task_id": "unit_ad279cad2a65624d3907",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_2574d0b63578042872dc": {
+      "task_id": "unit_2574d0b63578042872dc",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_5425c351928cfa331554": {
+      "task_id": "unit_5425c351928cfa331554",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_f82c724ec73dec5ee1d6": {
+      "task_id": "unit_f82c724ec73dec5ee1d6",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_93ce7a05b8852de09fc2": {
+      "task_id": "unit_93ce7a05b8852de09fc2",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_3b91381da2db6d612ce7": {
+      "task_id": "unit_3b91381da2db6d612ce7",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_3bdfe30eff4af15a8e7f": {
+      "task_id": "unit_3bdfe30eff4af15a8e7f",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_b14b956c442694217b05": {
+      "task_id": "unit_b14b956c442694217b05",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_2e1cfbb38e5812be2d1c": {
+      "task_id": "unit_2e1cfbb38e5812be2d1c",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_c1cf8347ae163e001552": {
+      "task_id": "unit_c1cf8347ae163e001552",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_3efe1338cb848ef30577": {
+      "task_id": "unit_3efe1338cb848ef30577",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_f55c760ca0cf689de7ec": {
+      "task_id": "unit_f55c760ca0cf689de7ec",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_4d64d2d761c0cfb1b8c5": {
+      "task_id": "unit_4d64d2d761c0cfb1b8c5",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_c120100a93a5b123572a": {
+      "task_id": "unit_c120100a93a5b123572a",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_a64eca5fc4e3f2009f8f": {
+      "task_id": "unit_a64eca5fc4e3f2009f8f",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_8e3d2820f9e09ff4f9ce": {
+      "task_id": "unit_8e3d2820f9e09ff4f9ce",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_22919d14959c4b09d4fc": {
+      "task_id": "unit_22919d14959c4b09d4fc",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_d7fb2401018767f49558": {
+      "task_id": "unit_d7fb2401018767f49558",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_b7223fdcb1e2b07a3feb": {
+      "task_id": "unit_b7223fdcb1e2b07a3feb",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_a98888755050ab53fb5a": {
+      "task_id": "unit_a98888755050ab53fb5a",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_b5dca1512adfacb7ad6a": {
+      "task_id": "unit_b5dca1512adfacb7ad6a",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_0a4a0b05d1b50c3e1d7f": {
+      "task_id": "unit_0a4a0b05d1b50c3e1d7f",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_d4d6b252d46c75dcf6dd": {
+      "task_id": "unit_d4d6b252d46c75dcf6dd",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_a75453a9aa3d7ba1f250": {
+      "task_id": "unit_a75453a9aa3d7ba1f250",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_249f8c2dc9c53c8354c8": {
+      "task_id": "unit_249f8c2dc9c53c8354c8",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_3a82fdaa3c5a2a9ee224": {
+      "task_id": "unit_3a82fdaa3c5a2a9ee224",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_e3570502c372269fbf79": {
+      "task_id": "unit_e3570502c372269fbf79",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_22a488445606f3b14c7f": {
+      "task_id": "unit_22a488445606f3b14c7f",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_13e9268b4c9d4dc0cad4": {
+      "task_id": "unit_13e9268b4c9d4dc0cad4",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_bf779845113f19b454f9": {
+      "task_id": "unit_bf779845113f19b454f9",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_ec063b85dea0548f4ad9": {
+      "task_id": "unit_ec063b85dea0548f4ad9",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_45e5a0d79d7b69feab69": {
+      "task_id": "unit_45e5a0d79d7b69feab69",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_2cb1800279b389f590fc": {
+      "task_id": "unit_2cb1800279b389f590fc",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_e3d8e8955d91a1c499e8": {
+      "task_id": "unit_e3d8e8955d91a1c499e8",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_904e45c1320688701bec": {
+      "task_id": "unit_904e45c1320688701bec",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_926cf4d8479f681e9c8d": {
+      "task_id": "unit_926cf4d8479f681e9c8d",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_dccf086f5aecb412a664": {
+      "task_id": "unit_dccf086f5aecb412a664",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_33e2f97798268dac7a52": {
+      "task_id": "unit_33e2f97798268dac7a52",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_e66e1c50e8d81097942e": {
+      "task_id": "unit_e66e1c50e8d81097942e",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_b734fdbc1f26eef64033": {
+      "task_id": "unit_b734fdbc1f26eef64033",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_e02a756c1c14a36f017e": {
+      "task_id": "unit_e02a756c1c14a36f017e",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_03ff918ee54977ad61ab": {
+      "task_id": "unit_03ff918ee54977ad61ab",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_2072e6910d1e427aaeb5": {
+      "task_id": "unit_2072e6910d1e427aaeb5",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_df792f1a6482c0c7a5af": {
+      "task_id": "unit_df792f1a6482c0c7a5af",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_10e7b3824046efb94ca6": {
+      "task_id": "unit_10e7b3824046efb94ca6",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_d70d11c632b018e8d341": {
+      "task_id": "unit_d70d11c632b018e8d341",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_cb31226214739383dd28": {
+      "task_id": "unit_cb31226214739383dd28",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_8d8ae10660a68851f830": {
+      "task_id": "unit_8d8ae10660a68851f830",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_a2b9b92a12fae87baf22": {
+      "task_id": "unit_a2b9b92a12fae87baf22",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_b7adcaaacb364220468e": {
+      "task_id": "unit_b7adcaaacb364220468e",
+      "review": {
+        "status": "no_facts",
+        "reason": "deterministic structural-only unit"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_8ff2f4a2f2129c632e11": {
+      "task_id": "unit_8ff2f4a2f2129c632e11",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_f1f03a22482482877345",
+          "local_id": "m_club",
+          "unit_id": "unit_8ff2f4a2f2129c632e11",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_9f67b40fbb3cf1081758",
+          "local_id": "m_doc",
+          "unit_id": "unit_8ff2f4a2f2129c632e11",
+          "type": "DataAsset",
+          "name": "《西安交通大学学生社团建设管理办法》",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "studied",
+          "object": "m_9f67b40fbb3cf1081758",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "服务社会、奉献爱心、推己及人、薪火相传",
+          "qualifiers": {
+            "attribute": "core_ideology"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "活动规范化运作与成员全面化培养",
+          "qualifiers": {
+            "attribute": "future_core_focus"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "不同部门间活动内容存在显著差异，志愿者交流互动较少",
+          "qualifiers": {
+            "attribute": "existing_problem"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "信息通知和各部门反馈的效率有待提升",
+          "qualifiers": {
+            "attribute": "existing_problem"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "活动影像存档事宜存在较大的完善空间，部分项目部门活动留痕意识不足",
+          "qualifiers": {
+            "attribute": "existing_problem"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "志愿者对于参与社团内部互动活动的积极性相对较低",
+          "qualifiers": {
+            "attribute": "existing_problem"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "构建严密精细的活动管理机制，制定涵盖活动申请、筹备、执行到总结宣传全流程的标准化操作指南",
+          "qualifiers": {
+            "attribute": "future_plan"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "构建全方位的安全保障体系，提前评估安全风险并制定预案",
+          "qualifiers": {
+            "attribute": "future_plan"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "加强社团管理者系统培训，提升社长团、部长团的领导能力与创新思维",
+          "qualifiers": {
+            "attribute": "future_plan"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "为全体成员提供丰富多元的培训课程和实践机会，提升综合素质与核心竞争力",
+          "qualifiers": {
+            "attribute": "future_plan"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "优化现有报备流程，去除繁琐环节，实现快速提交、审核和反馈",
+          "qualifiers": {
+            "attribute": "suggestion_to_school"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f1f03a22482482877345",
+          "predicate": "attribute",
+          "value": "针对活动、场地申请等事务设立专门的实时反馈渠道",
+          "qualifiers": {
+            "attribute": "suggestion_to_school"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_8ff2f4a2f2129c632e11",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望"
+                ],
+                "paragraph_start": 55,
+                "paragraph_end": 71,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8cb4f769297eb7da6d7"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_b77c531eae890fedb0ed": {
+      "task_id": "unit_b77c531eae890fedb0ed",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_eb402f9f5ebf507d3a7b",
+          "local_id": "m_club",
+          "unit_id": "unit_b77c531eae890fedb0ed",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_b77c531eae890fedb0ed",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团获奖情况"
+                ],
+                "table": 5,
+                "row_start": 2,
+                "row_end": 17
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_1cf06d730ce8e480857e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_c9dc2bdc24f765800187",
+          "local_id": "m_tang",
+          "unit_id": "unit_b77c531eae890fedb0ed",
+          "type": "Actor",
+          "name": "唐仲英基金会",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_b77c531eae890fedb0ed",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团获奖情况"
+                ],
+                "table": 5,
+                "row_start": 2,
+                "row_end": 17
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_1cf06d730ce8e480857e"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_f8ca3b7c2f0bdc011e2e": {
+      "task_id": "unit_f8ca3b7c2f0bdc011e2e",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_217f1443a58bc1c5ccca",
+          "local_id": "m_club",
+          "unit_id": "unit_f8ca3b7c2f0bdc011e2e",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_f8ca3b7c2f0bdc011e2e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团财务状况"
+                ],
+                "table": 6,
+                "row_start": 2,
+                "row_end": 37
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_a5bd9aba55871d7abce6"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_a469977a059373d559e4",
+          "local_id": "m_tang",
+          "unit_id": "unit_f8ca3b7c2f0bdc011e2e",
+          "type": "Actor",
+          "name": "唐仲英基金会",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_f8ca3b7c2f0bdc011e2e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团财务状况"
+                ],
+                "table": 6,
+                "row_start": 2,
+                "row_end": 37
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_a5bd9aba55871d7abce6"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_978ccec685a4fa872a7c": {
+      "task_id": "unit_978ccec685a4fa872a7c",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_2dab5b5225f811656386",
+          "local_id": "m_club",
+          "unit_id": "unit_978ccec685a4fa872a7c",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_978ccec685a4fa872a7c",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 179,
+                "paragraph_end": 182,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_acf99bc4c5c41604c276"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_85801bc05c72b98a0901",
+          "local_id": "m_award1",
+          "unit_id": "unit_978ccec685a4fa872a7c",
+          "type": "Event",
+          "name": "2024年度“榜样100”全国优秀大学生社团",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_978ccec685a4fa872a7c",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 179,
+                "paragraph_end": 182,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_acf99bc4c5c41604c276"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_2dab5b5225f811656386",
+          "predicate": "received_award",
+          "object": "m_85801bc05c72b98a0901",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_978ccec685a4fa872a7c",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 179,
+                "paragraph_end": 182,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_acf99bc4c5c41604c276"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_85801bc05c72b98a0901",
+          "predicate": "attribute",
+          "value": "https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_978ccec685a4fa872a7c",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 179,
+                "paragraph_end": 182,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_acf99bc4c5c41604c276"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_1df1ebd333e6c909e73e": {
+      "task_id": "unit_1df1ebd333e6c909e73e",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_6ea286d6702aa4b0a3c5",
+          "local_id": "m_club",
+          "unit_id": "unit_1df1ebd333e6c909e73e",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_1df1ebd333e6c909e73e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 184,
+                "paragraph_end": 186,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_d28e248a46bed3c660bb"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_561bc92b9cfafa682b3e",
+          "local_id": "m_team",
+          "unit_id": "unit_1df1ebd333e6c909e73e",
+          "type": "Actor",
+          "name": "“知行秦川，梦启今夏”支教团",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_1df1ebd333e6c909e73e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 184,
+                "paragraph_end": 186,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_d28e248a46bed3c660bb"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_166a584f1b9230ea118d",
+          "local_id": "m_award2",
+          "unit_id": "unit_1df1ebd333e6c909e73e",
+          "type": "Event",
+          "name": "2024年度“榜样100”全国优秀大学生团队",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_1df1ebd333e6c909e73e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 184,
+                "paragraph_end": 186,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_d28e248a46bed3c660bb"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_561bc92b9cfafa682b3e",
+          "predicate": "belongs_to",
+          "object": "m_6ea286d6702aa4b0a3c5",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_1df1ebd333e6c909e73e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 184,
+                "paragraph_end": 186,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_d28e248a46bed3c660bb"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_561bc92b9cfafa682b3e",
+          "predicate": "received_award",
+          "object": "m_166a584f1b9230ea118d",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_1df1ebd333e6c909e73e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 184,
+                "paragraph_end": 186,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_d28e248a46bed3c660bb"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_166a584f1b9230ea118d",
+          "predicate": "attribute",
+          "value": "https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_1df1ebd333e6c909e73e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 184,
+                "paragraph_end": 186,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_d28e248a46bed3c660bb"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_56a6334f56b9b9b1f9c0": {
+      "task_id": "unit_56a6334f56b9b9b1f9c0",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": [
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_assertion"
+      ]
+    },
+    "unit_9f6a8a16afdf54bd2e0e": {
+      "task_id": "unit_9f6a8a16afdf54bd2e0e",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_7de2cdf5897776688fde",
+          "local_id": "m1",
+          "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+          "type": "Event",
+          "name": "活动1",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "paragraph_start": 28,
+                "paragraph_end": 45,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_8febd32501d48e846efc"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_6cc27c38b9b40ac9f8df",
+          "local_id": "m2",
+          "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+          "type": "Event",
+          "name": "活动2",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "paragraph_start": 28,
+                "paragraph_end": 45,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_8febd32501d48e846efc"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_82061628808aca9fc366",
+          "local_id": "m3",
+          "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+          "type": "Event",
+          "name": "活动3",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "paragraph_start": 28,
+                "paragraph_end": 45,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_8febd32501d48e846efc"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m_7de2cdf5897776688fde",
+          "predicate": "attribute",
+          "value": "https://mp.weixin.qq.com/s/q3DpHWpvyVcKu8AObLGzkA",
+          "qualifiers": {
+            "attribute": "news_link"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "paragraph_start": 28,
+                "paragraph_end": 45,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_8febd32501d48e846efc"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_6cc27c38b9b40ac9f8df",
+          "predicate": "attribute",
+          "value": "https://mp.weixin.qq.com/s/ORG2iON-OyLN8XGztBMbdg",
+          "qualifiers": {
+            "attribute": "news_link"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "paragraph_start": 28,
+                "paragraph_end": 45,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_8febd32501d48e846efc"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_82061628808aca9fc366",
+          "predicate": "attribute",
+          "value": [
+            "https://mp.weixin.qq.com/s/4GfcUWefK1MidAGxbm12Vw",
+            "https://mp.weixin.qq.com/s/d1mrH-cMN1mxwjx4S3YWXA",
+            "https://mp.weixin.qq.com/s/VcFRq2Y2ID3-tNrGQ2FUuQ",
+            "https://mp.weixin.qq.com/s/T5pHtpzn2t34serr2EKV2w"
+          ],
+          "qualifiers": {
+            "attribute": "news_links"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_9f6a8a16afdf54bd2e0e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "paragraph_start": 28,
+                "paragraph_end": 45,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_8febd32501d48e846efc"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_1ac6806406869aa96209": {
+      "task_id": "unit_1ac6806406869aa96209",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_4928d408ae0c9634f1d7",
+          "local_id": "m6",
+          "unit_id": "unit_1ac6806406869aa96209",
+          "type": "Actor",
+          "name": "杨可欣",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_1ac6806406869aa96209",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台基本信息"
+                ],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 4
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_18c3e7f87f9ed7d6765b"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_1e3faef2f0ddcee024e5",
+          "local_id": "m7",
+          "unit_id": "unit_1ac6806406869aa96209",
+          "type": "Actor",
+          "name": "王紫彤",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_1ac6806406869aa96209",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台基本信息"
+                ],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 4
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_18c3e7f87f9ed7d6765b"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_4e1be0cf1a95c2b57572",
+          "local_id": "m8",
+          "unit_id": "unit_1ac6806406869aa96209",
+          "type": "Actor",
+          "name": "赵淑琳",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_1ac6806406869aa96209",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台基本信息"
+                ],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 4
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_18c3e7f87f9ed7d6765b"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": [
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint"
+      ]
+    },
+    "unit_2a358f9267ceea0f80b6": {
+      "task_id": "unit_2a358f9267ceea0f80b6",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_7a1731908d720d597070": {
+      "task_id": "unit_7a1731908d720d597070",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_9d04770de75ddc73f01e",
+          "local_id": "student",
+          "unit_id": "unit_7a1731908d720d597070",
+          "type": "Actor",
+          "name": "林硕锦",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_9ba060039c93d3df574c",
+          "local_id": "advisor",
+          "unit_id": "unit_7a1731908d720d597070",
+          "type": "Actor",
+          "name": "刘晗梦",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_8903fa6cb31f12e04ad6",
+          "local_id": "team",
+          "unit_id": "unit_7a1731908d720d597070",
+          "type": "Actor",
+          "name": "启明寻洛，脉续中原实践队",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_d35a27151040cadab788",
+          "local_id": "activity",
+          "unit_id": "unit_7a1731908d720d597070",
+          "type": "Event",
+          "name": "中原文化传承主题调研",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_9d04770de75ddc73f01e",
+          "predicate": "participates_in",
+          "object": "m_d35a27151040cadab788",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_8903fa6cb31f12e04ad6",
+          "predicate": "conducts",
+          "object": "m_d35a27151040cadab788",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_9d04770de75ddc73f01e",
+          "predicate": "guided_by",
+          "object": "m_9ba060039c93d3df574c",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_9d04770de75ddc73f01e",
+          "predicate": "attribute",
+          "value": "2243515519",
+          "qualifiers": {
+            "attribute": "student_id"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_9d04770de75ddc73f01e",
+          "predicate": "attribute",
+          "value": "励志书院",
+          "qualifiers": {
+            "attribute": "college"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_9d04770de75ddc73f01e",
+          "predicate": "attribute",
+          "value": "信计2401",
+          "qualifiers": {
+            "attribute": "class"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_9d04770de75ddc73f01e",
+          "predicate": "attribute",
+          "value": "2026年7月26日",
+          "qualifiers": {
+            "attribute": "signature_date"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_9ba060039c93d3df574c",
+          "predicate": "attribute",
+          "value": "2026年7月28日",
+          "qualifiers": {
+            "attribute": "signature_date"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_d35a27151040cadab788",
+          "predicate": "attribute",
+          "value": "2026.7.19-2026.7.25",
+          "qualifiers": {
+            "attribute": "practice_time"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_d35a27151040cadab788",
+          "predicate": "attribute",
+          "value": 60,
+          "qualifiers": {
+            "attribute": "cumulative_hours"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_d35a27151040cadab788",
+          "predicate": "attribute",
+          "value": "主题调研",
+          "qualifiers": {
+            "attribute": "practice_type"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_d35a27151040cadab788",
+          "predicate": "attribute",
+          "value": [
+            "隋唐洛阳城国家遗址公园",
+            "龙门石窟",
+            "洛阳博物馆",
+            "二里头夏都遗址博物馆",
+            "清明上河园",
+            "万岁山武侠城"
+          ],
+          "qualifiers": {
+            "attribute": "visited_sites"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_7a1731908d720d597070",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "table": 1,
+                "row_start": 2,
+                "row_end": 10
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_475522a3889c565df599"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_faa988ec76d5092b2357": {
+      "task_id": "unit_faa988ec76d5092b2357",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_1e0b9bfdf51e91f95101",
+          "local_id": "record_book",
+          "unit_id": "unit_faa988ec76d5092b2357",
+          "type": "DataAsset",
+          "name": "思政课实践教学记录册",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_faa988ec76d5092b2357",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 2,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_63c45950da1c1fa9634f"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_1dd227ac2377bfd7c345",
+          "local_id": "university",
+          "unit_id": "unit_faa988ec76d5092b2357",
+          "type": "Actor",
+          "name": "西安交通大学",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_faa988ec76d5092b2357",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 2,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_63c45950da1c1fa9634f"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_ce28b8ed317a68ca7478",
+          "local_id": "marxism_school",
+          "unit_id": "unit_faa988ec76d5092b2357",
+          "type": "Actor",
+          "name": "马克思主义学院",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_faa988ec76d5092b2357",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 2,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_63c45950da1c1fa9634f"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_1e0b9bfdf51e91f95101",
+          "predicate": "managed_by",
+          "object": "m_1dd227ac2377bfd7c345",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_faa988ec76d5092b2357",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 2,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_63c45950da1c1fa9634f"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_1e0b9bfdf51e91f95101",
+          "predicate": "archived_at",
+          "object": "m_ce28b8ed317a68ca7478",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_faa988ec76d5092b2357",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 2,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_63c45950da1c1fa9634f"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_1e0b9bfdf51e91f95101",
+          "predicate": "attribute",
+          "value": "交大本科生获得思政实践学分的必要材料",
+          "qualifiers": {
+            "attribute": "purpose"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_faa988ec76d5092b2357",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 2,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_63c45950da1c1fa9634f"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_1e0b9bfdf51e91f95101",
+          "predicate": "attribute",
+          "value": "实践学生本人填写，组织单位认定，学生交由辅导员收集后报备至马克思主义学院留存",
+          "qualifiers": {
+            "attribute": "process"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_faa988ec76d5092b2357",
+              "document_id": "doc_e6e0f281c06f39e259ef",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 2,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_63c45950da1c1fa9634f"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_cde68c145de0197d06f2": {
+      "task_id": "unit_cde68c145de0197d06f2",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_f33383f988357a5ec81d",
+          "local_id": "team",
+          "unit_id": "unit_cde68c145de0197d06f2",
+          "type": "Actor",
+          "name": "梦绽格桑原，玉树支教团",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_cde68c145de0197d06f2",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 188,
+                "paragraph_end": 190,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_454b6d2381656e795cdd"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_bf204ed9e02f2e0f7a94",
+          "local_id": "organization",
+          "unit_id": "unit_cde68c145de0197d06f2",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_cde68c145de0197d06f2",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 188,
+                "paragraph_end": 190,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_454b6d2381656e795cdd"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_408c5ce0a3a75337caad",
+          "local_id": "award",
+          "unit_id": "unit_cde68c145de0197d06f2",
+          "type": "Event",
+          "name": "榜样100全国优秀大学生团队",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_cde68c145de0197d06f2",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 188,
+                "paragraph_end": 190,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_454b6d2381656e795cdd"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_f33383f988357a5ec81d",
+          "predicate": "belongs_to",
+          "object": "m_bf204ed9e02f2e0f7a94",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_cde68c145de0197d06f2",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 188,
+                "paragraph_end": 190,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_454b6d2381656e795cdd"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f33383f988357a5ec81d",
+          "predicate": "received_award",
+          "object": "m_408c5ce0a3a75337caad",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_cde68c145de0197d06f2",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 188,
+                "paragraph_end": 190,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_454b6d2381656e795cdd"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_408c5ce0a3a75337caad",
+          "predicate": "attribute",
+          "value": "2024",
+          "qualifiers": {
+            "attribute": "year"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_cde68c145de0197d06f2",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 188,
+                "paragraph_end": 190,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_454b6d2381656e795cdd"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f33383f988357a5ec81d",
+          "predicate": "attribute",
+          "value": "https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_cde68c145de0197d06f2",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 188,
+                "paragraph_end": 190,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_454b6d2381656e795cdd"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_b30df0174f2821927f30": {
+      "task_id": "unit_b30df0174f2821927f30",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_846dada885ec7c771f6d",
+          "local_id": "team2",
+          "unit_id": "unit_b30df0174f2821927f30",
+          "type": "Actor",
+          "name": "知行秦川，梦启今夏支教团",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_b30df0174f2821927f30",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 196,
+                "paragraph_end": 198,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_fdfefb9e563868bbd047"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_83d7fd43bb1070ea02e0",
+          "local_id": "organization",
+          "unit_id": "unit_b30df0174f2821927f30",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_b30df0174f2821927f30",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 196,
+                "paragraph_end": 198,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_fdfefb9e563868bbd047"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_7fd0b252db2f1ce7ce7d",
+          "local_id": "award2",
+          "unit_id": "unit_b30df0174f2821927f30",
+          "type": "Event",
+          "name": "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_b30df0174f2821927f30",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 196,
+                "paragraph_end": 198,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_fdfefb9e563868bbd047"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_846dada885ec7c771f6d",
+          "predicate": "belongs_to",
+          "object": "m_83d7fd43bb1070ea02e0",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_b30df0174f2821927f30",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 196,
+                "paragraph_end": 198,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_fdfefb9e563868bbd047"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_846dada885ec7c771f6d",
+          "predicate": "received_award",
+          "object": "m_7fd0b252db2f1ce7ce7d",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_b30df0174f2821927f30",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 196,
+                "paragraph_end": 198,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_fdfefb9e563868bbd047"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_7fd0b252db2f1ce7ce7d",
+          "predicate": "attribute",
+          "value": "2024",
+          "qualifiers": {
+            "attribute": "year"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_b30df0174f2821927f30",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 196,
+                "paragraph_end": 198,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_fdfefb9e563868bbd047"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_846dada885ec7c771f6d",
+          "predicate": "attribute",
+          "value": "https://mp.weixin.qq.com/s/q2YlDcofpiVEZYrNwwdJ1A",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_b30df0174f2821927f30",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 196,
+                "paragraph_end": 198,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_fdfefb9e563868bbd047"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_9caff1c04fc3465d105c": {
+      "task_id": "unit_9caff1c04fc3465d105c",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_9d037e07466e195a546a",
+          "local_id": "award3",
+          "unit_id": "unit_9caff1c04fc3465d105c",
+          "type": "Event",
+          "name": "唐仲英基金会2023-2024学年社团公益活动优秀奖",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_9caff1c04fc3465d105c",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 213,
+                "paragraph_end": 215,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_24a7b84f28d7d33ed4da"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m_9d037e07466e195a546a",
+          "predicate": "attribute",
+          "value": "2023-2024",
+          "qualifiers": {
+            "attribute": "academic_year"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_9caff1c04fc3465d105c",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 213,
+                "paragraph_end": 215,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_24a7b84f28d7d33ed4da"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_9d037e07466e195a546a",
+          "predicate": "attribute",
+          "value": "https://mp.weixin.qq.com/s/WfT6qWPk4AAwtCvXU933MQ",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_9caff1c04fc3465d105c",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "未来展望",
+                  "附件："
+                ],
+                "paragraph_start": 213,
+                "paragraph_end": 215,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_24a7b84f28d7d33ed4da"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_fc130afee48cc79f5707": {
+      "task_id": "unit_fc130afee48cc79f5707",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_db99ed5d98b51d54dbda",
+          "local_id": "m2",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Actor",
+          "name": "冯琳雅",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_eb15e0f7759b0129783c",
+          "local_id": "m3",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Actor",
+          "name": "张煜奇",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_9a83f8e4f6760fc44cbb",
+          "local_id": "m4",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Actor",
+          "name": "吕永奇",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_523fd5241429306e1426",
+          "local_id": "m5",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Actor",
+          "name": "黄殿坤",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_f1be9c1d64c6b598f316",
+          "local_id": "m6",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Actor",
+          "name": "尹厚泽",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_2d0a6b67020c27e14adf",
+          "local_id": "m7",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Actor",
+          "name": "郭嘉文",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_71ef8fee0c8d18479b47",
+          "local_id": "m9",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "团支部换届选举",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_6bebecee387165e4e6e4",
+          "local_id": "m10",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "暑期社会实践经验交流分享",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_ce0eb57b1bb63b990c50",
+          "local_id": "m11",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "学习党的二十届三中全会精神",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_8370796f05ea5ef43d18",
+          "local_id": "m12",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "最佳团日决赛评比",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_1f0cdf646dd58271d3c1",
+          "local_id": "m13",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "校园政治生活",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_556b2934045200f2a617",
+          "local_id": "m14",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "寒假社会实践工作动员会",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_6050eca21b3cd6ccda5f",
+          "local_id": "m15",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "学习两会精神",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_c81df4da0d4d5e7652bd",
+          "local_id": "m16",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "学雷锋志愿服务月活动",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_8cf2f48efc91c7aa3421",
+          "local_id": "m17",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "贯彻中央八项规定",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_93ed3806a282cacf563f",
+          "local_id": "m18",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "夯实基层团务建设",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_bb98a6a656ad96cd1d2e",
+          "local_id": "m19",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "校庆纪念活动",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_7a3958b993da97415c63",
+          "local_id": "m20",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "国家安全日主题活动",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_3ed6a4e3716f59e137bc",
+          "local_id": "m22",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "回顾党史和新中国史",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_bb9e8088e01a2766c4b7",
+          "local_id": "m23",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "从志愿服务出发看国家战略",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_abea3ac74536c3b0996b",
+          "local_id": "m24",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "讨论交流环节",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_c30bc53f050ffdbb8249",
+          "local_id": "m25",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "国防安全主题教育",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_2d611a3288b35679adaa",
+          "local_id": "m26",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "观看《大先生》话剧视频",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_7a7faafe734614f66a3c",
+          "local_id": "m27",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "走实走深思想教育工作",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_4592344581e960793809",
+          "local_id": "m28",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "总结寒假社会实践",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_50c6c77170dc93445f42",
+          "local_id": "m29",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Event",
+          "name": "传承西迁精神",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_51770653cf1ab55e248c",
+          "local_id": "m35",
+          "unit_id": "unit_fc130afee48cc79f5707",
+          "type": "Actor",
+          "name": "唐仲英爱心社团支书",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_db99ed5d98b51d54dbda",
+          "predicate": "主持",
+          "object": "m_71ef8fee0c8d18479b47",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_fc130afee48cc79f5707",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团团组织生活学习记录："
+                ],
+                "table": 4,
+                "row_start": 2,
+                "row_end": 12
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e8a9899f6cbd69ea861e"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": [
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint"
+      ]
+    },
+    "unit_226ecdce4a368795ae89": {
+      "task_id": "unit_226ecdce4a368795ae89",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": [
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint"
+      ]
+    },
+    "unit_0a16a66d477e89a5aa2f": {
+      "task_id": "unit_0a16a66d477e89a5aa2f",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": [
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_assertion",
+        "skipped_unresolved_assertion",
+        "skipped_unresolved_assertion"
+      ]
+    },
+    "unit_c2e36ce07d89d90ff602": {
+      "task_id": "unit_c2e36ce07d89d90ff602",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": [
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_invalid_mention",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_assertion",
+        "skipped_unresolved_assertion",
+        "skipped_unresolved_assertion"
+      ]
+    },
+    "unit_5549451b9bb0677965de": {
+      "task_id": "unit_5549451b9bb0677965de",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_64757cf5afc7b5655110",
+          "local_id": "r2",
+          "unit_id": "unit_5549451b9bb0677965de",
+          "type": "DataAsset",
+          "name": "英仔爱心社公众号",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_1a29baa07c9500667778",
+          "local_id": "r3",
+          "unit_id": "unit_5549451b9bb0677965de",
+          "type": "DataAsset",
+          "name": "xjtu英仔爱心社官方",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_77ab92127bacbbc86e81",
+          "local_id": "r4",
+          "unit_id": "unit_5549451b9bb0677965de",
+          "type": "Actor",
+          "name": "交大新闻网",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_038c7dd9ee38b23f3052",
+          "local_id": "r5",
+          "unit_id": "unit_5549451b9bb0677965de",
+          "type": "Actor",
+          "name": "交大团委",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_64757cf5afc7b5655110",
+          "predicate": "获媒体报道",
+          "object": "m_77ab92127bacbbc86e81",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_64757cf5afc7b5655110",
+          "predicate": "获媒体报道",
+          "object": "m_038c7dd9ee38b23f3052",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_64757cf5afc7b5655110",
+          "predicate": "attribute",
+          "value": "7087增长至8279",
+          "qualifiers": {
+            "attribute": "关注人数变化"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_64757cf5afc7b5655110",
+          "predicate": "attribute",
+          "value": 186,
+          "qualifiers": {
+            "attribute": "发布推送数"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_64757cf5afc7b5655110",
+          "predicate": "attribute",
+          "value": "5万3千余次",
+          "qualifiers": {
+            "attribute": "累计阅读量"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_64757cf5afc7b5655110",
+          "predicate": "attribute",
+          "value": 175,
+          "qualifiers": {
+            "attribute": "原创文章数"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_64757cf5afc7b5655110",
+          "predicate": "attribute",
+          "value": 11,
+          "qualifiers": {
+            "attribute": "转载文章数"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_64757cf5afc7b5655110",
+          "predicate": "attribute",
+          "value": "约305次/篇",
+          "qualifiers": {
+            "attribute": "原创推送平均阅读量"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_1a29baa07c9500667778",
+          "predicate": "attribute",
+          "value": 37,
+          "qualifiers": {
+            "attribute": "发布视频数"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_1a29baa07c9500667778",
+          "predicate": "attribute",
+          "value": "超过600分钟",
+          "qualifiers": {
+            "attribute": "总时长"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_1a29baa07c9500667778",
+          "predicate": "attribute",
+          "value": 777,
+          "qualifiers": {
+            "attribute": "点赞量"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_1a29baa07c9500667778",
+          "predicate": "attribute",
+          "value": 252,
+          "qualifiers": {
+            "attribute": "粉丝数"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_1a29baa07c9500667778",
+          "predicate": "attribute",
+          "value": 13677,
+          "qualifiers": {
+            "attribute": "播放量"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5549451b9bb0677965de",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 13,
+                "paragraph_end": 18,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_bb40445460c1c8ec5977"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": [
+        "skipped_invalid_mention",
+        "skipped_unresolved_relation_endpoint",
+        "skipped_unresolved_relation_endpoint"
+      ]
+    },
+    "unit_733099e5eec0b494e76d": {
+      "task_id": "unit_733099e5eec0b494e76d",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_77ba0422d664a9091018",
+          "local_id": "m1",
+          "unit_id": "unit_733099e5eec0b494e76d",
+          "type": "Event",
+          "name": "“公益知行：志愿服务实训与能力提升”综能课",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_41d3925e08059dcdb932",
+          "local_id": "m2",
+          "unit_id": "unit_733099e5eec0b494e76d",
+          "type": "Event",
+          "name": "2026薪火π重庆大学交流活动",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_025b3213f4e4a3ef473d",
+          "local_id": "m3",
+          "unit_id": "unit_733099e5eec0b494e76d",
+          "type": "Event",
+          "name": "【普利司通】“丝路同心结・筑梦共成长”主题帮扶活动",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_f88179b731297a3f5281",
+          "local_id": "m4",
+          "unit_id": "unit_733099e5eec0b494e76d",
+          "type": "Event",
+          "name": "“公益启航：志愿服务技能培训”综能课",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_bc55616141a23a92ce4c",
+          "local_id": "m5",
+          "unit_id": "unit_733099e5eec0b494e76d",
+          "type": "Actor",
+          "name": "普利司通",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_025b3213f4e4a3ef473d",
+          "predicate": "sponsored_by",
+          "object": "m_bc55616141a23a92ce4c",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_77ba0422d664a9091018",
+          "predicate": "attribute",
+          "value": "2026年5月-2026年6月【综能课时间不准确】",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_77ba0422d664a9091018",
+          "predicate": "attribute",
+          "value": "西安交通大学",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_77ba0422d664a9091018",
+          "predicate": "attribute",
+          "value": "80",
+          "qualifiers": {
+            "attribute": "participants_count"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_41d3925e08059dcdb932",
+          "predicate": "attribute",
+          "value": "2026年4月25日至26日",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_41d3925e08059dcdb932",
+          "predicate": "attribute",
+          "value": "重庆大学",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_41d3925e08059dcdb932",
+          "predicate": "attribute",
+          "value": "100余人",
+          "qualifiers": {
+            "attribute": "participants_count"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_025b3213f4e4a3ef473d",
+          "predicate": "attribute",
+          "value": "2026年4月1日至14日",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_025b3213f4e4a3ef473d",
+          "predicate": "attribute",
+          "value": "西安市浐灞丝路学校",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_025b3213f4e4a3ef473d",
+          "predicate": "attribute",
+          "value": "100余人",
+          "qualifiers": {
+            "attribute": "participants_count"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f88179b731297a3f5281",
+          "predicate": "attribute",
+          "value": "2025年10月至11月",
+          "qualifiers": {
+            "attribute": "time"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f88179b731297a3f5281",
+          "predicate": "attribute",
+          "value": "西安交通大学",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_f88179b731297a3f5281",
+          "predicate": "attribute",
+          "value": "80",
+          "qualifiers": {
+            "attribute": "participants_count"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_733099e5eec0b494e76d",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团代表活动"
+                ],
+                "table": 2,
+                "row_start": 2,
+                "row_end": 5
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_52c38d9f5fc5f0027c4a"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_29b1e783a13fa2020a83": {
+      "task_id": "unit_29b1e783a13fa2020a83",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_12483a4ba7aedaf15cab",
+          "local_id": "club",
+          "unit_id": "unit_29b1e783a13fa2020a83",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_29b1e783a13fa2020a83",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团例会开展情况："
+                ],
+                "table": 3,
+                "row_start": 2,
+                "row_end": 9
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_ae6aeb6cb18921fe1fee"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m_12483a4ba7aedaf15cab",
+          "predicate": "attribute",
+          "value": {
+            "raw": "",
+            "kind": "text",
+            "value": ""
+          },
+          "qualifiers": {
+            "attribute": "meeting_statistics"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_29b1e783a13fa2020a83",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团主要活动举办情况",
+                  "社团例会开展情况："
+                ],
+                "table": 3,
+                "row_start": 2,
+                "row_end": 9
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_ae6aeb6cb18921fe1fee"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_5cbd4a1fdbe97ae0eb4e": {
+      "task_id": "unit_5cbd4a1fdbe97ae0eb4e",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_4682d1ed951696d3741c",
+          "local_id": "acc1",
+          "unit_id": "unit_5cbd4a1fdbe97ae0eb4e",
+          "type": "DataAsset",
+          "name": "英仔爱心社抖音账号",
+          "aliases": [
+            "英仔爱心社"
+          ],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_5cbd4a1fdbe97ae0eb4e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 21,
+                "paragraph_end": 22,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_6f0dc8e32be941274e9e"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m_4682d1ed951696d3741c",
+          "predicate": "attribute",
+          "value": 19,
+          "qualifiers": {
+            "attribute": "videos_published"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5cbd4a1fdbe97ae0eb4e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 21,
+                "paragraph_end": 22,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_6f0dc8e32be941274e9e"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_4682d1ed951696d3741c",
+          "predicate": "attribute",
+          "value": 296,
+          "qualifiers": {
+            "attribute": "likes"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5cbd4a1fdbe97ae0eb4e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 21,
+                "paragraph_end": 22,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_6f0dc8e32be941274e9e"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_4682d1ed951696d3741c",
+          "predicate": "attribute",
+          "value": 45,
+          "qualifiers": {
+            "attribute": "followers"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_5cbd4a1fdbe97ae0eb4e",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [
+                  "社团运营情况",
+                  "社团新媒体平台运营情况",
+                  "新媒体平台建设主要成果"
+                ],
+                "paragraph_start": 21,
+                "paragraph_end": 22,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_6f0dc8e32be941274e9e"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_907489e4b432930c90ac": {
+      "task_id": "unit_907489e4b432930c90ac",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [],
+      "relations": [],
+      "assertions": [],
+      "unresolved": [],
+      "warnings": []
+    },
+    "unit_c9911a246fcd14403d14": {
+      "task_id": "unit_c9911a246fcd14403d14",
+      "review": {
+        "status": "facts",
+        "reason": "fast semantic extraction"
+      },
+      "mentions": [
+        {
+          "mention_id": "m_0ddd403a4431c2aa14fa",
+          "local_id": "club",
+          "unit_id": "unit_c9911a246fcd14403d14",
+          "type": "Actor",
+          "name": "英仔爱心社",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_c9911a246fcd14403d14",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 7,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e32f8410f546861e7481"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_21a095cd841b98ba2b9f",
+          "local_id": "reporter",
+          "unit_id": "unit_c9911a246fcd14403d14",
+          "type": "Actor",
+          "name": "王力川",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_c9911a246fcd14403d14",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 7,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e32f8410f546861e7481"
+            }
+          ]
+        },
+        {
+          "mention_id": "m_b13e7fb4a1d09909e4cf",
+          "local_id": "advisor",
+          "unit_id": "unit_c9911a246fcd14403d14",
+          "type": "Actor",
+          "name": "刘晗梦",
+          "aliases": [],
+          "alias_declared": false,
+          "identifiers": [],
+          "attributes": {},
+          "evidence": [
+            {
+              "unit_id": "unit_c9911a246fcd14403d14",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 7,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e32f8410f546861e7481"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_b13e7fb4a1d09909e4cf",
+          "predicate": "advises",
+          "object": "m_0ddd403a4431c2aa14fa",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_c9911a246fcd14403d14",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 7,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e32f8410f546861e7481"
+            }
+          ],
+          "origin": "asserted"
+        },
+        {
+          "subject": "m_21a095cd841b98ba2b9f",
+          "predicate": "submits_report_for",
+          "object": "m_0ddd403a4431c2aa14fa",
+          "qualifiers": {},
+          "evidence": [
+            {
+              "unit_id": "unit_c9911a246fcd14403d14",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 7,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e32f8410f546861e7481"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_21a095cd841b98ba2b9f",
+          "predicate": "attribute",
+          "value": "18381993211",
+          "qualifiers": {
+            "attribute": "phone"
+          },
+          "evidence": [
+            {
+              "unit_id": "unit_c9911a246fcd14403d14",
+              "document_id": "doc_a341d81efa259ba0a868",
+              "kind": "text",
+              "locator": {
+                "section": [],
+                "paragraph_start": 2,
+                "paragraph_end": 7,
+                "precision": "source_xml_blocks"
+              },
+              "quote": "",
+              "match_mode": "locator_only",
+              "evidence_id": "ev_e32f8410f546861e7481"
+            }
+          ],
+          "origin": "asserted"
+        }
+      ],
+      "unresolved": [],
+      "warnings": []
+    }
+  }
+}

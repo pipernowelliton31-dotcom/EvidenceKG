@@ -1,0 +1,286 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_70bdd28f4d0ec6498113",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "DataAsset",
+          "name": "隋唐洛阳城遗址"
+        },
+        {
+          "local_id": "m2",
+          "type": "AITool",
+          "name": "VR灯光数字化展示"
+        },
+        {
+          "local_id": "m3",
+          "type": "DataAsset",
+          "name": "洛阳博物馆"
+        },
+        {
+          "local_id": "m4",
+          "type": "AITool",
+          "name": "数字复原工程"
+        },
+        {
+          "local_id": "m5",
+          "type": "DataAsset",
+          "name": "龙门石窟"
+        },
+        {
+          "local_id": "m6",
+          "type": "AITool",
+          "name": "3D投影复原"
+        },
+        {
+          "local_id": "m7",
+          "type": "DataAsset",
+          "name": "清明上河园"
+        },
+        {
+          "local_id": "m8",
+          "type": "AITool",
+          "name": "实景演绎"
+        },
+        {
+          "local_id": "m9",
+          "type": "DataAsset",
+          "name": "洛阳古墓博物馆"
+        },
+        {
+          "local_id": "m10",
+          "type": "AITool",
+          "name": "文化→文创"
+        },
+        {
+          "local_id": "m11",
+          "type": "DataAsset",
+          "name": "二里头夏都博物馆"
+        },
+        {
+          "local_id": "m12",
+          "type": "AITool",
+          "name": "文旅融合+IP打造"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "applies",
+          "object": "m2"
+        },
+        {
+          "subject": "m3",
+          "predicate": "applies",
+          "object": "m4"
+        },
+        {
+          "subject": "m5",
+          "predicate": "applies",
+          "object": "m6"
+        },
+        {
+          "subject": "m7",
+          "predicate": "applies",
+          "object": "m8"
+        },
+        {
+          "subject": "m9",
+          "predicate": "applies",
+          "object": "m10"
+        },
+        {
+          "subject": "m11",
+          "predicate": "applies",
+          "object": "m12"
+        }
+      ],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_bcc7cc5490179678b8ea",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "实践团"
+        },
+        {
+          "local_id": "m2",
+          "type": "Actor",
+          "name": "中外游客"
+        },
+        {
+          "local_id": "m3",
+          "type": "AITool",
+          "name": "现代化科技"
+        },
+        {
+          "local_id": "m4",
+          "type": "DataAsset",
+          "name": "古老文化"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "interviews",
+          "object": "m2"
+        },
+        {
+          "subject": "m3",
+          "predicate": "promotes",
+          "object": "m4"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "slogan"
+          },
+          "value": "古老文化碰上现代化科技，迸发崭新光彩"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_dbfc2496f7f27d3693ab",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "实践队"
+        },
+        {
+          "local_id": "m2",
+          "type": "DataAsset",
+          "name": "大河网"
+        },
+        {
+          "local_id": "m3",
+          "type": "DataAsset",
+          "name": "校实践公众号"
+        },
+        {
+          "local_id": "m4",
+          "type": "DataAsset",
+          "name": "院级公众号"
+        },
+        {
+          "local_id": "m5",
+          "type": "Product",
+          "name": "唐仕女俑"
+        },
+        {
+          "local_id": "m6",
+          "type": "Product",
+          "name": "纪录片视频"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "publishes",
+          "object": "m2"
+        },
+        {
+          "subject": "m1",
+          "predicate": "publishes",
+          "object": "m3"
+        },
+        {
+          "subject": "m1",
+          "predicate": "publishes",
+          "object": "m4"
+        },
+        {
+          "subject": "m1",
+          "predicate": "designs",
+          "object": "m5"
+        },
+        {
+          "subject": "m1",
+          "predicate": "produces",
+          "object": "m6"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "article_count"
+          },
+          "value": 2
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "article_count"
+          },
+          "value": 1
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "article_count"
+          },
+          "value": 3
+        },
+        {
+          "subject": "m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "count"
+          },
+          "value": 1
+        }
+      ]
+    },
+    {
+      "task_id": "unit_b7c343684aab83912ef9",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "“启明寻洛、脉续中原”实践队"
+        },
+        {
+          "local_id": "m2",
+          "type": "Event",
+          "name": "三下乡"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "participates",
+          "object": "m2"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "slogan"
+          },
+          "value": "青年责任 + 时代使命"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "action_description"
+          },
+          "value": "用脚步丈量中华悠久文脉，用视频记录我们与文明的相遇，用文字传递现代科技下古老文化的新生"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_031e801da803ca0f198f"
+}

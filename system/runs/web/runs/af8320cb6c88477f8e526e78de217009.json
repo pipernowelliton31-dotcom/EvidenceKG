@@ -1,0 +1,423 @@
+{
+  "id": "af8320cb6c88477f8e526e78de217009",
+  "project_id": "host",
+  "kind": "query",
+  "question": "阿明是谁",
+  "status": "completed",
+  "events": [
+    {
+      "id": 1,
+      "type": "run.started",
+      "elapsed_s": 0.0,
+      "message": "已创建运行"
+    },
+    {
+      "id": 2,
+      "type": "stage.started",
+      "elapsed_s": 0.0,
+      "stage": "validate",
+      "message": "检查并复用已有知识图谱"
+    },
+    {
+      "id": 3,
+      "type": "stage.completed",
+      "elapsed_s": 0.1,
+      "stage": "validate",
+      "message": "知识库通过完整性校验，无需重新构图"
+    },
+    {
+      "id": 4,
+      "type": "stage.started",
+      "elapsed_s": 0.1,
+      "stage": "retrieve",
+      "message": "检索结构化记录、事实、实体档案、图路径与原文"
+    },
+    {
+      "id": 5,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "plan",
+      "message": "已识别问题范围与检索方式",
+      "details": {
+        "plan": {
+          "intent": "factual",
+          "structured": false,
+          "cross_format_identity": false,
+          "table_reconstruction": false,
+          "column_requested": false,
+          "retrieval_mode": "ranked",
+          "requested_formats": [],
+          "list_all": false,
+          "causal": false,
+          "comparison": false,
+          "rank": false,
+          "timeline": false,
+          "expected_count": null,
+          "sheet_hints": [],
+          "column_hints": [],
+          "years": [],
+          "months": [],
+          "quarters": [],
+          "keywords": [
+            "阿明"
+          ],
+          "relation_weights": {}
+        }
+      }
+    },
+    {
+      "id": 6,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "records",
+      "message": "已查阅 0 条结构化记录、0 个表格",
+      "details": {
+        "sources": []
+      }
+    },
+    {
+      "id": 7,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "entities",
+      "message": "已匹配 0 条事实、0 个主体档案",
+      "details": {
+        "entities": []
+      }
+    },
+    {
+      "id": 8,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "paths",
+      "message": "已检查 0 条关联路径、0 条时间记录",
+      "details": {
+        "paths": []
+      }
+    },
+    {
+      "id": 9,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "sources",
+      "message": "已补充 0 段原文并整理回答依据",
+      "details": {
+        "sources": [],
+        "stats": {
+          "structured": 0,
+          "facts": 0,
+          "seeds": 0,
+          "profiles": 0,
+          "paths": 0,
+          "raw_units": 0,
+          "timeline_events": 0,
+          "retrieval_mode": "ranked",
+          "table_units": 0,
+          "table_rows": 0,
+          "table_columns": 0,
+          "structured_rows": 0,
+          "structured_scope_matches": 0,
+          "structured_selected_for_augmentation": 0,
+          "timeline_context_events": 0,
+          "timeline_context_events_omitted": 0,
+          "table_context_rows": 0,
+          "table_context_rows_omitted": 0,
+          "structured_context_records": 0,
+          "structured_context_records_omitted": 0
+        }
+      }
+    },
+    {
+      "id": 10,
+      "type": "retrieval.completed",
+      "elapsed_s": 0.4,
+      "stage": "retrieve",
+      "stats": {
+        "structured": 0,
+        "facts": 0,
+        "seeds": 0,
+        "profiles": 0,
+        "paths": 0,
+        "raw_units": 0,
+        "timeline_events": 0,
+        "retrieval_mode": "ranked",
+        "table_units": 0,
+        "table_rows": 0,
+        "table_columns": 0,
+        "structured_rows": 0,
+        "structured_scope_matches": 0,
+        "structured_selected_for_augmentation": 0,
+        "timeline_context_events": 0,
+        "timeline_context_events_omitted": 0,
+        "table_context_rows": 0,
+        "table_context_rows_omitted": 0,
+        "structured_context_records": 0,
+        "structured_context_records_omitted": 0
+      },
+      "plan": {
+        "intent": "factual",
+        "structured": false,
+        "cross_format_identity": false,
+        "table_reconstruction": false,
+        "column_requested": false,
+        "retrieval_mode": "ranked",
+        "requested_formats": [],
+        "list_all": false,
+        "causal": false,
+        "comparison": false,
+        "rank": false,
+        "timeline": false,
+        "expected_count": null,
+        "sheet_hints": [],
+        "column_hints": [],
+        "years": [],
+        "months": [],
+        "quarters": [],
+        "keywords": [
+          "阿明"
+        ],
+        "relation_weights": {}
+      },
+      "graph": {
+        "nodes": [],
+        "edges": [],
+        "layout": "network"
+      },
+      "evidence": [],
+      "paths": [],
+      "context": "QUESTION\n阿明是谁\n\nQUERY_PLAN\n{\"intent\":\"factual\",\"structured\":false,\"cross_format_identity\":false,\"table_reconstruction\":false,\"column_requested\":false,\"retrieval_mode\":\"ranked\",\"requested_formats\":[],\"list_all\":false,\"causal\":false,\"comparison\":false,\"rank\":false,\"timeline\":false,\"expected_count\":null,\"sheet_hints\":[],\"column_hints\":[],\"years\":[],\"months\":[],\"quarters\":[],\"keywords\":[\"阿明\"]}",
+      "message": "召回 0 处证据，0 条候选路径"
+    },
+    {
+      "id": 11,
+      "type": "stage.started",
+      "elapsed_s": 0.4,
+      "stage": "answer",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "message": "正在调用 nvidia/nemotron-3-super-120b-a12b:free，等待回答正文"
+    },
+    {
+      "id": 12,
+      "type": "stage.progress",
+      "elapsed_s": 4.3,
+      "stage": "answer",
+      "message": "模型已开始返回正文，正在生成回答"
+    },
+    {
+      "id": 13,
+      "type": "answer.delta",
+      "elapsed_s": 4.3,
+      "text": "## 1"
+    },
+    {
+      "id": 14,
+      "type": "answer.delta",
+      "elapsed_s": 4.3,
+      "text": ". 结论\n"
+    },
+    {
+      "id": 15,
+      "type": "answer.delta",
+      "elapsed_s": 4.4,
+      "text": "根据提供的材"
+    },
+    {
+      "id": 16,
+      "type": "answer.delta",
+      "elapsed_s": 4.4,
+      "text": "料，无法"
+    },
+    {
+      "id": 17,
+      "type": "answer.delta",
+      "elapsed_s": 4.4,
+      "text": "确定阿明"
+    },
+    {
+      "id": 18,
+      "type": "answer.delta",
+      "elapsed_s": 4.4,
+      "text": "是谁。\n\n## "
+    },
+    {
+      "id": 19,
+      "type": "answer.delta",
+      "elapsed_s": 4.4,
+      "text": "2. 推"
+    },
+    {
+      "id": 20,
+      "type": "answer.delta",
+      "elapsed_s": 4.4,
+      "text": "理路径\n"
+    },
+    {
+      "id": 21,
+      "type": "answer.delta",
+      "elapsed_s": 4.4,
+      "text": "（无"
+    },
+    {
+      "id": 22,
+      "type": "answer.delta",
+      "elapsed_s": 4.4,
+      "text": "可用证"
+    },
+    {
+      "id": 23,
+      "type": "answer.delta",
+      "elapsed_s": 4.5,
+      "text": "据路径）\n\n"
+    },
+    {
+      "id": 24,
+      "type": "answer.delta",
+      "elapsed_s": 4.5,
+      "text": "## 3."
+    },
+    {
+      "id": 25,
+      "type": "answer.delta",
+      "elapsed_s": 4.5,
+      "text": " 不确定项"
+    },
+    {
+      "id": 26,
+      "type": "answer.delta",
+      "elapsed_s": 4.5,
+      "text": "\n材料中"
+    },
+    {
+      "id": 27,
+      "type": "answer.delta",
+      "elapsed_s": 4.5,
+      "text": "未提及阿"
+    },
+    {
+      "id": 28,
+      "type": "answer.delta",
+      "elapsed_s": 4.5,
+      "text": "明，导致"
+    },
+    {
+      "id": 29,
+      "type": "answer.delta",
+      "elapsed_s": 4.5,
+      "text": "无法回答该"
+    },
+    {
+      "id": 30,
+      "type": "answer.delta",
+      "elapsed_s": 4.6,
+      "text": "问题。"
+    },
+    {
+      "id": 31,
+      "type": "format.warning",
+      "elapsed_s": 4.6,
+      "missing_sections": [
+        "结论",
+        "推理路径",
+        "不确定项"
+      ],
+      "message": "模型回答缺少规范段落：结论、推理路径、不确定项"
+    },
+    {
+      "id": 32,
+      "type": "answer.completed",
+      "elapsed_s": 4.6,
+      "answer": "## 1. 结论\n根据提供的材料，无法确定阿明是谁。\n\n## 2. 推理路径\n（无可用证据路径）\n\n## 3. 不确定项\n材料中未提及阿明，导致无法回答该问题。",
+      "usage": {
+        "prompt_tokens": 954,
+        "completion_tokens": 384,
+        "total_tokens": 1338,
+        "cost": 0
+      },
+      "mode": "answer",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "message": "回答已生成"
+    },
+    {
+      "id": 33,
+      "type": "run.completed",
+      "elapsed_s": 4.6,
+      "message": "运行完成"
+    }
+  ],
+  "created_at": 1791454592.2294464,
+  "parent_run_id": null,
+  "conversation_id": "af8320cb6c88477f8e526e78de217009",
+  "conversation_context": [],
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "retrieval": {
+    "question": "阿明是谁",
+    "query_plan": {
+      "intent": "factual",
+      "structured": false,
+      "cross_format_identity": false,
+      "table_reconstruction": false,
+      "column_requested": false,
+      "retrieval_mode": "ranked",
+      "requested_formats": [],
+      "list_all": false,
+      "causal": false,
+      "comparison": false,
+      "rank": false,
+      "timeline": false,
+      "expected_count": null,
+      "sheet_hints": [],
+      "column_hints": [],
+      "years": [],
+      "months": [],
+      "quarters": [],
+      "keywords": [
+        "阿明"
+      ],
+      "relation_weights": {}
+    },
+    "structured_hits": [],
+    "table_hits": [],
+    "structured_rows": [],
+    "timeline_hits": [],
+    "fact_hits": [],
+    "entity_candidates": [],
+    "entity_profiles": [],
+    "paths": [],
+    "fusion": [],
+    "raw_units": [],
+    "augmentation_sources": [],
+    "augmentation_query": null,
+    "stats": {
+      "structured": 0,
+      "facts": 0,
+      "seeds": 0,
+      "profiles": 0,
+      "paths": 0,
+      "raw_units": 0,
+      "timeline_events": 0,
+      "retrieval_mode": "ranked",
+      "table_units": 0,
+      "table_rows": 0,
+      "table_columns": 0,
+      "structured_rows": 0,
+      "structured_scope_matches": 0,
+      "structured_selected_for_augmentation": 0,
+      "timeline_context_events": 0,
+      "timeline_context_events_omitted": 0,
+      "table_context_rows": 0,
+      "table_context_rows_omitted": 0,
+      "structured_context_records": 0,
+      "structured_context_records_omitted": 0
+    },
+    "context": "QUESTION\n阿明是谁\n\nQUERY_PLAN\n{\"intent\":\"factual\",\"structured\":false,\"cross_format_identity\":false,\"table_reconstruction\":false,\"column_requested\":false,\"retrieval_mode\":\"ranked\",\"requested_formats\":[],\"list_all\":false,\"causal\":false,\"comparison\":false,\"rank\":false,\"timeline\":false,\"expected_count\":null,\"sheet_hints\":[],\"column_hints\":[],\"years\":[],\"months\":[],\"quarters\":[],\"keywords\":[\"阿明\"]}"
+  },
+  "answer": "## 1. 结论\n根据提供的材料，无法确定阿明是谁。\n\n## 2. 推理路径\n（无可用证据路径）\n\n## 3. 不确定项\n材料中未提及阿明，导致无法回答该问题。",
+  "usage": {
+    "prompt_tokens": 954,
+    "completion_tokens": 384,
+    "total_tokens": 1338,
+    "cost": 0
+  },
+  "finish_reason": "stop",
+  "continuations": 0
+}

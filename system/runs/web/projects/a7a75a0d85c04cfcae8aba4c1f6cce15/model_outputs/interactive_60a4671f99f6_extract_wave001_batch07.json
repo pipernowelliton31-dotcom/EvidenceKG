@@ -1,0 +1,1038 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_e1a61c659943ab543564",
+      "mentions": [
+        {
+          "local_id": "t1_m1",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "t1_m2",
+          "type": "Product",
+          "name": "灵雨写作助手",
+          "aliases": [
+            "AI写作助手插件"
+          ]
+        },
+        {
+          "local_id": "t1_m3",
+          "type": "Product",
+          "name": "墨文创作台"
+        },
+        {
+          "local_id": "t1_m4",
+          "type": "AITool",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "t1_m5",
+          "type": "AITool",
+          "name": "豆包"
+        },
+        {
+          "local_id": "t1_m6",
+          "type": "AITool",
+          "name": "飞书智能伙伴"
+        },
+        {
+          "local_id": "t1_m7",
+          "type": "Product",
+          "name": "数据可视化插件"
+        },
+        {
+          "local_id": "t1_m8",
+          "type": "Product",
+          "name": "创意素材包V3",
+          "identifiers": [
+            "asset-pack-v3"
+          ]
+        },
+        {
+          "local_id": "t1_m9",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "aliases": [
+            "V2"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t1_m2",
+          "predicate": "depends_on",
+          "object": "t1_m3"
+        },
+        {
+          "subject": "t1_m7",
+          "predicate": "is_sister_product_of",
+          "object": "t1_m2"
+        },
+        {
+          "subject": "t1_m8",
+          "predicate": "replaces",
+          "object": "t1_m9"
+        },
+        {
+          "subject": "t1_m1",
+          "predicate": "uses_tool",
+          "object": "t1_m3"
+        },
+        {
+          "subject": "t1_m1",
+          "predicate": "uses_tool",
+          "object": "t1_m4"
+        },
+        {
+          "subject": "t1_m1",
+          "predicate": "uses_tool",
+          "object": "t1_m5"
+        },
+        {
+          "subject": "t1_m1",
+          "predicate": "uses_tool",
+          "object": "t1_m6"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t1_m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_directions"
+          },
+          "value": [
+            "效率工具",
+            "开发辅助",
+            "设计资源",
+            "知识付费"
+          ]
+        },
+        {
+          "subject": "t1_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_role"
+          },
+          "value": "收入支柱产品"
+        },
+        {
+          "subject": "t1_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "launch_date"
+          },
+          "value": "2025年9月"
+        },
+        {
+          "subject": "t1_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "cumulative_creators"
+          },
+          "value": "超过2,600名创作者"
+        },
+        {
+          "subject": "t1_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "peak_monthly_revenue"
+          },
+          "value": "约9.9万元"
+        },
+        {
+          "subject": "t1_m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "primary_function"
+          },
+          "value": "AI写作/文档自动化"
+        },
+        {
+          "subject": "t1_m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "primary_function"
+          },
+          "value": "AI辅助编程"
+        },
+        {
+          "subject": "t1_m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "primary_function"
+          },
+          "value": "文案生成"
+        },
+        {
+          "subject": "t1_m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "primary_function"
+          },
+          "value": "项目管理"
+        },
+        {
+          "subject": "t1_m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "release_date"
+          },
+          "value": "2026年5月"
+        },
+        {
+          "subject": "t1_m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "new_features"
+          },
+          "value": [
+            "3D素材",
+            "动效模板"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_eff547053e01cb4101ce",
+      "mentions": [
+        {
+          "local_id": "t2_m1",
+          "type": "Product",
+          "name": "PMD模板"
+        },
+        {
+          "local_id": "t2_m2",
+          "type": "Product",
+          "name": "数据可视化插件"
+        },
+        {
+          "local_id": "t2_m3",
+          "type": "Product",
+          "name": "AI简历优化"
+        },
+        {
+          "local_id": "t2_m4",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "aliases": [
+            "V2"
+          ]
+        },
+        {
+          "local_id": "t2_m5",
+          "type": "Product",
+          "name": "创意素材包V3",
+          "aliases": [
+            "V3"
+          ]
+        },
+        {
+          "local_id": "t2_m6",
+          "type": "Event",
+          "name": "备份检查"
+        },
+        {
+          "local_id": "t2_m7",
+          "type": "Product",
+          "name": "效率导航"
+        },
+        {
+          "local_id": "t2_m8",
+          "type": "Event",
+          "name": "全部产品年度大检"
+        },
+        {
+          "local_id": "t2_m9",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "t2_m10",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "t2_m11",
+          "type": "Product",
+          "name": "墨文创作台"
+        },
+        {
+          "local_id": "t2_m12",
+          "type": "Version",
+          "name": "墨文v3"
+        },
+        {
+          "local_id": "t2_m13",
+          "type": "Version",
+          "name": "墨文v4"
+        },
+        {
+          "local_id": "t2_m14",
+          "type": "Event",
+          "name": "灵雨写作助手墨文v3紧急适配"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t2_m14",
+          "predicate": "involves",
+          "object": "t2_m10"
+        },
+        {
+          "subject": "t2_m14",
+          "predicate": "caused_by",
+          "object": "t2_m12"
+        },
+        {
+          "subject": "t2_m4",
+          "predicate": "replaced_by",
+          "object": "t2_m5"
+        },
+        {
+          "subject": "t2_m12",
+          "predicate": "version_of",
+          "object": "t2_m11"
+        },
+        {
+          "subject": "t2_m13",
+          "predicate": "version_of",
+          "object": "t2_m11"
+        },
+        {
+          "subject": "t2_m10",
+          "predicate": "may_need_adaptation_to",
+          "object": "t2_m13"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t2_m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": {
+            "type": "功能迭代",
+            "cycle": "季度",
+            "date": "2026-08-22",
+            "owner": "周然",
+            "change": "新增OKR模板",
+            "user_impact": "已购用户免费更新"
+          }
+        },
+        {
+          "subject": "t2_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": {
+            "type": "功能迭代",
+            "cycle": "月度",
+            "schedule": "每月18日",
+            "owner": "周然",
+            "change": "新增图表类型",
+            "impact": "无影响"
+          }
+        },
+        {
+          "subject": "t2_m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": {
+            "type": "功能迭代",
+            "cycle": "月度",
+            "schedule": "每月22日",
+            "owner": "周然",
+            "change": "新增行业模板",
+            "impact": "无影响"
+          }
+        },
+        {
+          "subject": "t2_m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "type": "停售标记",
+              "cycle": "按需",
+              "date": "2026-05-22",
+              "owner": "周然",
+              "change": "标记为“停售”，由V3替代",
+              "user_impact": "已购用户不受影响"
+            },
+            {
+              "type": "安全更新",
+              "cycle": "月度",
+              "schedule": "每月1日",
+              "owner": "周然",
+              "change": "安全补丁、SSL续期",
+              "impact": "短暂访问中断"
+            }
+          ]
+        },
+        {
+          "subject": "t2_m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "maintenance_plan"
+          },
+          "value": {
+            "type": "备份检查",
+            "cycle": "每周",
+            "schedule": "每周一03:00",
+            "owner": "周然",
+            "operations": [
+              "数据库备份",
+              "CDN缓存清理"
+            ],
+            "impact": "无影响"
+          }
+        },
+        {
+          "subject": "t2_m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "maintenance_plan"
+          },
+          "value": {
+            "type": "安全审计",
+            "cycle": "季度",
+            "date": "2026-08-05",
+            "owner": "周然",
+            "operations": [
+              "安全扫描",
+              "日志审计"
+            ],
+            "impact": "访问减速"
+          }
+        },
+        {
+          "subject": "t2_m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "maintenance_plan"
+          },
+          "value": {
+            "type": "年度大检",
+            "cycle": "年度",
+            "date": "2026-12-05",
+            "owner": "周然",
+            "operations": [
+              "全产品健康度评估",
+              "AI工具链审查"
+            ],
+            "impact": "部分产品短暂停服"
+          }
+        },
+        {
+          "subject": "t2_m14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "start_date"
+          },
+          "value": "2025-05-02"
+        },
+        {
+          "subject": "t2_m14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "end_date"
+          },
+          "value": "2025-05-20"
+        },
+        {
+          "subject": "t2_m14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "duration_days"
+          },
+          "value": 18
+        },
+        {
+          "subject": "t2_m14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "result"
+          },
+          "value": "期间无法正常发布版本；原因是墨文v3变更文档补全API接口签名，写作分析模块需重写"
+        },
+        {
+          "subject": "t2_m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "emergency_fix"
+          },
+          "value": {
+            "date": "2026-06-15",
+            "target_issues": [
+              "卡顿",
+              "3D加载问题"
+            ]
+          }
+        },
+        {
+          "subject": "t2_m10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "quarterly_maintenance_date"
+          },
+          "value": "2026-08-05"
+        },
+        {
+          "subject": "t2_m13",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "expected_release"
+          },
+          "value": "2026年Q3"
+        },
+        {
+          "subject": "t2_m13",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "risk"
+          },
+          "value": "可能再次变更API接口，灵雨写作助手需要再次适配，存在持续收入风险"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_326e22977bd087733299",
+      "mentions": [
+        {
+          "local_id": "t3_m1",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "t3_m2",
+          "type": "Product",
+          "name": "墨文创作台",
+          "aliases": [
+            "墨文创作平台"
+          ]
+        },
+        {
+          "local_id": "t3_m3",
+          "type": "Version",
+          "name": "墨文v2"
+        },
+        {
+          "local_id": "t3_m4",
+          "type": "Version",
+          "name": "墨文v3"
+        },
+        {
+          "local_id": "t3_m5",
+          "type": "AITool",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "t3_m6",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "t3_m7",
+          "type": "Product",
+          "name": "创意素材包V2"
+        },
+        {
+          "local_id": "t3_m8",
+          "type": "Event",
+          "name": "灵雨写作助手适配墨文v3"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t3_m1",
+          "predicate": "depends_on",
+          "object": "t3_m2"
+        },
+        {
+          "subject": "t3_m4",
+          "predicate": "replaces",
+          "object": "t3_m3"
+        },
+        {
+          "subject": "t3_m8",
+          "predicate": "involves",
+          "object": "t3_m1"
+        },
+        {
+          "subject": "t3_m8",
+          "predicate": "caused_by",
+          "object": "t3_m4"
+        },
+        {
+          "subject": "t3_m5",
+          "predicate": "substitutes_for",
+          "object": "t3_m1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t3_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "upgrade_date"
+          },
+          "value": "2026-05-02"
+        },
+        {
+          "subject": "t3_m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "api_changes"
+          },
+          "value": {
+            "writing_api": "writerAPI在v3中重命名为markdownCompleter，参数结构调整",
+            "auto_completion": "引入更强上下文感知机制，补全触发时机不同",
+            "document_syntax": "默认生成结构化markdown，与v2自由书写风格不同"
+          }
+        },
+        {
+          "subject": "t3_m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "impacted_features"
+          },
+          "value": [
+            {
+              "feature": "实时代码补全",
+              "impact": "因接口变更完全失效",
+              "user_feedback": "补全不出来"
+            },
+            {
+              "feature": "语法检查",
+              "impact": "AST解析逻辑不兼容v3新格式",
+              "false_positive_rate": "32%"
+            },
+            {
+              "feature": "自定义片段触发",
+              "impact": "补全机制变化，触发条件判断逻辑需要重写"
+            },
+            {
+              "feature": "写作分析模块",
+              "impact": "失效"
+            }
+          ]
+        },
+        {
+          "subject": "t3_m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "start_date"
+          },
+          "value": "2026-05-02"
+        },
+        {
+          "subject": "t3_m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "end_date"
+          },
+          "value": "2026-05-20"
+        },
+        {
+          "subject": "t3_m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "duration_days"
+          },
+          "value": 18
+        },
+        {
+          "subject": "t3_m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "impact"
+          },
+          "value": "期间灵雨写作助手无法正常发布更新，已购用户只能使用旧版本（兼容v2但不兼容v3），影响用户体验和续费意愿"
+        },
+        {
+          "subject": "t3_m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_quota_change"
+          },
+          "value": "每月80次增至300次"
+        },
+        {
+          "subject": "t3_m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "release_date"
+          },
+          "value": "2026年5月"
+        },
+        {
+          "subject": "t3_m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "compatibility_issues"
+          },
+          "value": [
+            "3D素材模块在低配设备上加载卡顿（加载时间>5秒）",
+            "3D素材仅支持Figma，Photoshop不支持",
+            "动效模板在Sketch中渲染异常"
+          ]
+        },
+        {
+          "subject": "t3_m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability_score"
+          },
+          "value": "3.4分（5分制）"
+        },
+        {
+          "subject": "t3_m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability_score"
+          },
+          "value": "4.2分（5分制）"
+        },
+        {
+          "subject": "t3_m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "emergency_fix_start_date"
+          },
+          "value": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_f096b06593443f305131",
+      "mentions": [
+        {
+          "local_id": "t4_m1",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "identifiers": [
+            "asset-pack-v2"
+          ]
+        },
+        {
+          "local_id": "t4_m2",
+          "type": "Product",
+          "name": "创意素材包V3",
+          "identifiers": [
+            "asset-pack-v3"
+          ]
+        },
+        {
+          "local_id": "t4_m3",
+          "type": "Product",
+          "name": "营销文案AI助手",
+          "identifiers": [
+            "copy-ai"
+          ]
+        },
+        {
+          "local_id": "t4_m4",
+          "type": "Product",
+          "name": "周报精灵",
+          "aliases": [
+            "周报工具"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t4_m2",
+          "predicate": "replaces",
+          "object": "t4_m1"
+        },
+        {
+          "subject": "t4_m3",
+          "predicate": "merged_into",
+          "object": "t4_m4"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t4_m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stop_sale_date"
+          },
+          "value": "2026年5月22日"
+        },
+        {
+          "subject": "t4_m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_impact"
+          },
+          "value": "已购用户无影响，仍可正常下载使用V2"
+        },
+        {
+          "subject": "t4_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "content_coverage"
+          },
+          "value": "覆盖V2全部内容"
+        },
+        {
+          "subject": "t4_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "new_assets"
+          },
+          "value": {
+            "3D素材库": "130个",
+            "动效模板": "55个"
+          }
+        },
+        {
+          "subject": "t4_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability_score"
+          },
+          "value": "3.4分"
+        },
+        {
+          "subject": "t4_m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability_score"
+          },
+          "value": "4.2分"
+        },
+        {
+          "subject": "t4_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "emergency_fix_plan"
+          },
+          "value": "已排入6月计划"
+        },
+        {
+          "subject": "t4_m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "merge_date"
+          },
+          "value": "2026年5月22日"
+        },
+        {
+          "subject": "t4_m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "merge_direction"
+          },
+          "value": "功能并入周报精灵，作为内置文案模块"
+        },
+        {
+          "subject": "t4_m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "merge_reason"
+          },
+          "value": "独立运营月活仅1,100，运营成本与收入不匹配"
+        },
+        {
+          "subject": "t4_m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "user_impact"
+          },
+          "value": "付费用户自动获得周报工具等值订阅时长"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_c557bfcda913f5e1e194",
+      "mentions": [
+        {
+          "local_id": "t5_m1",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "t5_m2",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "t5_m3",
+          "type": "DataAsset",
+          "name": "运营记录Excel"
+        },
+        {
+          "local_id": "t5_m4",
+          "type": "Event",
+          "name": "订阅制定价AB实验"
+        },
+        {
+          "local_id": "t5_m5",
+          "type": "AITool",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "t5_m6",
+          "type": "Product",
+          "name": "墨文创作台"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t5_m4",
+          "predicate": "evaluates",
+          "object": "t5_m2"
+        },
+        {
+          "subject": "t5_m4",
+          "predicate": "uses_data_source",
+          "object": "t5_m3"
+        },
+        {
+          "subject": "t5_m2",
+          "predicate": "faces_competition_from",
+          "object": "t5_m5"
+        },
+        {
+          "subject": "t5_m2",
+          "predicate": "affected_by_compatibility_issue_of",
+          "object": "t5_m6"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t5_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_adjustment"
+          },
+          "value": {
+            "date": "2026-04-12",
+            "from": "免费增值模式",
+            "to": "订阅制"
+          }
+        },
+        {
+          "subject": "t5_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_plans"
+          },
+          "value": [
+            {
+              "plan": "基础版",
+              "price": "8.9元/月",
+              "previous": "免费",
+              "features": [
+                "基础写作补全",
+                "语法检查"
+              ]
+            },
+            {
+              "plan": "高级版",
+              "price": "25.9元/月",
+              "previous": "一次性49元",
+              "features": [
+                "自定义片段",
+                "团队协作",
+                "多语言项目支持"
+              ]
+            }
+          ]
+        },
+        {
+          "subject": "t5_m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "experiment_date"
+          },
+          "value": "2026年3月"
+        },
+        {
+          "subject": "t5_m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "result"
+          },
+          "value": {
+            "subscription_LTV": 78,
+            "freemium_LTV": 47,
+            "LTV_lift": "66%",
+            "free_to_paid_conversion": {
+              "from": "3.1%",
+              "to": "7.4%"
+            }
+          }
+        },
+        {
+          "subject": "t5_m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "data_source_note"
+          },
+          "value": "运营记录Excel Sheet3（收入与续费率统计），备注列i=30"
+        },
+        {
+          "subject": "t5_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "q2_actual"
+          },
+          "value": {
+            "new_user_paid_rate": {
+              "from": "7.4%",
+              "to": "2.3%"
+            },
+            "renewal_rate": {
+              "from": "82%",
+              "to": "66%",
+              "decline": "16个百分点"
+            }
+          }
+        },
+        {
+          "subject": "t5_m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_quota_change"
+          },
+          "value": "80→300次/月"
+        },
+        {
+          "subject": "t5_m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_decline_attribution"
+          },
+          "value": {
+            "pricing_adjustment": "-16个百分点",
+            "墨文创作台兼容性问题": "-12个百分点",
+            "data_source": "运营记录Excel Sheet1（订单明细），备注列i=105"
+          }
+        },
+        {
+          "subject": "t5_m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "sheets"
+          },
+          "value": [
+            "Sheet1（订单明细）",
+            "Sheet3（收入与续费率统计）"
+          ]
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

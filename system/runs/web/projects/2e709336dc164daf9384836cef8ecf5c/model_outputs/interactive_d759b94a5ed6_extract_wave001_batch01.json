@@ -1,0 +1,350 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_7a1731908d720d597070",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "西安交通大学“启明寻洛，脉续中原”实践队"
+        },
+        {
+          "local_id": "m2",
+          "type": "DataAsset",
+          "name": "隋唐洛阳城国家遗址公园"
+        },
+        {
+          "local_id": "m3",
+          "type": "DataAsset",
+          "name": "龙门石窟"
+        },
+        {
+          "local_id": "m4",
+          "type": "DataAsset",
+          "name": "洛阳博物馆"
+        },
+        {
+          "local_id": "m5",
+          "type": "DataAsset",
+          "name": "二里头夏都遗址博物馆"
+        },
+        {
+          "local_id": "m6",
+          "type": "DataAsset",
+          "name": "清明上河园"
+        },
+        {
+          "local_id": "m7",
+          "type": "DataAsset",
+          "name": "万岁山武侠城"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m2"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m3"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m4"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m5"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m6"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m7"
+        }
+      ],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_faa988ec76d5092b2357",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "DataAsset",
+          "name": "《西安交通大学思政课实践教学管理办法》"
+        },
+        {
+          "local_id": "m2",
+          "type": "Actor",
+          "name": "马克思主义学院"
+        },
+        {
+          "local_id": "m3",
+          "type": "DataAsset",
+          "name": "实践教学记录册"
+        },
+        {
+          "local_id": "m4",
+          "type": "DataAsset",
+          "name": "思政实践学分"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m3",
+          "predicate": "condition_for",
+          "object": "m4"
+        },
+        {
+          "subject": "m2",
+          "predicate": "archives",
+          "object": "m3"
+        },
+        {
+          "subject": "m1",
+          "predicate": "governs",
+          "object": "m3"
+        }
+      ],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_0dec6fd329a032c55392",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "AITool",
+          "name": "游戏分级制"
+        },
+        {
+          "local_id": "m2",
+          "type": "AITool",
+          "name": "动态经费调度"
+        },
+        {
+          "local_id": "m3",
+          "type": "AITool",
+          "name": "精细化成本控制"
+        },
+        {
+          "local_id": "m4",
+          "type": "DataAsset",
+          "name": "线上预热"
+        },
+        {
+          "local_id": "m5",
+          "type": "DataAsset",
+          "name": "经费积压与不足"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m2",
+          "predicate": "solves",
+          "object": "m5"
+        },
+        {
+          "subject": "m3",
+          "predicate": "uses",
+          "object": "m4"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "game_levels"
+          },
+          "value": "简单易上手和复杂版"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "prize_correspondence"
+          },
+          "value": "对应奖品不同"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_83490ad7ae1cbd61fa53",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m2",
+          "type": "Actor",
+          "name": "英仔社团成员"
+        },
+        {
+          "local_id": "m3",
+          "type": "Event",
+          "name": "15周年社庆合唱"
+        },
+        {
+          "local_id": "m4",
+          "type": "Event",
+          "name": "暖心护航活动"
+        },
+        {
+          "local_id": "m5",
+          "type": "Event",
+          "name": "金秋梧桐节摆摊"
+        },
+        {
+          "local_id": "m6",
+          "type": "Event",
+          "name": "珐琅樱韵活动"
+        },
+        {
+          "local_id": "m7",
+          "type": "Role",
+          "name": "优秀干事"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m2",
+          "predicate": "joined",
+          "object": "m1",
+          "qualifiers": {
+            "time": "2025.9"
+          }
+        },
+        {
+          "subject": "m2",
+          "predicate": "participated",
+          "object": "m3",
+          "qualifiers": {
+            "time": "2025.12"
+          }
+        },
+        {
+          "subject": "m2",
+          "predicate": "participated",
+          "object": "m5",
+          "qualifiers": {
+            "time": "2025.11"
+          }
+        },
+        {
+          "subject": "m2",
+          "predicate": "planned",
+          "object": "m4",
+          "qualifiers": {
+            "time": "2026.04"
+          }
+        },
+        {
+          "subject": "m2",
+          "predicate": "led",
+          "object": "m6",
+          "qualifiers": {
+            "time": "2026.3"
+          }
+        },
+        {
+          "subject": "m2",
+          "predicate": "won",
+          "object": "m7",
+          "qualifiers": {
+            "time": "2026.5"
+          }
+        }
+      ],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_61a6d9bd09d2676302e7",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "暑期实践活动“寻脉中原，读懂中国”"
+        },
+        {
+          "local_id": "m2",
+          "type": "DataAsset",
+          "name": "国家文化数字化战略"
+        },
+        {
+          "local_id": "m3",
+          "type": "DataAsset",
+          "name": "数字化技术"
+        },
+        {
+          "local_id": "m4",
+          "type": "DataAsset",
+          "name": "中华文明探源工程"
+        },
+        {
+          "local_id": "m5",
+          "type": "DataAsset",
+          "name": "洛阳博物馆"
+        },
+        {
+          "local_id": "m6",
+          "type": "DataAsset",
+          "name": "洛阳古墓博物馆"
+        },
+        {
+          "local_id": "m7",
+          "type": "DataAsset",
+          "name": "二里头夏都遗址博物馆"
+        },
+        {
+          "local_id": "m8",
+          "type": "DataAsset",
+          "name": "隋唐洛阳城遗址"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "researches",
+          "object": "m2"
+        },
+        {
+          "subject": "m1",
+          "predicate": "considers",
+          "object": "m3"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m5"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m6"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m7"
+        },
+        {
+          "subject": "m1",
+          "predicate": "visits",
+          "object": "m8"
+        }
+      ],
+      "assertions": []
+    }
+  ],
+  "fingerprint": "run_031e801da803ca0f198f"
+}

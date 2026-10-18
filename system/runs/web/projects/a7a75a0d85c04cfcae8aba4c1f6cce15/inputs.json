@@ -1,0 +1,29 @@
+{
+  "root": "C:\\EvidenceKG\\system\\runs\\web\\projects\\a7a75a0d85c04cfcae8aba4c1f6cce15\\materials",
+  "files": [
+    {
+      "path": "测试集B_产品架构图.png",
+      "role": "corpus"
+    },
+    {
+      "path": "测试集B_产品规格与定价文档.pdf",
+      "role": "corpus"
+    },
+    {
+      "path": "测试集B_产品运营分析报告.pptx",
+      "role": "corpus"
+    },
+    {
+      "path": "测试集B_分析问题集.docx",
+      "role": "questions"
+    },
+    {
+      "path": "测试集B_工作室运营手册.docx",
+      "role": "corpus"
+    },
+    {
+      "path": "测试集B_运营数据记录.xlsx",
+      "role": "corpus"
+    }
+  ]
+}

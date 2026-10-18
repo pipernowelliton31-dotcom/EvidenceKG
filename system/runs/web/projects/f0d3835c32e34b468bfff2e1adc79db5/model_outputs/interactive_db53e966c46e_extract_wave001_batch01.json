@@ -1,0 +1,233 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_8ff2f4a2f2129c632e11",
+      "mentions": [
+        {
+          "local_id": "m_club",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m_doc",
+          "type": "DataAsset",
+          "name": "《西安交通大学学生社团建设管理办法》"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_club",
+          "predicate": "studied",
+          "object": "m_doc"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "core_ideology"
+          },
+          "value": "服务社会、奉献爱心、推己及人、薪火相传"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "future_core_focus"
+          },
+          "value": "活动规范化运作与成员全面化培养"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "existing_problem"
+          },
+          "value": "不同部门间活动内容存在显著差异，志愿者交流互动较少"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "existing_problem"
+          },
+          "value": "信息通知和各部门反馈的效率有待提升"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "existing_problem"
+          },
+          "value": "活动影像存档事宜存在较大的完善空间，部分项目部门活动留痕意识不足"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "existing_problem"
+          },
+          "value": "志愿者对于参与社团内部互动活动的积极性相对较低"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "future_plan"
+          },
+          "value": "构建严密精细的活动管理机制，制定涵盖活动申请、筹备、执行到总结宣传全流程的标准化操作指南"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "future_plan"
+          },
+          "value": "构建全方位的安全保障体系，提前评估安全风险并制定预案"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "future_plan"
+          },
+          "value": "加强社团管理者系统培训，提升社长团、部长团的领导能力与创新思维"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "future_plan"
+          },
+          "value": "为全体成员提供丰富多元的培训课程和实践机会，提升综合素质与核心竞争力"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "suggestion_to_school"
+          },
+          "value": "优化现有报备流程，去除繁琐环节，实现快速提交、审核和反馈"
+        },
+        {
+          "subject": "m_club",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "suggestion_to_school"
+          },
+          "value": "针对活动、场地申请等事务设立专门的实时反馈渠道"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_b77c531eae890fedb0ed",
+      "mentions": [
+        {
+          "local_id": "m_club",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m_tang",
+          "type": "Actor",
+          "name": "唐仲英基金会"
+        }
+      ],
+      "relations": [],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_f8ca3b7c2f0bdc011e2e",
+      "mentions": [
+        {
+          "local_id": "m_club",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m_tang",
+          "type": "Actor",
+          "name": "唐仲英基金会"
+        }
+      ],
+      "relations": [],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_978ccec685a4fa872a7c",
+      "mentions": [
+        {
+          "local_id": "m_club",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m_award1",
+          "type": "Event",
+          "name": "2024年度“榜样100”全国优秀大学生社团"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_club",
+          "predicate": "received_award",
+          "object": "m_award1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_award1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "value": "https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_1df1ebd333e6c909e73e",
+      "mentions": [
+        {
+          "local_id": "m_club",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m_team",
+          "type": "Actor",
+          "name": "“知行秦川，梦启今夏”支教团"
+        },
+        {
+          "local_id": "m_award2",
+          "type": "Event",
+          "name": "2024年度“榜样100”全国优秀大学生团队"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_team",
+          "predicate": "belongs_to",
+          "object": "m_club"
+        },
+        {
+          "subject": "m_team",
+          "predicate": "received_award",
+          "object": "m_award2"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_award2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "value": "https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_32421f2d375c226a0323"
+}

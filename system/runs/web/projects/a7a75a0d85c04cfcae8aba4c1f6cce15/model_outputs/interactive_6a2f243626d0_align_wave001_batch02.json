@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    {
+      "task_id": "align_8e0904c2b6da170423fe",
+      "decision": "entity_bc8ecf79962f7779a77d"
+    },
+    {
+      "task_id": "align_2d13645e85b3a8e050c1",
+      "decision": "NEW_ENTITY"
+    },
+    {
+      "task_id": "align_6a710bda266e4d0666f1",
+      "decision": "entity_ee75e8c360a00e174377"
+    },
+    {
+      "task_id": "align_535c0049ec0bc414b56f",
+      "decision": "NEW_ENTITY"
+    },
+    {
+      "task_id": "align_c222cd081663b3649da5",
+      "decision": "NEW_ENTITY"
+    },
+    {
+      "task_id": "align_ca94a87f1a8d12ec4293",
+      "decision": "entity_af632b328c5cdee958ee"
+    },
+    {
+      "task_id": "align_8cd32d050554a8b76a86",
+      "decision": "entity_af632b328c5cdee958ee"
+    },
+    {
+      "task_id": "align_0144ba52d6556c57240b",
+      "decision": "NEW_ENTITY"
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818",
+  "round": 1
+}

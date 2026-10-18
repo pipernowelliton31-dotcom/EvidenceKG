@@ -1,0 +1,87 @@
+/* Editorial Motion Web adapted to a dense workspace: calm surfaces, compact
+   spacing, Chinese serif headings, sans UI, and serif document counts. */
+:root {
+  --font-editorial: 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+  --font-data: 'Libre Baskerville', Georgia, serif;
+}
+.sidebar-section-label { color: var(--fg-muted); font-size: 10px; letter-spacing: .12em; margin: 8px 8px 10px; }
+.sidebar-backdrop, .sidebar-dismiss { display: none; }
+.workspace-v2 .sidebar { overflow-y: auto; }
+.chat-section-label { padding-top: 14px; border-top: 1px solid var(--line); }
+.sidebar-chat-note { margin: 6px 8px 16px; color: var(--fg-muted); font-size: 10px; line-height: 1.7; }
+.workspace-v2 .sidebar-files { flex-shrink: 0; margin-top: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+.sidebar-file-heading { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--fg-2); padding-inline: 8px; }
+.sidebar-file-heading > span { margin-left: auto; font: 16px var(--font-data); color: var(--fg-muted); }
+.workspace-v2 .sidebar-files .file-list { max-height: 22vh; overflow-y: auto; margin-top: 10px; }
+.sidebar-file-item { display: flex; align-items: center; gap: 2px; }
+.workspace-v2 .sidebar-file-item .file-row { flex: 1; min-width: 0; padding: 10px 4px 10px 8px; }
+.workspace-v2 .sidebar-file-item .file-row > span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.file-remove { color: var(--fg-muted); display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; min-width: 36px; border-radius: 12px; flex-shrink: 0; }
+.file-remove:hover:not(:disabled) { background: var(--danger-bg); color: var(--danger); }
+.file-remove:disabled { opacity: .4; cursor: not-allowed; }
+.empty-file-note { color: var(--fg-muted); font-size: 11px; line-height: 1.8; padding: 8px; }
+.workspace-v2 .upload-modal { width: 680px; padding: 34px; border-radius: 28px; background: color-mix(in srgb, var(--surface) 94%, transparent); backdrop-filter: blur(14px); border: 1px solid var(--line); box-shadow: 0 20px 64px var(--shadow); }
+.upload-modal h2, .remove-modal h2 { font-family: var(--font-editorial); font-weight: 600; color: var(--fg); }
+.workspace-v2 .upload-modal > p, .remove-modal > p { font-size: 13px; line-height: 1.85; color: var(--fg-2); }
+.upload-destinations { margin: 22px 0; padding: 0; border: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; min-width: 0; }
+.upload-destinations legend { color: var(--fg-muted); font-size: 12px; margin-bottom: 12px; }
+.upload-choice { display: grid; grid-template-columns: 22px minmax(0, 1fr) 16px; gap: 12px; position: relative; padding: 21px 18px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: var(--fg-muted); cursor: pointer; transition: border-color .25s, background .25s, box-shadow .25s; }
+.upload-choice > input { grid-column: 3; grid-row: 1; margin: 3px 0 0; accent-color: var(--accent); width: 16px; height: 16px; }
+.upload-choice > svg { grid-column: 1; grid-row: 1; margin-top: 2px; }
+.upload-choice > div { grid-column: 2; grid-row: 1; min-width: 0; }
+.upload-choice strong { display: block; font: 600 17px/1.6 var(--font-editorial); color: var(--fg); }
+.upload-choice span { display: block; font-size: 11px; line-height: 1.8; margin-top: 8px; overflow-wrap: anywhere; }
+.upload-choice small { display: block; font-size: 11px; line-height: 1.8; margin-top: 8px; }
+.upload-choice.selected { color: var(--fg-2); background: var(--surface-soft); border-color: var(--accent-line); box-shadow: 0 8px 24px var(--shadow); }
+.upload-choice.selected > svg { color: var(--accent); }
+.upload-choice:hover:not(.unavailable) { border-color: var(--accent); }
+.upload-choice:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 3px; }
+.upload-choice.unavailable { opacity: .6; cursor: not-allowed; }
+.upload-destinations:disabled .upload-choice { cursor: wait; opacity: .7; }
+.workspace-v2 .upload-modal .upload-dropzone { border-radius: 20px; min-height: 160px; margin-top: 8px; }
+.workspace-v2 .upload-mode-note { margin: 16px 0 0; font-size: 11px; color: var(--fg-muted); }
+.workspace-v2 .remove-modal { width: 480px; border-radius: 24px; padding: 30px; background: var(--surface); }
+.removal-file { display: flex; gap: 14px; align-items: center; padding: 18px; background: var(--surface-soft); color: var(--fg-2); border: 1px solid var(--line); border-radius: 16px; margin: 22px 0 18px; }
+.removal-file svg { flex-shrink: 0; color: var(--fg-muted); }
+.removal-file strong { overflow-wrap: anywhere; font-size: 14px; line-height: 1.7; }
+.modal-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+.danger-button { min-height: 44px; padding: 12px 18px; display: inline-flex; justify-content: center; align-items: center; gap: 8px; border: 1px solid var(--danger-line); border-radius: 14px; background: var(--danger-bg); color: var(--danger); }
+.reader-file-row { display: flex; gap: 12px; align-items: center; padding: 12px 14px; margin-top: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; }
+.reader-file-open { flex: 1; min-width: 0; display: flex; align-items: center; text-align: left; gap: 15px; padding: 8px 4px; color: var(--fg-2); }
+.reader-file-open > div { flex: 1; min-width: 0; }
+.reader-file-open strong { overflow-wrap: anywhere; display: block; font-size: 14px; line-height: 1.7; }
+.reader-file-open small { display: block; font-size: 11px; line-height: 1.8; margin-top: 5px; color: var(--fg-muted); }
+.reader-file-open > svg { flex-shrink: 0; }
+.reader-remove { padding: 8px 12px; font-size: 12px; }
+.reader-navigation { flex-wrap: wrap; }
+.reader-navigation .reader-remove { margin-left: auto; }
+.reader-empty { padding: 24px 0; color: var(--fg-muted); }
+.workspace-v2 .user-message { display: flex; justify-content: flex-end; background: transparent; padding: 0; }
+.user-message-body { max-width: 90%; min-width: 150px; border-radius: 22px 22px 6px 22px; background: var(--bubble); border: 1px solid var(--line); padding: 16px 20px 10px; }
+.workspace-v2 .user-message-body > p { padding: 0; margin: 0; max-width: none; background: none; border: 0; font-size: 14px; line-height: 1.85; white-space: pre-wrap; overflow-wrap: anywhere; }
+.copy-button { display: inline-flex; align-items: center; gap: 6px; color: var(--fg-muted); min-height: 36px; font-size: 11px; padding: 6px 8px; border-radius: 10px; }
+.copy-button:hover { background: var(--focus-wash); color: var(--accent); }
+.user-message-body .question-copy { display: flex; width: fit-content; margin: 7px -6px -3px auto; }
+.retry-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: 14px 0 22px; }
+.retry-actions > span { font-size: 11px; color: var(--fg-muted); line-height: 1.8; }
+.build-retry { margin: 18px 0; }
+.workspace-v2 .soft-button, .workspace-v2 .danger-button { min-height: 44px; }
+.workspace-v2 button:focus-visible, .workspace-v2 select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (max-width: 800px) {
+  .sidebar-backdrop { display: block; position: fixed; inset: 0; z-index: 79; background: var(--overlay); border: 0; }
+  .sidebar-dismiss { display: flex; align-items: center; justify-content: center; position: absolute; right: 12px; top: 15px; width: 44px; height: 44px; color: var(--fg-2); border-radius: 12px; }
+  .workspace-v2 .topbar > div > button { display: inline-flex; min-height: 44px; min-width: 36px; }
+  .workspace-v2:not(.sidebar-hidden) > .sidebar { display: flex; position: fixed; inset: 0 auto 0 0; width: min(280px, 82vw); height: 100dvh; z-index: 80; padding: 24px 16px 0; box-shadow: 12px 0 50px var(--shadow); background: var(--sidebar); }
+  .workspace-v2 .upload-modal, .workspace-v2 .remove-modal { padding: 25px 20px; border-radius: 24px; }
+  .upload-destinations { grid-template-columns: 1fr; }
+  .upload-choice { padding: 16px; gap: 10px; }
+  .upload-choice strong { font-size: 16px; }
+  .user-message-body { max-width: 96%; padding: 14px 16px 8px; }
+  .reader-file-row { gap: 6px; padding: 12px; }
+  .reader-file-open strong { font-size: 13px; }
+  .reader-remove { padding: 8px; }
+  .copy-button { min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) { .upload-choice { transition: none; } }
+
+.workspace-v2 .build-progress { width: 100%; max-width: 960px; margin: 24px auto; }

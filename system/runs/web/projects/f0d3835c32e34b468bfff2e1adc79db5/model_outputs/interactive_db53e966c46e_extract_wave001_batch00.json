@@ -1,0 +1,899 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_fc130afee48cc79f5707",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Organization",
+          "name": "英仔爱心社团支部"
+        },
+        {
+          "local_id": "m2",
+          "type": "Actor",
+          "name": "冯琳雅"
+        },
+        {
+          "local_id": "m3",
+          "type": "Actor",
+          "name": "张煜奇"
+        },
+        {
+          "local_id": "m4",
+          "type": "Actor",
+          "name": "吕永奇"
+        },
+        {
+          "local_id": "m5",
+          "type": "Actor",
+          "name": "黄殿坤"
+        },
+        {
+          "local_id": "m6",
+          "type": "Actor",
+          "name": "尹厚泽"
+        },
+        {
+          "local_id": "m7",
+          "type": "Actor",
+          "name": "郭嘉文"
+        },
+        {
+          "local_id": "m8",
+          "type": "Organization",
+          "name": "唐仲英爱心社"
+        },
+        {
+          "local_id": "m9",
+          "type": "Event",
+          "name": "团支部换届选举"
+        },
+        {
+          "local_id": "m10",
+          "type": "Event",
+          "name": "暑期社会实践经验交流分享"
+        },
+        {
+          "local_id": "m11",
+          "type": "Event",
+          "name": "学习党的二十届三中全会精神"
+        },
+        {
+          "local_id": "m12",
+          "type": "Event",
+          "name": "最佳团日决赛评比"
+        },
+        {
+          "local_id": "m13",
+          "type": "Event",
+          "name": "校园政治生活"
+        },
+        {
+          "local_id": "m14",
+          "type": "Event",
+          "name": "寒假社会实践工作动员会"
+        },
+        {
+          "local_id": "m15",
+          "type": "Event",
+          "name": "学习两会精神"
+        },
+        {
+          "local_id": "m16",
+          "type": "Event",
+          "name": "学雷锋志愿服务月活动"
+        },
+        {
+          "local_id": "m17",
+          "type": "Event",
+          "name": "贯彻中央八项规定"
+        },
+        {
+          "local_id": "m18",
+          "type": "Event",
+          "name": "夯实基层团务建设"
+        },
+        {
+          "local_id": "m19",
+          "type": "Event",
+          "name": "校庆纪念活动"
+        },
+        {
+          "local_id": "m20",
+          "type": "Event",
+          "name": "国家安全日主题活动"
+        },
+        {
+          "local_id": "m21",
+          "type": "Document",
+          "name": "团生活指导意见（2025年5月）"
+        },
+        {
+          "local_id": "m22",
+          "type": "Event",
+          "name": "回顾党史和新中国史"
+        },
+        {
+          "local_id": "m23",
+          "type": "Event",
+          "name": "从志愿服务出发看国家战略"
+        },
+        {
+          "local_id": "m24",
+          "type": "Event",
+          "name": "讨论交流环节"
+        },
+        {
+          "local_id": "m25",
+          "type": "Event",
+          "name": "国防安全主题教育"
+        },
+        {
+          "local_id": "m26",
+          "type": "Event",
+          "name": "观看《大先生》话剧视频"
+        },
+        {
+          "local_id": "m27",
+          "type": "Event",
+          "name": "走实走深思想教育工作"
+        },
+        {
+          "local_id": "m28",
+          "type": "Event",
+          "name": "总结寒假社会实践"
+        },
+        {
+          "local_id": "m29",
+          "type": "Event",
+          "name": "传承西迁精神"
+        },
+        {
+          "local_id": "m30",
+          "type": "Concept",
+          "name": "西迁精神"
+        },
+        {
+          "local_id": "m31",
+          "type": "Concept",
+          "name": "中央八项规定"
+        },
+        {
+          "local_id": "m32",
+          "type": "Concept",
+          "name": "党的二十届三中全会精神"
+        },
+        {
+          "local_id": "m33",
+          "type": "Concept",
+          "name": "雷锋精神"
+        },
+        {
+          "local_id": "m34",
+          "type": "Concept",
+          "name": "习近平总书记重要讲话"
+        },
+        {
+          "local_id": "m35",
+          "type": "Actor",
+          "name": "唐仲英爱心社团支书"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "团支书",
+          "object": "m2"
+        },
+        {
+          "subject": "m1",
+          "predicate": "团支部书记",
+          "object": "m3"
+        },
+        {
+          "subject": "m1",
+          "predicate": "宣传委员",
+          "object": "m4"
+        },
+        {
+          "subject": "m1",
+          "predicate": "组织委员",
+          "object": "m5"
+        },
+        {
+          "subject": "m1",
+          "predicate": "团员",
+          "object": "m6"
+        },
+        {
+          "subject": "m1",
+          "predicate": "团员",
+          "object": "m7"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m9"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m11"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m10"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m22"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m23"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m24"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m25"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m26"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m12"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m13"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m14"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m15"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m16"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m17"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m18"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m19"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m20"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m27"
+        },
+        {
+          "subject": "m1",
+          "predicate": "开展",
+          "object": "m28"
+        },
+        {
+          "subject": "m1",
+          "predicate": "学习",
+          "object": "m21"
+        },
+        {
+          "subject": "m1",
+          "predicate": "学习",
+          "object": "m32"
+        },
+        {
+          "subject": "m1",
+          "predicate": "学习",
+          "object": "m31"
+        },
+        {
+          "subject": "m1",
+          "predicate": "传承",
+          "object": "m30"
+        },
+        {
+          "subject": "m1",
+          "predicate": "弘扬",
+          "object": "m33"
+        },
+        {
+          "subject": "m2",
+          "predicate": "主持",
+          "object": "m9"
+        },
+        {
+          "subject": "m3",
+          "predicate": "带领",
+          "object": "m1",
+          "qualifiers": {
+            "action": "学习",
+            "target": "m34"
+          }
+        },
+        {
+          "subject": "m8",
+          "predicate": "参与",
+          "object": "m24"
+        },
+        {
+          "subject": "m2",
+          "predicate": "带领",
+          "object": "m1",
+          "qualifiers": {
+            "action": "回顾",
+            "target": "m22"
+          }
+        },
+        {
+          "subject": "m35",
+          "predicate": "带领",
+          "object": "m1",
+          "qualifiers": {
+            "action": "学习",
+            "target": "m25"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "unit_226ecdce4a368795ae89",
+      "mentions": [
+        {
+          "local_id": "n1",
+          "type": "Organization",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "n2",
+          "type": "Activity",
+          "name": "中学助学"
+        },
+        {
+          "local_id": "n3",
+          "type": "Activity",
+          "name": "陕博志愿讲解"
+        },
+        {
+          "local_id": "n4",
+          "type": "Activity",
+          "name": "大学游"
+        },
+        {
+          "local_id": "n5",
+          "type": "Activity",
+          "name": "老年大学陕博游"
+        },
+        {
+          "local_id": "n6",
+          "type": "Activity",
+          "name": "敬老服务"
+        },
+        {
+          "local_id": "n7",
+          "type": "Activity",
+          "name": "特殊儿童帮扶活动"
+        },
+        {
+          "local_id": "n8",
+          "type": "Award",
+          "name": "2024年度“榜样100”全国优秀大学生社团"
+        },
+        {
+          "local_id": "n9",
+          "type": "Award",
+          "name": "西安交通大学第三十九届“最佳团日”活动一等奖"
+        },
+        {
+          "local_id": "n10",
+          "type": "Award",
+          "name": "西安交通大学第九届社会实践青年研究年会一等奖"
+        },
+        {
+          "local_id": "n11",
+          "type": "Award",
+          "name": "西安交通大学第九届社会实践青年研究年会二等奖"
+        },
+        {
+          "local_id": "n12",
+          "type": "Award",
+          "name": "西安交通大学第九届社会实践青年研究年会三等奖"
+        },
+        {
+          "local_id": "n13",
+          "type": "Award",
+          "name": "唐仲英基金会2023-2024学年社团公益活动优秀奖"
+        },
+        {
+          "local_id": "n14",
+          "type": "Award",
+          "name": "西安交通大学2024年新时代青少年先锋集体"
+        },
+        {
+          "local_id": "n15",
+          "type": "Award",
+          "name": "2024年第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+        },
+        {
+          "local_id": "n16",
+          "type": "Organization",
+          "name": "西安交通大学陕西历史博物馆志愿服务队"
+        },
+        {
+          "local_id": "n17",
+          "type": "Award",
+          "name": "2024年“仲英榜样”集体互助之星"
+        },
+        {
+          "local_id": "n18",
+          "type": "Project",
+          "name": "“大手拉小手”项目"
+        },
+        {
+          "local_id": "n19",
+          "type": "Award",
+          "name": "西安交通大学2024年度学雷锋志愿服务优秀项目"
+        },
+        {
+          "local_id": "n20",
+          "type": "Organization",
+          "name": "“知行秦川，梦启今夏”支教团"
+        },
+        {
+          "local_id": "n21",
+          "type": "Award",
+          "name": "2024年度“榜样100”全国优秀大学生团队"
+        },
+        {
+          "local_id": "n22",
+          "type": "Organization",
+          "name": "梦绽格桑原，玉树支教团"
+        },
+        {
+          "local_id": "n23",
+          "type": "Award",
+          "name": "2024年第七届西门子爱绿教育计划全国优秀奖"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "n1",
+          "predicate": "开展",
+          "object": "n2"
+        },
+        {
+          "subject": "n1",
+          "predicate": "开展",
+          "object": "n3"
+        },
+        {
+          "subject": "n1",
+          "predicate": "开展",
+          "object": "n4"
+        },
+        {
+          "subject": "n1",
+          "predicate": "开展",
+          "object": "n5"
+        },
+        {
+          "subject": "n1",
+          "predicate": "开展",
+          "object": "n6"
+        },
+        {
+          "subject": "n1",
+          "predicate": "开展",
+          "object": "n7"
+        },
+        {
+          "subject": "n1",
+          "predicate": "获得",
+          "object": "n8"
+        },
+        {
+          "subject": "n1",
+          "predicate": "获得",
+          "object": "n9"
+        },
+        {
+          "subject": "n1",
+          "predicate": "获得",
+          "object": "n10"
+        },
+        {
+          "subject": "n1",
+          "predicate": "获得",
+          "object": "n11"
+        },
+        {
+          "subject": "n1",
+          "predicate": "获得",
+          "object": "n12"
+        },
+        {
+          "subject": "n1",
+          "predicate": "获得",
+          "object": "n13"
+        },
+        {
+          "subject": "n1",
+          "predicate": "获得",
+          "object": "n14"
+        },
+        {
+          "subject": "n1",
+          "predicate": "获得",
+          "object": "n15"
+        },
+        {
+          "subject": "n16",
+          "predicate": "获得",
+          "object": "n17"
+        },
+        {
+          "subject": "n18",
+          "predicate": "获得",
+          "object": "n19"
+        },
+        {
+          "subject": "n20",
+          "predicate": "获得",
+          "object": "n21"
+        },
+        {
+          "subject": "n22",
+          "predicate": "获得",
+          "object": "n21"
+        },
+        {
+          "subject": "n22",
+          "predicate": "获得",
+          "object": "n23"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_0a16a66d477e89a5aa2f",
+      "mentions": [
+        {
+          "local_id": "p1",
+          "type": "Organization",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "p2",
+          "type": "Document",
+          "name": "西安交通大学英仔爱心社办公室使用准则"
+        },
+        {
+          "local_id": "p3",
+          "type": "Document",
+          "name": "西安交通大学英仔爱心社办公室卫生制度"
+        },
+        {
+          "local_id": "p4",
+          "type": "Document",
+          "name": "西安交通大学英仔爱心社财务管理制度"
+        },
+        {
+          "local_id": "p5",
+          "type": "Document",
+          "name": "西安交通大学英仔爱心社物资使用及管理制度"
+        },
+        {
+          "local_id": "p6",
+          "type": "Organization",
+          "name": "常务部"
+        },
+        {
+          "local_id": "p7",
+          "type": "Asset",
+          "name": "办公室"
+        },
+        {
+          "local_id": "p8",
+          "type": "Organization",
+          "name": "财务小组"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "p1",
+          "predicate": "制定",
+          "object": "p2"
+        },
+        {
+          "subject": "p1",
+          "predicate": "制定",
+          "object": "p3"
+        },
+        {
+          "subject": "p1",
+          "predicate": "制定",
+          "object": "p4"
+        },
+        {
+          "subject": "p1",
+          "predicate": "制定",
+          "object": "p5"
+        },
+        {
+          "subject": "p6",
+          "predicate": "管理",
+          "object": "p7"
+        },
+        {
+          "subject": "p6",
+          "predicate": "制定",
+          "object": "p5"
+        },
+        {
+          "subject": "p4",
+          "predicate": "设立",
+          "object": "p8"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "借用规则"
+          },
+          "value": "提前48小时线上填写共享表格"
+        },
+        {
+          "subject": "p4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "报销频率"
+          },
+          "value": "两周一次"
+        },
+        {
+          "subject": "p5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "办公用品购买规则"
+          },
+          "value": "常务部统一购置"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_c2e36ce07d89d90ff602",
+      "mentions": [
+        {
+          "local_id": "q1",
+          "type": "Document",
+          "name": "西安交通大学英仔爱心社物资购置申请表"
+        },
+        {
+          "local_id": "q2",
+          "type": "Organization",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "q3",
+          "type": "Organization",
+          "name": "常务部"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "q1",
+          "predicate": "属于",
+          "object": "q2"
+        },
+        {
+          "subject": "q1",
+          "predicate": "咨询",
+          "object": "q3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "q1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "填写要求"
+          },
+          "value": "申请人本人如实填写"
+        },
+        {
+          "subject": "q1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "使用时间要求"
+          },
+          "value": "避开英仔爱心社例会时间"
+        },
+        {
+          "subject": "q1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "使用后要求"
+          },
+          "value": "务必清扫本办公室"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_5549451b9bb0677965de",
+      "mentions": [
+        {
+          "local_id": "r1",
+          "type": "Organization",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "r2",
+          "type": "DataAsset",
+          "name": "英仔爱心社公众号"
+        },
+        {
+          "local_id": "r3",
+          "type": "DataAsset",
+          "name": "xjtu英仔爱心社官方"
+        },
+        {
+          "local_id": "r4",
+          "type": "Actor",
+          "name": "交大新闻网"
+        },
+        {
+          "local_id": "r5",
+          "type": "Actor",
+          "name": "交大团委"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "r1",
+          "predicate": "运营",
+          "object": "r2"
+        },
+        {
+          "subject": "r1",
+          "predicate": "运营",
+          "object": "r3"
+        },
+        {
+          "subject": "r2",
+          "predicate": "获媒体报道",
+          "object": "r4"
+        },
+        {
+          "subject": "r2",
+          "predicate": "获媒体报道",
+          "object": "r5"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "r2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "关注人数变化"
+          },
+          "value": "7087增长至8279"
+        },
+        {
+          "subject": "r2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "发布推送数"
+          },
+          "value": 186
+        },
+        {
+          "subject": "r2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "累计阅读量"
+          },
+          "value": "5万3千余次"
+        },
+        {
+          "subject": "r2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "原创文章数"
+          },
+          "value": 175
+        },
+        {
+          "subject": "r2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "转载文章数"
+          },
+          "value": 11
+        },
+        {
+          "subject": "r2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "原创推送平均阅读量"
+          },
+          "value": "约305次/篇"
+        },
+        {
+          "subject": "r3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "发布视频数"
+          },
+          "value": 37
+        },
+        {
+          "subject": "r3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "总时长"
+          },
+          "value": "超过600分钟"
+        },
+        {
+          "subject": "r3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "点赞量"
+          },
+          "value": 777
+        },
+        {
+          "subject": "r3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "粉丝数"
+          },
+          "value": 252
+        },
+        {
+          "subject": "r3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "播放量"
+          },
+          "value": 13677
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_32421f2d375c226a0323"
+}

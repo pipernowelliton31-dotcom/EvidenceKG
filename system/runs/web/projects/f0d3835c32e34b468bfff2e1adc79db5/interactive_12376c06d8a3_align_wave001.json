@@ -1,0 +1,1221 @@
+{
+  "schema_version": "1.3",
+  "fingerprint": "run_32421f2d375c226a0323",
+  "stage": "align",
+  "round": 1,
+  "pending_count": 10,
+  "alignment_mode": "cluster_select",
+  "stopped": false,
+  "concurrent_batches": true,
+  "batches": [
+    {
+      "batch_index": 0,
+      "round": 1,
+      "tasks": [
+        {
+          "task_id": "align_d822becd24ef89716ae4",
+          "source_cluster": {
+            "entity_id": "entity_081d82ba6ded76a3f3c0",
+            "representative_member_id": "m_9ba060039c93d3df574c",
+            "type": "Actor",
+            "name": "刘晗梦",
+            "names": [
+              "刘晗梦"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "guided_by",
+                "neighbor_entity_id": "entity_ddf2e1cdf4fde01524b0",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "林硕锦"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_475522a3889c565df599",
+                "quote": "",
+                "locator": {
+                  "section": [],
+                  "table": 1,
+                  "row_start": 2,
+                  "row_end": 10
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_081d82ba6ded76a3f3c0",
+          "candidates": [
+            {
+              "entity_id": "entity_d6ab538e75f8d6ff04e6",
+              "representative_member_id": "m_b13e7fb4a1d09909e4cf",
+              "type": "Actor",
+              "name": "刘晗梦",
+              "names": [
+                "刘晗梦"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "advises",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_e32f8410f546861e7481"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_e32f8410f546861e7481",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "paragraph_start": 2,
+                    "paragraph_end": 7,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_279be6571fa3ce915aa3",
+          "source_cluster": {
+            "entity_id": "entity_0b65e4a72ce18f9ad3cd",
+            "representative_member_id": "m_561bc92b9cfafa682b3e",
+            "type": "Actor",
+            "name": "“知行秦川，梦启今夏”支教团",
+            "names": [
+              "“知行秦川，梦启今夏”支教团"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "belongs_to",
+                "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "英仔爱心社"
+                ],
+                "evidence_ids": [
+                  "ev_d28e248a46bed3c660bb"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "received_award",
+                "neighbor_entity_id": "entity_c898f08619bec4b4d982",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "2024年度“榜样100”全国优秀大学生团队"
+                ],
+                "evidence_ids": [
+                  "ev_d28e248a46bed3c660bb"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_d28e248a46bed3c660bb",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "未来展望",
+                    "附件："
+                  ],
+                  "paragraph_start": 184,
+                  "paragraph_end": 186,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_0b65e4a72ce18f9ad3cd",
+          "candidates": [
+            {
+              "entity_id": "entity_512e4570f6cead1f0240",
+              "representative_member_id": "m_846dada885ec7c771f6d",
+              "type": "Actor",
+              "name": "知行秦川，梦启今夏支教团",
+              "names": [
+                "知行秦川，梦启今夏支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_fdfefb9e563868bbd047"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_3a201247676549164ade",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+                  ],
+                  "evidence_ids": [
+                    "ev_fdfefb9e563868bbd047"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_fdfefb9e563868bbd047",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 196,
+                    "paragraph_end": 198,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_fa46babc63de204b50c3",
+              "representative_member_id": "m_f33383f988357a5ec81d",
+              "type": "Actor",
+              "name": "梦绽格桑原，玉树支教团",
+              "names": [
+                "梦绽格桑原，玉树支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_454b6d2381656e795cdd"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_b63139f988a380894db8",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "榜样100全国优秀大学生团队"
+                  ],
+                  "evidence_ids": [
+                    "ev_454b6d2381656e795cdd"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_454b6d2381656e795cdd",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 188,
+                    "paragraph_end": 190,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_39ada59367b8eaa40284",
+          "source_cluster": {
+            "entity_id": "entity_4428edf67ba781ac05f0",
+            "representative_member_id": "m_4682d1ed951696d3741c",
+            "type": "DataAsset",
+            "name": "英仔爱心社抖音账号",
+            "names": [
+              "英仔爱心社",
+              "英仔爱心社抖音账号"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_6f0dc8e32be941274e9e",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 21,
+                  "paragraph_end": 22,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_4428edf67ba781ac05f0",
+          "candidates": [
+            {
+              "entity_id": "entity_4511fc462aa8f97fdf81",
+              "representative_member_id": "m_1a29baa07c9500667778",
+              "type": "DataAsset",
+              "name": "xjtu英仔爱心社官方",
+              "names": [
+                "xjtu英仔爱心社官方"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_bb40445460c1c8ec5977",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 13,
+                    "paragraph_end": 18,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_73fa86da825c8eb0d43d",
+              "representative_member_id": "m_64757cf5afc7b5655110",
+              "type": "DataAsset",
+              "name": "英仔爱心社公众号",
+              "names": [
+                "英仔爱心社公众号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "获媒体报道",
+                  "neighbor_entity_id": "entity_c3144251cf9d9109cba1",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "交大新闻网"
+                  ],
+                  "evidence_ids": [
+                    "ev_bb40445460c1c8ec5977"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "获媒体报道",
+                  "neighbor_entity_id": "entity_91ff357714cd23696bf1",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "交大团委"
+                  ],
+                  "evidence_ids": [
+                    "ev_bb40445460c1c8ec5977"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_bb40445460c1c8ec5977",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 13,
+                    "paragraph_end": 18,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_0d076f3a8b5b873e9ce1",
+          "source_cluster": {
+            "entity_id": "entity_4511fc462aa8f97fdf81",
+            "representative_member_id": "m_1a29baa07c9500667778",
+            "type": "DataAsset",
+            "name": "xjtu英仔爱心社官方",
+            "names": [
+              "xjtu英仔爱心社官方"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_bb40445460c1c8ec5977",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 13,
+                  "paragraph_end": 18,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_4511fc462aa8f97fdf81",
+          "candidates": [
+            {
+              "entity_id": "entity_4428edf67ba781ac05f0",
+              "representative_member_id": "m_4682d1ed951696d3741c",
+              "type": "DataAsset",
+              "name": "英仔爱心社抖音账号",
+              "names": [
+                "英仔爱心社",
+                "英仔爱心社抖音账号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_6f0dc8e32be941274e9e",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 21,
+                    "paragraph_end": 22,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_fe93c2a239d3d933e1e1",
+          "source_cluster": {
+            "entity_id": "entity_512e4570f6cead1f0240",
+            "representative_member_id": "m_846dada885ec7c771f6d",
+            "type": "Actor",
+            "name": "知行秦川，梦启今夏支教团",
+            "names": [
+              "知行秦川，梦启今夏支教团"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "belongs_to",
+                "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "英仔爱心社"
+                ],
+                "evidence_ids": [
+                  "ev_fdfefb9e563868bbd047"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "received_award",
+                "neighbor_entity_id": "entity_3a201247676549164ade",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+                ],
+                "evidence_ids": [
+                  "ev_fdfefb9e563868bbd047"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_fdfefb9e563868bbd047",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "未来展望",
+                    "附件："
+                  ],
+                  "paragraph_start": 196,
+                  "paragraph_end": 198,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_512e4570f6cead1f0240",
+          "candidates": [
+            {
+              "entity_id": "entity_0b65e4a72ce18f9ad3cd",
+              "representative_member_id": "m_561bc92b9cfafa682b3e",
+              "type": "Actor",
+              "name": "“知行秦川，梦启今夏”支教团",
+              "names": [
+                "“知行秦川，梦启今夏”支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_d28e248a46bed3c660bb"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_c898f08619bec4b4d982",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2024年度“榜样100”全国优秀大学生团队"
+                  ],
+                  "evidence_ids": [
+                    "ev_d28e248a46bed3c660bb"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_d28e248a46bed3c660bb",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 184,
+                    "paragraph_end": 186,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_fa46babc63de204b50c3",
+              "representative_member_id": "m_f33383f988357a5ec81d",
+              "type": "Actor",
+              "name": "梦绽格桑原，玉树支教团",
+              "names": [
+                "梦绽格桑原，玉树支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_454b6d2381656e795cdd"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_b63139f988a380894db8",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "榜样100全国优秀大学生团队"
+                  ],
+                  "evidence_ids": [
+                    "ev_454b6d2381656e795cdd"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_454b6d2381656e795cdd",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 188,
+                    "paragraph_end": 190,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_5046bfe3fbb30af5e4b6",
+          "source_cluster": {
+            "entity_id": "entity_73fa86da825c8eb0d43d",
+            "representative_member_id": "m_64757cf5afc7b5655110",
+            "type": "DataAsset",
+            "name": "英仔爱心社公众号",
+            "names": [
+              "英仔爱心社公众号"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "获媒体报道",
+                "neighbor_entity_id": "entity_c3144251cf9d9109cba1",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "交大新闻网"
+                ],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "获媒体报道",
+                "neighbor_entity_id": "entity_91ff357714cd23696bf1",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "交大团委"
+                ],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_bb40445460c1c8ec5977",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 13,
+                  "paragraph_end": 18,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_73fa86da825c8eb0d43d",
+          "candidates": [
+            {
+              "entity_id": "entity_4428edf67ba781ac05f0",
+              "representative_member_id": "m_4682d1ed951696d3741c",
+              "type": "DataAsset",
+              "name": "英仔爱心社抖音账号",
+              "names": [
+                "英仔爱心社",
+                "英仔爱心社抖音账号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_6f0dc8e32be941274e9e",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 21,
+                    "paragraph_end": 22,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_360b49ef5e598867df9f",
+          "source_cluster": {
+            "entity_id": "entity_91ff357714cd23696bf1",
+            "representative_member_id": "m_038c7dd9ee38b23f3052",
+            "type": "Actor",
+            "name": "交大团委",
+            "names": [
+              "交大团委"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "获媒体报道",
+                "neighbor_entity_id": "entity_73fa86da825c8eb0d43d",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "英仔爱心社公众号"
+                ],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_bb40445460c1c8ec5977",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 13,
+                  "paragraph_end": 18,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_91ff357714cd23696bf1",
+          "candidates": [
+            {
+              "entity_id": "entity_c3144251cf9d9109cba1",
+              "representative_member_id": "m_77ab92127bacbbc86e81",
+              "type": "Actor",
+              "name": "交大新闻网",
+              "names": [
+                "交大新闻网"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "获媒体报道",
+                  "neighbor_entity_id": "entity_73fa86da825c8eb0d43d",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "英仔爱心社公众号"
+                  ],
+                  "evidence_ids": [
+                    "ev_bb40445460c1c8ec5977"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_bb40445460c1c8ec5977",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 13,
+                    "paragraph_end": 18,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_d04220d78980d3a050de",
+          "source_cluster": {
+            "entity_id": "entity_c3144251cf9d9109cba1",
+            "representative_member_id": "m_77ab92127bacbbc86e81",
+            "type": "Actor",
+            "name": "交大新闻网",
+            "names": [
+              "交大新闻网"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "获媒体报道",
+                "neighbor_entity_id": "entity_73fa86da825c8eb0d43d",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "英仔爱心社公众号"
+                ],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_bb40445460c1c8ec5977",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 13,
+                  "paragraph_end": 18,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_c3144251cf9d9109cba1",
+          "candidates": [
+            {
+              "entity_id": "entity_91ff357714cd23696bf1",
+              "representative_member_id": "m_038c7dd9ee38b23f3052",
+              "type": "Actor",
+              "name": "交大团委",
+              "names": [
+                "交大团委"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "获媒体报道",
+                  "neighbor_entity_id": "entity_73fa86da825c8eb0d43d",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "英仔爱心社公众号"
+                  ],
+                  "evidence_ids": [
+                    "ev_bb40445460c1c8ec5977"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_bb40445460c1c8ec5977",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 13,
+                    "paragraph_end": 18,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        }
+      ]
+    },
+    {
+      "batch_index": 1,
+      "round": 1,
+      "tasks": [
+        {
+          "task_id": "align_2e1d8c044e0457f67209",
+          "source_cluster": {
+            "entity_id": "entity_d6ab538e75f8d6ff04e6",
+            "representative_member_id": "m_b13e7fb4a1d09909e4cf",
+            "type": "Actor",
+            "name": "刘晗梦",
+            "names": [
+              "刘晗梦"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "advises",
+                "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "英仔爱心社"
+                ],
+                "evidence_ids": [
+                  "ev_e32f8410f546861e7481"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_e32f8410f546861e7481",
+                "quote": "",
+                "locator": {
+                  "section": [],
+                  "paragraph_start": 2,
+                  "paragraph_end": 7,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_d6ab538e75f8d6ff04e6",
+          "candidates": [
+            {
+              "entity_id": "entity_081d82ba6ded76a3f3c0",
+              "representative_member_id": "m_9ba060039c93d3df574c",
+              "type": "Actor",
+              "name": "刘晗梦",
+              "names": [
+                "刘晗梦"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "guided_by",
+                  "neighbor_entity_id": "entity_ddf2e1cdf4fde01524b0",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "林硕锦"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_258863d5de2009651820",
+          "source_cluster": {
+            "entity_id": "entity_fa46babc63de204b50c3",
+            "representative_member_id": "m_f33383f988357a5ec81d",
+            "type": "Actor",
+            "name": "梦绽格桑原，玉树支教团",
+            "names": [
+              "梦绽格桑原，玉树支教团"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "belongs_to",
+                "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "英仔爱心社"
+                ],
+                "evidence_ids": [
+                  "ev_454b6d2381656e795cdd"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "received_award",
+                "neighbor_entity_id": "entity_b63139f988a380894db8",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "榜样100全国优秀大学生团队"
+                ],
+                "evidence_ids": [
+                  "ev_454b6d2381656e795cdd"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_454b6d2381656e795cdd",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "未来展望",
+                    "附件："
+                  ],
+                  "paragraph_start": 188,
+                  "paragraph_end": 190,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_fa46babc63de204b50c3",
+          "candidates": [
+            {
+              "entity_id": "entity_0b65e4a72ce18f9ad3cd",
+              "representative_member_id": "m_561bc92b9cfafa682b3e",
+              "type": "Actor",
+              "name": "“知行秦川，梦启今夏”支教团",
+              "names": [
+                "“知行秦川，梦启今夏”支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_d28e248a46bed3c660bb"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_c898f08619bec4b4d982",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2024年度“榜样100”全国优秀大学生团队"
+                  ],
+                  "evidence_ids": [
+                    "ev_d28e248a46bed3c660bb"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_d28e248a46bed3c660bb",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 184,
+                    "paragraph_end": 186,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_512e4570f6cead1f0240",
+              "representative_member_id": "m_846dada885ec7c771f6d",
+              "type": "Actor",
+              "name": "知行秦川，梦启今夏支教团",
+              "names": [
+                "知行秦川，梦启今夏支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_fdfefb9e563868bbd047"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_3a201247676549164ade",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+                  ],
+                  "evidence_ids": [
+                    "ev_fdfefb9e563868bbd047"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_fdfefb9e563868bbd047",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 196,
+                    "paragraph_end": 198,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        }
+      ]
+    }
+  ]
+}

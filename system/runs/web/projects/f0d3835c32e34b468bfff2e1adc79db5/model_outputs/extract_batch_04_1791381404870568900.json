@@ -1,0 +1,218 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_56a6334f56b9b9b1f9c0",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Award",
+          "name": "第七届西门子爱绿教育计划全国优秀奖"
+        },
+        {
+          "local_id": "m2",
+          "type": "Organization",
+          "name": "梦绽格桑原-玉树支教团"
+        },
+        {
+          "local_id": "m3",
+          "type": "Organization",
+          "name": "英仔爱心社"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m2",
+          "predicate": "won",
+          "object": "m1"
+        },
+        {
+          "subject": "m2",
+          "predicate": "belongs_to",
+          "object": "m3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "award_push_link"
+          },
+          "value": "https://mp.weixin.qq.com/s/cgQBdFaIlOcsym1a6_9KGg"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_9f6a8a16afdf54bd2e0e",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "活动1"
+        },
+        {
+          "local_id": "m2",
+          "type": "Event",
+          "name": "活动2"
+        },
+        {
+          "local_id": "m3",
+          "type": "Event",
+          "name": "活动3"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "news_link"
+          },
+          "value": "https://mp.weixin.qq.com/s/q3DpHWpvyVcKu8AObLGzkA"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "news_link"
+          },
+          "value": "https://mp.weixin.qq.com/s/ORG2iON-OyLN8XGztBMbdg"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "news_links"
+          },
+          "value": [
+            "https://mp.weixin.qq.com/s/4GfcUWefK1MidAGxbm12Vw",
+            "https://mp.weixin.qq.com/s/d1mrH-cMN1mxwjx4S3YWXA",
+            "https://mp.weixin.qq.com/s/VcFRq2Y2ID3-tNrGQ2FUuQ",
+            "https://mp.weixin.qq.com/s/T5pHtpzn2t34serr2EKV2w"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_1ac6806406869aa96209",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Platform",
+          "name": "微信公众号"
+        },
+        {
+          "local_id": "m2",
+          "type": "Platform",
+          "name": "B站"
+        },
+        {
+          "local_id": "m3",
+          "type": "Platform",
+          "name": "抖音"
+        },
+        {
+          "local_id": "m4",
+          "type": "Organization",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m5",
+          "type": "Organization",
+          "name": "xjtu英仔爱心社官方"
+        },
+        {
+          "local_id": "m6",
+          "type": "Actor",
+          "name": "杨可欣"
+        },
+        {
+          "local_id": "m7",
+          "type": "Actor",
+          "name": "王紫彤"
+        },
+        {
+          "local_id": "m8",
+          "type": "Actor",
+          "name": "赵淑琳"
+        },
+        {
+          "local_id": "m9",
+          "type": "Role",
+          "name": "宣传部部长"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "account_name",
+          "object": "m4"
+        },
+        {
+          "subject": "m2",
+          "predicate": "account_name",
+          "object": "m5"
+        },
+        {
+          "subject": "m3",
+          "predicate": "account_name",
+          "object": "m4"
+        },
+        {
+          "subject": "m1",
+          "predicate": "operator",
+          "object": "m6"
+        },
+        {
+          "subject": "m1",
+          "predicate": "operator",
+          "object": "m7"
+        },
+        {
+          "subject": "m2",
+          "predicate": "operator",
+          "object": "m8"
+        },
+        {
+          "subject": "m2",
+          "predicate": "operator",
+          "object": "m6"
+        },
+        {
+          "subject": "m3",
+          "predicate": "operator",
+          "object": "m8"
+        },
+        {
+          "subject": "m3",
+          "predicate": "operator",
+          "object": "m7"
+        },
+        {
+          "subject": "m6",
+          "predicate": "holds_role",
+          "object": "m9"
+        },
+        {
+          "subject": "m7",
+          "predicate": "holds_role",
+          "object": "m9"
+        },
+        {
+          "subject": "m8",
+          "predicate": "holds_role",
+          "object": "m9"
+        }
+      ],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_2a358f9267ceea0f80b6",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    }
+  ],
+  "fingerprint": "run_32421f2d375c226a0323"
+}

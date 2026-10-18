@@ -1,0 +1,46 @@
+{
+  "id": "8ea7cda8cac2479d85a302c540f1a344",
+  "project_id": "2e709336dc164daf9384836cef8ecf5c",
+  "kind": "build",
+  "question": "",
+  "status": "failed",
+  "events": [
+    {
+      "id": 1,
+      "type": "run.started",
+      "elapsed_s": 0.0,
+      "message": "已创建运行"
+    },
+    {
+      "id": 2,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[检查] 检查已有知识图谱是否完整、可用…"
+    },
+    {
+      "id": 3,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[构图] 未发现可用的完整图谱，开始构图；匹配的 checkpoint 会继续复用。"
+    },
+    {
+      "id": 4,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[输入] 业务语料=3，排除的问题集/参考资料=0"
+    },
+    {
+      "id": 5,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[Parse] 正在本地解析材料…"
+    },
+    {
+      "id": 6,
+      "type": "run.error",
+      "elapsed_s": 0.2,
+      "message": "CLI failed with code 2"
+    }
+  ],
+  "created_at": 1791380300.7238753
+}

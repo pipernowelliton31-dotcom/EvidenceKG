@@ -1,0 +1,156 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_d8e39973deed18c5146b",
+      "mentions": [
+        {
+          "local_id": "d05",
+          "type": "DataAsset",
+          "name": "D05（产品评价反馈）",
+          "aliases": [
+            "D05",
+            "产品评价反馈"
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "d05",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "description"
+          },
+          "value": "产品评价反馈"
+        },
+        {
+          "subject": "d05",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "data_source"
+          },
+          "value": [
+            "2026年Q2客户满意度调研",
+            "产品评价系统"
+          ]
+        },
+        {
+          "subject": "d05",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "cross_validated_with"
+          },
+          "value": "Excel运营数据"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_5177d54a41e10e4af012",
+      "mentions": [
+        {
+          "local_id": "p_lingyu",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "p_sucai_v3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "p_sucai_v2",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "aliases": [
+            "V2"
+          ]
+        },
+        {
+          "local_id": "v_mowen_v3",
+          "type": "Version",
+          "name": "墨文v3"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "p_lingyu",
+          "predicate": "has_compatibility_issue_with",
+          "object": "v_mowen_v3"
+        },
+        {
+          "subject": "p_sucai_v3",
+          "predicate": "less_stable_than",
+          "object": "p_sucai_v2"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "p_lingyu",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "average_rating",
+            "period": "2026 Q2",
+            "scale": "5分制"
+          },
+          "value": 3.0
+        },
+        {
+          "subject": "p_lingyu",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "average_rating",
+            "period": "2026 Q1",
+            "scale": "5分制"
+          },
+          "value": 4.1
+        },
+        {
+          "subject": "p_lingyu",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "rating_trend"
+          },
+          "value": "显著下降"
+        },
+        {
+          "subject": "p_lingyu",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "negative_feedback_focus"
+          },
+          "value": [
+            "墨文v3兼容性问题",
+            "订阅制定价"
+          ]
+        },
+        {
+          "subject": "p_sucai_v3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "average_rating",
+            "period": "2026 Q2"
+          },
+          "value": 3.4
+        },
+        {
+          "subject": "p_sucai_v2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "average_rating",
+            "comparison_period": "同期"
+          },
+          "value": 4.2
+        },
+        {
+          "subject": "p_sucai_v3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability_comparison"
+          },
+          "value": "V3稳定性不如V2"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

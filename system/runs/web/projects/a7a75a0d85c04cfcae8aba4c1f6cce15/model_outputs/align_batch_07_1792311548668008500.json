@@ -1,0 +1,26 @@
+{
+  "tasks": [
+    {
+      "task_id": "align_fd43fc729c0e2d8eb842",
+      "decision": "entity_cd2e0e247add22cec0c9"
+    },
+    {
+      "task_id": "align_aed77775a62adb13da23",
+      "decision": "NEW_ENTITY"
+    },
+    {
+      "task_id": "align_3c5e9a3bebd79b1a3533",
+      "decision": "entity_14d7853f416911cfff66"
+    },
+    {
+      "task_id": "align_840d2f5dec43ada94bbf",
+      "decision": "entity_21418d377e214a296dcc"
+    },
+    {
+      "task_id": "align_f9bcb4d9a08500d2f994",
+      "decision": "NEW_ENTITY"
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818",
+  "round": 1
+}

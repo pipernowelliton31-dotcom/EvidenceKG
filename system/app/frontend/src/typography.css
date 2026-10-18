@@ -1,0 +1,13 @@
+/* Local fonts keep the portable app usable offline. */
+:root {
+  --font-ui: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  --font-editorial: 'Noto Serif SC', 'Songti SC', 'SimSun', Georgia, serif;
+  --font-data: var(--font-ui);
+  --font-code: 'Cascadia Code', Consolas, monospace;
+  --type-title: 28px; --type-section: 22px; --type-body: 16px; --type-ui: 14px; --type-caption: 12px;
+}
+body, button, input, textarea, select { font-family: var(--font-ui); }
+.workspace-v2 { font: 14px/1.6 var(--font-ui); }
+.workspace-v2 h1, .workspace-v2 h2, .workspace-v2 h3 { font-family: var(--font-ui); letter-spacing: -.02em; }
+.data-number { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.markdown pre, .markdown code, .step-detail pre { font-family: var(--font-code); }

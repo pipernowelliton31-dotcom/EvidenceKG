@@ -1,6 +1,18 @@
-# Ignore everything except 测试集A files
-/*
-!/测试数据/
+# Ignore chat records and local config files
+*.md
+*.txt
+MANIFEST.json
+密钥配置修复补丁-20261009.zip
+
+# Ignore any local API keys or secrets
+local_api.json
+.env*
+*.env
+
+# Ignore sites static deployment
+/sites/
+
+# Ignore other test data (keep only 测试集A)
 /测试数据/*
 !/测试数据/测试集A_产品规格与定价文档.pdf
 !/测试数据/测试集A_产品架构图.png
@@ -9,26 +21,15 @@
 !/测试数据/测试集A_工作室运营手册.docx
 !/测试数据/测试集A_运营数据记录.xlsx
 
-# Explicitly ignore other directories
+# Ignore reference materials and reports
 /资料与报告/
+
+# Ignore build outputs
 /output/
-/sites/
-/system/
+
+# Ignore IDE and tool caches
 /.vscode/
 /.playwright-cli/
-
-# Ignore chat records and local config files
-*.md
-*.bat
-*.txt
-*.json
-MANIFEST.json
-密钥配置修复补丁-20261009.zip
-
-# Ignore any local API keys or secrets
-local_api.json
-.env*
-*.env
 
 # OS files
 .DS_Store

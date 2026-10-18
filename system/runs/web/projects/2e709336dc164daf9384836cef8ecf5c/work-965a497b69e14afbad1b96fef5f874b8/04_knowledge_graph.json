@@ -1,0 +1,4928 @@
+{
+  "schema_version": "1.3",
+  "documents": [
+    {
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "path": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79",
+      "format": "pdf",
+      "role": "corpus",
+      "parse_status": "parsed"
+    },
+    {
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "path": "启明寻洛，脉续中原-林硕锦-2243515519.docx",
+      "sha256": "587f26d2bc4378eee196cdd8033fd96b19cb9f9e18250086d0416b063f88326e",
+      "format": "docx",
+      "role": "corpus",
+      "parse_status": "parsed"
+    },
+    {
+      "document_id": "doc_2cd93c77af95da074115",
+      "path": "黎雅诗-留部答辩ppt.pptx",
+      "sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9",
+      "format": "pptx",
+      "role": "corpus",
+      "parse_status": "parsed"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "entity_00fb8e877f4aea24c732",
+      "type": "Actor",
+      "name": "实践队",
+      "aliases": [
+        "实践队"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_197322ac4a33db7c8b80"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_555fa21bff43f8ca3a75"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_064c476fdc74fb83f5e7",
+      "type": "DataAsset",
+      "name": "古老文化",
+      "aliases": [
+        "古老文化"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_ae728fac641f8bbebf36"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_f5a0216bc220a713f944"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_065303515f3f35d2dc36",
+      "type": "AITool",
+      "name": "文旅融合+IP打造",
+      "aliases": [
+        "文旅融合+IP打造"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_54056206298bc6959447"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_08bba2e1ef9a2e3a160a",
+      "type": "Actor",
+      "name": "西安交通大学",
+      "aliases": [
+        "西安交通大学"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_551b189c0fc822605faf",
+        "m_6026d357834ccb9adf5a",
+        "m_d3d04b2ae70208adef78"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_e63a51cd3a63347a8c5f"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_0a259c72abbf0e70f9bc"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_7414e1e75ed3af66934e"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_0b681888070a4434cb37",
+      "type": "DataAsset",
+      "name": "竞选PPT第2页目录",
+      "aliases": [
+        "竞选PPT第2页目录"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_e40d2089775a9aacfef9"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_f49d42a140256bd0efb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_162837ad3908cc5da9f6",
+      "type": "Event",
+      "name": "守望者系列",
+      "aliases": [
+        "守望者系列"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_126c18c35396ca32f5bf"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_59affc08ea48649a106c"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_16763251b554ab802fa5",
+      "type": "Actor",
+      "name": "英仔社团成员",
+      "aliases": [
+        "英仔社团成员"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_3d2fb973dfdb0baf2a92"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_0e57c700c4232053c847"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_17c0ea735d2dfc1e9616",
+      "type": "DataAsset",
+      "name": "大河网",
+      "aliases": [
+        "大河网"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_b46f8bcf7630349d7ac3"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_555fa21bff43f8ca3a75"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_17cef10bf205fc20f780",
+      "type": "DataAsset",
+      "name": "院级公众号",
+      "aliases": [
+        "院级公众号"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_b431c2ddbdee40d39c7f"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_555fa21bff43f8ca3a75"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_1da553f84383df258f3c",
+      "type": "Event",
+      "name": "心声倾诉，暖心护航",
+      "aliases": [
+        "心声倾诉，暖心护航"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_ba95125ffb848bb4b595"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_59affc08ea48649a106c"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_1dda42319643224c2352",
+      "type": "AITool",
+      "name": "数字复原工程",
+      "aliases": [
+        "数字复原工程"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_92d6954911042b3d533e"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_1fc5c4961729a03c0103",
+      "type": "DataAsset",
+      "name": "纪录片视频",
+      "aliases": [
+        "纪录片视频"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_74c292145b8e2d4b1516"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_5e30ba488a86a1ddb53b"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_1fcc67285fe54250257f",
+      "type": "DataAsset",
+      "name": "数字化技术",
+      "aliases": [
+        "数字化技术"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_f03b5a8c58d92cf82b29"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cdca051b8c3ec0ea96c7"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_209420dc963f2e928248",
+      "type": "DataAsset",
+      "name": "思政实践学分",
+      "aliases": [
+        "思政实践学分"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_5904bbb839b004b49e2f"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_63c45950da1c1fa9634f"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_294e5e7782f126e13b15",
+      "type": "DataAsset",
+      "name": "万岁山武侠城",
+      "aliases": [
+        "万岁山武侠城"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_46fee5ed4ecbfa85b7f6"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_475522a3889c565df599"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_2c0d1f5830fddf6f89e6",
+      "type": "DataAsset",
+      "name": "黎雅诗照片",
+      "aliases": [
+        "黎雅诗照片"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_929940098e16a8eed256"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_aea04bcc2edc25097171"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_2cb54bd7ab600a086044",
+      "type": "Event",
+      "name": "“跃起来”运动系列",
+      "aliases": [
+        "“跃起来”运动系列"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_87ec39ca8d2a6088ac4e"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_4190c725afb8af72efe6"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_329de5f13f79a429cb9c",
+      "type": "AITool",
+      "name": "3D投影复原",
+      "aliases": [
+        "3D投影复原"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_8f45e76da68032f5ee8e"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_39c67d668f4cde814691",
+      "type": "Event",
+      "name": "“星心相印”新生引导",
+      "aliases": [
+        "“星心相印”新生引导"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_dd170477c11559b73e73"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_4022ba9752de270b457f"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_3c026c8359de6ba73370",
+      "type": "Actor",
+      "name": "黎雅诗",
+      "aliases": [
+        "黎雅诗"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_95fc25023387993cfe35",
+        "m_a10ae5e46cbda0811fe8"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_280b4a29f54f7d12e4bd"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_aea04bcc2edc25097171"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_41a837a8a851db71742c",
+      "type": "Actor",
+      "name": "实践团",
+      "aliases": [
+        "实践团"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_b793f64c4a2d508e2df2"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_f5a0216bc220a713f944"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_41cc15c95ac9015229fe",
+      "type": "DataAsset",
+      "name": "隋唐洛阳城国家遗址公园",
+      "aliases": [
+        "隋唐洛阳城国家遗址公园"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_bff4790778c18eaad740"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_475522a3889c565df599"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_4771582f490a91b5cbbf",
+      "type": "AITool",
+      "name": "实景演绎",
+      "aliases": [
+        "实景演绎"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_84be329d9252ec828835"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_47ffa145cb2377bb7646",
+      "type": "AITool",
+      "name": "游戏分级制",
+      "aliases": [
+        "游戏分级制"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_5525c3edfc4bd4441d4c"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_ec19ba6d0f5fc2e194af"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_4ac7030bcc5c5a030637",
+      "type": "AITool",
+      "name": "VR灯光数字化展示",
+      "aliases": [
+        "VR灯光数字化展示"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_ae62ece29952912b5fac"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_4c2f4076b1b0413c9231",
+      "type": "Event",
+      "name": "三下乡",
+      "aliases": [
+        "三下乡"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_3bb2f4e5189a96eaa252"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_211f32890cd6b5f0e05f"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_54de895f8019de0b5983",
+      "type": "Event",
+      "name": "定期例会、温情团建",
+      "aliases": [
+        "定期例会、温情团建"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_8d34ec0a6046b4826b43"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cd33d0f9fc175203868d"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_59a7885be13653d09789",
+      "type": "AITool",
+      "name": "文化→文创",
+      "aliases": [
+        "文化→文创"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_edfba8c6653c8d0ecbdd"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_5a7e83862467dee979c8",
+      "type": "Product",
+      "name": "纪录片视频",
+      "aliases": [
+        "纪录片视频"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_8d44d437d78ee2e52119"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_555fa21bff43f8ca3a75"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_5e4dffb91ab3ccdd2140",
+      "type": "Event",
+      "name": "三下乡",
+      "aliases": [
+        "三下乡"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_ccb008e97b437f549745"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_6ed4954dca17fb48538e"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_6213b41638aa1851783d",
+      "type": "Observation",
+      "name": "参与梧桐节摆摊",
+      "aliases": [
+        "参与梧桐节摆摊"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_cfd28b8df2d67cea8169"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_45ae1754bbb27f1181d0"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_69887205b0090a3c3999",
+      "type": "Event",
+      "name": "珐琅樱韵活动",
+      "aliases": [
+        "珐琅樱韵活动"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_02d60ba91abe82d45a3b"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_0e57c700c4232053c847"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_6a90842a12d7a68037f3",
+      "type": "Product",
+      "name": "珐琅樱韵",
+      "aliases": [
+        "珐琅樱韵"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_53f1c19a0c6d1658e83f"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_08516fe7ad1327b0cfb2"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_6cf3ed345339a729f9b2",
+      "type": "DataAsset",
+      "name": "隋唐洛阳城遗址",
+      "aliases": [
+        "隋唐洛阳城遗址"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_15b10575875520060a10",
+        "m_7390980514347dd2765a"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cdca051b8c3ec0ea96c7"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_6dc0005e3d4750664a6a",
+      "type": "Event",
+      "name": "百卅交大，予你温柔",
+      "aliases": [
+        "百卅交大，予你温柔"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_8732f2779a6ddf7665e7"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_59affc08ea48649a106c"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_714ea643cc06683ee40b",
+      "type": "DataAsset",
+      "name": "线上预热",
+      "aliases": [
+        "线上预热"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_84d4208e96cd84e07617"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_ec19ba6d0f5fc2e194af"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_7170ae48112fd8d40cde",
+      "type": "DataAsset",
+      "name": "二里头夏都博物馆",
+      "aliases": [
+        "二里头夏都博物馆"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_599b716032522d40e79e"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_7357fa94f79f55b176c3",
+      "type": "Actor",
+      "name": "部长",
+      "aliases": [
+        "部长"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_3b001737cf70b3abacb0"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_04dcc23b561edb53e6da"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_73d0f7bd379f810bac1c",
+      "type": "Event",
+      "name": "梧桐节",
+      "aliases": [
+        "梧桐节"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_678c1d0fc5a60bfa309a"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_45ae1754bbb27f1181d0"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_77d51e6dc211bb87773c",
+      "type": "DataAsset",
+      "name": "校实践公众号",
+      "aliases": [
+        "校实践公众号"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_bc8c731557941a74adce"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_555fa21bff43f8ca3a75"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_77deebd860e8a1a887cf",
+      "type": "DataAsset",
+      "name": "院级公众号文章",
+      "aliases": [
+        "院级公众号文章"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_0f9ec980d49b7e9e8364"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_5e30ba488a86a1ddb53b"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_7e04584722575c1d8f82",
+      "type": "Product",
+      "name": "唐仕女俑",
+      "aliases": [
+        "唐仕女俑",
+        "文创设计及实物（唐仕女俑）"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_8217951dcfe265303160",
+        "m_95e6fda4228ba587dbb0"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_5e30ba488a86a1ddb53b"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_555fa21bff43f8ca3a75"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_808c356e3bc7f14399bc",
+      "type": "AITool",
+      "name": "现代化科技",
+      "aliases": [
+        "现代化科技"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_adbcfa6d77e9f681f781"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_f5a0216bc220a713f944"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_86d928dd4544296fae5e",
+      "type": "DataAsset",
+      "name": "二里头夏都遗址博物馆",
+      "aliases": [
+        "二里头夏都遗址博物馆"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_1147262e839b2a8d9b15",
+        "m_a0066ee9ccb64606d742"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_475522a3889c565df599"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cdca051b8c3ec0ea96c7"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_87ee1326f9572836d3ef",
+      "type": "DataAsset",
+      "name": "洛阳古墓博物馆",
+      "aliases": [
+        "洛阳古墓博物馆"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_5ffb7ff3ace269e5a5ec",
+        "m_ef6ba1d228de3ac4526a"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cdca051b8c3ec0ea96c7"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_88626d6f85413da00cca",
+      "type": "AITool",
+      "name": "精细化成本控制",
+      "aliases": [
+        "精细化成本控制"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_2fc9d97c45fa555264db"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_ec19ba6d0f5fc2e194af"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_88a7cb7e30d15c02e1ba",
+      "type": "Event",
+      "name": "调研",
+      "aliases": [
+        "调研"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_e77564c5ca1da5bf3dde"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_6ed4954dca17fb48538e"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_88b86497fdfcccadad63",
+      "type": "Event",
+      "name": "2026年暑期“三下乡”社会实践",
+      "aliases": [
+        "2026年暑期“三下乡”社会实践"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_4ad915e43d1692ce8d9d"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_e63a51cd3a63347a8c5f"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_8985e94c47833a19d7db",
+      "type": "Actor",
+      "name": "黎雅诗",
+      "aliases": [
+        "黎雅诗"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_32889a683086ce28a9d1",
+        "m_ddd2a39d038e29ca37c3"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_00a3bad61012d37f74c8"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_734e17078032f16e7c90"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_8adadc0fdaf08820072f",
+      "type": "DataAsset",
+      "name": "实践教学记录册",
+      "aliases": [
+        "实践教学记录册"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_eb856819b52b20317489"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_63c45950da1c1fa9634f"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_915ac94bbff1e24162d0",
+      "type": "DataAsset",
+      "name": "龙门石窟",
+      "aliases": [
+        "龙门石窟"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_471d82a1f3280e50c273",
+        "m_e10b986275f693b14a5b"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_475522a3889c565df599"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_92d349768dffdd3a4711",
+      "type": "Actor",
+      "name": "中外游客",
+      "aliases": [
+        "中外游客"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_e79ae303534667c5e281"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_f5a0216bc220a713f944"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_a2fe758f57bb37b30d2a",
+      "type": "Actor",
+      "name": "“启明寻洛、脉续中原”实践队",
+      "aliases": [
+        "“启明寻洛、脉续中原”实践队"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_5b1dfb48963220c3ebcc",
+        "m_5fac3ed7206d4cfa048b",
+        "m_82a1c43db10a53b5852f",
+        "m_ccd11f7e6ec6f203447d"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_6ed4954dca17fb48538e"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_5e30ba488a86a1ddb53b"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_940c749710e501d0806d"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_211f32890cd6b5f0e05f"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_a9bcfe0e2388684f22eb",
+      "type": "DataAsset",
+      "name": "大河网新闻稿",
+      "aliases": [
+        "大河网新闻稿"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_8ad9638f2a5de55138fe"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_5e30ba488a86a1ddb53b"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_adf57047e96d310f1d3a",
+      "type": "DataAsset",
+      "name": "国家文化数字化战略",
+      "aliases": [
+        "国家文化数字化战略"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_9985d0987f45702ec288"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cdca051b8c3ec0ea96c7"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_b2881cd3a6ec7464dd86",
+      "type": "Event",
+      "name": "西安交通大学英仔爱心社启明星部门部长换届答辩",
+      "aliases": [
+        "西安交通大学英仔爱心社启明星部门部长换届答辩"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_71297e3d130f4ca2f778"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_00a3bad61012d37f74c8"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_b4fe9a806a1d13c8ca1e",
+      "type": "Event",
+      "name": "暑期实践活动“寻脉中原，读懂中国”",
+      "aliases": [
+        "暑期实践活动“寻脉中原，读懂中国”"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_1f12498c219c7c1cfe5b"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cdca051b8c3ec0ea96c7"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_b5ac95a83eac64b0aa44",
+      "type": "DataAsset",
+      "name": "中华文明探源工程",
+      "aliases": [
+        "中华文明探源工程"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_09e538a7ac66511ccfa9"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cdca051b8c3ec0ea96c7"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_ba7200bfff800895e5a6",
+      "type": "AITool",
+      "name": "动态经费调度",
+      "aliases": [
+        "动态经费调度"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_8d3ac4c7ff373e6845c3"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_ec19ba6d0f5fc2e194af"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_c18edd2bb6f2578cf5e5",
+      "type": "Actor",
+      "name": "启明星",
+      "aliases": [
+        "启明星"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_a202458b7eac37f2189f",
+        "m_f9fca96764184d437162"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_4022ba9752de270b457f"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_6ceadd1709db3e13cabe"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_c427b56f2980729b5bac",
+      "type": "Event",
+      "name": "金秋梧桐节摆摊",
+      "aliases": [
+        "金秋梧桐节摆摊"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_5facaa74194eae58873d"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_0e57c700c4232053c847"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_d2a5d831cb0ac797c660",
+      "type": "DataAsset",
+      "name": "洛阳博物馆",
+      "aliases": [
+        "洛阳博物馆"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_57673365b6f1f6a24c6a",
+        "m_5c47f346c913cc2f5ab7",
+        "m_9b62bfbd9eae9847b794"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_475522a3889c565df599"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cdca051b8c3ec0ea96c7"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_d671b0e1b17c68e4c8b3",
+      "type": "Event",
+      "name": "樱花节",
+      "aliases": [
+        "樱花节"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_7e6f315d6bb7bfc1ffed"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_08516fe7ad1327b0cfb2"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_d9c6d4047a93fa6f0607",
+      "type": "DataAsset",
+      "name": "《西安交通大学思政课实践教学管理办法》",
+      "aliases": [
+        "《西安交通大学思政课实践教学管理办法》"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_636c767e12bb5a633a57"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_63c45950da1c1fa9634f"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_dbccc9cbcd2acb2c7d2d",
+      "type": "Event",
+      "name": "15周年社庆合唱",
+      "aliases": [
+        "15周年社庆合唱"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_6c1708987e155fd69df9"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_0e57c700c4232053c847"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_dd387a0be70cdb48aff3",
+      "type": "Actor",
+      "name": "马克思主义学院",
+      "aliases": [
+        "马克思主义学院"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_3a808177a90873cbc23e"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_63c45950da1c1fa9634f"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_e13ce485099817e508c0",
+      "type": "Event",
+      "name": "启明寻洛、脉续中原 三下乡社会实践",
+      "aliases": [
+        "启明寻洛、脉续中原 三下乡社会实践"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_86fef1e810f4a9ef2897"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_7414e1e75ed3af66934e"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_e69fd073514b03c0d274",
+      "type": "Event",
+      "name": "粮安守护，共筑未来",
+      "aliases": [
+        "粮安守护，共筑未来"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_87c3211ba6bf0211b178"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_59affc08ea48649a106c"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_e86a60dd2085de44e1a9",
+      "type": "Actor",
+      "name": "英仔爱心社",
+      "aliases": [
+        "英仔爱心社"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_17ac8ff61684dff3cfb1",
+        "m_296ae538ba515746a551",
+        "m_68bc3f95d9d2711ddbaa",
+        "m_81c9a631cfd31e6ce0a9",
+        "m_a495f97883c53b048c57",
+        "m_b269764ef02030a2b63b",
+        "m_c0ed3d8dfe2431fa4de0"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_00a3bad61012d37f74c8"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_f49d42a140256bd0efb9"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_04dcc23b561edb53e6da"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_282bedfd9c219aea857f"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_0e57c700c4232053c847"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_08516fe7ad1327b0cfb2"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_cd33d0f9fc175203868d"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_ee48939873e5844637ea",
+      "type": "Actor",
+      "name": "黎雅诗",
+      "aliases": [
+        "黎雅诗"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_36fb5c8055a909b3a980",
+        "m_ec92efbaa8d5a5d9455f"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_e63a51cd3a63347a8c5f"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_940c749710e501d0806d"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_f1602ff7641e38f33ef4",
+      "type": "DataAsset",
+      "name": "清明上河园",
+      "aliases": [
+        "清明上河园"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_849193d8398cd65c474b",
+        "m_9b3e70fb93bb29be3b85"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_475522a3889c565df599"
+          ]
+        },
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_986302e516339fe02bb9"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_f1df4d0a077c20b17ae3",
+      "type": "DataAsset",
+      "name": "经费积压与不足",
+      "aliases": [
+        "经费积压与不足"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_947fab267685ed4b39ea"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_ec19ba6d0f5fc2e194af"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_f7210b3db6c440afdae5",
+      "type": "Actor",
+      "name": "西安交通大学“启明寻洛，脉续中原”实践队",
+      "aliases": [
+        "西安交通大学“启明寻洛，脉续中原”实践队"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_bf5cfc540762c6791cc3"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_475522a3889c565df599"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_fd05ab9e25a038a0709c",
+      "type": "Event",
+      "name": "暖心护航活动",
+      "aliases": [
+        "暖心护航活动"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_4dab7d0e9638d712df6f"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_0e57c700c4232053c847"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    },
+    {
+      "id": "entity_fec69dd6ec9092a2e1e5",
+      "type": "DataAsset",
+      "name": "校实践公众号文章",
+      "aliases": [
+        "校实践公众号文章"
+      ],
+      "alias_bindings": [],
+      "mention_ids": [
+        "m_b8bd4b0f3b8d3c5cd511"
+      ],
+      "attribute_claims": [
+        {
+          "attributes": {},
+          "identifiers": [],
+          "evidence_ids": [
+            "ev_5e30ba488a86a1ddb53b"
+          ]
+        }
+      ],
+      "review_status": "supported"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_219549abbbec280037d3",
+      "source": "entity_00fb8e877f4aea24c732",
+      "target": "entity_7e04584722575c1d8f82",
+      "predicate": "designs",
+      "fact_ids": [
+        "fact_c4b4b0d639796b07f398"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_56c7d76c8591471c3339",
+      "source": "entity_00fb8e877f4aea24c732",
+      "target": "entity_5a7e83862467dee979c8",
+      "predicate": "produces",
+      "fact_ids": [
+        "fact_8050993e1695c896a443"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_df350158f1c61f373d7c",
+      "source": "entity_00fb8e877f4aea24c732",
+      "target": "entity_17c0ea735d2dfc1e9616",
+      "predicate": "publishes",
+      "fact_ids": [
+        "fact_590390d4483bd81a43fe"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_4814a3330f3443bb458e",
+      "source": "entity_00fb8e877f4aea24c732",
+      "target": "entity_17cef10bf205fc20f780",
+      "predicate": "publishes",
+      "fact_ids": [
+        "fact_6dd091771c19368e1810"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_6dc71458fea8c7ab76fd",
+      "source": "entity_00fb8e877f4aea24c732",
+      "target": "entity_77d51e6dc211bb87773c",
+      "predicate": "publishes",
+      "fact_ids": [
+        "fact_13f63bc8f75b51e270d1"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_0d1ed8a12c7b19db7a50",
+      "source": "entity_08bba2e1ef9a2e3a160a",
+      "target": "entity_88b86497fdfcccadad63",
+      "predicate": "organize",
+      "fact_ids": [
+        "fact_b52b5581fdefbe24914a"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_4ec59babad7072925083",
+      "source": "entity_0b681888070a4434cb37",
+      "target": "entity_e86a60dd2085de44e1a9",
+      "predicate": "belongs_to",
+      "fact_ids": [
+        "fact_475a08a1dc5c742be514"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_89fd1942da4a51638754",
+      "source": "entity_16763251b554ab802fa5",
+      "target": "entity_e86a60dd2085de44e1a9",
+      "predicate": "joined",
+      "fact_ids": [
+        "fact_b06b1354c0d6b1508c22"
+      ],
+      "qualifiers": {
+        "time": "2025.9"
+      }
+    },
+    {
+      "id": "edge_ea8a5ac8549a2f3f8afa",
+      "source": "entity_16763251b554ab802fa5",
+      "target": "entity_69887205b0090a3c3999",
+      "predicate": "led",
+      "fact_ids": [
+        "fact_9cdcbbe55b9bf7549251"
+      ],
+      "qualifiers": {
+        "time": "2026.3"
+      }
+    },
+    {
+      "id": "edge_a6ed8cd50e0a9ad0166f",
+      "source": "entity_16763251b554ab802fa5",
+      "target": "entity_c427b56f2980729b5bac",
+      "predicate": "participated",
+      "fact_ids": [
+        "fact_e84a4be8b1d1ab958c94"
+      ],
+      "qualifiers": {
+        "time": "2025.11"
+      }
+    },
+    {
+      "id": "edge_ad8ab1f5a6edbac93ab2",
+      "source": "entity_16763251b554ab802fa5",
+      "target": "entity_dbccc9cbcd2acb2c7d2d",
+      "predicate": "participated",
+      "fact_ids": [
+        "fact_7788a9056863ec6296c5"
+      ],
+      "qualifiers": {
+        "time": "2025.12"
+      }
+    },
+    {
+      "id": "edge_dbe0338f038ee04826e6",
+      "source": "entity_16763251b554ab802fa5",
+      "target": "entity_fd05ab9e25a038a0709c",
+      "predicate": "planned",
+      "fact_ids": [
+        "fact_54886a1a347cf2fdf576"
+      ],
+      "qualifiers": {
+        "time": "2026.04"
+      }
+    },
+    {
+      "id": "edge_28fe9bb2e48285df47bb",
+      "source": "entity_1da553f84383df258f3c",
+      "target": "entity_162837ad3908cc5da9f6",
+      "predicate": "part_of",
+      "fact_ids": [
+        "fact_613322cbdc27cba1aee6"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_45ee1f00c50f253c4fa1",
+      "source": "entity_2c0d1f5830fddf6f89e6",
+      "target": "entity_3c026c8359de6ba73370",
+      "predicate": "depicts",
+      "fact_ids": [
+        "fact_37c597f4f170f8937698"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_7bf8152a2306b6717f87",
+      "source": "entity_41a837a8a851db71742c",
+      "target": "entity_92d349768dffdd3a4711",
+      "predicate": "interviews",
+      "fact_ids": [
+        "fact_5ae98ae1c10b688dd021"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_18308ed5a32140c9d897",
+      "source": "entity_6213b41638aa1851783d",
+      "target": "entity_73d0f7bd379f810bac1c",
+      "predicate": "part_of",
+      "fact_ids": [
+        "fact_352690082f09d4dc552c"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_bd8da47898a13a8a0c60",
+      "source": "entity_6a90842a12d7a68037f3",
+      "target": "entity_d671b0e1b17c68e4c8b3",
+      "predicate": "part_of",
+      "fact_ids": [
+        "fact_d4cd9505a686053b876c"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_86e41eafb35902c74b0e",
+      "source": "entity_6cf3ed345339a729f9b2",
+      "target": "entity_4ac7030bcc5c5a030637",
+      "predicate": "applies",
+      "fact_ids": [
+        "fact_7df1a664088853078594"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_6fc57bec87602dc58a1d",
+      "source": "entity_6dc0005e3d4750664a6a",
+      "target": "entity_162837ad3908cc5da9f6",
+      "predicate": "part_of",
+      "fact_ids": [
+        "fact_b78eb9ea3e71fcb48ef8"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_5a9f567f24f26080d603",
+      "source": "entity_7170ae48112fd8d40cde",
+      "target": "entity_065303515f3f35d2dc36",
+      "predicate": "applies",
+      "fact_ids": [
+        "fact_284ab5c67a84ab321fd9"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_56b830b25c0503dd13a6",
+      "source": "entity_7357fa94f79f55b176c3",
+      "target": "entity_e86a60dd2085de44e1a9",
+      "predicate": "belongs_to",
+      "fact_ids": [
+        "fact_a945003c7f9f1cba466c"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_c2cec6779756f814d4d7",
+      "source": "entity_808c356e3bc7f14399bc",
+      "target": "entity_064c476fdc74fb83f5e7",
+      "predicate": "promotes",
+      "fact_ids": [
+        "fact_a3bc4dcc77cebb72b0a2"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_27440b095f15223358c6",
+      "source": "entity_87ee1326f9572836d3ef",
+      "target": "entity_59a7885be13653d09789",
+      "predicate": "applies",
+      "fact_ids": [
+        "fact_03965d063576cd364340"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_de2ee768c0f44748dae1",
+      "source": "entity_88626d6f85413da00cca",
+      "target": "entity_714ea643cc06683ee40b",
+      "predicate": "uses",
+      "fact_ids": [
+        "fact_65484ed175269125ad3f"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_9745cca9a0bbc6837a98",
+      "source": "entity_8985e94c47833a19d7db",
+      "target": "entity_b2881cd3a6ec7464dd86",
+      "predicate": "participates_in",
+      "fact_ids": [
+        "fact_f6ac180b4c8fe114f31c"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_d625c5bb5e877768d21a",
+      "source": "entity_8adadc0fdaf08820072f",
+      "target": "entity_209420dc963f2e928248",
+      "predicate": "condition_for",
+      "fact_ids": [
+        "fact_fe836f7f3bf2205ebb62"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_26bd876f87a1f88f5336",
+      "source": "entity_915ac94bbff1e24162d0",
+      "target": "entity_329de5f13f79a429cb9c",
+      "predicate": "applies",
+      "fact_ids": [
+        "fact_d8b61a982abf966756bc"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_93ca05e4d74cbf77a39b",
+      "source": "entity_a2fe758f57bb37b30d2a",
+      "target": "entity_88a7cb7e30d15c02e1ba",
+      "predicate": "conduct",
+      "fact_ids": [
+        "fact_c3c2b27069fa2719ca03"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_9adf90c778995987cc32",
+      "source": "entity_a2fe758f57bb37b30d2a",
+      "target": "entity_1fc5c4961729a03c0103",
+      "predicate": "create",
+      "fact_ids": [
+        "fact_e7895db15e0b1d768250"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_843c984e4c2e40fadc89",
+      "source": "entity_a2fe758f57bb37b30d2a",
+      "target": "entity_7e04584722575c1d8f82",
+      "predicate": "create",
+      "fact_ids": [
+        "fact_79f89729dccdcb698909"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_7d541a3a3dc3c73b0342",
+      "source": "entity_a2fe758f57bb37b30d2a",
+      "target": "entity_4c2f4076b1b0413c9231",
+      "predicate": "participates",
+      "fact_ids": [
+        "fact_b40b0ed6460b6bf8fa02"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_43b1c8832b18230b996d",
+      "source": "entity_a2fe758f57bb37b30d2a",
+      "target": "entity_77deebd860e8a1a887cf",
+      "predicate": "publish",
+      "fact_ids": [
+        "fact_c2839fc4a746be05c0c7"
+      ],
+      "qualifiers": {
+        "platform": "院级公众号"
+      }
+    },
+    {
+      "id": "edge_c173f572a67d978a134e",
+      "source": "entity_a2fe758f57bb37b30d2a",
+      "target": "entity_a9bcfe0e2388684f22eb",
+      "predicate": "publish",
+      "fact_ids": [
+        "fact_1437de952f9a8ce6e8aa"
+      ],
+      "qualifiers": {
+        "platform": "大河网"
+      }
+    },
+    {
+      "id": "edge_ed2f5d12cb43dcae7a10",
+      "source": "entity_a2fe758f57bb37b30d2a",
+      "target": "entity_fec69dd6ec9092a2e1e5",
+      "predicate": "publish",
+      "fact_ids": [
+        "fact_5b54638fb51f807bd35b"
+      ],
+      "qualifiers": {
+        "platform": "校实践公众号"
+      }
+    },
+    {
+      "id": "edge_77ce361d47e30207db42",
+      "source": "entity_a2fe758f57bb37b30d2a",
+      "target": "entity_5e4dffb91ab3ccdd2140",
+      "predicate": "use_platform",
+      "fact_ids": [
+        "fact_c9961e0915e6f823ef49"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_a86d4db45547d42c5ca1",
+      "source": "entity_b4fe9a806a1d13c8ca1e",
+      "target": "entity_1fcc67285fe54250257f",
+      "predicate": "considers",
+      "fact_ids": [
+        "fact_394346f854a2dca94bee"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_f61cc0054cd70fcbe781",
+      "source": "entity_b4fe9a806a1d13c8ca1e",
+      "target": "entity_adf57047e96d310f1d3a",
+      "predicate": "researches",
+      "fact_ids": [
+        "fact_cb627e23e5ea9e45c07a"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_b5772ca4f4ac8a69d9fa",
+      "source": "entity_b4fe9a806a1d13c8ca1e",
+      "target": "entity_6cf3ed345339a729f9b2",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_a2d1bce97fa2273173b4"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_e661c1eac6294712b790",
+      "source": "entity_b4fe9a806a1d13c8ca1e",
+      "target": "entity_86d928dd4544296fae5e",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_a82aeee242bad5e2c2f3"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_346779429378d8d4dc94",
+      "source": "entity_b4fe9a806a1d13c8ca1e",
+      "target": "entity_87ee1326f9572836d3ef",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_85c2ba8d6b6be7b74f87"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_73af4bf04b0b47e4e75c",
+      "source": "entity_b4fe9a806a1d13c8ca1e",
+      "target": "entity_d2a5d831cb0ac797c660",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_9465d6866d155d7c2bd3"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_af22f549ccee3cb7da80",
+      "source": "entity_ba7200bfff800895e5a6",
+      "target": "entity_f1df4d0a077c20b17ae3",
+      "predicate": "solves",
+      "fact_ids": [
+        "fact_f1a3679fd38e50b543be"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_0f7cee047df87cd87187",
+      "source": "entity_c18edd2bb6f2578cf5e5",
+      "target": "entity_39c67d668f4cde814691",
+      "predicate": "organizes",
+      "fact_ids": [
+        "fact_a99746db4a194ddc2119"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_6d8ef502165c0a8cd519",
+      "source": "entity_d2a5d831cb0ac797c660",
+      "target": "entity_1dda42319643224c2352",
+      "predicate": "applies",
+      "fact_ids": [
+        "fact_1d2781b9345eb10897d3"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_495533be5c36328389b0",
+      "source": "entity_d9c6d4047a93fa6f0607",
+      "target": "entity_8adadc0fdaf08820072f",
+      "predicate": "governs",
+      "fact_ids": [
+        "fact_edfa796e63f657db8a89"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_9e5dd8422791c121f89b",
+      "source": "entity_dd387a0be70cdb48aff3",
+      "target": "entity_8adadc0fdaf08820072f",
+      "predicate": "archives",
+      "fact_ids": [
+        "fact_cf7cf5cc4155c82e0dc7"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_7349e8018b4db87c6167",
+      "source": "entity_e13ce485099817e508c0",
+      "target": "entity_08bba2e1ef9a2e3a160a",
+      "predicate": "organized_by",
+      "fact_ids": [
+        "fact_24921264f5b63f163e99"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_bfc8757180a9f129f6d5",
+      "source": "entity_e69fd073514b03c0d274",
+      "target": "entity_162837ad3908cc5da9f6",
+      "predicate": "part_of",
+      "fact_ids": [
+        "fact_3d777e8b5502898287f6"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_305b4bf59a204b5d7dae",
+      "source": "entity_e86a60dd2085de44e1a9",
+      "target": "entity_54de895f8019de0b5983",
+      "predicate": "conducts",
+      "fact_ids": [
+        "fact_1b9c098e8c5e719fd441"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_dedc480416fe40104cd9",
+      "source": "entity_e86a60dd2085de44e1a9",
+      "target": "entity_b2881cd3a6ec7464dd86",
+      "predicate": "organizes",
+      "fact_ids": [
+        "fact_599a4109e74bcc44c7b1"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_be16507264c9d5cc238c",
+      "source": "entity_e86a60dd2085de44e1a9",
+      "target": "entity_d671b0e1b17c68e4c8b3",
+      "predicate": "organizes",
+      "fact_ids": [
+        "fact_598979df7dd185d086cd"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_7375a1dcb14dc9128e8a",
+      "source": "entity_ee48939873e5844637ea",
+      "target": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "member_of",
+      "fact_ids": [
+        "fact_f1bb03fd9457146e0e44"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_3d76b36d6a21840c1add",
+      "source": "entity_ee48939873e5844637ea",
+      "target": "entity_88b86497fdfcccadad63",
+      "predicate": "participate_in",
+      "fact_ids": [
+        "fact_e7aa94ac0785f8417578"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_3b4cfcaea65e718f5206",
+      "source": "entity_f1602ff7641e38f33ef4",
+      "target": "entity_4771582f490a91b5cbbf",
+      "predicate": "applies",
+      "fact_ids": [
+        "fact_b23e53db0d0e618d7bf2"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_b39d9452b3e56371cd68",
+      "source": "entity_f7210b3db6c440afdae5",
+      "target": "entity_294e5e7782f126e13b15",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_ef8db968ccb6c80fc28e"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_6d5c7fcc4fa382f5d2f5",
+      "source": "entity_f7210b3db6c440afdae5",
+      "target": "entity_41cc15c95ac9015229fe",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_c15753c9096dfb2d59e6"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_5178cada88b5f0fba55a",
+      "source": "entity_f7210b3db6c440afdae5",
+      "target": "entity_86d928dd4544296fae5e",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_ca699c2c785b94477c35"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_58a585ae484293fdb72a",
+      "source": "entity_f7210b3db6c440afdae5",
+      "target": "entity_915ac94bbff1e24162d0",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_8f9de8ca8d8a1459b467"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_63673280bacb7ceb98b5",
+      "source": "entity_f7210b3db6c440afdae5",
+      "target": "entity_d2a5d831cb0ac797c660",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_c6a390d6e31fbe6c77d3"
+      ],
+      "qualifiers": {}
+    },
+    {
+      "id": "edge_dd710e8bd8c2f64fc5cc",
+      "source": "entity_f7210b3db6c440afdae5",
+      "target": "entity_f1602ff7641e38f33ef4",
+      "predicate": "visits",
+      "fact_ids": [
+        "fact_c9bc282801c1b9db3217"
+      ],
+      "qualifiers": {}
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "fact_00f074c283e6044e3600",
+      "subject": "entity_77deebd860e8a1a887cf",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "count"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 3,
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": [
+        3
+      ]
+    },
+    {
+      "fact_id": "fact_03965d063576cd364340",
+      "subject": "entity_87ee1326f9572836d3ef",
+      "predicate": "applies",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_59a7885be13653d09789",
+      "evidence_ids": [
+        "ev_986302e516339fe02bb9"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_0667a21cd87b85636d76",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "action_description"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "用脚步丈量中华悠久文脉，用视频记录我们与文明的相遇，用文字传递现代科技下古老文化的新生",
+      "evidence_ids": [
+        "ev_211f32890cd6b5f0e05f"
+      ],
+      "value_claims": [
+        "用脚步丈量中华悠久文脉，用视频记录我们与文明的相遇，用文字传递现代科技下古老文化的新生"
+      ]
+    },
+    {
+      "fact_id": "fact_0a27f3a247d64c7187e5",
+      "subject": "entity_5a7e83862467dee979c8",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "count"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 1,
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": [
+        1
+      ]
+    },
+    {
+      "fact_id": "fact_13f63bc8f75b51e270d1",
+      "subject": "entity_00fb8e877f4aea24c732",
+      "predicate": "publishes",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_77d51e6dc211bb87773c",
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_1437de952f9a8ce6e8aa",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "publish",
+      "qualifiers": {
+        "platform": "大河网"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_a9bcfe0e2388684f22eb",
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_176ec325021619f04ead",
+      "subject": "entity_162837ad3908cc5da9f6",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "activity"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "参加摆摊，制作总结推送",
+      "evidence_ids": [
+        "ev_59affc08ea48649a106c"
+      ],
+      "value_claims": [
+        "参加摆摊，制作总结推送"
+      ]
+    },
+    {
+      "fact_id": "fact_197a5812b5aaea6c870c",
+      "subject": "entity_ee48939873e5844637ea",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "role"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "答辩人",
+      "evidence_ids": [
+        "ev_e63a51cd3a63347a8c5f"
+      ],
+      "value_claims": [
+        "答辩人"
+      ]
+    },
+    {
+      "fact_id": "fact_1b6e33e0b4af6f9c132d",
+      "subject": "entity_6213b41638aa1851783d",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "follow_up"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "制作总结推送",
+      "evidence_ids": [
+        "ev_45ae1754bbb27f1181d0"
+      ],
+      "value_claims": [
+        "制作总结推送"
+      ]
+    },
+    {
+      "fact_id": "fact_1b9c098e8c5e719fd441",
+      "subject": "entity_e86a60dd2085de44e1a9",
+      "predicate": "conducts",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_54de895f8019de0b5983",
+      "evidence_ids": [
+        "ev_cd33d0f9fc175203868d"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_1d2781b9345eb10897d3",
+      "subject": "entity_d2a5d831cb0ac797c660",
+      "predicate": "applies",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_1dda42319643224c2352",
+      "evidence_ids": [
+        "ev_986302e516339fe02bb9"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_22c484485fb97c5a616d",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "slogan"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "青年责任 + 时代使命",
+      "evidence_ids": [
+        "ev_211f32890cd6b5f0e05f"
+      ],
+      "value_claims": [
+        "青年责任 + 时代使命"
+      ]
+    },
+    {
+      "fact_id": "fact_24921264f5b63f163e99",
+      "subject": "entity_e13ce485099817e508c0",
+      "predicate": "organized_by",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_08bba2e1ef9a2e3a160a",
+      "evidence_ids": [
+        "ev_7414e1e75ed3af66934e"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_284ab5c67a84ab321fd9",
+      "subject": "entity_7170ae48112fd8d40cde",
+      "predicate": "applies",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_065303515f3f35d2dc36",
+      "evidence_ids": [
+        "ev_986302e516339fe02bb9"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_286fc16a3c3dcb17e501",
+      "subject": "entity_e13ce485099817e508c0",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "slogan"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "知行合一，让青春在服务人民、扎根基层的过程中绽放别样光彩",
+      "evidence_ids": [
+        "ev_7414e1e75ed3af66934e"
+      ],
+      "value_claims": [
+        "知行合一，让青春在服务人民、扎根基层的过程中绽放别样光彩"
+      ]
+    },
+    {
+      "fact_id": "fact_2f10f955e7172d11b92e",
+      "subject": "entity_54de895f8019de0b5983",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "frequency"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "两周一次例会，每学期1次集体活动",
+      "evidence_ids": [
+        "ev_cd33d0f9fc175203868d"
+      ],
+      "value_claims": [
+        "两周一次例会，每学期1次集体活动"
+      ]
+    },
+    {
+      "fact_id": "fact_352690082f09d4dc552c",
+      "subject": "entity_6213b41638aa1851783d",
+      "predicate": "part_of",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_73d0f7bd379f810bac1c",
+      "evidence_ids": [
+        "ev_45ae1754bbb27f1181d0"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_37c597f4f170f8937698",
+      "subject": "entity_2c0d1f5830fddf6f89e6",
+      "predicate": "depicts",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_3c026c8359de6ba73370",
+      "evidence_ids": [
+        "ev_aea04bcc2edc25097171"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_38aa02c47246c2d95ba2",
+      "subject": "entity_47ffa145cb2377bb7646",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "game_levels"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "简单易上手和复杂版",
+      "evidence_ids": [
+        "ev_ec19ba6d0f5fc2e194af"
+      ],
+      "value_claims": [
+        "简单易上手和复杂版"
+      ]
+    },
+    {
+      "fact_id": "fact_394346f854a2dca94bee",
+      "subject": "entity_b4fe9a806a1d13c8ca1e",
+      "predicate": "considers",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_1fcc67285fe54250257f",
+      "evidence_ids": [
+        "ev_cdca051b8c3ec0ea96c7"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_3d777e8b5502898287f6",
+      "subject": "entity_e69fd073514b03c0d274",
+      "predicate": "part_of",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_162837ad3908cc5da9f6",
+      "evidence_ids": [
+        "ev_59affc08ea48649a106c"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_3e568452b1da62ab2c67",
+      "subject": "entity_77d51e6dc211bb87773c",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "article_count"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 1,
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": [
+        1
+      ]
+    },
+    {
+      "fact_id": "fact_46c217182bfd81081353",
+      "subject": "entity_3c026c8359de6ba73370",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "college"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "文治书院",
+      "evidence_ids": [
+        "ev_aea04bcc2edc25097171"
+      ],
+      "value_claims": [
+        "文治书院"
+      ]
+    },
+    {
+      "fact_id": "fact_475a08a1dc5c742be514",
+      "subject": "entity_0b681888070a4434cb37",
+      "predicate": "belongs_to",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_e86a60dd2085de44e1a9",
+      "evidence_ids": [
+        "ev_f49d42a140256bd0efb9"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_54886a1a347cf2fdf576",
+      "subject": "entity_16763251b554ab802fa5",
+      "predicate": "planned",
+      "qualifiers": {
+        "time": "2026.04"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_fd05ab9e25a038a0709c",
+      "evidence_ids": [
+        "ev_0e57c700c4232053c847"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_56f291d966a532cc6321",
+      "subject": "entity_1fc5c4961729a03c0103",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "count"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 1,
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": [
+        1
+      ]
+    },
+    {
+      "fact_id": "fact_57781ec47b055f029c1c",
+      "subject": "entity_3c026c8359de6ba73370",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "skills"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": [
+        "秀米",
+        "视频剪辑"
+      ],
+      "evidence_ids": [
+        "ev_aea04bcc2edc25097171"
+      ],
+      "value_claims": [
+        [
+          "秀米",
+          "视频剪辑"
+        ]
+      ]
+    },
+    {
+      "fact_id": "fact_57eebb894fde7ccbaeb2",
+      "subject": "entity_39c67d668f4cde814691",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "offline_mode"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "热点交流会",
+      "evidence_ids": [
+        "ev_4022ba9752de270b457f"
+      ],
+      "value_claims": [
+        "热点交流会"
+      ]
+    },
+    {
+      "fact_id": "fact_590390d4483bd81a43fe",
+      "subject": "entity_00fb8e877f4aea24c732",
+      "predicate": "publishes",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_17c0ea735d2dfc1e9616",
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_598979df7dd185d086cd",
+      "subject": "entity_e86a60dd2085de44e1a9",
+      "predicate": "organizes",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_d671b0e1b17c68e4c8b3",
+      "evidence_ids": [
+        "ev_08516fe7ad1327b0cfb2"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_599a4109e74bcc44c7b1",
+      "subject": "entity_e86a60dd2085de44e1a9",
+      "predicate": "organizes",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_b2881cd3a6ec7464dd86",
+      "evidence_ids": [
+        "ev_00a3bad61012d37f74c8"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_5ae98ae1c10b688dd021",
+      "subject": "entity_41a837a8a851db71742c",
+      "predicate": "interviews",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_92d349768dffdd3a4711",
+      "evidence_ids": [
+        "ev_f5a0216bc220a713f944"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_5b54638fb51f807bd35b",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "publish",
+      "qualifiers": {
+        "platform": "校实践公众号"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_fec69dd6ec9092a2e1e5",
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_5d9421d0b6278937170d",
+      "subject": "entity_6213b41638aa1851783d",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "detail"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "创意共同作画吸引大量参与者",
+      "evidence_ids": [
+        "ev_45ae1754bbb27f1181d0"
+      ],
+      "value_claims": [
+        "创意共同作画吸引大量参与者"
+      ]
+    },
+    {
+      "fact_id": "fact_613322cbdc27cba1aee6",
+      "subject": "entity_1da553f84383df258f3c",
+      "predicate": "part_of",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_162837ad3908cc5da9f6",
+      "evidence_ids": [
+        "ev_59affc08ea48649a106c"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_62fab2daaba0740f27fb",
+      "subject": "entity_7357fa94f79f55b176c3",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "responsibilities"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": [
+        "方向掌舵人",
+        "内部凝聚人",
+        "部门发言人",
+        "成员导师",
+        "全局规划者"
+      ],
+      "evidence_ids": [
+        "ev_04dcc23b561edb53e6da"
+      ],
+      "value_claims": [
+        [
+          "方向掌舵人",
+          "内部凝聚人",
+          "部门发言人",
+          "成员导师",
+          "全局规划者"
+        ]
+      ]
+    },
+    {
+      "fact_id": "fact_65484ed175269125ad3f",
+      "subject": "entity_88626d6f85413da00cca",
+      "predicate": "uses",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_714ea643cc06683ee40b",
+      "evidence_ids": [
+        "ev_ec19ba6d0f5fc2e194af"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_67f594d517d181346bd9",
+      "subject": "entity_0b681888070a4434cb37",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "sections"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": [
+        "自我介绍",
+        "竞选理由",
+        "工作总结",
+        "部门规划"
+      ],
+      "evidence_ids": [
+        "ev_f49d42a140256bd0efb9"
+      ],
+      "value_claims": [
+        [
+          "自我介绍",
+          "竞选理由",
+          "工作总结",
+          "部门规划"
+        ]
+      ]
+    },
+    {
+      "fact_id": "fact_68f479da6654775e76ee",
+      "subject": "entity_c18edd2bb6f2578cf5e5",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "testimonial"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "在启明星，我学到了以前从未接触的技能，摆摊与同学们交流让我从内向胆小渐渐大方开朗，部门里的任务安排、搭档合作、集体活动让不同班级、不同专业的我们相聚相识，在大学也交到玩在一起的朋友。启明星为刚刚步入大学的我指明了不少方向，无论是校园生活、专业课程还是各类竞赛、学业信息。",
+      "evidence_ids": [
+        "ev_6ceadd1709db3e13cabe"
+      ],
+      "value_claims": [
+        "在启明星，我学到了以前从未接触的技能，摆摊与同学们交流让我从内向胆小渐渐大方开朗，部门里的任务安排、搭档合作、集体活动让不同班级、不同专业的我们相聚相识，在大学也交到玩在一起的朋友。启明星为刚刚步入大学的我指明了不少方向，无论是校园生活、专业课程还是各类竞赛、学业信息。"
+      ]
+    },
+    {
+      "fact_id": "fact_6dd091771c19368e1810",
+      "subject": "entity_00fb8e877f4aea24c732",
+      "predicate": "publishes",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_17cef10bf205fc20f780",
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_774a49eca1037decb9b1",
+      "subject": "entity_e86a60dd2085de44e1a9",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "self_expectation"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "部长的重担是磨砺也是平台。我不怕操心，期待在统筹全局中完善自我，在爱心事业中开拓成长路径。",
+      "evidence_ids": [
+        "ev_282bedfd9c219aea857f"
+      ],
+      "value_claims": [
+        "部长的重担是磨砺也是平台。我不怕操心，期待在统筹全局中完善自我，在爱心事业中开拓成长路径。"
+      ]
+    },
+    {
+      "fact_id": "fact_7788a9056863ec6296c5",
+      "subject": "entity_16763251b554ab802fa5",
+      "predicate": "participated",
+      "qualifiers": {
+        "time": "2025.12"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_dbccc9cbcd2acb2c7d2d",
+      "evidence_ids": [
+        "ev_0e57c700c4232053c847"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_793172f8fcf8ac1124ce",
+      "subject": "entity_3c026c8359de6ba73370",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "class"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "机械2501班",
+      "evidence_ids": [
+        "ev_aea04bcc2edc25097171"
+      ],
+      "value_claims": [
+        "机械2501班"
+      ]
+    },
+    {
+      "fact_id": "fact_79f89729dccdcb698909",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "create",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_7e04584722575c1d8f82",
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_7aa4cc2639b1569442a6",
+      "subject": "entity_0b681888070a4434cb37",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "slide_number"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 2,
+      "evidence_ids": [
+        "ev_f49d42a140256bd0efb9"
+      ],
+      "value_claims": [
+        2
+      ]
+    },
+    {
+      "fact_id": "fact_7d8a547c3b4406e87b6f",
+      "subject": "entity_17cef10bf205fc20f780",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "article_count"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 3,
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": [
+        3
+      ]
+    },
+    {
+      "fact_id": "fact_7df1a664088853078594",
+      "subject": "entity_6cf3ed345339a729f9b2",
+      "predicate": "applies",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_4ac7030bcc5c5a030637",
+      "evidence_ids": [
+        "ev_986302e516339fe02bb9"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_7e03c0f1371c53b8abae",
+      "subject": "entity_7357fa94f79f55b176c3",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "descriptions"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": [
+        "决策未来走向，拥有魄力与眼光",
+        "协调信息对接，增强成员归属感",
+        "代表利益形象，跨部门高效交涉",
+        "技能培训，引领新成员能力发展",
+        "核心领导，高效分工，统筹资源协助活动顺利落地"
+      ],
+      "evidence_ids": [
+        "ev_04dcc23b561edb53e6da"
+      ],
+      "value_claims": [
+        [
+          "决策未来走向，拥有魄力与眼光",
+          "协调信息对接，增强成员归属感",
+          "代表利益形象，跨部门高效交涉",
+          "技能培训，引领新成员能力发展",
+          "核心领导，高效分工，统筹资源协助活动顺利落地"
+        ]
+      ]
+    },
+    {
+      "fact_id": "fact_8050993e1695c896a443",
+      "subject": "entity_00fb8e877f4aea24c732",
+      "predicate": "produces",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_5a7e83862467dee979c8",
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_81fd9642d52899a4bc62",
+      "subject": "entity_e86a60dd2085de44e1a9",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "motto"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "推己及人",
+      "evidence_ids": [
+        "ev_282bedfd9c219aea857f"
+      ],
+      "value_claims": [
+        "推己及人"
+      ]
+    },
+    {
+      "fact_id": "fact_85c2ba8d6b6be7b74f87",
+      "subject": "entity_b4fe9a806a1d13c8ca1e",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_87ee1326f9572836d3ef",
+      "evidence_ids": [
+        "ev_cdca051b8c3ec0ea96c7"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_8604c661cdaad307c724",
+      "subject": "entity_2cb54bd7ab600a086044",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "rules"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "参与者套上布袋，分攻守两方，被攻方形成矩形包围淘汰出局。采用限时轮回制，交换攻守方，相同时间内淘汰对手多胜利",
+      "evidence_ids": [
+        "ev_4190c725afb8af72efe6"
+      ],
+      "value_claims": [
+        "参与者套上布袋，分攻守两方，被攻方形成矩形包围淘汰出局。采用限时轮回制，交换攻守方，相同时间内淘汰对手多胜利"
+      ]
+    },
+    {
+      "fact_id": "fact_8abed62a6cad5c8c8f04",
+      "subject": "entity_88b86497fdfcccadad63",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "date"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "2026.9.16",
+      "evidence_ids": [
+        "ev_e63a51cd3a63347a8c5f"
+      ],
+      "value_claims": [
+        "2026.9.16"
+      ]
+    },
+    {
+      "fact_id": "fact_8f9de8ca8d8a1459b467",
+      "subject": "entity_f7210b3db6c440afdae5",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_915ac94bbff1e24162d0",
+      "evidence_ids": [
+        "ev_475522a3889c565df599"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_9465d6866d155d7c2bd3",
+      "subject": "entity_b4fe9a806a1d13c8ca1e",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_d2a5d831cb0ac797c660",
+      "evidence_ids": [
+        "ev_cdca051b8c3ec0ea96c7"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_950319628160c0c6cbcb",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "date"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "2026.9.16",
+      "evidence_ids": [
+        "ev_940c749710e501d0806d"
+      ],
+      "value_claims": [
+        "2026.9.16"
+      ]
+    },
+    {
+      "fact_id": "fact_95f757c4785426a845dc",
+      "subject": "entity_39c67d668f4cde814691",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "time"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "新生入学后2-3个月",
+      "evidence_ids": [
+        "ev_4022ba9752de270b457f"
+      ],
+      "value_claims": [
+        "新生入学后2-3个月"
+      ]
+    },
+    {
+      "fact_id": "fact_991e67a54b2fedf9801e",
+      "subject": "entity_d671b0e1b17c68e4c8b3",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "incident"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "材料不够用，现场集思广益“沙瓶”游戏",
+      "evidence_ids": [
+        "ev_08516fe7ad1327b0cfb2"
+      ],
+      "value_claims": [
+        "材料不够用，现场集思广益“沙瓶”游戏"
+      ]
+    },
+    {
+      "fact_id": "fact_99f4c88373b2af9f5160",
+      "subject": "entity_47ffa145cb2377bb7646",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "prize_correspondence"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "对应奖品不同",
+      "evidence_ids": [
+        "ev_ec19ba6d0f5fc2e194af"
+      ],
+      "value_claims": [
+        "对应奖品不同"
+      ]
+    },
+    {
+      "fact_id": "fact_9cdcbbe55b9bf7549251",
+      "subject": "entity_16763251b554ab802fa5",
+      "predicate": "led",
+      "qualifiers": {
+        "time": "2026.3"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_69887205b0090a3c3999",
+      "evidence_ids": [
+        "ev_0e57c700c4232053c847"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_a2d1bce97fa2273173b4",
+      "subject": "entity_b4fe9a806a1d13c8ca1e",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_6cf3ed345339a729f9b2",
+      "evidence_ids": [
+        "ev_cdca051b8c3ec0ea96c7"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_a37a8dcfa829209d5a8c",
+      "subject": "entity_39c67d668f4cde814691",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "online_mode"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "长期在线Q&A ＋资源库",
+      "evidence_ids": [
+        "ev_4022ba9752de270b457f"
+      ],
+      "value_claims": [
+        "长期在线Q&A ＋资源库"
+      ]
+    },
+    {
+      "fact_id": "fact_a3bc4dcc77cebb72b0a2",
+      "subject": "entity_808c356e3bc7f14399bc",
+      "predicate": "promotes",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_064c476fdc74fb83f5e7",
+      "evidence_ids": [
+        "ev_f5a0216bc220a713f944"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_a6a70264f3a92af95e82",
+      "subject": "entity_6a90842a12d7a68037f3",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "teaching_content"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "掐丝珐琅的教学",
+      "evidence_ids": [
+        "ev_08516fe7ad1327b0cfb2"
+      ],
+      "value_claims": [
+        "掐丝珐琅的教学"
+      ]
+    },
+    {
+      "fact_id": "fact_a82aeee242bad5e2c2f3",
+      "subject": "entity_b4fe9a806a1d13c8ca1e",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_86d928dd4544296fae5e",
+      "evidence_ids": [
+        "ev_cdca051b8c3ec0ea96c7"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_a945003c7f9f1cba466c",
+      "subject": "entity_7357fa94f79f55b176c3",
+      "predicate": "belongs_to",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_e86a60dd2085de44e1a9",
+      "evidence_ids": [
+        "ev_04dcc23b561edb53e6da"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_a99746db4a194ddc2119",
+      "subject": "entity_c18edd2bb6f2578cf5e5",
+      "predicate": "organizes",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_39c67d668f4cde814691",
+      "evidence_ids": [
+        "ev_4022ba9752de270b457f"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_aad9e80815745cd0377b",
+      "subject": "entity_3c026c8359de6ba73370",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "traits"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": [
+        "学习力",
+        "亲和力",
+        "执行力",
+        "责任感"
+      ],
+      "evidence_ids": [
+        "ev_aea04bcc2edc25097171"
+      ],
+      "value_claims": [
+        [
+          "学习力",
+          "亲和力",
+          "执行力",
+          "责任感"
+        ]
+      ]
+    },
+    {
+      "fact_id": "fact_b06b1354c0d6b1508c22",
+      "subject": "entity_16763251b554ab802fa5",
+      "predicate": "joined",
+      "qualifiers": {
+        "time": "2025.9"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_e86a60dd2085de44e1a9",
+      "evidence_ids": [
+        "ev_0e57c700c4232053c847"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_b0a4488340ce98d26be7",
+      "subject": "entity_e13ce485099817e508c0",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "purpose"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "溯源悠久中华文脉，探寻古老文化在当今时代如何绽放新的花火",
+      "evidence_ids": [
+        "ev_7414e1e75ed3af66934e"
+      ],
+      "value_claims": [
+        "溯源悠久中华文脉，探寻古老文化在当今时代如何绽放新的花火"
+      ]
+    },
+    {
+      "fact_id": "fact_b23e53db0d0e618d7bf2",
+      "subject": "entity_f1602ff7641e38f33ef4",
+      "predicate": "applies",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_4771582f490a91b5cbbf",
+      "evidence_ids": [
+        "ev_986302e516339fe02bb9"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_b40b0ed6460b6bf8fa02",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "participates",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_4c2f4076b1b0413c9231",
+      "evidence_ids": [
+        "ev_211f32890cd6b5f0e05f"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_b52b5581fdefbe24914a",
+      "subject": "entity_08bba2e1ef9a2e3a160a",
+      "predicate": "organize",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_88b86497fdfcccadad63",
+      "evidence_ids": [
+        "ev_e63a51cd3a63347a8c5f"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_b78eb9ea3e71fcb48ef8",
+      "subject": "entity_6dc0005e3d4750664a6a",
+      "predicate": "part_of",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_162837ad3908cc5da9f6",
+      "evidence_ids": [
+        "ev_59affc08ea48649a106c"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_b9a8eaba62635e9b1e7b",
+      "subject": "entity_39c67d668f4cde814691",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "purpose"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "解答新生学业、生活迷惑，缓解焦虑",
+      "evidence_ids": [
+        "ev_4022ba9752de270b457f"
+      ],
+      "value_claims": [
+        "解答新生学业、生活迷惑，缓解焦虑"
+      ]
+    },
+    {
+      "fact_id": "fact_b9ef405f4b475f358d4b",
+      "subject": "entity_8985e94c47833a19d7db",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "advantage"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "价值观契合",
+      "evidence_ids": [
+        "ev_734e17078032f16e7c90"
+      ],
+      "value_claims": [
+        "价值观契合"
+      ]
+    },
+    {
+      "fact_id": "fact_bcbe1aa8e7177d27eb68",
+      "subject": "entity_a9bcfe0e2388684f22eb",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "count"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 2,
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": [
+        2
+      ]
+    },
+    {
+      "fact_id": "fact_c05d54e53b4dc37f0480",
+      "subject": "entity_0b681888070a4434cb37",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "document_format"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "pptx",
+      "evidence_ids": [
+        "ev_f49d42a140256bd0efb9"
+      ],
+      "value_claims": [
+        "pptx"
+      ]
+    },
+    {
+      "fact_id": "fact_c15753c9096dfb2d59e6",
+      "subject": "entity_f7210b3db6c440afdae5",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_41cc15c95ac9015229fe",
+      "evidence_ids": [
+        "ev_475522a3889c565df599"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_c1b20a1d81533ebf8c57",
+      "subject": "entity_e13ce485099817e508c0",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "themes"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": [
+        "文化传承",
+        "数字化科技"
+      ],
+      "evidence_ids": [
+        "ev_7414e1e75ed3af66934e"
+      ],
+      "value_claims": [
+        [
+          "文化传承",
+          "数字化科技"
+        ]
+      ]
+    },
+    {
+      "fact_id": "fact_c2839fc4a746be05c0c7",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "publish",
+      "qualifiers": {
+        "platform": "院级公众号"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_77deebd860e8a1a887cf",
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_c3138ba1bcd1da4d0e77",
+      "subject": "entity_b2881cd3a6ec7464dd86",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "date"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "2026年5月",
+      "evidence_ids": [
+        "ev_00a3bad61012d37f74c8"
+      ],
+      "value_claims": [
+        "2026年5月"
+      ]
+    },
+    {
+      "fact_id": "fact_c3c2b27069fa2719ca03",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "conduct",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_88a7cb7e30d15c02e1ba",
+      "evidence_ids": [
+        "ev_6ed4954dca17fb48538e"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_c42758c581602826625e",
+      "subject": "entity_3c026c8359de6ba73370",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "native_place"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "广西北海",
+      "evidence_ids": [
+        "ev_aea04bcc2edc25097171"
+      ],
+      "value_claims": [
+        "广西北海"
+      ]
+    },
+    {
+      "fact_id": "fact_c4b4b0d639796b07f398",
+      "subject": "entity_00fb8e877f4aea24c732",
+      "predicate": "designs",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_7e04584722575c1d8f82",
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_c6891ca198edd229b2c8",
+      "subject": "entity_e13ce485099817e508c0",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "locations"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": [
+        "河南洛阳",
+        "开封"
+      ],
+      "evidence_ids": [
+        "ev_7414e1e75ed3af66934e"
+      ],
+      "value_claims": [
+        [
+          "河南洛阳",
+          "开封"
+        ]
+      ]
+    },
+    {
+      "fact_id": "fact_c6a390d6e31fbe6c77d3",
+      "subject": "entity_f7210b3db6c440afdae5",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_d2a5d831cb0ac797c660",
+      "evidence_ids": [
+        "ev_475522a3889c565df599"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_c9961e0915e6f823ef49",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "use_platform",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_5e4dffb91ab3ccdd2140",
+      "evidence_ids": [
+        "ev_6ed4954dca17fb48538e"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_c9bc282801c1b9db3217",
+      "subject": "entity_f7210b3db6c440afdae5",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_f1602ff7641e38f33ef4",
+      "evidence_ids": [
+        "ev_475522a3889c565df599"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_ca699c2c785b94477c35",
+      "subject": "entity_f7210b3db6c440afdae5",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_86d928dd4544296fae5e",
+      "evidence_ids": [
+        "ev_475522a3889c565df599"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_ca899435216d06150500",
+      "subject": "entity_fec69dd6ec9092a2e1e5",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "count"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 1,
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": [
+        1
+      ]
+    },
+    {
+      "fact_id": "fact_cb627e23e5ea9e45c07a",
+      "subject": "entity_b4fe9a806a1d13c8ca1e",
+      "predicate": "researches",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_adf57047e96d310f1d3a",
+      "evidence_ids": [
+        "ev_cdca051b8c3ec0ea96c7"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_cf7cf5cc4155c82e0dc7",
+      "subject": "entity_dd387a0be70cdb48aff3",
+      "predicate": "archives",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_8adadc0fdaf08820072f",
+      "evidence_ids": [
+        "ev_63c45950da1c1fa9634f"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_d3f0b3cf1938ebaa46f7",
+      "subject": "entity_3c026c8359de6ba73370",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "date"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "2026年5月30日",
+      "evidence_ids": [
+        "ev_280b4a29f54f7d12e4bd"
+      ],
+      "value_claims": [
+        "2026年5月30日"
+      ]
+    },
+    {
+      "fact_id": "fact_d4408357fae169c42cbb",
+      "subject": "entity_8985e94c47833a19d7db",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "score"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "100%",
+      "evidence_ids": [
+        "ev_734e17078032f16e7c90"
+      ],
+      "value_claims": [
+        "100%"
+      ]
+    },
+    {
+      "fact_id": "fact_d477d065cc33df3ec007",
+      "subject": "entity_17c0ea735d2dfc1e9616",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "article_count"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 2,
+      "evidence_ids": [
+        "ev_555fa21bff43f8ca3a75"
+      ],
+      "value_claims": [
+        2
+      ]
+    },
+    {
+      "fact_id": "fact_d4cd9505a686053b876c",
+      "subject": "entity_6a90842a12d7a68037f3",
+      "predicate": "part_of",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_d671b0e1b17c68e4c8b3",
+      "evidence_ids": [
+        "ev_08516fe7ad1327b0cfb2"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_d754d34b4a75c8beef23",
+      "subject": "entity_39c67d668f4cde814691",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "reward"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "集体活动证明",
+      "evidence_ids": [
+        "ev_4022ba9752de270b457f"
+      ],
+      "value_claims": [
+        "集体活动证明"
+      ]
+    },
+    {
+      "fact_id": "fact_d8b61a982abf966756bc",
+      "subject": "entity_915ac94bbff1e24162d0",
+      "predicate": "applies",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_329de5f13f79a429cb9c",
+      "evidence_ids": [
+        "ev_986302e516339fe02bb9"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_da9cc968b06317610399",
+      "subject": "entity_e86a60dd2085de44e1a9",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "value_detail"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "深植“推己及人”的社训。我渴望为那些素不相识的同学带来一丁点温暖和快乐，在奉献中找寻自我。",
+      "evidence_ids": [
+        "ev_282bedfd9c219aea857f"
+      ],
+      "value_claims": [
+        "深植“推己及人”的社训。我渴望为那些素不相识的同学带来一丁点温暖和快乐，在奉献中找寻自我。"
+      ]
+    },
+    {
+      "fact_id": "fact_e0f524f9b7021f8f9b2b",
+      "subject": "entity_b2881cd3a6ec7464dd86",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "location"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "西安交通大学",
+      "evidence_ids": [
+        "ev_00a3bad61012d37f74c8"
+      ],
+      "value_claims": [
+        "西安交通大学"
+      ]
+    },
+    {
+      "fact_id": "fact_e24d8a9495eacd21bdae",
+      "subject": "entity_d671b0e1b17c68e4c8b3",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "planner_context"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "担任轮值部长后承担策划的活动",
+      "evidence_ids": [
+        "ev_08516fe7ad1327b0cfb2"
+      ],
+      "value_claims": [
+        "担任轮值部长后承担策划的活动"
+      ]
+    },
+    {
+      "fact_id": "fact_e7895db15e0b1d768250",
+      "subject": "entity_a2fe758f57bb37b30d2a",
+      "predicate": "create",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_1fc5c4961729a03c0103",
+      "evidence_ids": [
+        "ev_5e30ba488a86a1ddb53b"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_e7aa94ac0785f8417578",
+      "subject": "entity_ee48939873e5844637ea",
+      "predicate": "participate_in",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_88b86497fdfcccadad63",
+      "evidence_ids": [
+        "ev_e63a51cd3a63347a8c5f"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_e83de44ddf024212a575",
+      "subject": "entity_41a837a8a851db71742c",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "slogan"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": "古老文化碰上现代化科技，迸发崭新光彩",
+      "evidence_ids": [
+        "ev_f5a0216bc220a713f944"
+      ],
+      "value_claims": [
+        "古老文化碰上现代化科技，迸发崭新光彩"
+      ]
+    },
+    {
+      "fact_id": "fact_e84a4be8b1d1ab958c94",
+      "subject": "entity_16763251b554ab802fa5",
+      "predicate": "participated",
+      "qualifiers": {
+        "time": "2025.11"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_c427b56f2980729b5bac",
+      "evidence_ids": [
+        "ev_0e57c700c4232053c847"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_edfa796e63f657db8a89",
+      "subject": "entity_d9c6d4047a93fa6f0607",
+      "predicate": "governs",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_8adadc0fdaf08820072f",
+      "evidence_ids": [
+        "ev_63c45950da1c1fa9634f"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_ef5bab8aad4a60f76f0b",
+      "subject": "entity_e86a60dd2085de44e1a9",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "applicant_statement"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": [
+        "价值观高度契合",
+        "勇于突破自我"
+      ],
+      "evidence_ids": [
+        "ev_282bedfd9c219aea857f"
+      ],
+      "value_claims": [
+        [
+          "价值观高度契合",
+          "勇于突破自我"
+        ]
+      ]
+    },
+    {
+      "fact_id": "fact_ef8db968ccb6c80fc28e",
+      "subject": "entity_f7210b3db6c440afdae5",
+      "predicate": "visits",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_294e5e7782f126e13b15",
+      "evidence_ids": [
+        "ev_475522a3889c565df599"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_f1a3679fd38e50b543be",
+      "subject": "entity_ba7200bfff800895e5a6",
+      "predicate": "solves",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_f1df4d0a077c20b17ae3",
+      "evidence_ids": [
+        "ev_ec19ba6d0f5fc2e194af"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_f1bb03fd9457146e0e44",
+      "subject": "entity_ee48939873e5844637ea",
+      "predicate": "member_of",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_a2fe758f57bb37b30d2a",
+      "evidence_ids": [
+        "ev_940c749710e501d0806d"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_f57c4fb9e1fce1f5e80c",
+      "subject": "entity_3c026c8359de6ba73370",
+      "predicate": "attribute",
+      "qualifiers": {
+        "attribute": "age"
+      },
+      "origin": "asserted",
+      "review_status": "supported",
+      "value": 19,
+      "evidence_ids": [
+        "ev_aea04bcc2edc25097171"
+      ],
+      "value_claims": [
+        19
+      ]
+    },
+    {
+      "fact_id": "fact_f6ac180b4c8fe114f31c",
+      "subject": "entity_8985e94c47833a19d7db",
+      "predicate": "participates_in",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_b2881cd3a6ec7464dd86",
+      "evidence_ids": [
+        "ev_00a3bad61012d37f74c8"
+      ],
+      "value_claims": []
+    },
+    {
+      "fact_id": "fact_fe836f7f3bf2205ebb62",
+      "subject": "entity_8adadc0fdaf08820072f",
+      "predicate": "condition_for",
+      "qualifiers": {},
+      "origin": "asserted",
+      "review_status": "supported",
+      "object": "entity_209420dc963f2e928248",
+      "evidence_ids": [
+        "ev_63c45950da1c1fa9634f"
+      ],
+      "value_claims": []
+    }
+  ],
+  "evidence": [
+    {
+      "unit_id": "unit_dedf2dbc2e87d6c2bf68",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 1
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_00a3bad61012d37f74c8",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_23589ef4842629721243",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 6
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_04dcc23b561edb53e6da",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_de7962b4fc53a2a3c837",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 13
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_08516fe7ad1327b0cfb2",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_774392fcd630f7ca7483",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 2,
+        "bbox": [
+          "0",
+          "0",
+          "960",
+          "540"
+        ]
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_0a259c72abbf0e70f9bc",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_83490ad7ae1cbd61fa53",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 10
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_0e57c700c4232053c847",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_b7c343684aab83912ef9",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 7,
+        "bbox": [
+          "0",
+          "0",
+          "960",
+          "540"
+        ]
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_211f32890cd6b5f0e05f",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_72fe5e3dafcea651e780",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 21
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_280b4a29f54f7d12e4bd",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_0e1216d890a1a40814a0",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 7
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_282bedfd9c219aea857f",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_aee5b7e76f59f263058d",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 16
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_4022ba9752de270b457f",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_f0187db9f99bdd9547f7",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 17
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_4190c725afb8af72efe6",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_a240fd556c7d66b11b94",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 11
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_45ae1754bbb27f1181d0",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_7a1731908d720d597070",
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "kind": "text",
+      "locator": {
+        "section": [],
+        "table": 1,
+        "row_start": 2,
+        "row_end": 10
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_475522a3889c565df599",
+      "source": "启明寻洛，脉续中原-林硕锦-2243515519.docx",
+      "file_sha256": "587f26d2bc4378eee196cdd8033fd96b19cb9f9e18250086d0416b063f88326e"
+    },
+    {
+      "unit_id": "unit_dbfc2496f7f27d3693ab",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 6,
+        "bbox": [
+          "0",
+          "0",
+          "960",
+          "540"
+        ]
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_555fa21bff43f8ca3a75",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_b0cb4fb7381dd70411e3",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 12
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_59affc08ea48649a106c",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_fcce9dd1be2c0f4f1fc2",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 6,
+        "table": 1,
+        "bbox": [
+          "14.4",
+          "68.51999999999998",
+          "427.2",
+          "232.07999999999998"
+        ],
+        "row_start": 2,
+        "row_end": 2
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_5e30ba488a86a1ddb53b",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_faa988ec76d5092b2357",
+      "document_id": "doc_e6e0f281c06f39e259ef",
+      "kind": "text",
+      "locator": {
+        "section": [],
+        "paragraph_start": 2,
+        "paragraph_end": 2,
+        "precision": "source_xml_blocks"
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_63c45950da1c1fa9634f",
+      "source": "启明寻洛，脉续中原-林硕锦-2243515519.docx",
+      "file_sha256": "587f26d2bc4378eee196cdd8033fd96b19cb9f9e18250086d0416b063f88326e"
+    },
+    {
+      "unit_id": "unit_0d5568dee160b57219e1",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 20
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_6ceadd1709db3e13cabe",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_6041b452cb3e569fe46d",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 3,
+        "table": 1,
+        "bbox": [
+          "698.16",
+          "143.64",
+          "916.56",
+          "445.91999999999996"
+        ],
+        "row_start": 2,
+        "row_end": 2
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_6ed4954dca17fb48538e",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_7dad138cb16a8ec8059b",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 8
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_734e17078032f16e7c90",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_8f7cc0cde41fbcfbe416",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 3,
+        "bbox": [
+          "0",
+          "0",
+          "960",
+          "540"
+        ]
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_7414e1e75ed3af66934e",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_9dfbe140ed2cf01012d4",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 8,
+        "bbox": [
+          "0",
+          "0",
+          "960",
+          "540"
+        ]
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_940c749710e501d0806d",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_70bdd28f4d0ec6498113",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 4,
+        "bbox": [
+          "0",
+          "0",
+          "960",
+          "540"
+        ]
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_986302e516339fe02bb9",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_e25c02f0bf8f91ad1cf6",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 4
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_aea04bcc2edc25097171",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_3c4515f250047dc2f220",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 19
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_cd33d0f9fc175203868d",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_61a6d9bd09d2676302e7",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 18
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_cdca051b8c3ec0ea96c7",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_d9819e5ae9b8f1fee534",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 1,
+        "bbox": [
+          "0",
+          "0",
+          "960",
+          "540"
+        ]
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_e63a51cd3a63347a8c5f",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    },
+    {
+      "unit_id": "unit_0dec6fd329a032c55392",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 15
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_ec19ba6d0f5fc2e194af",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_0af5249f051ca0c56479",
+      "document_id": "doc_2cd93c77af95da074115",
+      "kind": "text",
+      "locator": {
+        "slide": 2
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_f49d42a140256bd0efb9",
+      "source": "黎雅诗-留部答辩ppt.pptx",
+      "file_sha256": "fe0317153d1dbf915ba635cc8f3827a0543a17e19af32cb8e10022eb196dd3b9"
+    },
+    {
+      "unit_id": "unit_bcc7cc5490179678b8ea",
+      "document_id": "doc_c6d1b73dec7096b5890a",
+      "kind": "text",
+      "locator": {
+        "page": 5,
+        "bbox": [
+          "0",
+          "0",
+          "960",
+          "540"
+        ]
+      },
+      "quote": "",
+      "match_mode": "locator_only",
+      "evidence_id": "ev_f5a0216bc220a713f944",
+      "source": "“启明寻洛，脉续中原”实践团队答辩PPT(4).pdf",
+      "file_sha256": "0afc84cedf9edd80dc16dd93f8c9f1e3c0b8e0158d4a3eb1f00f934c2f3d8e79"
+    }
+  ],
+  "unresolved": [],
+  "diagnostics": {
+    "fingerprint": "run_031e801da803ca0f198f",
+    "engine_version": "4.0.0",
+    "parsed_units": 36,
+    "reviewed_units": 36,
+    "alignment_round": 2,
+    "workflow_complete": true,
+    "parse_warnings": [
+      {
+        "unit_id": "unit_d9819e5ae9b8f1fee534",
+        "warnings": [
+          "no_ruled_table_detected: inspect text for borderless tables"
+        ]
+      },
+      {
+        "unit_id": "unit_774392fcd630f7ca7483",
+        "warnings": [
+          "no_ruled_table_detected: inspect text for borderless tables"
+        ]
+      },
+      {
+        "unit_id": "unit_70bdd28f4d0ec6498113",
+        "warnings": [
+          "no_ruled_table_detected: inspect text for borderless tables"
+        ]
+      },
+      {
+        "unit_id": "unit_bcc7cc5490179678b8ea",
+        "warnings": [
+          "no_ruled_table_detected: inspect text for borderless tables"
+        ]
+      },
+      {
+        "unit_id": "unit_b7c343684aab83912ef9",
+        "warnings": [
+          "no_ruled_table_detected: inspect text for borderless tables"
+        ]
+      },
+      {
+        "unit_id": "unit_9dfbe140ed2cf01012d4",
+        "warnings": [
+          "no_ruled_table_detected: inspect text for borderless tables"
+        ]
+      },
+      {
+        "unit_id": "unit_06bdb9c79f7af79cca04",
+        "warnings": [
+          "host_visual_review_required"
+        ]
+      },
+      {
+        "unit_id": "unit_1af7226d82851718bde3",
+        "warnings": [
+          "host_visual_review_required"
+        ]
+      },
+      {
+        "unit_id": "unit_dedf2dbc2e87d6c2bf68",
+        "warnings": [
+          "image_unavailable: shape 8",
+          "image_unavailable: shape 10",
+          "image_unavailable: shape 12",
+          "image_unavailable: shape 14",
+          "image_unavailable: shape 16",
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_0af5249f051ca0c56479",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_c6b621ee5939382f7af6",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_e25c02f0bf8f91ad1cf6",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_903dd229f19adc762fb8",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_23589ef4842629721243",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_0e1216d890a1a40814a0",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_7dad138cb16a8ec8059b",
+        "warnings": [
+          "image_unavailable: shape 7",
+          "image_unavailable: shape 9",
+          "image_unavailable: shape 11",
+          "image_unavailable: shape 13",
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_6a7fea9a40a8617e3b81",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_83490ad7ae1cbd61fa53",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_a240fd556c7d66b11b94",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_b0cb4fb7381dd70411e3",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_de7962b4fc53a2a3c837",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_73f02472b1d651948aec",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_0dec6fd329a032c55392",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_aee5b7e76f59f263058d",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_f0187db9f99bdd9547f7",
+        "warnings": [
+          "image_unavailable: shape 22",
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_61a6d9bd09d2676302e7",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_3c4515f250047dc2f220",
+        "warnings": [
+          "image_unavailable: shape 6",
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_0d5568dee160b57219e1",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      },
+      {
+        "unit_id": "unit_72fe5e3dafcea651e780",
+        "warnings": [
+          "embedded_images_require_host_visual_review"
+        ]
+      }
+    ],
+    "metric_comparisons": [],
+    "integrity": {
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "counts": {
+        "nodes": 75,
+        "edges": 60,
+        "facts": 114,
+        "evidence": 29,
+        "unresolved": 0
+      }
+    }
+  }
+}

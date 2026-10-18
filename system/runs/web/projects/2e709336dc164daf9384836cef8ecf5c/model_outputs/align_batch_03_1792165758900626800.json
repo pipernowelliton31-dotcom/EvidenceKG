@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "task_id": "align_dc940cb6f11c25e5002a",
+      "decision": "NEW_ENTITY"
+    },
+    {
+      "task_id": "align_9e5052c46c89fa28c113",
+      "decision": "NEW_ENTITY"
+    }
+  ],
+  "fingerprint": "run_031e801da803ca0f198f",
+  "round": 1
+}

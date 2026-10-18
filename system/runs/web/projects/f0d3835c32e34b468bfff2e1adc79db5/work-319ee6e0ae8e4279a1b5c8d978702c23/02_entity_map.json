@@ -1,0 +1,2495 @@
+{
+  "fingerprint": "run_32421f2d375c226a0323",
+  "mapping": {
+    "m_025b3213f4e4a3ef473d": "entity_0dbd1f04968b9ff29611",
+    "m_038c7dd9ee38b23f3052": "entity_91ff357714cd23696bf1",
+    "m_0ddd403a4431c2aa14fa": "entity_c1544839fa5301c8ebb5",
+    "m_12483a4ba7aedaf15cab": "entity_c1544839fa5301c8ebb5",
+    "m_166a584f1b9230ea118d": "entity_c898f08619bec4b4d982",
+    "m_1a29baa07c9500667778": "entity_4511fc462aa8f97fdf81",
+    "m_1dd227ac2377bfd7c345": "entity_3ed369f10ebce4490f0d",
+    "m_1e0b9bfdf51e91f95101": "entity_9c315232e08c70e334ab",
+    "m_1e3faef2f0ddcee024e5": "entity_fe5b3bd9a8e16b41ccdd",
+    "m_1f0cdf646dd58271d3c1": "entity_4b41da42c6fd559049dc",
+    "m_217f1443a58bc1c5ccca": "entity_c1544839fa5301c8ebb5",
+    "m_21a095cd841b98ba2b9f": "entity_535c07f28d5a083b0d38",
+    "m_2d0a6b67020c27e14adf": "entity_2c9d39286e387ca20c30",
+    "m_2d611a3288b35679adaa": "entity_7a0f87a29fe405b23180",
+    "m_2dab5b5225f811656386": "entity_c1544839fa5301c8ebb5",
+    "m_3ed6a4e3716f59e137bc": "entity_2b1773d94017bfe1bc5d",
+    "m_408c5ce0a3a75337caad": "entity_b63139f988a380894db8",
+    "m_41d3925e08059dcdb932": "entity_5b0350f597cf52bd1325",
+    "m_4592344581e960793809": "entity_327eb0542666ba2fda6d",
+    "m_4682d1ed951696d3741c": "entity_4511fc462aa8f97fdf81",
+    "m_4928d408ae0c9634f1d7": "entity_9bd051c73ac2c47adff0",
+    "m_4e1be0cf1a95c2b57572": "entity_be2b1c2af1970733dc7a",
+    "m_50c6c77170dc93445f42": "entity_1f8202f610a0ffc70efd",
+    "m_51770653cf1ab55e248c": "entity_059d05d4673f3751082d",
+    "m_523fd5241429306e1426": "entity_c4f35a9eaf165504c375",
+    "m_556b2934045200f2a617": "entity_e039de583c1c5ede0e19",
+    "m_561bc92b9cfafa682b3e": "entity_512e4570f6cead1f0240",
+    "m_6050eca21b3cd6ccda5f": "entity_a6a856e188d158d9661f",
+    "m_64757cf5afc7b5655110": "entity_73fa86da825c8eb0d43d",
+    "m_6bebecee387165e4e6e4": "entity_9cb644d43f8c36fef933",
+    "m_6cc27c38b9b40ac9f8df": "entity_97b894f8416d91dc6815",
+    "m_6ea286d6702aa4b0a3c5": "entity_c1544839fa5301c8ebb5",
+    "m_71ef8fee0c8d18479b47": "entity_c7c60a7e1b2b6fe33f18",
+    "m_77ab92127bacbbc86e81": "entity_c3144251cf9d9109cba1",
+    "m_77ba0422d664a9091018": "entity_37a97606f519dcbd1fbb",
+    "m_7a3958b993da97415c63": "entity_eeda1d52901f0d0a0d70",
+    "m_7a7faafe734614f66a3c": "entity_783fb8a3d8ef3df0c5f5",
+    "m_7de2cdf5897776688fde": "entity_6aa9789b0549b5f95a62",
+    "m_7fd0b252db2f1ce7ce7d": "entity_3a201247676549164ade",
+    "m_82061628808aca9fc366": "entity_af91b189deb6f1c69d66",
+    "m_8370796f05ea5ef43d18": "entity_2b269da87d78c93824be",
+    "m_83d7fd43bb1070ea02e0": "entity_c1544839fa5301c8ebb5",
+    "m_846dada885ec7c771f6d": "entity_512e4570f6cead1f0240",
+    "m_85801bc05c72b98a0901": "entity_f16607902b64bad26930",
+    "m_8903fa6cb31f12e04ad6": "entity_aa39d756b940f814364f",
+    "m_8cf2f48efc91c7aa3421": "entity_04525dd1b55d21b144e2",
+    "m_93ed3806a282cacf563f": "entity_97dee8135640a6a4f33e",
+    "m_9a83f8e4f6760fc44cbb": "entity_e90813f20ed650bbdd46",
+    "m_9ba060039c93d3df574c": "entity_081d82ba6ded76a3f3c0",
+    "m_9d037e07466e195a546a": "entity_93b286f754fe8600a973",
+    "m_9d04770de75ddc73f01e": "entity_ddf2e1cdf4fde01524b0",
+    "m_9f67b40fbb3cf1081758": "entity_8660272abe757a060d72",
+    "m_a469977a059373d559e4": "entity_a3beae964404af207e2a",
+    "m_abea3ac74536c3b0996b": "entity_a5bbf2dfc50f117cc6c5",
+    "m_b13e7fb4a1d09909e4cf": "entity_081d82ba6ded76a3f3c0",
+    "m_bb98a6a656ad96cd1d2e": "entity_52710a52671c55e67ef1",
+    "m_bb9e8088e01a2766c4b7": "entity_325c627b93e04d455e22",
+    "m_bc55616141a23a92ce4c": "entity_f7a6ec10e0baae01c21e",
+    "m_bf204ed9e02f2e0f7a94": "entity_c1544839fa5301c8ebb5",
+    "m_c30bc53f050ffdbb8249": "entity_a40dabe251c0a4fd32be",
+    "m_c81df4da0d4d5e7652bd": "entity_b465b58bef4ea8c4a740",
+    "m_c9dc2bdc24f765800187": "entity_a3beae964404af207e2a",
+    "m_ce0eb57b1bb63b990c50": "entity_032979a845ae2eaf8ac4",
+    "m_ce28b8ed317a68ca7478": "entity_558ddff283e104060674",
+    "m_d35a27151040cadab788": "entity_01cf9da64bc6eb8f0b00",
+    "m_db99ed5d98b51d54dbda": "entity_1bba77b90095714cca9b",
+    "m_eb15e0f7759b0129783c": "entity_3c17ab1ff97b0c579505",
+    "m_eb402f9f5ebf507d3a7b": "entity_c1544839fa5301c8ebb5",
+    "m_f1be9c1d64c6b598f316": "entity_02e6660e3f43ef68546d",
+    "m_f1f03a22482482877345": "entity_c1544839fa5301c8ebb5",
+    "m_f33383f988357a5ec81d": "entity_fa46babc63de204b50c3",
+    "m_f88179b731297a3f5281": "entity_4e1fdb793f5f4619a854"
+  },
+  "clusters": {
+    "entity_0dbd1f04968b9ff29611": [
+      "m_025b3213f4e4a3ef473d"
+    ],
+    "entity_91ff357714cd23696bf1": [
+      "m_038c7dd9ee38b23f3052"
+    ],
+    "entity_c1544839fa5301c8ebb5": [
+      "m_0ddd403a4431c2aa14fa",
+      "m_12483a4ba7aedaf15cab",
+      "m_217f1443a58bc1c5ccca",
+      "m_2dab5b5225f811656386",
+      "m_6ea286d6702aa4b0a3c5",
+      "m_83d7fd43bb1070ea02e0",
+      "m_bf204ed9e02f2e0f7a94",
+      "m_eb402f9f5ebf507d3a7b",
+      "m_f1f03a22482482877345"
+    ],
+    "entity_c898f08619bec4b4d982": [
+      "m_166a584f1b9230ea118d"
+    ],
+    "entity_4511fc462aa8f97fdf81": [
+      "m_1a29baa07c9500667778",
+      "m_4682d1ed951696d3741c"
+    ],
+    "entity_3ed369f10ebce4490f0d": [
+      "m_1dd227ac2377bfd7c345"
+    ],
+    "entity_9c315232e08c70e334ab": [
+      "m_1e0b9bfdf51e91f95101"
+    ],
+    "entity_fe5b3bd9a8e16b41ccdd": [
+      "m_1e3faef2f0ddcee024e5"
+    ],
+    "entity_4b41da42c6fd559049dc": [
+      "m_1f0cdf646dd58271d3c1"
+    ],
+    "entity_535c07f28d5a083b0d38": [
+      "m_21a095cd841b98ba2b9f"
+    ],
+    "entity_2c9d39286e387ca20c30": [
+      "m_2d0a6b67020c27e14adf"
+    ],
+    "entity_7a0f87a29fe405b23180": [
+      "m_2d611a3288b35679adaa"
+    ],
+    "entity_2b1773d94017bfe1bc5d": [
+      "m_3ed6a4e3716f59e137bc"
+    ],
+    "entity_b63139f988a380894db8": [
+      "m_408c5ce0a3a75337caad"
+    ],
+    "entity_5b0350f597cf52bd1325": [
+      "m_41d3925e08059dcdb932"
+    ],
+    "entity_327eb0542666ba2fda6d": [
+      "m_4592344581e960793809"
+    ],
+    "entity_9bd051c73ac2c47adff0": [
+      "m_4928d408ae0c9634f1d7"
+    ],
+    "entity_be2b1c2af1970733dc7a": [
+      "m_4e1be0cf1a95c2b57572"
+    ],
+    "entity_1f8202f610a0ffc70efd": [
+      "m_50c6c77170dc93445f42"
+    ],
+    "entity_059d05d4673f3751082d": [
+      "m_51770653cf1ab55e248c"
+    ],
+    "entity_c4f35a9eaf165504c375": [
+      "m_523fd5241429306e1426"
+    ],
+    "entity_e039de583c1c5ede0e19": [
+      "m_556b2934045200f2a617"
+    ],
+    "entity_a6a856e188d158d9661f": [
+      "m_6050eca21b3cd6ccda5f"
+    ],
+    "entity_73fa86da825c8eb0d43d": [
+      "m_64757cf5afc7b5655110"
+    ],
+    "entity_9cb644d43f8c36fef933": [
+      "m_6bebecee387165e4e6e4"
+    ],
+    "entity_97b894f8416d91dc6815": [
+      "m_6cc27c38b9b40ac9f8df"
+    ],
+    "entity_c7c60a7e1b2b6fe33f18": [
+      "m_71ef8fee0c8d18479b47"
+    ],
+    "entity_c3144251cf9d9109cba1": [
+      "m_77ab92127bacbbc86e81"
+    ],
+    "entity_37a97606f519dcbd1fbb": [
+      "m_77ba0422d664a9091018"
+    ],
+    "entity_eeda1d52901f0d0a0d70": [
+      "m_7a3958b993da97415c63"
+    ],
+    "entity_783fb8a3d8ef3df0c5f5": [
+      "m_7a7faafe734614f66a3c"
+    ],
+    "entity_6aa9789b0549b5f95a62": [
+      "m_7de2cdf5897776688fde"
+    ],
+    "entity_3a201247676549164ade": [
+      "m_7fd0b252db2f1ce7ce7d"
+    ],
+    "entity_af91b189deb6f1c69d66": [
+      "m_82061628808aca9fc366"
+    ],
+    "entity_2b269da87d78c93824be": [
+      "m_8370796f05ea5ef43d18"
+    ],
+    "entity_512e4570f6cead1f0240": [
+      "m_561bc92b9cfafa682b3e",
+      "m_846dada885ec7c771f6d"
+    ],
+    "entity_f16607902b64bad26930": [
+      "m_85801bc05c72b98a0901"
+    ],
+    "entity_aa39d756b940f814364f": [
+      "m_8903fa6cb31f12e04ad6"
+    ],
+    "entity_04525dd1b55d21b144e2": [
+      "m_8cf2f48efc91c7aa3421"
+    ],
+    "entity_97dee8135640a6a4f33e": [
+      "m_93ed3806a282cacf563f"
+    ],
+    "entity_e90813f20ed650bbdd46": [
+      "m_9a83f8e4f6760fc44cbb"
+    ],
+    "entity_081d82ba6ded76a3f3c0": [
+      "m_9ba060039c93d3df574c",
+      "m_b13e7fb4a1d09909e4cf"
+    ],
+    "entity_93b286f754fe8600a973": [
+      "m_9d037e07466e195a546a"
+    ],
+    "entity_ddf2e1cdf4fde01524b0": [
+      "m_9d04770de75ddc73f01e"
+    ],
+    "entity_8660272abe757a060d72": [
+      "m_9f67b40fbb3cf1081758"
+    ],
+    "entity_a3beae964404af207e2a": [
+      "m_a469977a059373d559e4",
+      "m_c9dc2bdc24f765800187"
+    ],
+    "entity_a5bbf2dfc50f117cc6c5": [
+      "m_abea3ac74536c3b0996b"
+    ],
+    "entity_52710a52671c55e67ef1": [
+      "m_bb98a6a656ad96cd1d2e"
+    ],
+    "entity_325c627b93e04d455e22": [
+      "m_bb9e8088e01a2766c4b7"
+    ],
+    "entity_f7a6ec10e0baae01c21e": [
+      "m_bc55616141a23a92ce4c"
+    ],
+    "entity_a40dabe251c0a4fd32be": [
+      "m_c30bc53f050ffdbb8249"
+    ],
+    "entity_b465b58bef4ea8c4a740": [
+      "m_c81df4da0d4d5e7652bd"
+    ],
+    "entity_032979a845ae2eaf8ac4": [
+      "m_ce0eb57b1bb63b990c50"
+    ],
+    "entity_558ddff283e104060674": [
+      "m_ce28b8ed317a68ca7478"
+    ],
+    "entity_01cf9da64bc6eb8f0b00": [
+      "m_d35a27151040cadab788"
+    ],
+    "entity_1bba77b90095714cca9b": [
+      "m_db99ed5d98b51d54dbda"
+    ],
+    "entity_3c17ab1ff97b0c579505": [
+      "m_eb15e0f7759b0129783c"
+    ],
+    "entity_02e6660e3f43ef68546d": [
+      "m_f1be9c1d64c6b598f316"
+    ],
+    "entity_fa46babc63de204b50c3": [
+      "m_f33383f988357a5ec81d"
+    ],
+    "entity_4e1fdb793f5f4619a854": [
+      "m_f88179b731297a3f5281"
+    ]
+  },
+  "status": {
+    "m_025b3213f4e4a3ef473d": "record",
+    "m_038c7dd9ee38b23f3052": "confirmed",
+    "m_0ddd403a4431c2aa14fa": "confirmed",
+    "m_12483a4ba7aedaf15cab": "confirmed",
+    "m_166a584f1b9230ea118d": "record",
+    "m_1a29baa07c9500667778": "confirmed",
+    "m_1dd227ac2377bfd7c345": "confirmed",
+    "m_1e0b9bfdf51e91f95101": "confirmed",
+    "m_1e3faef2f0ddcee024e5": "confirmed",
+    "m_1f0cdf646dd58271d3c1": "record",
+    "m_217f1443a58bc1c5ccca": "confirmed",
+    "m_21a095cd841b98ba2b9f": "confirmed",
+    "m_2d0a6b67020c27e14adf": "confirmed",
+    "m_2d611a3288b35679adaa": "record",
+    "m_2dab5b5225f811656386": "confirmed",
+    "m_3ed6a4e3716f59e137bc": "record",
+    "m_408c5ce0a3a75337caad": "record",
+    "m_41d3925e08059dcdb932": "record",
+    "m_4592344581e960793809": "record",
+    "m_4682d1ed951696d3741c": "confirmed",
+    "m_4928d408ae0c9634f1d7": "confirmed",
+    "m_4e1be0cf1a95c2b57572": "confirmed",
+    "m_50c6c77170dc93445f42": "record",
+    "m_51770653cf1ab55e248c": "confirmed",
+    "m_523fd5241429306e1426": "confirmed",
+    "m_556b2934045200f2a617": "record",
+    "m_561bc92b9cfafa682b3e": "confirmed",
+    "m_6050eca21b3cd6ccda5f": "record",
+    "m_64757cf5afc7b5655110": "confirmed",
+    "m_6bebecee387165e4e6e4": "record",
+    "m_6cc27c38b9b40ac9f8df": "record",
+    "m_6ea286d6702aa4b0a3c5": "confirmed",
+    "m_71ef8fee0c8d18479b47": "record",
+    "m_77ab92127bacbbc86e81": "confirmed",
+    "m_77ba0422d664a9091018": "record",
+    "m_7a3958b993da97415c63": "record",
+    "m_7a7faafe734614f66a3c": "record",
+    "m_7de2cdf5897776688fde": "record",
+    "m_7fd0b252db2f1ce7ce7d": "record",
+    "m_82061628808aca9fc366": "record",
+    "m_8370796f05ea5ef43d18": "record",
+    "m_83d7fd43bb1070ea02e0": "confirmed",
+    "m_846dada885ec7c771f6d": "confirmed",
+    "m_85801bc05c72b98a0901": "record",
+    "m_8903fa6cb31f12e04ad6": "confirmed",
+    "m_8cf2f48efc91c7aa3421": "record",
+    "m_93ed3806a282cacf563f": "record",
+    "m_9a83f8e4f6760fc44cbb": "confirmed",
+    "m_9ba060039c93d3df574c": "confirmed",
+    "m_9d037e07466e195a546a": "record",
+    "m_9d04770de75ddc73f01e": "confirmed",
+    "m_9f67b40fbb3cf1081758": "confirmed",
+    "m_a469977a059373d559e4": "confirmed",
+    "m_abea3ac74536c3b0996b": "record",
+    "m_b13e7fb4a1d09909e4cf": "confirmed",
+    "m_bb98a6a656ad96cd1d2e": "record",
+    "m_bb9e8088e01a2766c4b7": "record",
+    "m_bc55616141a23a92ce4c": "confirmed",
+    "m_bf204ed9e02f2e0f7a94": "confirmed",
+    "m_c30bc53f050ffdbb8249": "record",
+    "m_c81df4da0d4d5e7652bd": "record",
+    "m_c9dc2bdc24f765800187": "confirmed",
+    "m_ce0eb57b1bb63b990c50": "record",
+    "m_ce28b8ed317a68ca7478": "confirmed",
+    "m_d35a27151040cadab788": "record",
+    "m_db99ed5d98b51d54dbda": "confirmed",
+    "m_eb15e0f7759b0129783c": "confirmed",
+    "m_eb402f9f5ebf507d3a7b": "confirmed",
+    "m_f1be9c1d64c6b598f316": "confirmed",
+    "m_f1f03a22482482877345": "confirmed",
+    "m_f33383f988357a5ec81d": "confirmed",
+    "m_f88179b731297a3f5281": "record"
+  },
+  "cluster_status": {
+    "entity_0dbd1f04968b9ff29611": "record",
+    "entity_91ff357714cd23696bf1": "resolved",
+    "entity_c1544839fa5301c8ebb5": "resolved",
+    "entity_c898f08619bec4b4d982": "record",
+    "entity_4511fc462aa8f97fdf81": "resolved",
+    "entity_3ed369f10ebce4490f0d": "resolved",
+    "entity_9c315232e08c70e334ab": "resolved",
+    "entity_fe5b3bd9a8e16b41ccdd": "resolved",
+    "entity_4b41da42c6fd559049dc": "record",
+    "entity_535c07f28d5a083b0d38": "resolved",
+    "entity_2c9d39286e387ca20c30": "resolved",
+    "entity_7a0f87a29fe405b23180": "record",
+    "entity_2b1773d94017bfe1bc5d": "record",
+    "entity_b63139f988a380894db8": "record",
+    "entity_5b0350f597cf52bd1325": "record",
+    "entity_327eb0542666ba2fda6d": "record",
+    "entity_9bd051c73ac2c47adff0": "resolved",
+    "entity_be2b1c2af1970733dc7a": "resolved",
+    "entity_1f8202f610a0ffc70efd": "record",
+    "entity_059d05d4673f3751082d": "resolved",
+    "entity_c4f35a9eaf165504c375": "resolved",
+    "entity_e039de583c1c5ede0e19": "record",
+    "entity_a6a856e188d158d9661f": "record",
+    "entity_73fa86da825c8eb0d43d": "resolved",
+    "entity_9cb644d43f8c36fef933": "record",
+    "entity_97b894f8416d91dc6815": "record",
+    "entity_c7c60a7e1b2b6fe33f18": "record",
+    "entity_c3144251cf9d9109cba1": "resolved",
+    "entity_37a97606f519dcbd1fbb": "record",
+    "entity_eeda1d52901f0d0a0d70": "record",
+    "entity_783fb8a3d8ef3df0c5f5": "record",
+    "entity_6aa9789b0549b5f95a62": "record",
+    "entity_3a201247676549164ade": "record",
+    "entity_af91b189deb6f1c69d66": "record",
+    "entity_2b269da87d78c93824be": "record",
+    "entity_512e4570f6cead1f0240": "resolved",
+    "entity_f16607902b64bad26930": "record",
+    "entity_aa39d756b940f814364f": "resolved",
+    "entity_04525dd1b55d21b144e2": "record",
+    "entity_97dee8135640a6a4f33e": "record",
+    "entity_e90813f20ed650bbdd46": "resolved",
+    "entity_081d82ba6ded76a3f3c0": "resolved",
+    "entity_93b286f754fe8600a973": "record",
+    "entity_ddf2e1cdf4fde01524b0": "resolved",
+    "entity_8660272abe757a060d72": "resolved",
+    "entity_a3beae964404af207e2a": "resolved",
+    "entity_a5bbf2dfc50f117cc6c5": "record",
+    "entity_52710a52671c55e67ef1": "record",
+    "entity_325c627b93e04d455e22": "record",
+    "entity_f7a6ec10e0baae01c21e": "resolved",
+    "entity_a40dabe251c0a4fd32be": "record",
+    "entity_b465b58bef4ea8c4a740": "record",
+    "entity_032979a845ae2eaf8ac4": "record",
+    "entity_558ddff283e104060674": "resolved",
+    "entity_01cf9da64bc6eb8f0b00": "record",
+    "entity_1bba77b90095714cca9b": "resolved",
+    "entity_3c17ab1ff97b0c579505": "resolved",
+    "entity_02e6660e3f43ef68546d": "resolved",
+    "entity_fa46babc63de204b50c3": "resolved",
+    "entity_4e1fdb793f5f4619a854": "record"
+  },
+  "round": 2,
+  "batches": {
+    "1": {
+      "tasks": [
+        {
+          "task_id": "align_d822becd24ef89716ae4",
+          "source_cluster": {
+            "entity_id": "entity_081d82ba6ded76a3f3c0",
+            "representative_member_id": "m_9ba060039c93d3df574c",
+            "type": "Actor",
+            "name": "刘晗梦",
+            "names": [
+              "刘晗梦"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "guided_by",
+                "neighbor_entity_id": "entity_ddf2e1cdf4fde01524b0",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "林硕锦"
+                ],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_475522a3889c565df599",
+                "quote": "",
+                "locator": {
+                  "section": [],
+                  "table": 1,
+                  "row_start": 2,
+                  "row_end": 10
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_081d82ba6ded76a3f3c0",
+          "candidates": [
+            {
+              "entity_id": "entity_d6ab538e75f8d6ff04e6",
+              "representative_member_id": "m_b13e7fb4a1d09909e4cf",
+              "type": "Actor",
+              "name": "刘晗梦",
+              "names": [
+                "刘晗梦"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "advises",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_e32f8410f546861e7481"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_e32f8410f546861e7481",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "paragraph_start": 2,
+                    "paragraph_end": 7,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_279be6571fa3ce915aa3",
+          "source_cluster": {
+            "entity_id": "entity_0b65e4a72ce18f9ad3cd",
+            "representative_member_id": "m_561bc92b9cfafa682b3e",
+            "type": "Actor",
+            "name": "“知行秦川，梦启今夏”支教团",
+            "names": [
+              "“知行秦川，梦启今夏”支教团"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "belongs_to",
+                "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "英仔爱心社"
+                ],
+                "evidence_ids": [
+                  "ev_d28e248a46bed3c660bb"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "received_award",
+                "neighbor_entity_id": "entity_c898f08619bec4b4d982",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "2024年度“榜样100”全国优秀大学生团队"
+                ],
+                "evidence_ids": [
+                  "ev_d28e248a46bed3c660bb"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_d28e248a46bed3c660bb",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "未来展望",
+                    "附件："
+                  ],
+                  "paragraph_start": 184,
+                  "paragraph_end": 186,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_0b65e4a72ce18f9ad3cd",
+          "candidates": [
+            {
+              "entity_id": "entity_512e4570f6cead1f0240",
+              "representative_member_id": "m_846dada885ec7c771f6d",
+              "type": "Actor",
+              "name": "知行秦川，梦启今夏支教团",
+              "names": [
+                "知行秦川，梦启今夏支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_fdfefb9e563868bbd047"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_3a201247676549164ade",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+                  ],
+                  "evidence_ids": [
+                    "ev_fdfefb9e563868bbd047"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_fdfefb9e563868bbd047",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 196,
+                    "paragraph_end": 198,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_fa46babc63de204b50c3",
+              "representative_member_id": "m_f33383f988357a5ec81d",
+              "type": "Actor",
+              "name": "梦绽格桑原，玉树支教团",
+              "names": [
+                "梦绽格桑原，玉树支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_454b6d2381656e795cdd"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_b63139f988a380894db8",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "榜样100全国优秀大学生团队"
+                  ],
+                  "evidence_ids": [
+                    "ev_454b6d2381656e795cdd"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_454b6d2381656e795cdd",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 188,
+                    "paragraph_end": 190,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_39ada59367b8eaa40284",
+          "source_cluster": {
+            "entity_id": "entity_4428edf67ba781ac05f0",
+            "representative_member_id": "m_4682d1ed951696d3741c",
+            "type": "DataAsset",
+            "name": "英仔爱心社抖音账号",
+            "names": [
+              "英仔爱心社",
+              "英仔爱心社抖音账号"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_6f0dc8e32be941274e9e",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 21,
+                  "paragraph_end": 22,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_4428edf67ba781ac05f0",
+          "candidates": [
+            {
+              "entity_id": "entity_4511fc462aa8f97fdf81",
+              "representative_member_id": "m_1a29baa07c9500667778",
+              "type": "DataAsset",
+              "name": "xjtu英仔爱心社官方",
+              "names": [
+                "xjtu英仔爱心社官方"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_bb40445460c1c8ec5977",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 13,
+                    "paragraph_end": 18,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_73fa86da825c8eb0d43d",
+              "representative_member_id": "m_64757cf5afc7b5655110",
+              "type": "DataAsset",
+              "name": "英仔爱心社公众号",
+              "names": [
+                "英仔爱心社公众号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "获媒体报道",
+                  "neighbor_entity_id": "entity_c3144251cf9d9109cba1",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "交大新闻网"
+                  ],
+                  "evidence_ids": [
+                    "ev_bb40445460c1c8ec5977"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "获媒体报道",
+                  "neighbor_entity_id": "entity_91ff357714cd23696bf1",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "交大团委"
+                  ],
+                  "evidence_ids": [
+                    "ev_bb40445460c1c8ec5977"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_bb40445460c1c8ec5977",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 13,
+                    "paragraph_end": 18,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_0d076f3a8b5b873e9ce1",
+          "source_cluster": {
+            "entity_id": "entity_4511fc462aa8f97fdf81",
+            "representative_member_id": "m_1a29baa07c9500667778",
+            "type": "DataAsset",
+            "name": "xjtu英仔爱心社官方",
+            "names": [
+              "xjtu英仔爱心社官方"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_bb40445460c1c8ec5977",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 13,
+                  "paragraph_end": 18,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_4511fc462aa8f97fdf81",
+          "candidates": [
+            {
+              "entity_id": "entity_4428edf67ba781ac05f0",
+              "representative_member_id": "m_4682d1ed951696d3741c",
+              "type": "DataAsset",
+              "name": "英仔爱心社抖音账号",
+              "names": [
+                "英仔爱心社",
+                "英仔爱心社抖音账号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_6f0dc8e32be941274e9e",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 21,
+                    "paragraph_end": 22,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_fe93c2a239d3d933e1e1",
+          "source_cluster": {
+            "entity_id": "entity_512e4570f6cead1f0240",
+            "representative_member_id": "m_846dada885ec7c771f6d",
+            "type": "Actor",
+            "name": "知行秦川，梦启今夏支教团",
+            "names": [
+              "知行秦川，梦启今夏支教团"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "belongs_to",
+                "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "英仔爱心社"
+                ],
+                "evidence_ids": [
+                  "ev_fdfefb9e563868bbd047"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "received_award",
+                "neighbor_entity_id": "entity_3a201247676549164ade",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+                ],
+                "evidence_ids": [
+                  "ev_fdfefb9e563868bbd047"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_fdfefb9e563868bbd047",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "未来展望",
+                    "附件："
+                  ],
+                  "paragraph_start": 196,
+                  "paragraph_end": 198,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_512e4570f6cead1f0240",
+          "candidates": [
+            {
+              "entity_id": "entity_0b65e4a72ce18f9ad3cd",
+              "representative_member_id": "m_561bc92b9cfafa682b3e",
+              "type": "Actor",
+              "name": "“知行秦川，梦启今夏”支教团",
+              "names": [
+                "“知行秦川，梦启今夏”支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_d28e248a46bed3c660bb"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_c898f08619bec4b4d982",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2024年度“榜样100”全国优秀大学生团队"
+                  ],
+                  "evidence_ids": [
+                    "ev_d28e248a46bed3c660bb"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_d28e248a46bed3c660bb",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 184,
+                    "paragraph_end": 186,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_fa46babc63de204b50c3",
+              "representative_member_id": "m_f33383f988357a5ec81d",
+              "type": "Actor",
+              "name": "梦绽格桑原，玉树支教团",
+              "names": [
+                "梦绽格桑原，玉树支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_454b6d2381656e795cdd"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_b63139f988a380894db8",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "榜样100全国优秀大学生团队"
+                  ],
+                  "evidence_ids": [
+                    "ev_454b6d2381656e795cdd"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_454b6d2381656e795cdd",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 188,
+                    "paragraph_end": 190,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_5046bfe3fbb30af5e4b6",
+          "source_cluster": {
+            "entity_id": "entity_73fa86da825c8eb0d43d",
+            "representative_member_id": "m_64757cf5afc7b5655110",
+            "type": "DataAsset",
+            "name": "英仔爱心社公众号",
+            "names": [
+              "英仔爱心社公众号"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "获媒体报道",
+                "neighbor_entity_id": "entity_c3144251cf9d9109cba1",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "交大新闻网"
+                ],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "获媒体报道",
+                "neighbor_entity_id": "entity_91ff357714cd23696bf1",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "交大团委"
+                ],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_bb40445460c1c8ec5977",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 13,
+                  "paragraph_end": 18,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_73fa86da825c8eb0d43d",
+          "candidates": [
+            {
+              "entity_id": "entity_4428edf67ba781ac05f0",
+              "representative_member_id": "m_4682d1ed951696d3741c",
+              "type": "DataAsset",
+              "name": "英仔爱心社抖音账号",
+              "names": [
+                "英仔爱心社",
+                "英仔爱心社抖音账号"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_containment",
+                "name_tokens"
+              ],
+              "relation_context": [],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_6f0dc8e32be941274e9e",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 21,
+                    "paragraph_end": 22,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_360b49ef5e598867df9f",
+          "source_cluster": {
+            "entity_id": "entity_91ff357714cd23696bf1",
+            "representative_member_id": "m_038c7dd9ee38b23f3052",
+            "type": "Actor",
+            "name": "交大团委",
+            "names": [
+              "交大团委"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "获媒体报道",
+                "neighbor_entity_id": "entity_73fa86da825c8eb0d43d",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "英仔爱心社公众号"
+                ],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_bb40445460c1c8ec5977",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 13,
+                  "paragraph_end": 18,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_91ff357714cd23696bf1",
+          "candidates": [
+            {
+              "entity_id": "entity_c3144251cf9d9109cba1",
+              "representative_member_id": "m_77ab92127bacbbc86e81",
+              "type": "Actor",
+              "name": "交大新闻网",
+              "names": [
+                "交大新闻网"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "获媒体报道",
+                  "neighbor_entity_id": "entity_73fa86da825c8eb0d43d",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "英仔爱心社公众号"
+                  ],
+                  "evidence_ids": [
+                    "ev_bb40445460c1c8ec5977"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_bb40445460c1c8ec5977",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 13,
+                    "paragraph_end": 18,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_d04220d78980d3a050de",
+          "source_cluster": {
+            "entity_id": "entity_c3144251cf9d9109cba1",
+            "representative_member_id": "m_77ab92127bacbbc86e81",
+            "type": "Actor",
+            "name": "交大新闻网",
+            "names": [
+              "交大新闻网"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "in",
+                "predicate": "获媒体报道",
+                "neighbor_entity_id": "entity_73fa86da825c8eb0d43d",
+                "neighbor_type": "DataAsset",
+                "neighbor_names": [
+                  "英仔爱心社公众号"
+                ],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_bb40445460c1c8ec5977",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "社团运营情况",
+                    "社团新媒体平台运营情况",
+                    "新媒体平台建设主要成果"
+                  ],
+                  "paragraph_start": 13,
+                  "paragraph_end": 18,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_c3144251cf9d9109cba1",
+          "candidates": [
+            {
+              "entity_id": "entity_91ff357714cd23696bf1",
+              "representative_member_id": "m_038c7dd9ee38b23f3052",
+              "type": "Actor",
+              "name": "交大团委",
+              "names": [
+                "交大团委"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "获媒体报道",
+                  "neighbor_entity_id": "entity_73fa86da825c8eb0d43d",
+                  "neighbor_type": "DataAsset",
+                  "neighbor_names": [
+                    "英仔爱心社公众号"
+                  ],
+                  "evidence_ids": [
+                    "ev_bb40445460c1c8ec5977"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_bb40445460c1c8ec5977",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "社团运营情况",
+                      "社团新媒体平台运营情况",
+                      "新媒体平台建设主要成果"
+                    ],
+                    "paragraph_start": 13,
+                    "paragraph_end": 18,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_2e1d8c044e0457f67209",
+          "source_cluster": {
+            "entity_id": "entity_d6ab538e75f8d6ff04e6",
+            "representative_member_id": "m_b13e7fb4a1d09909e4cf",
+            "type": "Actor",
+            "name": "刘晗梦",
+            "names": [
+              "刘晗梦"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "advises",
+                "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "英仔爱心社"
+                ],
+                "evidence_ids": [
+                  "ev_e32f8410f546861e7481"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_e32f8410f546861e7481",
+                "quote": "",
+                "locator": {
+                  "section": [],
+                  "paragraph_start": 2,
+                  "paragraph_end": 7,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_d6ab538e75f8d6ff04e6",
+          "candidates": [
+            {
+              "entity_id": "entity_081d82ba6ded76a3f3c0",
+              "representative_member_id": "m_9ba060039c93d3df574c",
+              "type": "Actor",
+              "name": "刘晗梦",
+              "names": [
+                "刘晗梦"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_or_alias",
+                "name_tokens"
+              ],
+              "relation_context": [
+                {
+                  "direction": "in",
+                  "predicate": "guided_by",
+                  "neighbor_entity_id": "entity_ddf2e1cdf4fde01524b0",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "林硕锦"
+                  ],
+                  "evidence_ids": [
+                    "ev_475522a3889c565df599"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_475522a3889c565df599",
+                  "quote": "",
+                  "locator": {
+                    "section": [],
+                    "table": 1,
+                    "row_start": 2,
+                    "row_end": 10
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        },
+        {
+          "task_id": "align_258863d5de2009651820",
+          "source_cluster": {
+            "entity_id": "entity_fa46babc63de204b50c3",
+            "representative_member_id": "m_f33383f988357a5ec81d",
+            "type": "Actor",
+            "name": "梦绽格桑原，玉树支教团",
+            "names": [
+              "梦绽格桑原，玉树支教团"
+            ],
+            "member_count": 1,
+            "identifiers": [],
+            "attributes": {},
+            "signals": [],
+            "relation_context": [
+              {
+                "direction": "out",
+                "predicate": "belongs_to",
+                "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                "neighbor_type": "Actor",
+                "neighbor_names": [
+                  "英仔爱心社"
+                ],
+                "evidence_ids": [
+                  "ev_454b6d2381656e795cdd"
+                ]
+              },
+              {
+                "direction": "out",
+                "predicate": "received_award",
+                "neighbor_entity_id": "entity_b63139f988a380894db8",
+                "neighbor_type": "Event",
+                "neighbor_names": [
+                  "榜样100全国优秀大学生团队"
+                ],
+                "evidence_ids": [
+                  "ev_454b6d2381656e795cdd"
+                ]
+              }
+            ],
+            "evidence_examples": [
+              {
+                "evidence_id": "ev_454b6d2381656e795cdd",
+                "quote": "",
+                "locator": {
+                  "section": [
+                    "未来展望",
+                    "附件："
+                  ],
+                  "paragraph_start": 188,
+                  "paragraph_end": 190,
+                  "precision": "source_xml_blocks"
+                }
+              }
+            ]
+          },
+          "current_entity_id": "entity_fa46babc63de204b50c3",
+          "candidates": [
+            {
+              "entity_id": "entity_0b65e4a72ce18f9ad3cd",
+              "representative_member_id": "m_561bc92b9cfafa682b3e",
+              "type": "Actor",
+              "name": "“知行秦川，梦启今夏”支教团",
+              "names": [
+                "“知行秦川，梦启今夏”支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_d28e248a46bed3c660bb"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_c898f08619bec4b4d982",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "2024年度“榜样100”全国优秀大学生团队"
+                  ],
+                  "evidence_ids": [
+                    "ev_d28e248a46bed3c660bb"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_d28e248a46bed3c660bb",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 184,
+                    "paragraph_end": 186,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            },
+            {
+              "entity_id": "entity_512e4570f6cead1f0240",
+              "representative_member_id": "m_846dada885ec7c771f6d",
+              "type": "Actor",
+              "name": "知行秦川，梦启今夏支教团",
+              "names": [
+                "知行秦川，梦启今夏支教团"
+              ],
+              "member_count": 1,
+              "identifiers": [],
+              "attributes": {},
+              "signals": [
+                "name_tokens",
+                "confirmed_neighbor"
+              ],
+              "relation_context": [
+                {
+                  "direction": "out",
+                  "predicate": "belongs_to",
+                  "neighbor_entity_id": "entity_c1544839fa5301c8ebb5",
+                  "neighbor_type": "Actor",
+                  "neighbor_names": [
+                    "英仔爱心社"
+                  ],
+                  "evidence_ids": [
+                    "ev_fdfefb9e563868bbd047"
+                  ]
+                },
+                {
+                  "direction": "out",
+                  "predicate": "received_award",
+                  "neighbor_entity_id": "entity_3a201247676549164ade",
+                  "neighbor_type": "Event",
+                  "neighbor_names": [
+                    "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+                  ],
+                  "evidence_ids": [
+                    "ev_fdfefb9e563868bbd047"
+                  ]
+                }
+              ],
+              "evidence_examples": [
+                {
+                  "evidence_id": "ev_fdfefb9e563868bbd047",
+                  "quote": "",
+                  "locator": {
+                    "section": [
+                      "未来展望",
+                      "附件："
+                    ],
+                    "paragraph_start": 196,
+                    "paragraph_end": 198,
+                    "precision": "source_xml_blocks"
+                  }
+                }
+              ]
+            }
+          ],
+          "candidates_truncated": false,
+          "decision_policy": "Return only candidate entity_id, NEW_ENTITY or UNCERTAIN. Do not write explanations unless genuinely uncertain."
+        }
+      ],
+      "accepted": [
+        "align_0d076f3a8b5b873e9ce1",
+        "align_258863d5de2009651820",
+        "align_279be6571fa3ce915aa3",
+        "align_2e1d8c044e0457f67209",
+        "align_360b49ef5e598867df9f",
+        "align_39ada59367b8eaa40284",
+        "align_5046bfe3fbb30af5e4b6",
+        "align_d04220d78980d3a050de",
+        "align_d822becd24ef89716ae4",
+        "align_fe93c2a239d3d933e1e1"
+      ],
+      "merged": true,
+      "deferred": [
+        "entity_02e6660e3f43ef68546d",
+        "entity_059d05d4673f3751082d",
+        "entity_1bba77b90095714cca9b",
+        "entity_2c9d39286e387ca20c30",
+        "entity_3c17ab1ff97b0c579505",
+        "entity_3ed369f10ebce4490f0d",
+        "entity_535c07f28d5a083b0d38",
+        "entity_558ddff283e104060674",
+        "entity_8660272abe757a060d72",
+        "entity_9bd051c73ac2c47adff0",
+        "entity_9c315232e08c70e334ab",
+        "entity_a3beae964404af207e2a",
+        "entity_aa39d756b940f814364f",
+        "entity_be2b1c2af1970733dc7a",
+        "entity_c1544839fa5301c8ebb5",
+        "entity_c4f35a9eaf165504c375",
+        "entity_ddf2e1cdf4fde01524b0",
+        "entity_e90813f20ed650bbdd46",
+        "entity_f7a6ec10e0baae01c21e",
+        "entity_fe5b3bd9a8e16b41ccdd"
+      ],
+      "snapshot": {
+        "mapping": {
+          "m_025b3213f4e4a3ef473d": "entity_0dbd1f04968b9ff29611",
+          "m_038c7dd9ee38b23f3052": "entity_91ff357714cd23696bf1",
+          "m_0ddd403a4431c2aa14fa": "entity_c1544839fa5301c8ebb5",
+          "m_12483a4ba7aedaf15cab": "entity_c1544839fa5301c8ebb5",
+          "m_166a584f1b9230ea118d": "entity_c898f08619bec4b4d982",
+          "m_1a29baa07c9500667778": "entity_4511fc462aa8f97fdf81",
+          "m_1dd227ac2377bfd7c345": "entity_3ed369f10ebce4490f0d",
+          "m_1e0b9bfdf51e91f95101": "entity_9c315232e08c70e334ab",
+          "m_1e3faef2f0ddcee024e5": "entity_fe5b3bd9a8e16b41ccdd",
+          "m_1f0cdf646dd58271d3c1": "entity_4b41da42c6fd559049dc",
+          "m_217f1443a58bc1c5ccca": "entity_c1544839fa5301c8ebb5",
+          "m_21a095cd841b98ba2b9f": "entity_535c07f28d5a083b0d38",
+          "m_2d0a6b67020c27e14adf": "entity_2c9d39286e387ca20c30",
+          "m_2d611a3288b35679adaa": "entity_7a0f87a29fe405b23180",
+          "m_2dab5b5225f811656386": "entity_c1544839fa5301c8ebb5",
+          "m_3ed6a4e3716f59e137bc": "entity_2b1773d94017bfe1bc5d",
+          "m_408c5ce0a3a75337caad": "entity_b63139f988a380894db8",
+          "m_41d3925e08059dcdb932": "entity_5b0350f597cf52bd1325",
+          "m_4592344581e960793809": "entity_327eb0542666ba2fda6d",
+          "m_4682d1ed951696d3741c": "entity_4428edf67ba781ac05f0",
+          "m_4928d408ae0c9634f1d7": "entity_9bd051c73ac2c47adff0",
+          "m_4e1be0cf1a95c2b57572": "entity_be2b1c2af1970733dc7a",
+          "m_50c6c77170dc93445f42": "entity_1f8202f610a0ffc70efd",
+          "m_51770653cf1ab55e248c": "entity_059d05d4673f3751082d",
+          "m_523fd5241429306e1426": "entity_c4f35a9eaf165504c375",
+          "m_556b2934045200f2a617": "entity_e039de583c1c5ede0e19",
+          "m_561bc92b9cfafa682b3e": "entity_0b65e4a72ce18f9ad3cd",
+          "m_6050eca21b3cd6ccda5f": "entity_a6a856e188d158d9661f",
+          "m_64757cf5afc7b5655110": "entity_73fa86da825c8eb0d43d",
+          "m_6bebecee387165e4e6e4": "entity_9cb644d43f8c36fef933",
+          "m_6cc27c38b9b40ac9f8df": "entity_97b894f8416d91dc6815",
+          "m_6ea286d6702aa4b0a3c5": "entity_c1544839fa5301c8ebb5",
+          "m_71ef8fee0c8d18479b47": "entity_c7c60a7e1b2b6fe33f18",
+          "m_77ab92127bacbbc86e81": "entity_c3144251cf9d9109cba1",
+          "m_77ba0422d664a9091018": "entity_37a97606f519dcbd1fbb",
+          "m_7a3958b993da97415c63": "entity_eeda1d52901f0d0a0d70",
+          "m_7a7faafe734614f66a3c": "entity_783fb8a3d8ef3df0c5f5",
+          "m_7de2cdf5897776688fde": "entity_6aa9789b0549b5f95a62",
+          "m_7fd0b252db2f1ce7ce7d": "entity_3a201247676549164ade",
+          "m_82061628808aca9fc366": "entity_af91b189deb6f1c69d66",
+          "m_8370796f05ea5ef43d18": "entity_2b269da87d78c93824be",
+          "m_83d7fd43bb1070ea02e0": "entity_c1544839fa5301c8ebb5",
+          "m_846dada885ec7c771f6d": "entity_512e4570f6cead1f0240",
+          "m_85801bc05c72b98a0901": "entity_f16607902b64bad26930",
+          "m_8903fa6cb31f12e04ad6": "entity_aa39d756b940f814364f",
+          "m_8cf2f48efc91c7aa3421": "entity_04525dd1b55d21b144e2",
+          "m_93ed3806a282cacf563f": "entity_97dee8135640a6a4f33e",
+          "m_9a83f8e4f6760fc44cbb": "entity_e90813f20ed650bbdd46",
+          "m_9ba060039c93d3df574c": "entity_081d82ba6ded76a3f3c0",
+          "m_9d037e07466e195a546a": "entity_93b286f754fe8600a973",
+          "m_9d04770de75ddc73f01e": "entity_ddf2e1cdf4fde01524b0",
+          "m_9f67b40fbb3cf1081758": "entity_8660272abe757a060d72",
+          "m_a469977a059373d559e4": "entity_a3beae964404af207e2a",
+          "m_abea3ac74536c3b0996b": "entity_a5bbf2dfc50f117cc6c5",
+          "m_b13e7fb4a1d09909e4cf": "entity_d6ab538e75f8d6ff04e6",
+          "m_bb98a6a656ad96cd1d2e": "entity_52710a52671c55e67ef1",
+          "m_bb9e8088e01a2766c4b7": "entity_325c627b93e04d455e22",
+          "m_bc55616141a23a92ce4c": "entity_f7a6ec10e0baae01c21e",
+          "m_bf204ed9e02f2e0f7a94": "entity_c1544839fa5301c8ebb5",
+          "m_c30bc53f050ffdbb8249": "entity_a40dabe251c0a4fd32be",
+          "m_c81df4da0d4d5e7652bd": "entity_b465b58bef4ea8c4a740",
+          "m_c9dc2bdc24f765800187": "entity_a3beae964404af207e2a",
+          "m_ce0eb57b1bb63b990c50": "entity_032979a845ae2eaf8ac4",
+          "m_ce28b8ed317a68ca7478": "entity_558ddff283e104060674",
+          "m_d35a27151040cadab788": "entity_01cf9da64bc6eb8f0b00",
+          "m_db99ed5d98b51d54dbda": "entity_1bba77b90095714cca9b",
+          "m_eb15e0f7759b0129783c": "entity_3c17ab1ff97b0c579505",
+          "m_eb402f9f5ebf507d3a7b": "entity_c1544839fa5301c8ebb5",
+          "m_f1be9c1d64c6b598f316": "entity_02e6660e3f43ef68546d",
+          "m_f1f03a22482482877345": "entity_c1544839fa5301c8ebb5",
+          "m_f33383f988357a5ec81d": "entity_fa46babc63de204b50c3",
+          "m_f88179b731297a3f5281": "entity_4e1fdb793f5f4619a854"
+        },
+        "clusters": {
+          "entity_0dbd1f04968b9ff29611": [
+            "m_025b3213f4e4a3ef473d"
+          ],
+          "entity_91ff357714cd23696bf1": [
+            "m_038c7dd9ee38b23f3052"
+          ],
+          "entity_c1544839fa5301c8ebb5": [
+            "m_0ddd403a4431c2aa14fa",
+            "m_12483a4ba7aedaf15cab",
+            "m_217f1443a58bc1c5ccca",
+            "m_2dab5b5225f811656386",
+            "m_6ea286d6702aa4b0a3c5",
+            "m_83d7fd43bb1070ea02e0",
+            "m_bf204ed9e02f2e0f7a94",
+            "m_eb402f9f5ebf507d3a7b",
+            "m_f1f03a22482482877345"
+          ],
+          "entity_c898f08619bec4b4d982": [
+            "m_166a584f1b9230ea118d"
+          ],
+          "entity_4511fc462aa8f97fdf81": [
+            "m_1a29baa07c9500667778"
+          ],
+          "entity_3ed369f10ebce4490f0d": [
+            "m_1dd227ac2377bfd7c345"
+          ],
+          "entity_9c315232e08c70e334ab": [
+            "m_1e0b9bfdf51e91f95101"
+          ],
+          "entity_fe5b3bd9a8e16b41ccdd": [
+            "m_1e3faef2f0ddcee024e5"
+          ],
+          "entity_4b41da42c6fd559049dc": [
+            "m_1f0cdf646dd58271d3c1"
+          ],
+          "entity_535c07f28d5a083b0d38": [
+            "m_21a095cd841b98ba2b9f"
+          ],
+          "entity_2c9d39286e387ca20c30": [
+            "m_2d0a6b67020c27e14adf"
+          ],
+          "entity_7a0f87a29fe405b23180": [
+            "m_2d611a3288b35679adaa"
+          ],
+          "entity_2b1773d94017bfe1bc5d": [
+            "m_3ed6a4e3716f59e137bc"
+          ],
+          "entity_b63139f988a380894db8": [
+            "m_408c5ce0a3a75337caad"
+          ],
+          "entity_5b0350f597cf52bd1325": [
+            "m_41d3925e08059dcdb932"
+          ],
+          "entity_327eb0542666ba2fda6d": [
+            "m_4592344581e960793809"
+          ],
+          "entity_4428edf67ba781ac05f0": [
+            "m_4682d1ed951696d3741c"
+          ],
+          "entity_9bd051c73ac2c47adff0": [
+            "m_4928d408ae0c9634f1d7"
+          ],
+          "entity_be2b1c2af1970733dc7a": [
+            "m_4e1be0cf1a95c2b57572"
+          ],
+          "entity_1f8202f610a0ffc70efd": [
+            "m_50c6c77170dc93445f42"
+          ],
+          "entity_059d05d4673f3751082d": [
+            "m_51770653cf1ab55e248c"
+          ],
+          "entity_c4f35a9eaf165504c375": [
+            "m_523fd5241429306e1426"
+          ],
+          "entity_e039de583c1c5ede0e19": [
+            "m_556b2934045200f2a617"
+          ],
+          "entity_0b65e4a72ce18f9ad3cd": [
+            "m_561bc92b9cfafa682b3e"
+          ],
+          "entity_a6a856e188d158d9661f": [
+            "m_6050eca21b3cd6ccda5f"
+          ],
+          "entity_73fa86da825c8eb0d43d": [
+            "m_64757cf5afc7b5655110"
+          ],
+          "entity_9cb644d43f8c36fef933": [
+            "m_6bebecee387165e4e6e4"
+          ],
+          "entity_97b894f8416d91dc6815": [
+            "m_6cc27c38b9b40ac9f8df"
+          ],
+          "entity_c7c60a7e1b2b6fe33f18": [
+            "m_71ef8fee0c8d18479b47"
+          ],
+          "entity_c3144251cf9d9109cba1": [
+            "m_77ab92127bacbbc86e81"
+          ],
+          "entity_37a97606f519dcbd1fbb": [
+            "m_77ba0422d664a9091018"
+          ],
+          "entity_eeda1d52901f0d0a0d70": [
+            "m_7a3958b993da97415c63"
+          ],
+          "entity_783fb8a3d8ef3df0c5f5": [
+            "m_7a7faafe734614f66a3c"
+          ],
+          "entity_6aa9789b0549b5f95a62": [
+            "m_7de2cdf5897776688fde"
+          ],
+          "entity_3a201247676549164ade": [
+            "m_7fd0b252db2f1ce7ce7d"
+          ],
+          "entity_af91b189deb6f1c69d66": [
+            "m_82061628808aca9fc366"
+          ],
+          "entity_2b269da87d78c93824be": [
+            "m_8370796f05ea5ef43d18"
+          ],
+          "entity_512e4570f6cead1f0240": [
+            "m_846dada885ec7c771f6d"
+          ],
+          "entity_f16607902b64bad26930": [
+            "m_85801bc05c72b98a0901"
+          ],
+          "entity_aa39d756b940f814364f": [
+            "m_8903fa6cb31f12e04ad6"
+          ],
+          "entity_04525dd1b55d21b144e2": [
+            "m_8cf2f48efc91c7aa3421"
+          ],
+          "entity_97dee8135640a6a4f33e": [
+            "m_93ed3806a282cacf563f"
+          ],
+          "entity_e90813f20ed650bbdd46": [
+            "m_9a83f8e4f6760fc44cbb"
+          ],
+          "entity_081d82ba6ded76a3f3c0": [
+            "m_9ba060039c93d3df574c"
+          ],
+          "entity_93b286f754fe8600a973": [
+            "m_9d037e07466e195a546a"
+          ],
+          "entity_ddf2e1cdf4fde01524b0": [
+            "m_9d04770de75ddc73f01e"
+          ],
+          "entity_8660272abe757a060d72": [
+            "m_9f67b40fbb3cf1081758"
+          ],
+          "entity_a3beae964404af207e2a": [
+            "m_a469977a059373d559e4",
+            "m_c9dc2bdc24f765800187"
+          ],
+          "entity_a5bbf2dfc50f117cc6c5": [
+            "m_abea3ac74536c3b0996b"
+          ],
+          "entity_d6ab538e75f8d6ff04e6": [
+            "m_b13e7fb4a1d09909e4cf"
+          ],
+          "entity_52710a52671c55e67ef1": [
+            "m_bb98a6a656ad96cd1d2e"
+          ],
+          "entity_325c627b93e04d455e22": [
+            "m_bb9e8088e01a2766c4b7"
+          ],
+          "entity_f7a6ec10e0baae01c21e": [
+            "m_bc55616141a23a92ce4c"
+          ],
+          "entity_a40dabe251c0a4fd32be": [
+            "m_c30bc53f050ffdbb8249"
+          ],
+          "entity_b465b58bef4ea8c4a740": [
+            "m_c81df4da0d4d5e7652bd"
+          ],
+          "entity_032979a845ae2eaf8ac4": [
+            "m_ce0eb57b1bb63b990c50"
+          ],
+          "entity_558ddff283e104060674": [
+            "m_ce28b8ed317a68ca7478"
+          ],
+          "entity_01cf9da64bc6eb8f0b00": [
+            "m_d35a27151040cadab788"
+          ],
+          "entity_1bba77b90095714cca9b": [
+            "m_db99ed5d98b51d54dbda"
+          ],
+          "entity_3c17ab1ff97b0c579505": [
+            "m_eb15e0f7759b0129783c"
+          ],
+          "entity_02e6660e3f43ef68546d": [
+            "m_f1be9c1d64c6b598f316"
+          ],
+          "entity_fa46babc63de204b50c3": [
+            "m_f33383f988357a5ec81d"
+          ],
+          "entity_4e1fdb793f5f4619a854": [
+            "m_f88179b731297a3f5281"
+          ]
+        },
+        "cluster_status": {
+          "entity_0dbd1f04968b9ff29611": "record",
+          "entity_91ff357714cd23696bf1": "active",
+          "entity_c1544839fa5301c8ebb5": "active",
+          "entity_c898f08619bec4b4d982": "record",
+          "entity_4511fc462aa8f97fdf81": "active",
+          "entity_3ed369f10ebce4490f0d": "active",
+          "entity_9c315232e08c70e334ab": "active",
+          "entity_fe5b3bd9a8e16b41ccdd": "active",
+          "entity_4b41da42c6fd559049dc": "record",
+          "entity_535c07f28d5a083b0d38": "active",
+          "entity_2c9d39286e387ca20c30": "active",
+          "entity_7a0f87a29fe405b23180": "record",
+          "entity_2b1773d94017bfe1bc5d": "record",
+          "entity_b63139f988a380894db8": "record",
+          "entity_5b0350f597cf52bd1325": "record",
+          "entity_327eb0542666ba2fda6d": "record",
+          "entity_4428edf67ba781ac05f0": "active",
+          "entity_9bd051c73ac2c47adff0": "active",
+          "entity_be2b1c2af1970733dc7a": "active",
+          "entity_1f8202f610a0ffc70efd": "record",
+          "entity_059d05d4673f3751082d": "active",
+          "entity_c4f35a9eaf165504c375": "active",
+          "entity_e039de583c1c5ede0e19": "record",
+          "entity_0b65e4a72ce18f9ad3cd": "active",
+          "entity_a6a856e188d158d9661f": "record",
+          "entity_73fa86da825c8eb0d43d": "active",
+          "entity_9cb644d43f8c36fef933": "record",
+          "entity_97b894f8416d91dc6815": "record",
+          "entity_c7c60a7e1b2b6fe33f18": "record",
+          "entity_c3144251cf9d9109cba1": "active",
+          "entity_37a97606f519dcbd1fbb": "record",
+          "entity_eeda1d52901f0d0a0d70": "record",
+          "entity_783fb8a3d8ef3df0c5f5": "record",
+          "entity_6aa9789b0549b5f95a62": "record",
+          "entity_3a201247676549164ade": "record",
+          "entity_af91b189deb6f1c69d66": "record",
+          "entity_2b269da87d78c93824be": "record",
+          "entity_512e4570f6cead1f0240": "active",
+          "entity_f16607902b64bad26930": "record",
+          "entity_aa39d756b940f814364f": "active",
+          "entity_04525dd1b55d21b144e2": "record",
+          "entity_97dee8135640a6a4f33e": "record",
+          "entity_e90813f20ed650bbdd46": "active",
+          "entity_081d82ba6ded76a3f3c0": "active",
+          "entity_93b286f754fe8600a973": "record",
+          "entity_ddf2e1cdf4fde01524b0": "active",
+          "entity_8660272abe757a060d72": "active",
+          "entity_a3beae964404af207e2a": "active",
+          "entity_a5bbf2dfc50f117cc6c5": "record",
+          "entity_d6ab538e75f8d6ff04e6": "active",
+          "entity_52710a52671c55e67ef1": "record",
+          "entity_325c627b93e04d455e22": "record",
+          "entity_f7a6ec10e0baae01c21e": "active",
+          "entity_a40dabe251c0a4fd32be": "record",
+          "entity_b465b58bef4ea8c4a740": "record",
+          "entity_032979a845ae2eaf8ac4": "record",
+          "entity_558ddff283e104060674": "active",
+          "entity_01cf9da64bc6eb8f0b00": "record",
+          "entity_1bba77b90095714cca9b": "active",
+          "entity_3c17ab1ff97b0c579505": "active",
+          "entity_02e6660e3f43ef68546d": "active",
+          "entity_fa46babc63de204b50c3": "active",
+          "entity_4e1fdb793f5f4619a854": "record"
+        }
+      }
+    },
+    "2": {
+      "tasks": [],
+      "accepted": [],
+      "merged": false,
+      "deferred": [
+        "entity_02e6660e3f43ef68546d",
+        "entity_059d05d4673f3751082d",
+        "entity_1bba77b90095714cca9b",
+        "entity_2c9d39286e387ca20c30",
+        "entity_3c17ab1ff97b0c579505",
+        "entity_3ed369f10ebce4490f0d",
+        "entity_535c07f28d5a083b0d38",
+        "entity_558ddff283e104060674",
+        "entity_8660272abe757a060d72",
+        "entity_9bd051c73ac2c47adff0",
+        "entity_9c315232e08c70e334ab",
+        "entity_a3beae964404af207e2a",
+        "entity_aa39d756b940f814364f",
+        "entity_be2b1c2af1970733dc7a",
+        "entity_c1544839fa5301c8ebb5",
+        "entity_c4f35a9eaf165504c375",
+        "entity_ddf2e1cdf4fde01524b0",
+        "entity_e90813f20ed650bbdd46",
+        "entity_f7a6ec10e0baae01c21e",
+        "entity_fe5b3bd9a8e16b41ccdd"
+      ],
+      "snapshot": {
+        "mapping": {
+          "m_025b3213f4e4a3ef473d": "entity_0dbd1f04968b9ff29611",
+          "m_038c7dd9ee38b23f3052": "entity_91ff357714cd23696bf1",
+          "m_0ddd403a4431c2aa14fa": "entity_c1544839fa5301c8ebb5",
+          "m_12483a4ba7aedaf15cab": "entity_c1544839fa5301c8ebb5",
+          "m_166a584f1b9230ea118d": "entity_c898f08619bec4b4d982",
+          "m_1a29baa07c9500667778": "entity_4511fc462aa8f97fdf81",
+          "m_1dd227ac2377bfd7c345": "entity_3ed369f10ebce4490f0d",
+          "m_1e0b9bfdf51e91f95101": "entity_9c315232e08c70e334ab",
+          "m_1e3faef2f0ddcee024e5": "entity_fe5b3bd9a8e16b41ccdd",
+          "m_1f0cdf646dd58271d3c1": "entity_4b41da42c6fd559049dc",
+          "m_217f1443a58bc1c5ccca": "entity_c1544839fa5301c8ebb5",
+          "m_21a095cd841b98ba2b9f": "entity_535c07f28d5a083b0d38",
+          "m_2d0a6b67020c27e14adf": "entity_2c9d39286e387ca20c30",
+          "m_2d611a3288b35679adaa": "entity_7a0f87a29fe405b23180",
+          "m_2dab5b5225f811656386": "entity_c1544839fa5301c8ebb5",
+          "m_3ed6a4e3716f59e137bc": "entity_2b1773d94017bfe1bc5d",
+          "m_408c5ce0a3a75337caad": "entity_b63139f988a380894db8",
+          "m_41d3925e08059dcdb932": "entity_5b0350f597cf52bd1325",
+          "m_4592344581e960793809": "entity_327eb0542666ba2fda6d",
+          "m_4682d1ed951696d3741c": "entity_4511fc462aa8f97fdf81",
+          "m_4928d408ae0c9634f1d7": "entity_9bd051c73ac2c47adff0",
+          "m_4e1be0cf1a95c2b57572": "entity_be2b1c2af1970733dc7a",
+          "m_50c6c77170dc93445f42": "entity_1f8202f610a0ffc70efd",
+          "m_51770653cf1ab55e248c": "entity_059d05d4673f3751082d",
+          "m_523fd5241429306e1426": "entity_c4f35a9eaf165504c375",
+          "m_556b2934045200f2a617": "entity_e039de583c1c5ede0e19",
+          "m_561bc92b9cfafa682b3e": "entity_512e4570f6cead1f0240",
+          "m_6050eca21b3cd6ccda5f": "entity_a6a856e188d158d9661f",
+          "m_64757cf5afc7b5655110": "entity_73fa86da825c8eb0d43d",
+          "m_6bebecee387165e4e6e4": "entity_9cb644d43f8c36fef933",
+          "m_6cc27c38b9b40ac9f8df": "entity_97b894f8416d91dc6815",
+          "m_6ea286d6702aa4b0a3c5": "entity_c1544839fa5301c8ebb5",
+          "m_71ef8fee0c8d18479b47": "entity_c7c60a7e1b2b6fe33f18",
+          "m_77ab92127bacbbc86e81": "entity_c3144251cf9d9109cba1",
+          "m_77ba0422d664a9091018": "entity_37a97606f519dcbd1fbb",
+          "m_7a3958b993da97415c63": "entity_eeda1d52901f0d0a0d70",
+          "m_7a7faafe734614f66a3c": "entity_783fb8a3d8ef3df0c5f5",
+          "m_7de2cdf5897776688fde": "entity_6aa9789b0549b5f95a62",
+          "m_7fd0b252db2f1ce7ce7d": "entity_3a201247676549164ade",
+          "m_82061628808aca9fc366": "entity_af91b189deb6f1c69d66",
+          "m_8370796f05ea5ef43d18": "entity_2b269da87d78c93824be",
+          "m_83d7fd43bb1070ea02e0": "entity_c1544839fa5301c8ebb5",
+          "m_846dada885ec7c771f6d": "entity_512e4570f6cead1f0240",
+          "m_85801bc05c72b98a0901": "entity_f16607902b64bad26930",
+          "m_8903fa6cb31f12e04ad6": "entity_aa39d756b940f814364f",
+          "m_8cf2f48efc91c7aa3421": "entity_04525dd1b55d21b144e2",
+          "m_93ed3806a282cacf563f": "entity_97dee8135640a6a4f33e",
+          "m_9a83f8e4f6760fc44cbb": "entity_e90813f20ed650bbdd46",
+          "m_9ba060039c93d3df574c": "entity_081d82ba6ded76a3f3c0",
+          "m_9d037e07466e195a546a": "entity_93b286f754fe8600a973",
+          "m_9d04770de75ddc73f01e": "entity_ddf2e1cdf4fde01524b0",
+          "m_9f67b40fbb3cf1081758": "entity_8660272abe757a060d72",
+          "m_a469977a059373d559e4": "entity_a3beae964404af207e2a",
+          "m_abea3ac74536c3b0996b": "entity_a5bbf2dfc50f117cc6c5",
+          "m_b13e7fb4a1d09909e4cf": "entity_081d82ba6ded76a3f3c0",
+          "m_bb98a6a656ad96cd1d2e": "entity_52710a52671c55e67ef1",
+          "m_bb9e8088e01a2766c4b7": "entity_325c627b93e04d455e22",
+          "m_bc55616141a23a92ce4c": "entity_f7a6ec10e0baae01c21e",
+          "m_bf204ed9e02f2e0f7a94": "entity_c1544839fa5301c8ebb5",
+          "m_c30bc53f050ffdbb8249": "entity_a40dabe251c0a4fd32be",
+          "m_c81df4da0d4d5e7652bd": "entity_b465b58bef4ea8c4a740",
+          "m_c9dc2bdc24f765800187": "entity_a3beae964404af207e2a",
+          "m_ce0eb57b1bb63b990c50": "entity_032979a845ae2eaf8ac4",
+          "m_ce28b8ed317a68ca7478": "entity_558ddff283e104060674",
+          "m_d35a27151040cadab788": "entity_01cf9da64bc6eb8f0b00",
+          "m_db99ed5d98b51d54dbda": "entity_1bba77b90095714cca9b",
+          "m_eb15e0f7759b0129783c": "entity_3c17ab1ff97b0c579505",
+          "m_eb402f9f5ebf507d3a7b": "entity_c1544839fa5301c8ebb5",
+          "m_f1be9c1d64c6b598f316": "entity_02e6660e3f43ef68546d",
+          "m_f1f03a22482482877345": "entity_c1544839fa5301c8ebb5",
+          "m_f33383f988357a5ec81d": "entity_fa46babc63de204b50c3",
+          "m_f88179b731297a3f5281": "entity_4e1fdb793f5f4619a854"
+        },
+        "clusters": {
+          "entity_0dbd1f04968b9ff29611": [
+            "m_025b3213f4e4a3ef473d"
+          ],
+          "entity_91ff357714cd23696bf1": [
+            "m_038c7dd9ee38b23f3052"
+          ],
+          "entity_c1544839fa5301c8ebb5": [
+            "m_0ddd403a4431c2aa14fa",
+            "m_12483a4ba7aedaf15cab",
+            "m_217f1443a58bc1c5ccca",
+            "m_2dab5b5225f811656386",
+            "m_6ea286d6702aa4b0a3c5",
+            "m_83d7fd43bb1070ea02e0",
+            "m_bf204ed9e02f2e0f7a94",
+            "m_eb402f9f5ebf507d3a7b",
+            "m_f1f03a22482482877345"
+          ],
+          "entity_c898f08619bec4b4d982": [
+            "m_166a584f1b9230ea118d"
+          ],
+          "entity_4511fc462aa8f97fdf81": [
+            "m_1a29baa07c9500667778",
+            "m_4682d1ed951696d3741c"
+          ],
+          "entity_3ed369f10ebce4490f0d": [
+            "m_1dd227ac2377bfd7c345"
+          ],
+          "entity_9c315232e08c70e334ab": [
+            "m_1e0b9bfdf51e91f95101"
+          ],
+          "entity_fe5b3bd9a8e16b41ccdd": [
+            "m_1e3faef2f0ddcee024e5"
+          ],
+          "entity_4b41da42c6fd559049dc": [
+            "m_1f0cdf646dd58271d3c1"
+          ],
+          "entity_535c07f28d5a083b0d38": [
+            "m_21a095cd841b98ba2b9f"
+          ],
+          "entity_2c9d39286e387ca20c30": [
+            "m_2d0a6b67020c27e14adf"
+          ],
+          "entity_7a0f87a29fe405b23180": [
+            "m_2d611a3288b35679adaa"
+          ],
+          "entity_2b1773d94017bfe1bc5d": [
+            "m_3ed6a4e3716f59e137bc"
+          ],
+          "entity_b63139f988a380894db8": [
+            "m_408c5ce0a3a75337caad"
+          ],
+          "entity_5b0350f597cf52bd1325": [
+            "m_41d3925e08059dcdb932"
+          ],
+          "entity_327eb0542666ba2fda6d": [
+            "m_4592344581e960793809"
+          ],
+          "entity_9bd051c73ac2c47adff0": [
+            "m_4928d408ae0c9634f1d7"
+          ],
+          "entity_be2b1c2af1970733dc7a": [
+            "m_4e1be0cf1a95c2b57572"
+          ],
+          "entity_1f8202f610a0ffc70efd": [
+            "m_50c6c77170dc93445f42"
+          ],
+          "entity_059d05d4673f3751082d": [
+            "m_51770653cf1ab55e248c"
+          ],
+          "entity_c4f35a9eaf165504c375": [
+            "m_523fd5241429306e1426"
+          ],
+          "entity_e039de583c1c5ede0e19": [
+            "m_556b2934045200f2a617"
+          ],
+          "entity_a6a856e188d158d9661f": [
+            "m_6050eca21b3cd6ccda5f"
+          ],
+          "entity_73fa86da825c8eb0d43d": [
+            "m_64757cf5afc7b5655110"
+          ],
+          "entity_9cb644d43f8c36fef933": [
+            "m_6bebecee387165e4e6e4"
+          ],
+          "entity_97b894f8416d91dc6815": [
+            "m_6cc27c38b9b40ac9f8df"
+          ],
+          "entity_c7c60a7e1b2b6fe33f18": [
+            "m_71ef8fee0c8d18479b47"
+          ],
+          "entity_c3144251cf9d9109cba1": [
+            "m_77ab92127bacbbc86e81"
+          ],
+          "entity_37a97606f519dcbd1fbb": [
+            "m_77ba0422d664a9091018"
+          ],
+          "entity_eeda1d52901f0d0a0d70": [
+            "m_7a3958b993da97415c63"
+          ],
+          "entity_783fb8a3d8ef3df0c5f5": [
+            "m_7a7faafe734614f66a3c"
+          ],
+          "entity_6aa9789b0549b5f95a62": [
+            "m_7de2cdf5897776688fde"
+          ],
+          "entity_3a201247676549164ade": [
+            "m_7fd0b252db2f1ce7ce7d"
+          ],
+          "entity_af91b189deb6f1c69d66": [
+            "m_82061628808aca9fc366"
+          ],
+          "entity_2b269da87d78c93824be": [
+            "m_8370796f05ea5ef43d18"
+          ],
+          "entity_512e4570f6cead1f0240": [
+            "m_561bc92b9cfafa682b3e",
+            "m_846dada885ec7c771f6d"
+          ],
+          "entity_f16607902b64bad26930": [
+            "m_85801bc05c72b98a0901"
+          ],
+          "entity_aa39d756b940f814364f": [
+            "m_8903fa6cb31f12e04ad6"
+          ],
+          "entity_04525dd1b55d21b144e2": [
+            "m_8cf2f48efc91c7aa3421"
+          ],
+          "entity_97dee8135640a6a4f33e": [
+            "m_93ed3806a282cacf563f"
+          ],
+          "entity_e90813f20ed650bbdd46": [
+            "m_9a83f8e4f6760fc44cbb"
+          ],
+          "entity_081d82ba6ded76a3f3c0": [
+            "m_9ba060039c93d3df574c",
+            "m_b13e7fb4a1d09909e4cf"
+          ],
+          "entity_93b286f754fe8600a973": [
+            "m_9d037e07466e195a546a"
+          ],
+          "entity_ddf2e1cdf4fde01524b0": [
+            "m_9d04770de75ddc73f01e"
+          ],
+          "entity_8660272abe757a060d72": [
+            "m_9f67b40fbb3cf1081758"
+          ],
+          "entity_a3beae964404af207e2a": [
+            "m_a469977a059373d559e4",
+            "m_c9dc2bdc24f765800187"
+          ],
+          "entity_a5bbf2dfc50f117cc6c5": [
+            "m_abea3ac74536c3b0996b"
+          ],
+          "entity_52710a52671c55e67ef1": [
+            "m_bb98a6a656ad96cd1d2e"
+          ],
+          "entity_325c627b93e04d455e22": [
+            "m_bb9e8088e01a2766c4b7"
+          ],
+          "entity_f7a6ec10e0baae01c21e": [
+            "m_bc55616141a23a92ce4c"
+          ],
+          "entity_a40dabe251c0a4fd32be": [
+            "m_c30bc53f050ffdbb8249"
+          ],
+          "entity_b465b58bef4ea8c4a740": [
+            "m_c81df4da0d4d5e7652bd"
+          ],
+          "entity_032979a845ae2eaf8ac4": [
+            "m_ce0eb57b1bb63b990c50"
+          ],
+          "entity_558ddff283e104060674": [
+            "m_ce28b8ed317a68ca7478"
+          ],
+          "entity_01cf9da64bc6eb8f0b00": [
+            "m_d35a27151040cadab788"
+          ],
+          "entity_1bba77b90095714cca9b": [
+            "m_db99ed5d98b51d54dbda"
+          ],
+          "entity_3c17ab1ff97b0c579505": [
+            "m_eb15e0f7759b0129783c"
+          ],
+          "entity_02e6660e3f43ef68546d": [
+            "m_f1be9c1d64c6b598f316"
+          ],
+          "entity_fa46babc63de204b50c3": [
+            "m_f33383f988357a5ec81d"
+          ],
+          "entity_4e1fdb793f5f4619a854": [
+            "m_f88179b731297a3f5281"
+          ]
+        },
+        "cluster_status": {
+          "entity_0dbd1f04968b9ff29611": "record",
+          "entity_91ff357714cd23696bf1": "resolved",
+          "entity_c1544839fa5301c8ebb5": "active",
+          "entity_c898f08619bec4b4d982": "record",
+          "entity_4511fc462aa8f97fdf81": "resolved",
+          "entity_3ed369f10ebce4490f0d": "active",
+          "entity_9c315232e08c70e334ab": "active",
+          "entity_fe5b3bd9a8e16b41ccdd": "active",
+          "entity_4b41da42c6fd559049dc": "record",
+          "entity_535c07f28d5a083b0d38": "active",
+          "entity_2c9d39286e387ca20c30": "active",
+          "entity_7a0f87a29fe405b23180": "record",
+          "entity_2b1773d94017bfe1bc5d": "record",
+          "entity_b63139f988a380894db8": "record",
+          "entity_5b0350f597cf52bd1325": "record",
+          "entity_327eb0542666ba2fda6d": "record",
+          "entity_9bd051c73ac2c47adff0": "active",
+          "entity_be2b1c2af1970733dc7a": "active",
+          "entity_1f8202f610a0ffc70efd": "record",
+          "entity_059d05d4673f3751082d": "active",
+          "entity_c4f35a9eaf165504c375": "active",
+          "entity_e039de583c1c5ede0e19": "record",
+          "entity_a6a856e188d158d9661f": "record",
+          "entity_73fa86da825c8eb0d43d": "resolved",
+          "entity_9cb644d43f8c36fef933": "record",
+          "entity_97b894f8416d91dc6815": "record",
+          "entity_c7c60a7e1b2b6fe33f18": "record",
+          "entity_c3144251cf9d9109cba1": "resolved",
+          "entity_37a97606f519dcbd1fbb": "record",
+          "entity_eeda1d52901f0d0a0d70": "record",
+          "entity_783fb8a3d8ef3df0c5f5": "record",
+          "entity_6aa9789b0549b5f95a62": "record",
+          "entity_3a201247676549164ade": "record",
+          "entity_af91b189deb6f1c69d66": "record",
+          "entity_2b269da87d78c93824be": "record",
+          "entity_512e4570f6cead1f0240": "resolved",
+          "entity_f16607902b64bad26930": "record",
+          "entity_aa39d756b940f814364f": "active",
+          "entity_04525dd1b55d21b144e2": "record",
+          "entity_97dee8135640a6a4f33e": "record",
+          "entity_e90813f20ed650bbdd46": "active",
+          "entity_081d82ba6ded76a3f3c0": "resolved",
+          "entity_93b286f754fe8600a973": "record",
+          "entity_ddf2e1cdf4fde01524b0": "active",
+          "entity_8660272abe757a060d72": "active",
+          "entity_a3beae964404af207e2a": "active",
+          "entity_a5bbf2dfc50f117cc6c5": "record",
+          "entity_52710a52671c55e67ef1": "record",
+          "entity_325c627b93e04d455e22": "record",
+          "entity_f7a6ec10e0baae01c21e": "active",
+          "entity_a40dabe251c0a4fd32be": "record",
+          "entity_b465b58bef4ea8c4a740": "record",
+          "entity_032979a845ae2eaf8ac4": "record",
+          "entity_558ddff283e104060674": "active",
+          "entity_01cf9da64bc6eb8f0b00": "record",
+          "entity_1bba77b90095714cca9b": "active",
+          "entity_3c17ab1ff97b0c579505": "active",
+          "entity_02e6660e3f43ef68546d": "active",
+          "entity_fa46babc63de204b50c3": "resolved",
+          "entity_4e1fdb793f5f4619a854": "record"
+        }
+      }
+    }
+  },
+  "history": [
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_c9dc2bdc24f765800187"
+      ],
+      "entity_id": "entity_a3beae964404af207e2a"
+    },
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_12483a4ba7aedaf15cab"
+      ],
+      "entity_id": "entity_c1544839fa5301c8ebb5"
+    },
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_217f1443a58bc1c5ccca"
+      ],
+      "entity_id": "entity_c1544839fa5301c8ebb5"
+    },
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_2dab5b5225f811656386"
+      ],
+      "entity_id": "entity_c1544839fa5301c8ebb5"
+    },
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_6ea286d6702aa4b0a3c5"
+      ],
+      "entity_id": "entity_c1544839fa5301c8ebb5"
+    },
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_83d7fd43bb1070ea02e0"
+      ],
+      "entity_id": "entity_c1544839fa5301c8ebb5"
+    },
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_bf204ed9e02f2e0f7a94"
+      ],
+      "entity_id": "entity_c1544839fa5301c8ebb5"
+    },
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_eb402f9f5ebf507d3a7b"
+      ],
+      "entity_id": "entity_c1544839fa5301c8ebb5"
+    },
+    {
+      "round": 0,
+      "decision": "deterministic_merge",
+      "basis": "same_stable_name",
+      "source_members": [
+        "m_f1f03a22482482877345"
+      ],
+      "entity_id": "entity_c1544839fa5301c8ebb5"
+    },
+    {
+      "round": 0,
+      "decision": "prealign_summary",
+      "merged_clusters": 9,
+      "remaining_clusters": 63
+    },
+    {
+      "round": 1,
+      "decision": "cluster_merge",
+      "source_entity_id": "entity_d6ab538e75f8d6ff04e6",
+      "target_entity_id": "entity_081d82ba6ded76a3f3c0",
+      "entity_id": "entity_081d82ba6ded76a3f3c0",
+      "source_members": [
+        "m_b13e7fb4a1d09909e4cf"
+      ],
+      "target_members": [
+        "m_9ba060039c93d3df574c"
+      ]
+    },
+    {
+      "round": 1,
+      "decision": "NEW_ENTITY",
+      "entity_id": "entity_fa46babc63de204b50c3"
+    },
+    {
+      "round": 1,
+      "decision": "cluster_merge",
+      "source_entity_id": "entity_0b65e4a72ce18f9ad3cd",
+      "target_entity_id": "entity_512e4570f6cead1f0240",
+      "entity_id": "entity_512e4570f6cead1f0240",
+      "source_members": [
+        "m_561bc92b9cfafa682b3e"
+      ],
+      "target_members": [
+        "m_846dada885ec7c771f6d"
+      ]
+    },
+    {
+      "round": 1,
+      "decision": "cluster_merge",
+      "source_entity_id": "entity_4428edf67ba781ac05f0",
+      "target_entity_id": "entity_4511fc462aa8f97fdf81",
+      "entity_id": "entity_4511fc462aa8f97fdf81",
+      "source_members": [
+        "m_4682d1ed951696d3741c"
+      ],
+      "target_members": [
+        "m_1a29baa07c9500667778"
+      ]
+    },
+    {
+      "round": 1,
+      "decision": "NEW_ENTITY",
+      "entity_id": "entity_73fa86da825c8eb0d43d"
+    },
+    {
+      "round": 1,
+      "decision": "NEW_ENTITY",
+      "entity_id": "entity_91ff357714cd23696bf1"
+    },
+    {
+      "round": 1,
+      "decision": "NEW_ENTITY",
+      "entity_id": "entity_c3144251cf9d9109cba1"
+    }
+  ],
+  "stopped": true
+}

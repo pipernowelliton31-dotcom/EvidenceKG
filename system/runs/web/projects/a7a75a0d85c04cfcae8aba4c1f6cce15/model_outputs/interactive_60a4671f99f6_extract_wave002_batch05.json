@@ -1,0 +1,386 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_18a71bb4d5877b560463",
+      "mentions": [
+        {
+          "local_id": "app_free",
+          "type": "Product",
+          "name": "APP"
+        },
+        {
+          "local_id": "app_buyout",
+          "type": "Product",
+          "name": "APP"
+        },
+        {
+          "local_id": "plugin_sub",
+          "type": "Product",
+          "name": "插件"
+        },
+        {
+          "local_id": "template_free",
+          "type": "Product",
+          "name": "模板"
+        },
+        {
+          "local_id": "miniapp_weekly",
+          "type": "Product",
+          "name": "小程序"
+        },
+        {
+          "local_id": "desktop_tool",
+          "type": "Product",
+          "name": "桌面工具"
+        },
+        {
+          "local_id": "material_25",
+          "type": "Product",
+          "name": "素材"
+        },
+        {
+          "local_id": "template_18",
+          "type": "Product",
+          "name": "模板"
+        },
+        {
+          "local_id": "online_course",
+          "type": "Product",
+          "name": "在线课程"
+        },
+        {
+          "local_id": "ebook",
+          "type": "Product",
+          "name": "电子书"
+        },
+        {
+          "local_id": "miniapp_6_9",
+          "type": "Product",
+          "name": "小程序"
+        },
+        {
+          "local_id": "online_tool_free",
+          "type": "Product",
+          "name": "在线工具"
+        },
+        {
+          "local_id": "material_35",
+          "type": "Product",
+          "name": "素材"
+        },
+        {
+          "local_id": "miniapp_5_9",
+          "type": "Product",
+          "name": "小程序"
+        },
+        {
+          "local_id": "plugin_vscode",
+          "type": "Product",
+          "name": "插件"
+        },
+        {
+          "local_id": "template_22",
+          "type": "Product",
+          "name": "模板"
+        },
+        {
+          "local_id": "online_tool_tts",
+          "type": "Product",
+          "name": "在线工具"
+        },
+        {
+          "local_id": "website",
+          "type": "Product",
+          "name": "网站"
+        },
+        {
+          "local_id": "v3",
+          "type": "Version",
+          "name": "V3"
+        },
+        {
+          "local_id": "weekly_report_generator",
+          "type": "Product",
+          "name": "周报生成器"
+        },
+        {
+          "local_id": "lingyu",
+          "type": "Product",
+          "name": "灵雨"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "material_25",
+          "predicate": "replaced_by",
+          "object": "v3"
+        },
+        {
+          "subject": "miniapp_6_9",
+          "predicate": "merged_into",
+          "object": "weekly_report_generator"
+        },
+        {
+          "subject": "plugin_vscode",
+          "predicate": "sibling_product_of",
+          "object": "lingyu"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "app_free",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "免费+内购",
+            "applicable_platform": "iOS/Android",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "基础免费，云同步8元/月"
+          }
+        },
+        {
+          "subject": "app_buyout",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "7.9元买断",
+            "applicable_platform": "iOS/Android",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "无内购"
+          }
+        },
+        {
+          "subject": "plugin_sub",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "8.9元/月 或25.9元/月",
+            "applicable_platform": "墨文创作台",
+            "validity": "订阅",
+            "authorization_count": "1人/5人",
+            "notes": "基础版/高级版"
+          }
+        },
+        {
+          "subject": "template_free",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "免费",
+            "applicable_platform": "Notion/Obsidian",
+            "validity": "永久",
+            "authorization_count": "不限",
+            "notes": "开源模板"
+          }
+        },
+        {
+          "subject": "miniapp_weekly",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "4.9元/月",
+            "applicable_platform": "微信小程序",
+            "validity": "订阅",
+            "authorization_count": "1人",
+            "notes": "AI生成周报"
+          }
+        },
+        {
+          "subject": "desktop_tool",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "39元买断",
+            "applicable_platform": "Win/Mac/Linux",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "跨平台"
+          }
+        },
+        {
+          "subject": "material_25",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "25元买断",
+            "applicable_platform": "Figma/PS/Sketch",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "已停售，V3替代"
+          }
+        },
+        {
+          "subject": "template_18",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "18元买断",
+            "applicable_platform": "Excel/PowerBI",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "含5种行业模板"
+          }
+        },
+        {
+          "subject": "online_course",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "89元买断",
+            "applicable_platform": "Web",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "12讲视频"
+          }
+        },
+        {
+          "subject": "ebook",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "35元买断",
+            "applicable_platform": "PDF/EPUB",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "220页"
+          }
+        },
+        {
+          "subject": "miniapp_6_9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "6.9元/月",
+            "applicable_platform": "微信小程序",
+            "validity": "订阅",
+            "authorization_count": "1人",
+            "notes": "已并入周报生成器"
+          }
+        },
+        {
+          "subject": "online_tool_free",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "免费+10元/月",
+            "applicable_platform": "Web",
+            "validity": "订阅",
+            "authorization_count": "1人",
+            "notes": "AI转导图"
+          }
+        },
+        {
+          "subject": "material_35",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "35元买断",
+            "applicable_platform": "Figma/PS/Sketch",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "新增3D素材+动效"
+          }
+        },
+        {
+          "subject": "miniapp_5_9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "5.9元/月",
+            "applicable_platform": "微信小程序",
+            "validity": "订阅",
+            "authorization_count": "1人",
+            "notes": "AI润色+模板"
+          }
+        },
+        {
+          "subject": "plugin_vscode",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "15元/月",
+            "applicable_platform": "VSCode",
+            "validity": "订阅",
+            "authorization_count": "1人",
+            "notes": "灵雨姊妹产品"
+          }
+        },
+        {
+          "subject": "template_22",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "22元买断",
+            "applicable_platform": "Notion",
+            "validity": "永久",
+            "authorization_count": "1人",
+            "notes": "含敏捷/瀑布模板"
+          }
+        },
+        {
+          "subject": "online_tool_tts",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "12元/月",
+            "applicable_platform": "Web",
+            "validity": "订阅",
+            "authorization_count": "1人",
+            "notes": "AI文本转语音"
+          }
+        },
+        {
+          "subject": "website",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_spec"
+          },
+          "value": {
+            "pricing": "免费",
+            "applicable_platform": "Web",
+            "validity": "永久",
+            "authorization_count": "不限",
+            "notes": "推荐站，含广告"
+          }
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

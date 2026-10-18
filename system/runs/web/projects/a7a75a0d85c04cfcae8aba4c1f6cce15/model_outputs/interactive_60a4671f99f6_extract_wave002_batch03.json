@@ -1,0 +1,242 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_136413fce53374ebfe94",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "m2",
+          "type": "DataAsset",
+          "name": "产品规格与定价文档",
+          "identifiers": {
+            "document_number": "QH-SPEC-2026-001"
+          }
+        },
+        {
+          "local_id": "m3",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "m4",
+          "type": "Version",
+          "name": "V2026.06"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "发布",
+          "object": "m2"
+        },
+        {
+          "subject": "m3",
+          "predicate": "编制",
+          "object": "m2"
+        },
+        {
+          "subject": "m2",
+          "predicate": "has_version",
+          "object": "m4"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "release_date"
+          },
+          "value": "2026-06-18"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "classification"
+          },
+          "value": "内部资料"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "role"
+          },
+          "value": "青禾工作室创始人"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_00bf1eab1c7e94cf3066",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "m2",
+          "type": "Version",
+          "name": "灵雨基础版"
+        },
+        {
+          "local_id": "m3",
+          "type": "Version",
+          "name": "灵雨高级版"
+        },
+        {
+          "local_id": "m4",
+          "type": "Product",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "m5",
+          "type": "Version",
+          "name": "通义免费版"
+        },
+        {
+          "local_id": "m6",
+          "type": "Version",
+          "name": "通义付费版"
+        },
+        {
+          "local_id": "m7",
+          "type": "Product",
+          "name": "创意素材包"
+        },
+        {
+          "local_id": "m8",
+          "type": "Version",
+          "name": "素材包V2"
+        },
+        {
+          "local_id": "m9",
+          "type": "Version",
+          "name": "素材包V3"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m1",
+          "predicate": "has_version",
+          "object": "m2"
+        },
+        {
+          "subject": "m1",
+          "predicate": "has_version",
+          "object": "m3"
+        },
+        {
+          "subject": "m4",
+          "predicate": "has_version",
+          "object": "m5"
+        },
+        {
+          "subject": "m4",
+          "predicate": "has_version",
+          "object": "m6"
+        },
+        {
+          "subject": "m7",
+          "predicate": "has_version",
+          "object": "m8"
+        },
+        {
+          "subject": "m7",
+          "predicate": "has_version",
+          "object": "m9"
+        },
+        {
+          "subject": "m1",
+          "predicate": "功能对比",
+          "object": "m4"
+        },
+        {
+          "subject": "m8",
+          "predicate": "功能对比",
+          "object": "m9"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "price"
+          },
+          "value": "8.9元/月"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "price"
+          },
+          "value": "25.9元/月"
+        },
+        {
+          "subject": "m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "price"
+          },
+          "value": "免费"
+        },
+        {
+          "subject": "m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "price"
+          },
+          "value": "10美元/月"
+        },
+        {
+          "subject": "m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "price"
+          },
+          "value": "25元"
+        },
+        {
+          "subject": "m9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "price"
+          },
+          "value": "35元"
+        },
+        {
+          "subject": "m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability"
+          },
+          "value": "4.2分"
+        },
+        {
+          "subject": "m9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability"
+          },
+          "value": "3.4分"
+        },
+        {
+          "subject": "m9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ps_compat"
+          },
+          "value": "部分（3D不支持PS）"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

@@ -1,0 +1,5934 @@
+{
+  "id": "1afa89d9e6ef45f4949484d13a9b7e61",
+  "project_id": "a7a75a0d85c04cfcae8aba4c1f6cce15",
+  "kind": "build",
+  "question": "",
+  "status": "completed",
+  "events": [
+    {
+      "id": 1,
+      "type": "run.started",
+      "elapsed_s": 0.0,
+      "message": "已创建运行"
+    },
+    {
+      "id": 2,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[检查] 检查已有知识图谱是否完整、可用…"
+    },
+    {
+      "id": 3,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[构图] 未发现可用的完整图谱，开始构图；匹配的 checkpoint 会继续复用。"
+    },
+    {
+      "id": 4,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[输入] 业务语料=5，排除的问题集/参考资料=1"
+    },
+    {
+      "id": 5,
+      "type": "stage.progress",
+      "elapsed_s": 0.1,
+      "message": "[Parse] 正在本地解析材料…"
+    },
+    {
+      "id": 6,
+      "type": "stage.progress",
+      "elapsed_s": 3.3,
+      "message": "  parsed: 测试集B_产品架构图.png"
+    },
+    {
+      "id": 7,
+      "type": "stage.progress",
+      "elapsed_s": 3.3,
+      "message": "  parsed: 测试集B_产品规格与定价文档.pdf"
+    },
+    {
+      "id": 8,
+      "type": "stage.progress",
+      "elapsed_s": 3.3,
+      "message": "  parsed: 测试集B_产品运营分析报告.pptx"
+    },
+    {
+      "id": 9,
+      "type": "stage.progress",
+      "elapsed_s": 3.3,
+      "message": "  excluded: 测试集B_分析问题集.docx"
+    },
+    {
+      "id": 10,
+      "type": "stage.progress",
+      "elapsed_s": 3.3,
+      "message": "  parsed: 测试集B_工作室运营手册.docx"
+    },
+    {
+      "id": 11,
+      "type": "stage.progress",
+      "elapsed_s": 3.3,
+      "message": "  parsed: 测试集B_运营数据记录.xlsx"
+    },
+    {
+      "id": 12,
+      "type": "stage.progress",
+      "elapsed_s": 3.3,
+      "message": "[Parse] unit_count=59 cached=False"
+    },
+    {
+      "id": 13,
+      "type": "stage.progress",
+      "elapsed_s": 3.3,
+      "message": "[Prepare] 进行本地结构化预提取，筛选需要模型处理的内容…"
+    },
+    {
+      "id": 14,
+      "type": "stage.progress",
+      "elapsed_s": 4.5,
+      "message": "[Prepare] 自动处理=6，待模型抽取=53"
+    },
+    {
+      "id": 15,
+      "type": "stage.progress",
+      "elapsed_s": 4.9,
+      "message": "[Extraction wave 1] round=- pending=53 batches=8 tasks=36"
+    },
+    {
+      "id": 16,
+      "type": "stage.progress",
+      "elapsed_s": 14.9,
+      "message": "[Extraction] 等待模型，已耗时 10s，剩余 8 个批次…"
+    },
+    {
+      "id": 17,
+      "type": "stage.progress",
+      "elapsed_s": 24.9,
+      "message": "[Extraction] 等待模型，已耗时 20s，剩余 8 个批次…"
+    },
+    {
+      "id": 18,
+      "type": "stage.progress",
+      "elapsed_s": 34.9,
+      "message": "[Extraction] 等待模型，已耗时 30s，剩余 8 个批次…"
+    },
+    {
+      "id": 19,
+      "type": "stage.progress",
+      "elapsed_s": 44.9,
+      "message": "[Extraction] 等待模型，已耗时 40s，剩余 8 个批次…"
+    },
+    {
+      "id": 20,
+      "type": "stage.progress",
+      "elapsed_s": 48.8,
+      "message": "[extract] batch=6 tasks=5 time=43.9s tokens=17440"
+    },
+    {
+      "id": 21,
+      "type": "stage.progress",
+      "elapsed_s": 49.1,
+      "message": "  accept batch=6 pending=48"
+    },
+    {
+      "id": 22,
+      "type": "stage.progress",
+      "elapsed_s": 49.9,
+      "message": "[extract] batch=2 tasks=5 time=45.1s tokens=18072"
+    },
+    {
+      "id": 23,
+      "type": "stage.progress",
+      "elapsed_s": 50.3,
+      "message": "  accept batch=2 pending=43"
+    },
+    {
+      "id": 24,
+      "type": "stage.progress",
+      "elapsed_s": 51.9,
+      "message": "[extract] batch=7 tasks=5 time=47.0s tokens=16876"
+    },
+    {
+      "id": 25,
+      "type": "stage.progress",
+      "elapsed_s": 52.2,
+      "message": "  accept batch=7 pending=38"
+    },
+    {
+      "id": 26,
+      "type": "stage.progress",
+      "elapsed_s": 55.2,
+      "message": "[extract] batch=3 tasks=5 time=50.3s tokens=19700"
+    },
+    {
+      "id": 27,
+      "type": "stage.progress",
+      "elapsed_s": 55.6,
+      "message": "  accept batch=3 pending=33"
+    },
+    {
+      "id": 28,
+      "type": "stage.progress",
+      "elapsed_s": 56.7,
+      "message": "[extract] batch=0 tasks=1 time=51.8s tokens=15401"
+    },
+    {
+      "id": 29,
+      "type": "stage.progress",
+      "elapsed_s": 57.1,
+      "message": "  accept batch=0 pending=32"
+    },
+    {
+      "id": 30,
+      "type": "stage.progress",
+      "elapsed_s": 57.3,
+      "message": "[extract] batch=1 tasks=5 time=52.4s tokens=36802"
+    },
+    {
+      "id": 31,
+      "type": "stage.progress",
+      "elapsed_s": 57.8,
+      "message": "  accept batch=1 pending=27"
+    },
+    {
+      "id": 32,
+      "type": "stage.progress",
+      "elapsed_s": 58.0,
+      "message": "[extract] batch=5 tasks=5 time=53.1s tokens=20758"
+    },
+    {
+      "id": 33,
+      "type": "stage.progress",
+      "elapsed_s": 58.5,
+      "message": "  accept batch=5 pending=22"
+    },
+    {
+      "id": 34,
+      "type": "stage.progress",
+      "elapsed_s": 68.1,
+      "message": "[extract] batch=4 tasks=5 time=63.3s tokens=22735"
+    },
+    {
+      "id": 35,
+      "type": "stage.progress",
+      "elapsed_s": 68.7,
+      "message": "  accept batch=4 pending=17"
+    },
+    {
+      "id": 36,
+      "type": "stage.progress",
+      "elapsed_s": 69.9,
+      "message": "[Extraction wave 2] round=- pending=17 batches=6 tasks=17"
+    },
+    {
+      "id": 37,
+      "type": "stage.progress",
+      "elapsed_s": 79.9,
+      "message": "[Extraction] 等待模型，已耗时 10s，剩余 6 个批次…"
+    },
+    {
+      "id": 38,
+      "type": "stage.progress",
+      "elapsed_s": 86.9,
+      "message": "[extract] batch=3 tasks=2 time=17.0s tokens=6292"
+    },
+    {
+      "id": 39,
+      "type": "stage.progress",
+      "elapsed_s": 87.4,
+      "message": "  accept batch=3 pending=15"
+    },
+    {
+      "id": 40,
+      "type": "stage.progress",
+      "elapsed_s": 89.3,
+      "message": "[extract] batch=4 tasks=2 time=19.5s tokens=6745"
+    },
+    {
+      "id": 41,
+      "type": "stage.progress",
+      "elapsed_s": 89.9,
+      "message": "  accept batch=4 pending=13"
+    },
+    {
+      "id": 42,
+      "type": "stage.progress",
+      "elapsed_s": 95.0,
+      "message": "[extract] batch=1 tasks=5 time=25.1s tokens=10458"
+    },
+    {
+      "id": 43,
+      "type": "stage.progress",
+      "elapsed_s": 95.5,
+      "message": "  accept batch=1 pending=8"
+    },
+    {
+      "id": 44,
+      "type": "stage.progress",
+      "elapsed_s": 105.5,
+      "message": "[Extraction] 等待模型，已耗时 36s，剩余 3 个批次…"
+    },
+    {
+      "id": 45,
+      "type": "stage.progress",
+      "elapsed_s": 113.1,
+      "message": "[extract] batch=2 tasks=2 time=43.2s tokens=12145"
+    },
+    {
+      "id": 46,
+      "type": "stage.progress",
+      "elapsed_s": 113.6,
+      "message": "  accept batch=2 pending=6"
+    },
+    {
+      "id": 47,
+      "type": "stage.progress",
+      "elapsed_s": 123.2,
+      "message": "[extract] batch=5 tasks=1 time=53.4s tokens=16641"
+    },
+    {
+      "id": 48,
+      "type": "stage.progress",
+      "elapsed_s": 123.8,
+      "message": "  accept batch=5 pending=5"
+    },
+    {
+      "id": 49,
+      "type": "stage.progress",
+      "elapsed_s": 133.8,
+      "message": "[Extraction] 等待模型，已耗时 64s，剩余 1 个批次…"
+    },
+    {
+      "id": 50,
+      "type": "stage.progress",
+      "elapsed_s": 138.3,
+      "message": "[extract] batch=0 tasks=5 time=68.4s tokens=23771"
+    },
+    {
+      "id": 51,
+      "type": "stage.progress",
+      "elapsed_s": 138.8,
+      "message": "  accept batch=0 pending=0"
+    },
+    {
+      "id": 52,
+      "type": "stage.progress",
+      "elapsed_s": 140.0,
+      "message": "[Extraction wave 3] round=- pending=0 batches=0 tasks=0"
+    },
+    {
+      "id": 53,
+      "type": "stage.progress",
+      "elapsed_s": 140.0,
+      "message": "[Extraction] 已完成。"
+    },
+    {
+      "id": 54,
+      "type": "stage.progress",
+      "elapsed_s": 144.8,
+      "message": "[Alignment wave 1] round=1 pending=125 batches=8 tasks=64"
+    },
+    {
+      "id": 55,
+      "type": "stage.progress",
+      "elapsed_s": 153.6,
+      "message": "[align] batch=6 tasks=8 time=8.8s tokens=14189"
+    },
+    {
+      "id": 56,
+      "type": "stage.progress",
+      "elapsed_s": 154.3,
+      "message": "  accept batch=6 round_now=1"
+    },
+    {
+      "id": 57,
+      "type": "stage.progress",
+      "elapsed_s": 154.3,
+      "message": "[align] batch=4 tasks=8 time=9.4s tokens=19040"
+    },
+    {
+      "id": 58,
+      "type": "stage.progress",
+      "elapsed_s": 155.8,
+      "message": "  accept batch=4 round_now=1"
+    },
+    {
+      "id": 59,
+      "type": "stage.progress",
+      "elapsed_s": 155.8,
+      "message": "[align] batch=5 tasks=8 time=10.0s tokens=12759"
+    },
+    {
+      "id": 60,
+      "type": "stage.progress",
+      "elapsed_s": 156.4,
+      "message": "  accept batch=5 round_now=1"
+    },
+    {
+      "id": 61,
+      "type": "stage.progress",
+      "elapsed_s": 156.4,
+      "message": "[align] batch=3 tasks=8 time=10.1s tokens=17343"
+    },
+    {
+      "id": 62,
+      "type": "stage.progress",
+      "elapsed_s": 157.9,
+      "message": "  accept batch=3 round_now=1"
+    },
+    {
+      "id": 63,
+      "type": "stage.progress",
+      "elapsed_s": 160.7,
+      "message": "[align] batch=7 tasks=8 time=15.9s tokens=17493"
+    },
+    {
+      "id": 64,
+      "type": "stage.progress",
+      "elapsed_s": 161.3,
+      "message": "  accept batch=7 round_now=1"
+    },
+    {
+      "id": 65,
+      "type": "stage.progress",
+      "elapsed_s": 171.3,
+      "message": "[Alignment] 等待模型，已耗时 27s，剩余 3 个批次…"
+    },
+    {
+      "id": 66,
+      "type": "stage.progress",
+      "elapsed_s": 172.9,
+      "message": "[align] batch=1 tasks=8 time=28.1s tokens=19750"
+    },
+    {
+      "id": 67,
+      "type": "stage.progress",
+      "elapsed_s": 173.6,
+      "message": "  accept batch=1 round_now=1"
+    },
+    {
+      "id": 68,
+      "type": "stage.progress",
+      "elapsed_s": 181.9,
+      "message": "[align] batch=2 tasks=8 time=37.1s tokens=26886"
+    },
+    {
+      "id": 69,
+      "type": "stage.progress",
+      "elapsed_s": 182.5,
+      "message": "  accept batch=2 round_now=1"
+    },
+    {
+      "id": 70,
+      "type": "stage.progress",
+      "elapsed_s": 183.5,
+      "message": "[align] batch=0 tasks=8 time=38.6s tokens=16890"
+    },
+    {
+      "id": 71,
+      "type": "stage.progress",
+      "elapsed_s": 184.1,
+      "message": "  accept batch=0 round_now=1"
+    },
+    {
+      "id": 72,
+      "type": "stage.progress",
+      "elapsed_s": 185.5,
+      "message": "[Alignment wave 2] round=1 pending=61 batches=8 tasks=61"
+    },
+    {
+      "id": 73,
+      "type": "stage.progress",
+      "elapsed_s": 195.5,
+      "message": "[Alignment] 等待模型，已耗时 10s，剩余 8 个批次…"
+    },
+    {
+      "id": 74,
+      "type": "stage.progress",
+      "elapsed_s": 197.5,
+      "message": "[align] batch=7 tasks=5 time=12.0s tokens=11148"
+    },
+    {
+      "id": 75,
+      "type": "stage.progress",
+      "elapsed_s": 198.2,
+      "message": "  accept batch=7 round_now=1"
+    },
+    {
+      "id": 76,
+      "type": "stage.progress",
+      "elapsed_s": 200.7,
+      "message": "[align] batch=1 tasks=8 time=15.1s tokens=16819"
+    },
+    {
+      "id": 77,
+      "type": "stage.progress",
+      "elapsed_s": 201.3,
+      "message": "  accept batch=1 round_now=1"
+    },
+    {
+      "id": 78,
+      "type": "stage.progress",
+      "elapsed_s": 202.8,
+      "message": "[align] batch=3 tasks=8 time=17.3s tokens=18874"
+    },
+    {
+      "id": 79,
+      "type": "stage.progress",
+      "elapsed_s": 203.4,
+      "message": "  accept batch=3 round_now=1"
+    },
+    {
+      "id": 80,
+      "type": "stage.progress",
+      "elapsed_s": 206.9,
+      "message": "[align] batch=5 tasks=8 time=21.4s tokens=19596"
+    },
+    {
+      "id": 81,
+      "type": "stage.progress",
+      "elapsed_s": 207.5,
+      "message": "  accept batch=5 round_now=1"
+    },
+    {
+      "id": 82,
+      "type": "stage.progress",
+      "elapsed_s": 208.3,
+      "message": "[align] batch=0 tasks=8 time=22.8s tokens=15495"
+    },
+    {
+      "id": 83,
+      "type": "stage.progress",
+      "elapsed_s": 208.9,
+      "message": "  accept batch=0 round_now=1"
+    },
+    {
+      "id": 84,
+      "type": "stage.progress",
+      "elapsed_s": 212.8,
+      "message": "[align] batch=2 tasks=8 time=27.3s tokens=19250"
+    },
+    {
+      "id": 85,
+      "type": "stage.progress",
+      "elapsed_s": 213.5,
+      "message": "  accept batch=2 round_now=1"
+    },
+    {
+      "id": 86,
+      "type": "stage.progress",
+      "elapsed_s": 217.6,
+      "message": "[align] batch=4 tasks=8 time=32.1s tokens=15449"
+    },
+    {
+      "id": 87,
+      "type": "stage.progress",
+      "elapsed_s": 218.3,
+      "message": "  accept batch=4 round_now=1"
+    },
+    {
+      "id": 88,
+      "type": "stage.progress",
+      "elapsed_s": 228.3,
+      "message": "[Alignment] 等待模型，已耗时 43s，剩余 1 个批次…"
+    },
+    {
+      "id": 89,
+      "type": "stage.progress",
+      "elapsed_s": 236.5,
+      "message": "[align] batch=6 tasks=8 time=51.0s tokens=24359"
+    },
+    {
+      "id": 90,
+      "type": "stage.progress",
+      "elapsed_s": 237.2,
+      "message": "  accept batch=6 round_now=2"
+    },
+    {
+      "id": 91,
+      "type": "stage.progress",
+      "elapsed_s": 239.6,
+      "message": "[Alignment wave 3] round=2 pending=5 batches=1 tasks=5"
+    },
+    {
+      "id": 92,
+      "type": "stage.progress",
+      "elapsed_s": 244.0,
+      "message": "[align] batch=0 tasks=5 time=4.4s tokens=11189"
+    },
+    {
+      "id": 93,
+      "type": "stage.progress",
+      "elapsed_s": 244.7,
+      "message": "  accept batch=0 round_now=3"
+    },
+    {
+      "id": 94,
+      "type": "stage.progress",
+      "elapsed_s": 246.9,
+      "message": "[Alignment wave 4] round=3 pending=1 batches=1 tasks=1"
+    },
+    {
+      "id": 95,
+      "type": "stage.progress",
+      "elapsed_s": 248.0,
+      "message": "[align] batch=0 tasks=1 time=1.1s tokens=1267"
+    },
+    {
+      "id": 96,
+      "type": "stage.progress",
+      "elapsed_s": 248.7,
+      "message": "  accept batch=0 round_now=3"
+    },
+    {
+      "id": 97,
+      "type": "stage.progress",
+      "elapsed_s": 250.1,
+      "message": "[Alignment wave 5] round=- pending=0 batches=0 tasks=0"
+    },
+    {
+      "id": 98,
+      "type": "stage.progress",
+      "elapsed_s": 250.1,
+      "message": "[Alignment] 已完成。"
+    },
+    {
+      "id": 99,
+      "type": "stage.progress",
+      "elapsed_s": 250.1,
+      "message": "[Build] 生成最终知识图谱…"
+    },
+    {
+      "id": 100,
+      "type": "stage.progress",
+      "elapsed_s": 250.8,
+      "message": "[Build] {'nodes': 201, 'edges': 401, 'facts': 1225, 'evidence': 509, 'unresolved': 44}"
+    },
+    {
+      "id": 101,
+      "type": "stage.progress",
+      "elapsed_s": 252.0,
+      "message": "[构图] 已完成并通过完整性检查。"
+    },
+    {
+      "id": 102,
+      "type": "graph.updated",
+      "elapsed_s": 252.0,
+      "graph": {
+        "nodes": [
+          {
+            "id": "entity_023da4c83880f9a35629",
+            "type": "Product",
+            "name": "数据大屏模板",
+            "aliases": [
+              "数据大屏模板"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_1bcaee23d02546a58a2c",
+              "m_254e7c805356cee1d840",
+              "m_4c94861470d285eba8a2",
+              "m_7294f5652dd45911f4e0",
+              "m_776f23fd2bc71de8cb89",
+              "m_8a13194881bb7c8acb8c",
+              "m_a32ece8cf3bd38513c07",
+              "m_ae9aabb941ad367cd64c",
+              "m_b05db9902fc6f620d309",
+              "m_f4238e117be0be9c5654"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9f9dad1daee0b05fbcff"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_1e475cb9262e1b739fc1"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_1e343cc4b0a6e7bd57c0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3c35af0e592e5a9e550d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bce2784089cfe6475f96"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5281dcfc3702500c66b5"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c045e50ab2f8b92c1472"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fa6489d395622d06a933"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_05bae8ef99c9a51d9749",
+            "type": "AITool",
+            "name": "飞书智能表格",
+            "aliases": [
+              "飞书智能",
+              "飞书智能伙伴",
+              "飞书智能管理",
+              "飞书智能表格"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_0b6db0de4e263222792e",
+              "m_81127c20bf2385c2dd99",
+              "m_a563c54f29e6d2c9fbef",
+              "m_c5ddb2fd718d843697a1",
+              "m_c77f57130c95fe6034b8"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2693f40b603c04147a24"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8c7e006d318e7f468a9c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_14abf324021b1ba9badc",
+            "type": "AITool",
+            "name": "剪映AI",
+            "aliases": [
+              "剪映AI"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_426f3c083863811ff818",
+              "m_6b36b6b42ca5055009d9"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_1759e0ea37719833e90f",
+            "type": "Product",
+            "name": "项目模板套件",
+            "aliases": [
+              "项目模板",
+              "项目模板套件"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_011f657a053d5d4bfb71",
+              "m_4535b30d9ff2a7508207",
+              "m_65cdc355a35bee1e6aea",
+              "m_68f8125dbebfef2a4817",
+              "m_948acba678ce9dd9bc07",
+              "m_b6b8a868794949605f77",
+              "m_c8d27d9e4e450b279572",
+              "m_e1aeb1a7943f2f865193",
+              "m_fbeb76cb6a0051db55f1"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_73ef2988f5faee345b6c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c2880a11177046caa321"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5a35130e5a93b84a1b4d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_64c9041fd19405942685"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_35e01b6c6dd5ea7971b3"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9c916870339e57101262"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_1dee8ef47c3d587a1fcb",
+            "type": "AITool",
+            "name": "Tableau",
+            "aliases": [
+              "Tableau"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_63905cb41a583113d644",
+              "m_d6dfda2a87c0bf98bea2"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_25e9b486a69c2cb96c11",
+            "type": "Product",
+            "name": "AI简历优化",
+            "aliases": [
+              "AI简历优化",
+              "AI简历优化工具",
+              "resume-ai",
+              "智能简历",
+              "简历优化",
+              "简历工具"
+            ],
+            "alias_bindings": [
+              {
+                "alias": "AI简历优化",
+                "role": "PDF称呼"
+              },
+              {
+                "alias": "简历工具",
+                "role": "Word称呼"
+              },
+              {
+                "alias": "resume-ai",
+                "role": "Excel称呼"
+              },
+              {
+                "alias": "智能简历",
+                "role": "PPT称呼"
+              },
+              {
+                "alias": "简历优化",
+                "role": "图片称呼"
+              }
+            ],
+            "mention_ids": [
+              "m_18e61c718769994a2442",
+              "m_33e39e9272e0c9a14ed8",
+              "m_442cf7ff0be06afe4c74",
+              "m_52b94ecb37b0c62aafc4",
+              "m_5442c6b27642143ba78f",
+              "m_762ad70940f2cc7e0c6d",
+              "m_796d2b1d41feed496fbe",
+              "m_7c218f4c9110f12c2dde",
+              "m_83598c6a679e58acf651",
+              "m_ab5dffa599199407b4e9",
+              "m_aceff6102f11c767bbcb",
+              "m_aee45760e68c249ba632",
+              "m_e0d3c3ac9c516f20e2c5",
+              "m_e3f37b70338baeafe342",
+              "m_e72fe89cb33fbb642391",
+              "m_eb89bb5e8893c69ec9ab"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {
+                  "alias_bindings": [
+                    {
+                      "alias": "AI简历优化",
+                      "role": "PDF称呼"
+                    },
+                    {
+                      "alias": "简历工具",
+                      "role": "Word称呼"
+                    },
+                    {
+                      "alias": "resume-ai",
+                      "role": "Excel称呼"
+                    },
+                    {
+                      "alias": "智能简历",
+                      "role": "PPT称呼"
+                    },
+                    {
+                      "alias": "简历优化",
+                      "role": "图片称呼"
+                    }
+                  ]
+                },
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f751ffe06917f247dee9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8b134020de9aca4677f1"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f3dc178d23084bd55c8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0f77ad1159c29c38fe13"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_deb345cbdfa4df521b05"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f68d791e527c31ca8421"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9a63b0ca0f1636f6729b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_670545db61951396b039"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fa3b86c03db8ac6caec0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_54a47532abf5448b9818"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bf8fcf91e722ea547565"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_33d5103dfe0dc05d4f48"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_3fc5315e7f69ea66173d",
+            "type": "Product",
+            "name": "晨间灵感模板",
+            "aliases": [
+              "晨间灵感模板"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_10f1c190bb1cbad3c497",
+              "m_28c927edbb1e0f0f2154",
+              "m_4ca80091d74839518820",
+              "m_622a3c38732b47713f86",
+              "m_926bfeabfb6ba40f1344",
+              "m_a083a125b5bbcb2afa5a",
+              "m_a821cdbfbe742c83da16",
+              "m_eff4e7aa19e4cd9d02a5",
+              "m_fe88f2192a0de936ef2e"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5a02d52bde899b9e71ec"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_eff717adfd80bc102138"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_1c35323c970f121b274b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6a20dfd4b5153ab2b2a2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4f789fbf2db670b5493c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_927071107b282abefbb2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_42af80ffcb2cc70b38e0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_4e9730b66317f4846824",
+            "type": "Product",
+            "name": "番茄专注Pro",
+            "aliases": [
+              "pomodoro-pro",
+              "专注工具",
+              "专注计时器",
+              "番茄专注Pro",
+              "番茄工具"
+            ],
+            "alias_bindings": [
+              {
+                "alias": "专注计时器",
+                "role": "Word称呼"
+              },
+              {
+                "alias": "pomodoro-pro",
+                "role": "Excel称呼"
+              },
+              {
+                "alias": "专注工具",
+                "role": "PPT称呼"
+              },
+              {
+                "alias": "番茄工具",
+                "role": "图片称呼"
+              }
+            ],
+            "mention_ids": [
+              "m_151157b0f41b4878cc62",
+              "m_174ad09cca38bfd6c717",
+              "m_27a05d21b05a90f77fb4",
+              "m_34a18b5b87dfe41ebb5c",
+              "m_370798fbbe22ba10727d",
+              "m_52c36abd34928f77e996",
+              "m_5fbeb8f574096d6d6443",
+              "m_6a3e53baf5e57d6af584",
+              "m_81000505825bebdb2615",
+              "m_8dbc8923f220f200f4ef",
+              "m_8f15c422b91955bf8a94",
+              "m_8ff2ed0226641629ad24",
+              "m_a711ac2c563f1e0f5102",
+              "m_b4ab91f022cfb1b41c34",
+              "m_bd0643ab27a50f3595ef",
+              "m_cbea0f088c05645c8f69",
+              "m_d0b43cdf652fb1f331fd",
+              "m_e478c0016aae7bdb12bc"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {
+                  "alias_bindings": [
+                    {
+                      "alias": "专注计时器",
+                      "role": "Word称呼"
+                    },
+                    {
+                      "alias": "pomodoro-pro",
+                      "role": "Excel称呼"
+                    },
+                    {
+                      "alias": "专注工具",
+                      "role": "PPT称呼"
+                    },
+                    {
+                      "alias": "番茄工具",
+                      "role": "图片称呼"
+                    }
+                  ]
+                },
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b5ffd01ec5338d3119d4"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b52a1f72be8f3cacc50e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ffb08ffd6cc14d6e0198"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ec5dcd8dd9281e004547"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2105d105bb5e7a743b43"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_90014da7bfd952764261"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_7474b235c581bc46993c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_10c54cd9d937f68b51de"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_846a512ff0fc18935817"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_75f110be041495e22f37"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_29a1a864fced23a226dc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_57461862385158ff767f",
+            "type": "AITool",
+            "name": "v0.dev",
+            "aliases": [
+              "v0.dev"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_023ea8ff93bba8df497e",
+              "m_978f320ac8b7a8384868",
+              "m_bdf4bff92d655265afbd"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_5ef9b4ee49f8d0c620d6",
+            "type": "AITool",
+            "name": "Gamma",
+            "aliases": [
+              "Gamma"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_629e2992eb3307d06419",
+              "m_68e35daac3ab1af028d7",
+              "m_e06acc604e516bee7ddf"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_686be5d8cef8542636ea",
+            "type": "Product",
+            "name": "数据可视化插件",
+            "aliases": [
+              "商品化插件",
+              "数据可视化插件"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_19d33420e7acb4ddc81d",
+              "m_19dafc36577e047b6c48",
+              "m_2cc94c514c68acd86cb6",
+              "m_2e73c1dfe4f62f6ee253",
+              "m_37c2979c9170e6b9b4c9",
+              "m_4ef12ca855f5ebde1fdb",
+              "m_5e92556a99059eb2900a",
+              "m_5f52fae6c3d8b836d895",
+              "m_61d0cdffee91b29d91f9",
+              "m_6ebd84483bc10e39beae",
+              "m_86ebea2d384f5b59fae8",
+              "m_87c0f10113dc697c836f",
+              "m_912ce2591694e3349a95",
+              "m_a233e2dd3acb9df3124a",
+              "m_cef20d0348ddae369230",
+              "m_d253f71f1e3bc8ecda6f"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3f179e8c36f81e05d92b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_069a214ac5e30c30dab0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2693f40b603c04147a24"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0f77ad1159c29c38fe13"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_deb345cbdfa4df521b05"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_449e68c566da80aec908"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0bdc7d0417ae2f3e3733"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_55ab89c9bcfc34ac9131"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2b1c89bc5b45f440eee3"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5b7f28a94ac93c1bacfc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_387ff435db3d7f753dce"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_95e151716d0e51b913f3"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2d30376049243c041e2e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_711c47a74bbf5e5e1495",
+            "type": "Product",
+            "name": "接口调试大师",
+            "aliases": [
+              "接口调试大师"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_118bc75249b94ecccda2",
+              "m_2eef967734e28788c952",
+              "m_30ba234c4c2d50d59d4a",
+              "m_6e8556e4fbace8208119",
+              "m_73166f9bd6b9fe8fd22b",
+              "m_853f914cdd729556df6b",
+              "m_a9357d9956dcd9b3a132",
+              "m_ab5717c04042da2a4b3c",
+              "m_b8a4231d8e774eb70787",
+              "m_ca13fa05b7d60b3db5f2",
+              "m_cfd9826de1771751a2bd",
+              "m_e943b4fbb7f9b94e2360",
+              "m_f0736ec71b22b9698554",
+              "m_f39d005d53bbc74b934d"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b1b2a4ed786609bf6a20"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fe7edb2cc688ff96c54b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_75d48905e31244b22612"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_73c6d63b2060da00db35"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_733001d382b06229d406"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8d81f8f737b0776bbfe5"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3a70ceed5615d38288c1"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e3aef59b1ddca26d4eda"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_793608af9269252d9ee6",
+            "type": "Product",
+            "name": "文案进阶课",
+            "aliases": [
+              "文案进阶课"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_01f43f15539d2ca8a7eb",
+              "m_0251c6b8287eaeec998d",
+              "m_0ea996afe4818c0b66c3",
+              "m_0f90afce518ed712cffe",
+              "m_1c06c87e1b60939b56aa",
+              "m_3e0b374d6dd5eccc3176",
+              "m_50d97809d816619caa6a",
+              "m_657128b4b2b3bde40ee5",
+              "m_6d3729a45782aacb1904",
+              "m_7c678a558aea89a350bf",
+              "m_88f345d4446af92acca0",
+              "m_99d9ee44b20a1871c73c",
+              "m_9cd7ede7797b24274bf3",
+              "m_9e68fb23699d887db116",
+              "m_9edcd798342ef52d7ee5",
+              "m_aa106e4fa569bd66fd9a",
+              "m_acab710363489356bcb0",
+              "m_b26b21ddfb53f27527b5",
+              "m_b60914034945a8fff823",
+              "m_cd565260530007825cd6",
+              "m_d0eae0efbf160b6f1f4a",
+              "m_d830a9bc58f2e1fa95ea",
+              "m_e59e91c2b08ba949e098"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4a4af5a5c5a28a2b6b2b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f4feaf7a8ae8c2c86a8c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_88be6e57875e504d8cd2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a6ceba63a260eb106860"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3e800baf69aea5e56174"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5fca0b890acfca01eaf2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_34e21fb9ac673d0269db"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b2132892e017691af5c0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_041822d2848bef806333"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_44ba493f0728b5d0e8a1"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_91c9c96d453da1279758"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a9ca4c854ecad90db6fe"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a22c7d22a64fc293ba91"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8fa2907caa9c7c3e1b51"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9009365a95a350a87bbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_659efd9e325667014a7a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_816f973dc94141f915ab",
+            "type": "AITool",
+            "name": "Figma AI",
+            "aliases": [
+              "Figma AI"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_1994baa7eb04479c28e3",
+              "m_4366e66afe2199d4ae23",
+              "m_498ee720eae7ad8bf72c",
+              "m_4b8cd242508f97283aae",
+              "m_6f317dd2b69431d4c8dc",
+              "m_74ad48057192a5d7435a",
+              "m_9d2eb32d82b4c2d07917",
+              "m_e472d714e7a14e8dd7bf"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_7474b235c581bc46993c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d2dabc3858ae3c75a7a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_67c8360f4b157218052e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f32d898f15ad8ecbc22a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bec36560c6752ed31d2c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_832a4f1d6aae7dd0c9eb",
+            "type": "AITool",
+            "name": "Kimi",
+            "aliases": [
+              "Kimi"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_3166fcde9aed2547e5a1",
+              "m_ab7fb5f116f1fa16d6a4",
+              "m_c8dadc0ca92a248d462b",
+              "m_ce29d031895b1e41abb8",
+              "m_d9a147b4bffc8e613a2a",
+              "m_ec58964e990f3ecb5bab"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_34e21fb9ac673d0269db"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b2132892e017691af5c0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_041822d2848bef806333"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_88300d27473818c713c9",
+            "type": "AITool",
+            "name": "Replit",
+            "aliases": [
+              "Replit"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_0e13a74a6c1d670552ff",
+              "m_67017d6d8425607eeacb"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_8b986b44b79f79c3b727",
+            "type": "AITool",
+            "name": "n8n",
+            "aliases": [
+              "n8n"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_12f154ad4d1c807a1136",
+              "m_5b3cc91358bd8329d0b1"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_a09377687e7d9d1980d6",
+            "type": "Product",
+            "name": "营销文案助手",
+            "aliases": [
+              "copy-ai",
+              "copy-buddy",
+              "文案AI",
+              "文案助手",
+              "文案工具",
+              "营销文案AI助手",
+              "营销文案助手"
+            ],
+            "alias_bindings": [
+              {
+                "alias": "文案助手",
+                "role": "Word称呼"
+              },
+              {
+                "alias": "copy-ai",
+                "role": "Excel称呼"
+              },
+              {
+                "alias": "文案AI",
+                "role": "PPT称呼"
+              },
+              {
+                "alias": "文案工具",
+                "role": "图片称呼"
+              }
+            ],
+            "mention_ids": [
+              "m_1ed668f0d63147f4942e",
+              "m_24870a4a4037d4bc9284",
+              "m_64aa603f7b08212d7d1d",
+              "m_750bc7b1796741f645f6",
+              "m_7b36e3d62377f830d1f0",
+              "m_7e072c879ea48e77d056",
+              "m_7f51293fe2daccb4156b",
+              "m_846f58c7917a27601266",
+              "m_99402cf4a46aaee466a2",
+              "m_a0954a0bd319401c7d52",
+              "m_adebd3f0968eb0501183",
+              "m_bb2e0ce4276800bb414a",
+              "m_be300643b0a8f5c7eec9",
+              "m_c2f0bed88667cd2f6acc",
+              "m_c3a0053760551052a55c",
+              "m_cf9b118594bc8bfbd5a9",
+              "m_dde587540adf00473749",
+              "m_eeb9718ab8904b4266cd",
+              "m_f1807bac055294707676"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {
+                  "alias_bindings": [
+                    {
+                      "alias": "文案助手",
+                      "role": "Word称呼"
+                    },
+                    {
+                      "alias": "copy-ai",
+                      "role": "Excel称呼"
+                    },
+                    {
+                      "alias": "文案AI",
+                      "role": "PPT称呼"
+                    },
+                    {
+                      "alias": "文案工具",
+                      "role": "图片称呼"
+                    }
+                  ]
+                },
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a0108aee1a27ebdbda9f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_feb46b5ab720ad6a9598"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2b9d7b34db8a6e5a850b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e7c15416ad58b5e37fe8"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a6ceba63a260eb106860"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c4b90e44a5ba9e5ba3b2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_119646e472791f0c2f0c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_92813c619b94f3f37c79"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_44bc1806f5c8879091fe"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b2132892e017691af5c0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_358489a69d979668fef2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3286f324c3786d2899b0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6ac646e7444ab60ac37c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_64c63578eeb054122826"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f9fda7ac50b40418011c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3e479568bc6b5feb669f"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_a31b7ade7cf3deeb9df0",
+            "type": "AITool",
+            "name": "即梦AI",
+            "aliases": [
+              "即梦AI"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_0775199554445ae97e3c",
+              "m_284306fb71b80100baaa",
+              "m_79f86e46c080bf4230e1",
+              "m_8ffc024d8ea890917a23",
+              "m_978dc55580632b352971"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d46d0fc8701700a7ee11"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_441b812eb4d70b2a32f6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_50699eabdf1d479533b8"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_a3cb001598c70154d354",
+            "type": "AITool",
+            "name": "Make",
+            "aliases": [
+              "Make"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_677e985e6ed26b4494e3",
+              "m_e40fe51ade02eceeaa21"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_a88352f988d43152cfbf",
+            "type": "Product",
+            "name": "Python自动化手册",
+            "aliases": [
+              "Python自动化手册"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_468410ee96c46da61d23",
+              "m_5505269cc00103650a68",
+              "m_5be6b24c3ebb6cb2536c"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2fb38fa00a0f090b8436"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_ab32bfe1619950d626cd",
+            "type": "AITool",
+            "name": "讯飞听见",
+            "aliases": [
+              "讯飞听见"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_b84122452b0e98671bcb",
+              "m_f1ca2adc02c5f0affba8",
+              "m_f8c8dba043d587070696"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8c7e006d318e7f468a9c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_abe3a087cca18bae187d",
+            "type": "Product",
+            "name": "周报精灵",
+            "aliases": [
+              "weekly-gen",
+              "周报AI",
+              "周报工具",
+              "周报生成",
+              "周报生成器",
+              "周报精灵"
+            ],
+            "alias_bindings": [
+              {
+                "alias": "周报工具",
+                "role": "Word称呼"
+              },
+              {
+                "alias": "weekly-gen",
+                "role": "Excel称呼"
+              },
+              {
+                "alias": "周报AI",
+                "role": "PPT称呼"
+              },
+              {
+                "alias": "周报生成",
+                "role": "图片称呼"
+              }
+            ],
+            "mention_ids": [
+              "m_0284f0a10c7921906689",
+              "m_1696f38b11cca9588afd",
+              "m_1a89f394570639796826",
+              "m_2ab2bc7e5517de807db8",
+              "m_30d03c6ce50589f488aa",
+              "m_3e8397310c6c484e7a6e",
+              "m_4316bf826b51fcfa1df8",
+              "m_437fe4e4d39281b863fc",
+              "m_45d2bf757b97f2f685d0",
+              "m_5bafea8c5b5ac1015c47",
+              "m_5f888fd1e40d32f57775",
+              "m_6121b32ce0c3fa135e27",
+              "m_62938d2fb3ced11c3a14",
+              "m_650f603f923a90492aee",
+              "m_a34ae4db1565ecccf73f",
+              "m_a43e26e7841460934be9",
+              "m_ab8ac4489115e5532f3f",
+              "m_aed3aef14d7234e23ddf",
+              "m_bf5a48654f99c21ee755",
+              "m_c48d0bd9240102acdc3f",
+              "m_c94c79231a6a27eb9138",
+              "m_cb2282693241c5d01962",
+              "m_cbc148ec44769d59effd",
+              "m_cff673b8ded9dcd2d18b",
+              "m_dbbdc3ec088ff1696b91",
+              "m_df009cdb62b5f6307c16",
+              "m_e6c4f3b436852791e428",
+              "m_f4b38a7b1c9238535f93",
+              "m_f50c10303c52d2dc994f"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {
+                  "alias_bindings": [
+                    {
+                      "alias": "周报工具",
+                      "role": "Word称呼"
+                    },
+                    {
+                      "alias": "weekly-gen",
+                      "role": "Excel称呼"
+                    },
+                    {
+                      "alias": "周报AI",
+                      "role": "PPT称呼"
+                    },
+                    {
+                      "alias": "周报生成",
+                      "role": "图片称呼"
+                    }
+                  ]
+                },
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2932a5a2ecaa76b5e732"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f53af08ae99ecaaa42ab"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9cd765676fbd0a50d7bd"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a6ceba63a260eb106860"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c4b90e44a5ba9e5ba3b2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ec5dcd8dd9281e004547"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b6f7554ef30f42d47558"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c17f6962f78f72b55e3f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_44bc1806f5c8879091fe"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_34e21fb9ac673d0269db"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b2132892e017691af5c0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_041822d2848bef806333"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fc2020e03a06d0a25310"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_1b518859302ee8c4afbf"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0230541551726c06f07e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_30b443d374db0cf688c8"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_44b8ab3e113cbcd2b08f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_64c63578eeb054122826"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f9fda7ac50b40418011c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3e479568bc6b5feb669f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e7a1fe8ce8817fd4f8fd"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_ac9c6e60e5537207b43b",
+            "type": "Product",
+            "name": "效率导航",
+            "aliases": [
+              "效率导航",
+              "效率工具导航"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_23bcd93dbc03f2e5696c",
+              "m_398460673f2219cb424f",
+              "m_39c51e243c8d390ea9db",
+              "m_40b69baddceac4783f79",
+              "m_4552b976cbb9fc3a5227",
+              "m_4bbab0a48e4b44a00c32",
+              "m_5434a1631a244013cd76",
+              "m_72a2c1a680ff63c2daea",
+              "m_7b3752d7fb1bdc7d9d91",
+              "m_9c28b7ccfc8ea4d7e946",
+              "m_ae3e5203971ee851a513",
+              "m_bdd981198ba272846f49",
+              "m_ec6a2b4f1ba630bc6aa7",
+              "m_f32923ed4e8f4e38d3da",
+              "m_f753fb8437761e35492f",
+              "m_f988cec988e1451180f9"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9b0899b17116a3ccf670"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5ae4fc6888bb2720d85e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0f77ad1159c29c38fe13"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_deb345cbdfa4df521b05"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d1be1685e7282ca85437"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b1f4405244de057093a6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_93f0bbf29982a74db1e5"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_46e8b20ae43ee2fec518"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_ae1b1dc5cd3ba314a21d",
+            "type": "AITool",
+            "name": "墨文创作台",
+            "aliases": [
+              "墨文",
+              "墨文创作台",
+              "墨文创作平台"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_02faf1fb1eb5e33dcfaa",
+              "m_24229f6d0e4cd6911080",
+              "m_2a3752df931936350ab3",
+              "m_2eb6cb87c8731bd52bce",
+              "m_43e0ce60c8d90d509b6c",
+              "m_445748140ce5a813cb22",
+              "m_49b81ae154257d4ea272",
+              "m_822a9a76152025f14a62",
+              "m_9070d9318855f1339343",
+              "m_92468b653bc2a37fd551",
+              "m_94175d910420a956efe2",
+              "m_9f88f1382201972d0c76",
+              "m_b6e80c87552727d050b0",
+              "m_c43bfb33482f0c857e36",
+              "m_d3695bb06287e32ae082",
+              "m_df9cd7b0186720f352bd",
+              "m_e1fd998b6a8a4426a6dc",
+              "m_eb75c479081732097ad3",
+              "m_ec1d0a6460b3a76dfc0e"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3ab8d18f178b70c6cb33"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6f775a8d2b77c9c34ed9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e436506f740e337e8190"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2b1c89bc5b45f440eee3"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5b7f28a94ac93c1bacfc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fa3b86c03db8ac6caec0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ac4b786c7679e22a970f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_95851cb5042dd33ca2d6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0d955250edd678649ae4"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_82b2da35865f89fe8855"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b16de83199a1f69f01ae"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f32d898f15ad8ecbc22a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bec36560c6752ed31d2c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d9a6c5ae2b6adf7adc4e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_67c94378d0a092b4b6e2"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_ae66e529e0e36c14b4fb",
+            "type": "Product",
+            "name": "灵雨写作助手",
+            "aliases": [
+              "AI写作助手",
+              "AI写作助手插件",
+              "AI写作工具",
+              "P03",
+              "P03插件",
+              "写作助手",
+              "写作插件",
+              "写作插件P03",
+              "灵犀写作助手",
+              "灵犀写作插件",
+              "灵雨写作助手"
+            ],
+            "alias_bindings": [
+              {
+                "alias": "灵雨写作助手",
+                "role": "PDF称呼"
+              },
+              {
+                "alias": "写作助手",
+                "role": "Word称呼"
+              },
+              {
+                "alias": "写作插件P03",
+                "role": "Excel称呼"
+              },
+              {
+                "alias": "灵犀写作插件",
+                "role": "PPT称呼"
+              },
+              {
+                "alias": "AI写作工具",
+                "role": "图片称呼"
+              }
+            ],
+            "mention_ids": [
+              "m_088670369925e4814a99",
+              "m_0e8355cdcb9113b21db2",
+              "m_1183447d88defa4bcf3e",
+              "m_13796b7dc85c4830ab51",
+              "m_13f794cac0df2820b1d4",
+              "m_14a463c6a8876193e622",
+              "m_1838d0e0abc0843fc891",
+              "m_18a6b4972c1144d51c9b",
+              "m_18f4e646967a8310e0f9",
+              "m_1b7edc1e90a6bf7957a4",
+              "m_1c43d09096bb828c2a19",
+              "m_1cc1df79c723e65d504e",
+              "m_1ce33b80d594166f2bb6",
+              "m_1e89a1515d86283b4240",
+              "m_1f21f479120300cdcd12",
+              "m_219262b6f00476617c87",
+              "m_25c25a035055efa3bb25",
+              "m_2cfca56df09f3089c0ed",
+              "m_2d0a023d17921806184d",
+              "m_3550e216ca628bcb5618",
+              "m_3b73f01df169aae974a1",
+              "m_3c8851b55fabeb223ca1",
+              "m_3e075731c653f31e5723",
+              "m_3fc537b416cd1522c0b6",
+              "m_4174a646bf4bcd0d481e",
+              "m_42f658b702d0b96fa2de",
+              "m_4635f324c9af145f9f92",
+              "m_4bbd2c0a2e27cb4b954c",
+              "m_4cda9b0bd24327e82d52",
+              "m_5935797924cbebd2c86f",
+              "m_5c6e07b1c13da475e364",
+              "m_608d790c2421da40e014",
+              "m_61881ef55c2bf0e2db58",
+              "m_68157d29e2d8e383889f",
+              "m_6be4f230a95618d8dc83",
+              "m_6c63913f89e71b57dae8",
+              "m_6c66f5c19e8f390efd00",
+              "m_70ef9a48eeccb2ba2608",
+              "m_7280adc651ec0b1a2979",
+              "m_72f64029231ae1f0bd3e",
+              "m_75c3be6e4ecd3c27e145",
+              "m_80e85d3c1acae2412e55",
+              "m_8db32482215c59da0e60",
+              "m_90df5d2be6a25ee477a1",
+              "m_9afd775d804eb3cf48f1",
+              "m_9c6e242829652af63c6d",
+              "m_9d3810638ac4ac46a2b0",
+              "m_9f44e6d896e701e06455",
+              "m_a1970a4fdafb9f57d6e9",
+              "m_a5198b970dbcd9b49157",
+              "m_ab58a3cad8477d65ba6d",
+              "m_b0bdd1d7ed46f2e85198",
+              "m_bb85c2443293c74882e5",
+              "m_bc247177df3d640e851f",
+              "m_bcd0b3012224fb3693a4",
+              "m_bfc1e57345e4d5165965",
+              "m_c213600a98ca85823e1e",
+              "m_c2ed732e4c4aa6da4cf7",
+              "m_cda5658c03233f4c7eb8",
+              "m_d2604b8e3adacb38f2bd",
+              "m_d5a8bd4ff38265dbcc23",
+              "m_e32a236567fe83028f0a",
+              "m_e4cacd7f2dbf54b6d777",
+              "m_ed85565d8ae50b70f68d",
+              "m_f821e08a6481e8158c81",
+              "m_f8cd0dd0d04825bb5a31",
+              "m_fe8bf6553976aa34c776"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {
+                  "alias_bindings": [
+                    {
+                      "alias": "灵雨写作助手",
+                      "role": "PDF称呼"
+                    },
+                    {
+                      "alias": "写作助手",
+                      "role": "Word称呼"
+                    },
+                    {
+                      "alias": "写作插件P03",
+                      "role": "Excel称呼"
+                    },
+                    {
+                      "alias": "灵犀写作插件",
+                      "role": "PPT称呼"
+                    },
+                    {
+                      "alias": "AI写作工具",
+                      "role": "图片称呼"
+                    }
+                  ]
+                },
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_34592b602e401e52c368"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6fcc00feaf0899558531"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_22b82407f994400dca3c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a6ceba63a260eb106860"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_41724f97a4ebd01f915a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2693f40b603c04147a24"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0f77ad1159c29c38fe13"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_da85737377145ac6e33a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5ad65a8f03b7b25e37a1"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d4053823741cd93e0783"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_02b271c7cb5d5b086fd6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_44bc1806f5c8879091fe"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3ab8d18f178b70c6cb33"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6f775a8d2b77c9c34ed9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e436506f740e337e8190"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2b1c89bc5b45f440eee3"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5b7f28a94ac93c1bacfc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fa3b86c03db8ac6caec0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ac4b786c7679e22a970f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_95851cb5042dd33ca2d6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0d955250edd678649ae4"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fd3d4ff050fcb26d3494"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_af0ab5da9a6d7fde2b05"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9e43091f5c530794ee9d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8b1db32e46d340f2833c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_03782f9bf37a0d174f8c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3efc2640f59c16fb8fa6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_78012b33410c3d93467a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b4e6d7ef8fb72817d952"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5a7f02f4032631ab1361"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0b420a96592f40183be0"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_cc5b38e2b106ad7e0a55"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_59ae24013637b3cf00fc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d07ba518434ff640b23b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8d98802660d22ce1a44a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_84588b8a2d77c87ab39d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_65fe5de5aa581417471b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_179ecbb28589673e08ac"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_09c16d8222755ad1fa44"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_389a396ff8980ee4638c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f61800706c9c3ae17a7c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6bca73404477aadb6ea1"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_dc294f41bb9d3d8d3bba"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c4a7b78d893fab1cb9ce"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2f5907c9439d25a58012"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ad0b933440d23440abd6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4206d3bf03ab98d234db"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a5181746b3e77fe10b50"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5d632cccc9092c015741"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_64c63578eeb054122826"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f9fda7ac50b40418011c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_312e3c6c5fff9fd8cbf8"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3e479568bc6b5feb669f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8c7e006d318e7f468a9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_dc0cf92a84174b2077e7"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bec36560c6752ed31d2c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d9a6c5ae2b6adf7adc4e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_67c94378d0a092b4b6e2"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_ba8c4c6a485846c53f0c",
+            "type": "AITool",
+            "name": "可灵AI",
+            "aliases": [
+              "可灵AI"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_219c77379f9e36e0f98d",
+              "m_6c9d0681931b9548dbd4"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_c4db9ae49b1b629ab0c4",
+            "type": "AITool",
+            "name": "秘塔AI",
+            "aliases": [
+              "秘塔AI",
+              "秘塔AI搜索"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_466eb1ffc6249444c155",
+              "m_7ffd147d0a6bc770bf15",
+              "m_b884abe6233800791ad5"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_cd2e0e247add22cec0c9",
+            "type": "AITool",
+            "name": "通义灵码",
+            "aliases": [
+              "通义",
+              "通义灵码"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_01f99f956e3b277b948a",
+              "m_1c0200e7ac8076ba3d78",
+              "m_37c94f1d503f9244c4ee",
+              "m_55b19f234bbf7a44e583",
+              "m_5e3d7f97be2610cb96b1",
+              "m_705787acace0efc54fcb",
+              "m_73853be20c7a5b71d996",
+              "m_87ee60a67ffea7fed4b9",
+              "m_989b65751a437a6a54ca",
+              "m_a14fc9c05ecd3f3008bd",
+              "m_a5716c6081edc63730ae",
+              "m_ad73072f19cf3d529b05",
+              "m_c6377c447e06267bbbd2",
+              "m_cd14c3e8ac26c98980e4",
+              "m_d844a91289b177007866",
+              "m_e3d40c12228808c41eec",
+              "m_e5af7addaccf591096b6"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_41724f97a4ebd01f915a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2693f40b603c04147a24"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_da85737377145ac6e33a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_5ad65a8f03b7b25e37a1"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fd3d4ff050fcb26d3494"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_af0ab5da9a6d7fde2b05"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_1f562e274cc1d21d0ed9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_95dcc14d5125e92ac52f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b16de83199a1f69f01ae"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f32d898f15ad8ecbc22a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bec36560c6752ed31d2c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d9a6c5ae2b6adf7adc4e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_d2e2f1d13bd2f6e31ef4",
+            "type": "Product",
+            "name": "思维导图工具",
+            "aliases": [
+              "导图工具",
+              "思维导图工具"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_04b35d5e4062e1b096b6",
+              "m_085fb6c661e8e87f9870",
+              "m_300b916e2a47d1cc28f3",
+              "m_3248623d5a7ac230c658",
+              "m_44269552c14dff9e574a",
+              "m_47f8f9b22da2067ddf33",
+              "m_4c5714aec4a99ac0875c",
+              "m_70805904b031690c33a9",
+              "m_99b3a28afb936e276403",
+              "m_a29b3be296ff1049da0b",
+              "m_ba98b3d550fa05f6ffbf",
+              "m_c6a40bf65085d8c08d50",
+              "m_d22c3a8c353e8c0d06db",
+              "m_d5d55d2ff32d5a3e75d0",
+              "m_d78aeca9cc16b6e1cc76",
+              "m_d8249bf04fbd993d7803"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9bd54048b4095a3d87bd"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d26bbce6033c0eda9b70"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_62303a67de1fe2dd88fe"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e49572c2a4c89eff9ac"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_51ae781563549b303566"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4368cbcee37e573af730"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2bc503191ec1a6ed85f9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d53c9787fdb396d8ee3c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f9fda7ac50b40418011c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_d8360811da0fbc30a586",
+            "type": "Product",
+            "name": "创意素材包V3",
+            "aliases": [
+              "V3",
+              "asset-pack-v3",
+              "创意素材包V3",
+              "创意素材包V3（新）",
+              "素材V3",
+              "素材包V3",
+              "设计资源V3"
+            ],
+            "alias_bindings": [
+              {
+                "alias": "素材包V3",
+                "role": "Word称呼"
+              },
+              {
+                "alias": "asset-pack-v3",
+                "role": "Excel称呼"
+              },
+              {
+                "alias": "设计资源V3",
+                "role": "PPT称呼"
+              },
+              {
+                "alias": "素材V3",
+                "role": "图片称呼"
+              }
+            ],
+            "mention_ids": [
+              "m_0f19509dfeef86c8718e",
+              "m_22d63c2d54c6f0627ac2",
+              "m_284ad025a9f29bb40921",
+              "m_2cf1a32625b6bf02dfb8",
+              "m_2ee533c612921c963331",
+              "m_2f276805d8d1de9ca93b",
+              "m_3509c147e0b0cc4bbfcc",
+              "m_463b674d426c0a946d9a",
+              "m_4b56a236f636ec0f53bb",
+              "m_513d5afdbff6bbb4df15",
+              "m_58f7e966815f38d26445",
+              "m_5d0ebbf72b3b87bac458",
+              "m_5e1d0cb31e710d6299aa",
+              "m_69ddb85398fea363ca04",
+              "m_6f18cab3dc324f3cdc89",
+              "m_723e0994f0934c41d179",
+              "m_7266cfe5cdc414639d58",
+              "m_72d6c3ddae58ee9aee8e",
+              "m_77f80e8a051d52536ed2",
+              "m_78af7d0548f80dd17907",
+              "m_7d9fb1b14b4aa11a9be5",
+              "m_82673f4b3c657c95bd6c",
+              "m_8fcaa69e9e0a97548325",
+              "m_a36eff906657a48dc621",
+              "m_a57942cc9809e57a014c",
+              "m_a9afb98e6524298edaa0",
+              "m_b353b07f3886f91019c8",
+              "m_b538b7dbed59a7eb81cc",
+              "m_bc23762e988e1f2ea5f9",
+              "m_bc290e0e165eb7f5f6ef",
+              "m_c9360ce9b33dc0049f8a",
+              "m_cae9f055af1fa88de626",
+              "m_d553ebbf9861e6ef6503",
+              "m_dd7e4aa9f58ba260806d",
+              "m_df54dfb39b2136bc056c",
+              "m_e5e65185d2b81c4f1f6a",
+              "m_e84d7d8e4db725897333",
+              "m_ed06944bcc30d8285540",
+              "m_f60bb53ad1097b444060",
+              "m_ff0ceaf302f7aa3f34b3"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {
+                  "alias_bindings": [
+                    {
+                      "alias": "素材包V3",
+                      "role": "Word称呼"
+                    },
+                    {
+                      "alias": "asset-pack-v3",
+                      "role": "Excel称呼"
+                    },
+                    {
+                      "alias": "设计资源V3",
+                      "role": "PPT称呼"
+                    },
+                    {
+                      "alias": "素材V3",
+                      "role": "图片称呼"
+                    }
+                  ]
+                },
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_1711c6e428f53f577f81"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c5055deda61a4b044b54"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b38b69c9706b6f1d506f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a6ceba63a260eb106860"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2693f40b603c04147a24"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0f77ad1159c29c38fe13"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_da85737377145ac6e33a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c4b90e44a5ba9e5ba3b2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_deb345cbdfa4df521b05"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ec5dcd8dd9281e004547"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_65b51109d488cbb62b90"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_477b1c0c47a4e2ac3090"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8bea74a1724ab477d704"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_44bc1806f5c8879091fe"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d2dabc3858ae3c75a7a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_67c8360f4b157218052e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_441b812eb4d70b2a32f6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_50699eabdf1d479533b8"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f2b003e7b26891d6a1f9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_809298dfa9ffb3437a0b"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bd2db78ef32ccf2da6dd"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6ad505f1925ac10e6472"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a84c9ff6db5e8221dbbb"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_b884a100f8d080b3019f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c357940247b5d77c145c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_a5181746b3e77fe10b50"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_64c63578eeb054122826"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f9fda7ac50b40418011c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3e479568bc6b5feb669f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_dc0cf92a84174b2077e7"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d9a6c5ae2b6adf7adc4e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_dedfb0d330183125bf29",
+            "type": "Product",
+            "name": "配音TTS助手",
+            "aliases": [
+              "AI配音",
+              "TTS助手",
+              "tts-voice",
+              "配音TTS助手",
+              "配音工具"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_59a17c4242fb37580f23",
+              "m_5fd98d52dd53580a3bd6",
+              "m_65cb87551ce648b55537",
+              "m_69015d381b35832fcb28",
+              "m_79e9279aa5e2c8c66914",
+              "m_cf0ae1cb4d7c11bda2f1",
+              "m_d6420b6cff5ff5bdda67",
+              "m_eae080da4f6ca4ef8bd6"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4548fbedce8a6eb4c9a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_e652f9266b464edcfcee",
+            "type": "Product",
+            "name": "灵记日记",
+            "aliases": [
+              "note-app",
+              "日记APP",
+              "日记应用",
+              "灵记日记",
+              "灵记日记APP",
+              "记录工具"
+            ],
+            "alias_bindings": [
+              {
+                "alias": "灵记日记APP",
+                "role": "PDF称呼"
+              },
+              {
+                "alias": "日记APP",
+                "role": "Word称呼"
+              },
+              {
+                "alias": "note-app",
+                "role": "Excel称呼"
+              },
+              {
+                "alias": "日记应用",
+                "role": "PPT称呼"
+              },
+              {
+                "alias": "记录工具",
+                "role": "图片称呼"
+              }
+            ],
+            "mention_ids": [
+              "m_07e54b14b8a3a9503b76",
+              "m_0b9d4221d926899d487e",
+              "m_0d763366ea4e00f8c317",
+              "m_13228026a6531d42f542",
+              "m_1470aee3cd3d0ff23ece",
+              "m_1ebbb8ec0a0901b34430",
+              "m_2d5a73055c6bb0513351",
+              "m_3007309a7324a8b1140c",
+              "m_417ca39bf63d69897ea2",
+              "m_5680432b186ee171a3df",
+              "m_5d5ef0aeebbe5ca1e295",
+              "m_5f63b6ed3aaa907de65d",
+              "m_667d9b1428b07d3aa66d",
+              "m_6e0187fd46f34101ce06",
+              "m_6f73ea2fc6f5c32131cd",
+              "m_73335d28974a938f2f3b",
+              "m_8007e2ffc5585e9af479",
+              "m_a9529a9d9f5848c37b5f",
+              "m_ad8c3577441f04fa4f51",
+              "m_adfbbe93329077a2034b",
+              "m_b460971a7ad4036f84de",
+              "m_bd10ff6f2ae165546dc7",
+              "m_c0118a11634654227945",
+              "m_c49f7d0fea6e1d0869bd",
+              "m_d28f588611cb0cf699e8",
+              "m_db8aa55bc0e993696a7c",
+              "m_dcee17de8e0484169ab2",
+              "m_df3c6ce311811c30f81d",
+              "m_e3b32f0882541ed25fc3",
+              "m_e3eccd801cd7e89a4570",
+              "m_e94408e30769c756f026",
+              "m_eeee117a281836010b17",
+              "m_f658f8095ffea9b7111e"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {
+                  "alias_bindings": [
+                    {
+                      "alias": "灵记日记APP",
+                      "role": "PDF称呼"
+                    },
+                    {
+                      "alias": "日记APP",
+                      "role": "Word称呼"
+                    },
+                    {
+                      "alias": "note-app",
+                      "role": "Excel称呼"
+                    },
+                    {
+                      "alias": "日记应用",
+                      "role": "PPT称呼"
+                    },
+                    {
+                      "alias": "记录工具",
+                      "role": "图片称呼"
+                    }
+                  ]
+                },
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bb108e43d75dbd28b0f3"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_7f3e7224645c03a84324"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c89f654df299a5ed560e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_212c5fc9c7d15623ca9c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ec5dcd8dd9281e004547"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_62d7f438997a789c5fb3"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00177979815a30c5b85d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3ab8d18f178b70c6cb33"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6f775a8d2b77c9c34ed9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_7474b235c581bc46993c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d2dabc3858ae3c75a7a9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_03b304fde6869dc07ca8"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_7b21917850b495d40096"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_69e5c27f1b6a2be0af5c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4954fbd825c324acb757"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_1c42d330c08a0a967629"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_72b3fa61dd547abf311f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9e5fa19adb1fc515c8c1"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_46af2f1e66cf38a4f9b9"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_952fc68a53a43d844c10"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_9a8aca724de561c798e7"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_41290699f2df2b488cdb"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e40c2886aa1b0902f7c6"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_64642e517d78cb400868"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00b51e87baa05aae1d21"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f9fda7ac50b40418011c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e72b9870e32050cc9f4c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_e8a23d00fc0380d237a1",
+            "type": "AITool",
+            "name": "豆包",
+            "aliases": [
+              "豆包"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_398365996034f8fddba8",
+              "m_56a4bfba1b8a342050c7",
+              "m_9c620c8460aab81241aa",
+              "m_ac4e1ac573ad9884a9e3",
+              "m_f3ce3fdc625b42d66b7a"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2693f40b603c04147a24"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_caa29a3b4b157475ed1d"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8927583cc890837cfb8e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8c7e006d318e7f468a9c"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_fe093681792819db51fa",
+            "type": "Product",
+            "name": "创意素材包V2",
+            "aliases": [
+              "V2",
+              "asset-pack-v2",
+              "创意素材包V2",
+              "素材V2",
+              "素材包V2",
+              "设计资源V2"
+            ],
+            "alias_bindings": [
+              {
+                "alias": "素材包V2",
+                "role": "Word称呼"
+              },
+              {
+                "alias": "asset-pack-v2",
+                "role": "Excel称呼"
+              },
+              {
+                "alias": "设计资源V2",
+                "role": "PPT称呼"
+              },
+              {
+                "alias": "素材V2",
+                "role": "图片称呼"
+              }
+            ],
+            "mention_ids": [
+              "m_07773310d93225bd0317",
+              "m_0a1f9b1b0f65e65f0f75",
+              "m_139ce6cf31a23e5ad0fa",
+              "m_31cdd77a803465f9c634",
+              "m_33b792ef9c58f00412dd",
+              "m_387a43372657417f5916",
+              "m_3fde0433d53c4137cbd7",
+              "m_46bb9faa85837027e97d",
+              "m_5cd0307390d8343034ac",
+              "m_60b425bde528bc93ec66",
+              "m_6239f968b4cd851795e3",
+              "m_629f36723ff08f06ad9a",
+              "m_639b02882ed8f6f757e5",
+              "m_64593cfb3a9f4c02c6f2",
+              "m_730aba7afc1b40813a93",
+              "m_82f527ab48cd79c6f7da",
+              "m_9453d4ae30239a5db419",
+              "m_9a1f1a3cce6bfa8c9518",
+              "m_a502181bb716591cf10d",
+              "m_b406cc9f97db8ec59bd0",
+              "m_cf8b1450b01bde2f9dce",
+              "m_dd735b0ef46b02be041c",
+              "m_e241e68edd5749ad3725",
+              "m_e4442449c2b9a005ae69",
+              "m_ef391cc1ca423c2f3e5f",
+              "m_f262b38bb605452a4b4f"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {
+                  "alias_bindings": [
+                    {
+                      "alias": "素材包V2",
+                      "role": "Word称呼"
+                    },
+                    {
+                      "alias": "asset-pack-v2",
+                      "role": "Excel称呼"
+                    },
+                    {
+                      "alias": "设计资源V2",
+                      "role": "PPT称呼"
+                    },
+                    {
+                      "alias": "素材V2",
+                      "role": "图片称呼"
+                    }
+                  ]
+                },
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c6f7317b11c35191fa5e"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_00c287cee8d2cfb7ffbc"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6afc3a2c4d4768edbace"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_115bd682f161b20f3200"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_20ad4e62cee9d2335c26"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0ad469454217f58a85ab"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_2693f40b603c04147a24"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0f77ad1159c29c38fe13"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_da85737377145ac6e33a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_c4b90e44a5ba9e5ba3b2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_deb345cbdfa4df521b05"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ec5dcd8dd9281e004547"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_79f192e9484865379a63"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_44bc1806f5c8879091fe"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d46d0fc8701700a7ee11"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_43165c9a6b880b4d51af"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4b158f6a03b4418bb6ef"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_7d4dca3baddc9dc08991"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6e304f8506aea627be8a"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_0e407b0bca96b38399b2"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_ef9c1d6c8a6f7b151099"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_64c63578eeb054122826"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_f9fda7ac50b40418011c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_4e06f033bd426968629c"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_3e479568bc6b5feb669f"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_dc0cf92a84174b2077e7"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge_03697715497a875bcfcb",
+            "source": "entity_a09377687e7d9d1980d6",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_5c3b29475942a7358f52"
+            ],
+            "qualifiers": {
+              "period": "2026-05"
+            }
+          },
+          {
+            "id": "edge_03d6389fe4be5b2cb612",
+            "source": "entity_816f973dc94141f915ab",
+            "target": "entity_d8360811da0fbc30a586",
+            "predicate": "depends_on",
+            "fact_ids": [
+              "fact_ae6c5e87f463073575c5"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_0741397ef67fca73d696",
+            "source": "entity_ac9c6e60e5537207b43b",
+            "target": "entity_c4db9ae49b1b629ab0c4",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_e30d82fd7779e770acfe"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_07457f71aeead988e01d",
+            "source": "entity_793608af9269252d9ee6",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "maintained_by_tool",
+            "fact_ids": [
+              "fact_db19433770f861d4ed2d"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_0c083cba29a55d06a4e6",
+            "source": "entity_fe093681792819db51fa",
+            "target": "entity_d8360811da0fbc30a586",
+            "predicate": "replaced_by",
+            "fact_ids": [
+              "fact_513b790df3bc83679c71",
+              "fact_c04692e408199f6058cc",
+              "fact_e263da507d60bd787492"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_0f5157fddb5275372aeb",
+            "source": "entity_dedfb0d330183125bf29",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_887354c131f2964ad679"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_16c7d9d4a62a973f142b",
+            "source": "entity_d8360811da0fbc30a586",
+            "target": "entity_816f973dc94141f915ab",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_68166e1b8dc6d516517b",
+              "fact_df406c8f56c3c1c2cf7f"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_171ae369e237aec8bb68",
+            "source": "entity_d2e2f1d13bd2f6e31ef4",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_07e0fbeecab8b861f291"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_1973723db8f4b097e79a",
+            "source": "entity_d2e2f1d13bd2f6e31ef4",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_ff21c62cedb8b7efb306"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_2240a71732a00fd0a3f2",
+            "source": "entity_d8360811da0fbc30a586",
+            "target": "entity_fe093681792819db51fa",
+            "predicate": "replaced_by",
+            "fact_ids": [
+              "fact_2b1f7ab88ae6470b4929"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_2f32cf2278231cb9430a",
+            "source": "entity_e652f9266b464edcfcee",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_5f3b5ae491a067782c8f",
+              "fact_870e727343c22f6bdcfa"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_33124d7a7dfed1f6cbb7",
+            "source": "entity_cd2e0e247add22cec0c9",
+            "target": "entity_ae66e529e0e36c14b4fb",
+            "predicate": "substitutes_for",
+            "fact_ids": [
+              "fact_cf296de2fbe0832e0e2b"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_34c1bfaa028cabe5171b",
+            "source": "entity_e652f9266b464edcfcee",
+            "target": "entity_cd2e0e247add22cec0c9",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_f7631cccf15ab20d2a3b"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_42ee84732fc37b9854e6",
+            "source": "entity_ac9c6e60e5537207b43b",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_7fbf95e187be05f28b4e"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_48f4bf002a3bbb35cd4e",
+            "source": "entity_d2e2f1d13bd2f6e31ef4",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_fbe881d2ae6b420238b4"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_4cedb674d5631457bca6",
+            "source": "entity_d8360811da0fbc30a586",
+            "target": "entity_816f973dc94141f915ab",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_b4417c1f6c98e7c3014a"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_4d04b6a30cc0fb65b648",
+            "source": "entity_a09377687e7d9d1980d6",
+            "target": "entity_abe3a087cca18bae187d",
+            "predicate": "merged_into",
+            "fact_ids": [
+              "fact_b6dd66b7cb8dd941ad98",
+              "fact_d96589381debb3f0ebe8",
+              "fact_e5d5e8f639809192adca",
+              "fact_f908fb48201d3893270d"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_4ff7c46f5701484a59b1",
+            "source": "entity_ae1b1dc5cd3ba314a21d",
+            "target": "entity_e652f9266b464edcfcee",
+            "predicate": "depends_on",
+            "fact_ids": [
+              "fact_a23cc2c0f0ad2ad36717"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_5303c5c448636b132c8c",
+            "source": "entity_d8360811da0fbc30a586",
+            "target": "entity_fe093681792819db51fa",
+            "predicate": "planned_to_replace",
+            "fact_ids": [
+              "fact_3403c690444f37d6edeb"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_53866ca98e2c100b06af",
+            "source": "entity_ac9c6e60e5537207b43b",
+            "target": "entity_57461862385158ff767f",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_5b213acc22612b7ede06"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_5535a4df24151f73a5a5",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "depends_on",
+            "fact_ids": [
+              "fact_2ab5cadb37874f8c7898",
+              "fact_f79d4a9af72bfe56d4be"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_55c38306ea2c824dd2ac",
+            "source": "entity_4e9730b66317f4846824",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "maintained_by_tool",
+            "fact_ids": [
+              "fact_84b4e1ae9dd6bd5ce511"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_5686ab77fc9c8b489313",
+            "source": "entity_d8360811da0fbc30a586",
+            "target": "entity_fe093681792819db51fa",
+            "predicate": "less_stable_than",
+            "fact_ids": [
+              "fact_7e2f4b44abb0dcd13507"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_56f8e5656965d517acda",
+            "source": "entity_793608af9269252d9ee6",
+            "target": "entity_5ef9b4ee49f8d0c620d6",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_ab1dffba96896d834460"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_58379f2ac8f13695ca21",
+            "source": "entity_57461862385158ff767f",
+            "target": "entity_e652f9266b464edcfcee",
+            "predicate": "depends_on",
+            "fact_ids": [
+              "fact_77cc30d888ba1857a468"
+            ],
+            "qualifiers": {
+              "artifact": "原型"
+            }
+          },
+          {
+            "id": "edge_591dc3d3ece68fa1aace",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_cd2e0e247add22cec0c9",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_1ad9e28ed709d6484d92",
+              "fact_65796946cd246c7878b5"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_5adb46ce9ce7b5ac024b",
+            "source": "entity_1759e0ea37719833e90f",
+            "target": "entity_05bae8ef99c9a51d9749",
+            "predicate": "maintained_by_tool",
+            "fact_ids": [
+              "fact_45c9459175a1ff2e974d"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_5e49860fbeae1d6799ac",
+            "source": "entity_abe3a087cca18bae187d",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_e09bed32d0acff0f1e3e"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_60e0a671df8b6dfbd63e",
+            "source": "entity_e652f9266b464edcfcee",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "maintained_by_tool",
+            "fact_ids": [
+              "fact_ee96d90f2e525487c800"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_65c71185e2cf51146093",
+            "source": "entity_cd2e0e247add22cec0c9",
+            "target": "entity_ae66e529e0e36c14b4fb",
+            "predicate": "affects",
+            "fact_ids": [
+              "fact_487beb0f59e291f73af7"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_6933bd5cfeae77aef42f",
+            "source": "entity_fe093681792819db51fa",
+            "target": "entity_d8360811da0fbc30a586",
+            "predicate": "users_waiting_for",
+            "fact_ids": [
+              "fact_93228bfe0157baba05fb"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_697e01c2ca36ae1c3374",
+            "source": "entity_d8360811da0fbc30a586",
+            "target": "entity_05bae8ef99c9a51d9749",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_887c0ea99cd45aada851"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_703f87df445f0cd9d072",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_cd2e0e247add22cec0c9",
+            "predicate": "faces_competition_from",
+            "fact_ids": [
+              "fact_2de94aa7393e0196b77a"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_70fe79f1b58e12a12928",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_09d47f77cede3003608b",
+              "fact_0c46a767d7a5de5ceede",
+              "fact_2f5a314bfe5503877b71",
+              "fact_50d1ab628ac428361ad8",
+              "fact_7d0568577bb3c16cf2c6",
+              "fact_a782a00d4dffd8e41161",
+              "fact_c32bc530c6cb135b6ab8",
+              "fact_c6dfa02888b6136092a1",
+              "fact_f361b9fcfd8c4a185ec1"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_73fa95377b94cf3acae2",
+            "source": "entity_a31b7ade7cf3deeb9df0",
+            "target": "entity_ac9c6e60e5537207b43b",
+            "predicate": "depends_on",
+            "fact_ids": [
+              "fact_552d3a6568c72ea75c40"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_751b3178fde14bf0c541",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_cd2e0e247add22cec0c9",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_7a5de0561d4d5930c6d5"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_77a40ceeeaccbee3a561",
+            "source": "entity_1759e0ea37719833e90f",
+            "target": "entity_05bae8ef99c9a51d9749",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_42bb98f21b750f1b9216"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_7dd40f7926a9171908e7",
+            "source": "entity_686be5d8cef8542636ea",
+            "target": "entity_ae66e529e0e36c14b4fb",
+            "predicate": "is_sister_product_of",
+            "fact_ids": [
+              "fact_8dc6e66a8b110777f29b"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_8587652267a317d50fa9",
+            "source": "entity_abe3a087cca18bae187d",
+            "target": "entity_a09377687e7d9d1980d6",
+            "predicate": "merged_into",
+            "fact_ids": [
+              "fact_d713937c976b6de8852f"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_86c77610cef79a396070",
+            "source": "entity_cd2e0e247add22cec0c9",
+            "target": "entity_ae66e529e0e36c14b4fb",
+            "predicate": "reduces_paid_value_of",
+            "fact_ids": [
+              "fact_c19de70e19d1ef3aaa3a"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_8d746b3ff3b8b00689b0",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_1cc8a8b9198824e030db"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_8d7af874d2006ff9162c",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "part_of_ecosystem",
+            "fact_ids": [
+              "fact_85799cf3580ff5c349aa"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_8e61b42656ec1fd30a7e",
+            "source": "entity_ae1b1dc5cd3ba314a21d",
+            "target": "entity_ae66e529e0e36c14b4fb",
+            "predicate": "depends_on",
+            "fact_ids": [
+              "fact_1bd368f2f7d62732c7a1"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_8e75d780fda9b6084506",
+            "source": "entity_a31b7ade7cf3deeb9df0",
+            "target": "entity_d8360811da0fbc30a586",
+            "predicate": "usage_increased_after",
+            "fact_ids": [
+              "fact_7cab065832c1496288f7"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_8f34f35048a07b0ace05",
+            "source": "entity_4e9730b66317f4846824",
+            "target": "entity_816f973dc94141f915ab",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_a63b8095659c4cff585a"
+            ],
+            "qualifiers": {
+              "period": "2026-04"
+            }
+          },
+          {
+            "id": "edge_932fb99efd972224cc55",
+            "source": "entity_25e9b486a69c2cb96c11",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_3cb31cc39557684b8e8b"
+            ],
+            "qualifiers": {
+              "period": "2026-03"
+            }
+          },
+          {
+            "id": "edge_9611bcf117d696d2c7da",
+            "source": "entity_dedfb0d330183125bf29",
+            "target": "entity_e8a23d00fc0380d237a1",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_6c5905f9fb1ae6087a12"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_9726be69b2725a061d48",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_cd2e0e247add22cec0c9",
+            "predicate": "competes_with",
+            "fact_ids": [
+              "fact_3db7b499166e780b0129"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_9fa14cb1151f6178e16c",
+            "source": "entity_abe3a087cca18bae187d",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_456cc8f7a6fe4ffa530d"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_a206be60116c33287337",
+            "source": "entity_cd2e0e247add22cec0c9",
+            "target": "entity_ae66e529e0e36c14b4fb",
+            "predicate": "diverts_users_from",
+            "fact_ids": [
+              "fact_c91a1f72507b15fdb004"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_a25607e23ad09ced3a6c",
+            "source": "entity_ae1b1dc5cd3ba314a21d",
+            "target": "entity_ae66e529e0e36c14b4fb",
+            "predicate": "causes_compatibility_issue_with",
+            "fact_ids": [
+              "fact_e696411c7c8e4788b4c7"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_a3863155454e714e6783",
+            "source": "entity_793608af9269252d9ee6",
+            "target": "entity_e8a23d00fc0380d237a1",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_a7565f92f94c9e50cc81"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_ab50160d4841df1d6296",
+            "source": "entity_1759e0ea37719833e90f",
+            "target": "entity_05bae8ef99c9a51d9749",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_054be14ec4de79aff4b0"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_abf10e38f4bc590d912f",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "affected_by",
+            "fact_ids": [
+              "fact_0393336eb629ebcd6b0b"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_ac9cd29452584b839ede",
+            "source": "entity_793608af9269252d9ee6",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_6374e38d4350ad720d04",
+              "fact_81dddc934517d27a8fa6",
+              "fact_a984f54158e5afd5e63a"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_acbef79e3488b8de5f26",
+            "source": "entity_d2e2f1d13bd2f6e31ef4",
+            "target": "entity_e652f9266b464edcfcee",
+            "predicate": "under_evaluation_for_merger_into",
+            "fact_ids": [
+              "fact_a5ca827e93f24d552e30"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_b3d9db48a408f11663cd",
+            "source": "entity_abe3a087cca18bae187d",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_73885821623bd04d9bdb",
+              "fact_8a5c10653a396e10dec4",
+              "fact_d70a7ebd849e50a06a0a"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_b95e63078a55e7022ae7",
+            "source": "entity_e652f9266b464edcfcee",
+            "target": "entity_816f973dc94141f915ab",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_5d9ee8f65375e16f573d",
+              "fact_793701d06e5728182afc"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_c5c8cd179a0220b82b03",
+            "source": "entity_4e9730b66317f4846824",
+            "target": "entity_e8a23d00fc0380d237a1",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_b8448f38570b92a20a03"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_caaa71cc6d289589a90f",
+            "source": "entity_e652f9266b464edcfcee",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_77edacdd716784690b99"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_cac00b8a92137d4d28be",
+            "source": "entity_d8360811da0fbc30a586",
+            "target": "entity_a31b7ade7cf3deeb9df0",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_84c68e8ae6a86da09b6f",
+              "fact_f9a2951f99e6a1b6da74"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_d72342c375838aefcafa",
+            "source": "entity_793608af9269252d9ee6",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_95fd5890c2e2e7caf186"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_d9aabedcb2592132eb14",
+            "source": "entity_e652f9266b464edcfcee",
+            "target": "entity_e8a23d00fc0380d237a1",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_169db6530443c90854de"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_de3ae9c2675079ccf1b6",
+            "source": "entity_abe3a087cca18bae187d",
+            "target": "entity_832a4f1d6aae7dd0c9eb",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_d4fd8f165d81baf6d6ef"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_deb2da6bf1603a37254d",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses_development_tool",
+            "fact_ids": [
+              "fact_25b6242b71dd0533a87a"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_ee54a7ab7dceda727014",
+            "source": "entity_d8360811da0fbc30a586",
+            "target": "entity_816f973dc94141f915ab",
+            "predicate": "maintained_by_tool",
+            "fact_ids": [
+              "fact_7f2ea7a59d8a896761ce"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_f0c4a2ea0a5f9397f1bb",
+            "source": "entity_686be5d8cef8542636ea",
+            "target": "entity_ae1b1dc5cd3ba314a21d",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_0f5f9579cf8e112dab51",
+              "fact_421954ce6b6f04cc73e4"
+            ],
+            "qualifiers": {},
+            "qualifier_mode": "fact_level"
+          },
+          {
+            "id": "edge_f4d9eed201b351a417e7",
+            "source": "entity_711c47a74bbf5e5e1495",
+            "target": "entity_c4db9ae49b1b629ab0c4",
+            "predicate": "operated_by_tool",
+            "fact_ids": [
+              "fact_5ef9fda6064e0a5f806c"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_fdd807572cae9a3cf96b",
+            "source": "entity_fe093681792819db51fa",
+            "target": "entity_a31b7ade7cf3deeb9df0",
+            "predicate": "uses",
+            "fact_ids": [
+              "fact_870ab582a16080cbf52c"
+            ],
+            "qualifiers": {
+              "period": "2026-04"
+            }
+          },
+          {
+            "id": "edge_ff371b42f613150ed600",
+            "source": "entity_ae66e529e0e36c14b4fb",
+            "target": "entity_686be5d8cef8542636ea",
+            "predicate": "sister_product",
+            "fact_ids": [
+              "fact_2c00bd7c7bdfe7d383d5"
+            ],
+            "qualifiers": {
+              "common_basis": "同为墨文生插件"
+            }
+          }
+        ],
+        "layout": "architecture"
+      },
+      "message": "图谱已构建并通过校验"
+    },
+    {
+      "id": 103,
+      "type": "run.completed",
+      "elapsed_s": 252.0,
+      "message": "运行完成"
+    }
+  ],
+  "created_at": 1792311351.190225
+}

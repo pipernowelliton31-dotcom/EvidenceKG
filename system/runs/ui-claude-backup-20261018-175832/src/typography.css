@@ -1,0 +1,97 @@
+/* Editorial Motion Web typography, scaled for an information workspace. */
+:root {
+  --font-ui: 'DengXian', '等线', 'Inter', 'Microsoft YaHei', 'Noto Sans SC', system-ui, sans-serif;
+  --font-editorial: 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+  --font-data: 'Libre Baskerville', 'Baskerville', Georgia, serif;
+  --font-code: 'Cascadia Code', 'Consolas', ui-monospace, monospace;
+  --type-title: 30px;
+  --type-section: 24px;
+  --type-body: 15px;
+  --type-ui: 13px;
+  --type-caption: 12px;
+}
+body, button, input, textarea, select, option { font-family: var(--font-ui); }
+.workspace-v2 { font-family: var(--font-ui); font-size: var(--type-body); line-height: 1.7; }
+.workspace-v2 button, .workspace-v2 input, .workspace-v2 select, .workspace-v2 textarea { font-family: var(--font-ui); letter-spacing: normal; }
+.workspace-v2 h1, .workspace-v2 h2, .workspace-v2 h3,
+.workspace-v2 .brand, .workspace-v2 .upload-choice strong {
+  font-family: var(--font-editorial); font-weight: 600; letter-spacing: .035em;
+}
+.workspace-v2 .brand { font-size: 27px; }
+.workspace-v2 .brand-en { font-family: var(--font-data); font-size: 11px; font-weight: 400; letter-spacing: .04em; }
+.workspace-v2 .chat-welcome h1 { font-size: 34px; line-height: 1.4; letter-spacing: .05em; }
+.workspace-v2 .page-toolbar h1 { font-size: var(--type-title); line-height: 1.4; }
+.workspace-v2 .reader-index h2, .workspace-v2 .settings-modal h2, .workspace-v2 .reader-heading h2 { font-size: var(--type-section); line-height: 1.5; }
+.workspace-v2 .reader-heading h2 { overflow-wrap: anywhere; }
+.workspace-v2 .markdown { font-family: var(--font-ui); font-size: var(--type-body); line-height: 1.9; }
+.workspace-v2 .markdown h1 { font-size: 28px; }
+.workspace-v2 .markdown h2 { font-size: 23px; line-height: 1.6; }
+.workspace-v2 .markdown h3 { font-size: 19px; line-height: 1.6; }
+.workspace-v2 .markdown h4 { font-size: 16px; line-height: 1.7; }
+.workspace-v2 .markdown p, .workspace-v2 .markdown li { line-height: 1.9; }
+.workspace-v2 .markdown blockquote { font-family: var(--font-editorial); font-size: 16px; line-height: 1.9; }
+.workspace-v2 .markdown strong { font-weight: 600; }
+.workspace-v2 pre, .workspace-v2 code { font-family: var(--font-code); }
+.workspace-v2 pre { font-size: 12px; line-height: 1.8; }
+.workspace-v2 .chat-welcome > p, .workspace-v2 .page-toolbar p,
+.workspace-v2 .reader-index > p, .workspace-v2 .reader-heading p,
+.workspace-v2 .settings-modal > p { font-size: 14px; line-height: 1.85; }
+.workspace-v2 .sidebar nav button, .workspace-v2 .new-chat, .workspace-v2 .sidebar-upload,
+.workspace-v2 .sidebar-bottom button, .workspace-v2 .file-row, .workspace-v2 .workspace-select select,
+.workspace-v2 .history-title, .workspace-v2 .sidebar-file-heading { font-size: var(--type-ui); }
+.workspace-v2 .sidebar-history button { font-size: 12px; line-height: 1.75; }
+.workspace-v2 .sidebar-chat-note { font-size: 11px; }
+.workspace-v2 .sidebar-section-label { font-size: 11px; letter-spacing: .08em; }
+.workspace-v2 .topbar strong { font-size: 14px; font-weight: 600; }
+.workspace-v2 .model-pill { font-size: 12px; }
+.workspace-v2 .primary, .workspace-v2 .soft-button, .workspace-v2 .danger-button { font-size: var(--type-ui); line-height: 1.6; font-weight: 500; }
+.workspace-v2 .suggestion-grid span { font-family: var(--font-editorial); font-size: 17px; font-weight: 600; line-height: 1.6; }
+.workspace-v2 .suggestion-grid p { font-size: 12px; line-height: 1.85; }
+.workspace-v2 .user-message-body > p { font-size: var(--type-body); line-height: 1.9; }
+.workspace-v2 .assistant-heading strong { font-size: 14px; }
+.workspace-v2 .assistant-heading > span:last-child { font-size: 12px; }
+.workspace-v2 .copy-button, .workspace-v2 .answer-actions button, .workspace-v2 .retry-actions > span { font-size: var(--type-caption); }
+.workspace-v2 .execution-card > summary strong, .workspace-v2 .answer-sources > summary strong { font-size: 13px; line-height: 1.75; }
+.workspace-v2 .execution-card small, .workspace-v2 .execution-step small { font-size: 12px; }
+.workspace-v2 .execution-step > summary, .workspace-v2 .inline-source > summary,
+.workspace-v2 .execution-caption, .workspace-v2 .step-detail p { font-size: 12px; line-height: 1.85; }
+.workspace-v2 .inline-excerpt pre { font-family: var(--font-ui); font-size: 13px; line-height: 1.85; }
+.workspace-v2 .document-tools, .workspace-v2 .reader-navigation, .workspace-v2 .graph-toolbar,
+.workspace-v2 .graph-source-scope, .workspace-v2 .graph-query-status small { font-size: var(--type-caption); }
+.workspace-v2 .reader-locator { font-size: 12px; line-height: 1.75; }
+.workspace-v2 .reader-file-open strong { font-size: 15px; font-weight: 500; }
+.workspace-v2 .reader-file-open small { font-size: 12px; }
+.workspace-v2 .composer textarea { font-size: var(--type-body); line-height: 1.8; }
+.workspace-v2 .composer-project { font-size: 12px; }
+.workspace-v2 .composer-bottom > div > span { font-size: 11px; }
+.workspace-v2 .api-settings form label { font-size: 13px; line-height: 1.8; }
+.workspace-v2 .api-settings input, .workspace-v2 .api-settings select { font-size: 14px; }
+.workspace-v2 .api-settings small, .workspace-v2 .api-security-note { font-size: 12px; line-height: 1.85; }
+.workspace-v2 .spreadsheet-table { font-family: var(--font-ui); font-size: 13px; }
+.workspace-v2 .spreadsheet-table th { font-family: var(--font-ui); font-weight: 500; }
+.workspace-v2 .data-number, .workspace-v2 .history-title > span,
+.workspace-v2 .sidebar-file-heading > span, .workspace-v2 .inline-source > summary > b,
+.workspace-v2 input[type='number'], .workspace-v2 .numeric-cell {
+  font-family: var(--font-data); font-weight: 400; letter-spacing: 0;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.workspace-v2 .data-number { font-size: 1.08em; }
+.workspace-v2 .test-result-card > summary > span { font-family: var(--font-data); font-size: 14px; }
+.workspace-v2 .graph-canvas svg text { font-family: var(--font-ui); }
+@media (max-width: 800px) {
+  :root { --type-title: 26px; --type-section: 22px; }
+  .workspace-v2 .chat-welcome h1 { font-size: 28px; }
+  .workspace-v2 .topbar strong { font-size: 12px; }
+  .workspace-v2 .mobile-nav button { font-size: 12px; min-height: 44px; }
+  .workspace-v2 .markdown h2 { font-size: 21px; }
+  .workspace-v2 .markdown h3 { font-size: 18px; }
+  .workspace-v2 .suggestion-grid span { font-size: 16px; }
+  .workspace-v2 .api-settings input, .workspace-v2 .composer textarea { font-size: 16px; }
+  .workspace-v2 .reader-file-open strong { font-size: 14px; }
+}
+
+.workspace-v2 .brand { white-space: nowrap; }
+.workspace-v2 .brand-symbol, .workspace-v2 .brand-en { flex-shrink: 0; }
+@media (min-width: 801px) and (max-width: 1200px) {
+  .workspace-v2 .brand { font-size: 24px; gap: 7px; margin-left: 0; margin-right: 0; }
+}

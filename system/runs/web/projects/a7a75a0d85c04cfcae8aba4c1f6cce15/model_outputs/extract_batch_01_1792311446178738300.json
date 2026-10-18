@@ -1,0 +1,307 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_afda62cde316c5ac4cbc",
+      "mentions": [
+        {
+          "local_id": "p_lingyu",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "p_pack_v2",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "aliases": [
+            "asset-pack-v2"
+          ]
+        },
+        {
+          "local_id": "p_pack_v3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "p_copy_assistant",
+          "type": "Product",
+          "name": "营销文案助手"
+        },
+        {
+          "local_id": "p_weekly",
+          "type": "Product",
+          "name": "周报生成器"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "p_pack_v2",
+          "predicate": "replaced_by",
+          "object": "p_pack_v3"
+        },
+        {
+          "subject": "p_copy_assistant",
+          "predicate": "merged_into",
+          "object": "p_weekly"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "p_lingyu",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_model"
+          },
+          "value": {
+            "model": "订阅制",
+            "basic": "8.9元/月",
+            "premium": "25.9元/月",
+            "effective_date": "2026-04-12",
+            "previous_model": "免费增值"
+          }
+        },
+        {
+          "subject": "p_lingyu",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_revenue_change"
+          },
+          "value": {
+            "before": "约9.9万元/月",
+            "after": "约7.1万元/月",
+            "period": "Q2"
+          }
+        },
+        {
+          "subject": "p_pack_v2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": {
+            "status": "停售",
+            "date": "2026-05-22"
+          }
+        },
+        {
+          "subject": "p_copy_assistant",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "已并入周报生成器，不再作为独立产品销售"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_d2fe5d839615e7b083cb",
+      "mentions": [
+        {
+          "local_id": "qhs",
+          "type": "Actor",
+          "name": "青禾工作室"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "qhs",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_count"
+          },
+          "value": 17
+        },
+        {
+          "subject": "qhs",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_coverage"
+          },
+          "value": [
+            "写作",
+            "编程",
+            "设计",
+            "文案",
+            "运营",
+            "自动化"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_965b51003801e6d31740",
+      "mentions": [
+        {
+          "local_id": "qhs",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "zhou",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "xunfei",
+          "type": "AITool",
+          "name": "讯飞听见"
+        },
+        {
+          "local_id": "doubao",
+          "type": "AITool",
+          "name": "豆包"
+        },
+        {
+          "local_id": "feishu",
+          "type": "AITool",
+          "name": "飞书智能表格"
+        },
+        {
+          "local_id": "kb",
+          "type": "DataAsset",
+          "name": "知识库"
+        },
+        {
+          "local_id": "lingyu",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "ev_compat",
+          "type": "Event",
+          "name": "灵雨写作助手兼容性问题"
+        },
+        {
+          "local_id": "ops_excel",
+          "type": "DataAsset",
+          "name": "运营记录Excel"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "zhou",
+          "predicate": "uses",
+          "object": "xunfei",
+          "qualifiers": {
+            "purpose": "记录客户需求"
+          }
+        },
+        {
+          "subject": "zhou",
+          "predicate": "uses",
+          "object": "doubao",
+          "qualifiers": {
+            "purpose": "生成回复模板"
+          }
+        },
+        {
+          "subject": "kb",
+          "predicate": "managed_by",
+          "object": "feishu"
+        },
+        {
+          "subject": "ev_compat",
+          "predicate": "related_to",
+          "object": "lingyu"
+        },
+        {
+          "subject": "ev_compat",
+          "predicate": "documented_in",
+          "object": "ops_excel",
+          "qualifiers": {
+            "detail": "Sheet4"
+          }
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "qhs",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_service_channels"
+          },
+          "value": [
+            "产品内反馈",
+            "邮件",
+            "微信社群"
+          ]
+        },
+        {
+          "subject": "qhs",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "severe_issue_handling"
+          },
+          "value": "优先处理，通过社群公告和产品内通知告知所有用户"
+        },
+        {
+          "subject": "ev_compat",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ticket_volume_change"
+          },
+          "value": {
+            "period": "Q2",
+            "from": "月均40条",
+            "to": "月均96条"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "unit_64965d5d01eb223447c0",
+      "mentions": [
+        {
+          "local_id": "qhs",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "v_manual",
+          "type": "Version",
+          "name": "V2026.06"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "qhs",
+          "predicate": "has_version",
+          "object": "v_manual"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "v_manual",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026年6月"
+        },
+        {
+          "subject": "qhs",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "business_model"
+          },
+          "value": "一人公司(OPC) · 数字产品工作室"
+        },
+        {
+          "subject": "qhs",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "document_type"
+          },
+          "value": "产品运营参考"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_0b8b1fa41cced6ccabd9",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

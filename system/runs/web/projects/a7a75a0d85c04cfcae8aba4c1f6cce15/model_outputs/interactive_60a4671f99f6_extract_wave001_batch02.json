@@ -1,0 +1,567 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_d400014acb83273b1e71",
+      "mentions": [
+        {
+          "local_id": "m_mowen",
+          "type": "Product",
+          "name": "墨文创作台"
+        },
+        {
+          "local_id": "m_aiw",
+          "type": "AITool",
+          "name": "AI写作助手"
+        },
+        {
+          "local_id": "m_v2",
+          "type": "Version",
+          "name": "v2"
+        },
+        {
+          "local_id": "m_v3",
+          "type": "Version",
+          "name": "v3"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_mowen",
+          "predicate": "upgraded_from",
+          "object": "m_v2"
+        },
+        {
+          "subject": "m_mowen",
+          "predicate": "upgraded_to",
+          "object": "m_v3"
+        },
+        {
+          "subject": "m_aiw",
+          "predicate": "compatibility_issue_with",
+          "object": "m_v3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_mowen",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "version_upgrade"
+          },
+          "value": "v2→v3"
+        },
+        {
+          "subject": "m_aiw",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "issue"
+          },
+          "value": "兼容性问题"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_63f6b1109a56ad65e25b",
+      "mentions": [
+        {
+          "local_id": "m_p03",
+          "type": "Product",
+          "name": "灵犀写作插件",
+          "aliases": [
+            "P03"
+          ]
+        },
+        {
+          "local_id": "m_wenan",
+          "type": "Product",
+          "name": "文案进阶课"
+        },
+        {
+          "local_id": "m_v3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "m_zhoubao",
+          "type": "Product",
+          "name": "周报精灵"
+        },
+        {
+          "local_id": "m_wenan_assistant",
+          "type": "Product",
+          "name": "文案助手"
+        },
+        {
+          "local_id": "m_pricing",
+          "type": "Event",
+          "name": "定价变更"
+        },
+        {
+          "local_id": "m_compat",
+          "type": "Event",
+          "name": "兼容性问题"
+        },
+        {
+          "local_id": "m_stability",
+          "type": "Event",
+          "name": "稳定性问题"
+        },
+        {
+          "local_id": "m_qinghe",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "m_zhou",
+          "type": "Actor",
+          "name": "周然"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_pricing",
+          "predicate": "impacted",
+          "object": "m_p03"
+        },
+        {
+          "subject": "m_compat",
+          "predicate": "impacted",
+          "object": "m_p03"
+        },
+        {
+          "subject": "m_v3",
+          "predicate": "has_issue",
+          "object": "m_stability"
+        },
+        {
+          "subject": "m_zhoubao",
+          "predicate": "merged_into",
+          "object": "m_wenan_assistant"
+        },
+        {
+          "subject": "m_zhou",
+          "predicate": "prepared_report_for",
+          "object": "m_qinghe"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_p03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "impact_assessment"
+          },
+          "value": "受定价与兼容性双重打击，下降最严重"
+        },
+        {
+          "subject": "m_wenan",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "billing_model"
+          },
+          "value": "一次性买断"
+        },
+        {
+          "subject": "m_wenan",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "subscription_impact"
+          },
+          "value": "不受订阅制影响"
+        },
+        {
+          "subject": "m_v3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "renewal_issue"
+          },
+          "value": "稳定性问题影响续费"
+        },
+        {
+          "subject": "m_zhoubao",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "growth_driver"
+          },
+          "value": "并入文案助手功能，反而增长"
+        },
+        {
+          "subject": "m_qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "report_period"
+          },
+          "value": "2026年Q2"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_fdd94aa70cda19a13ee6",
+      "mentions": [
+        {
+          "local_id": "m_mowen",
+          "type": "Product",
+          "name": "墨文创作台"
+        },
+        {
+          "local_id": "m_p03",
+          "type": "Product",
+          "name": "P03",
+          "aliases": [
+            "P03插件",
+            "灵犀写作插件"
+          ]
+        },
+        {
+          "local_id": "m_v2",
+          "type": "Version",
+          "name": "v2"
+        },
+        {
+          "local_id": "m_v3",
+          "type": "Version",
+          "name": "v3"
+        },
+        {
+          "local_id": "m_v30",
+          "type": "Version",
+          "name": "v3.0"
+        },
+        {
+          "local_id": "m_v31",
+          "type": "Version",
+          "name": "v3.1"
+        },
+        {
+          "local_id": "m_v32",
+          "type": "Version",
+          "name": "v3.2"
+        },
+        {
+          "local_id": "m_tongyi",
+          "type": "AITool",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "m_qinghe",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "m_zhou",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "m_ev_v3",
+          "type": "Event",
+          "name": "墨文v3发布"
+        },
+        {
+          "local_id": "m_ev_compat",
+          "type": "Event",
+          "name": "P03兼容性问题"
+        },
+        {
+          "local_id": "m_ev_rollback",
+          "type": "Event",
+          "name": "暂停v3.1回退v3.0"
+        },
+        {
+          "local_id": "m_ev_stop",
+          "type": "Event",
+          "name": "适配停更"
+        },
+        {
+          "local_id": "m_ev_fix",
+          "type": "Event",
+          "name": "发布v3.2修复完成"
+        },
+        {
+          "local_id": "m_ev_complaints",
+          "type": "Event",
+          "name": "已购用户投诉增加"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_ev_v3",
+          "predicate": "released_version",
+          "object": "m_v3"
+        },
+        {
+          "subject": "m_ev_v3",
+          "predicate": "involves_product",
+          "object": "m_mowen"
+        },
+        {
+          "subject": "m_p03",
+          "predicate": "based_on",
+          "object": "m_v2"
+        },
+        {
+          "subject": "m_p03",
+          "predicate": "compatibility_issue_with",
+          "object": "m_v3"
+        },
+        {
+          "subject": "m_ev_compat",
+          "predicate": "affects",
+          "object": "m_p03"
+        },
+        {
+          "subject": "m_ev_rollback",
+          "predicate": "rolled_back_from",
+          "object": "m_v31"
+        },
+        {
+          "subject": "m_ev_rollback",
+          "predicate": "rolled_back_to",
+          "object": "m_v30"
+        },
+        {
+          "subject": "m_p03",
+          "predicate": "update_blocked_by",
+          "object": "m_ev_stop"
+        },
+        {
+          "subject": "m_ev_fix",
+          "predicate": "released_version",
+          "object": "m_v32"
+        },
+        {
+          "subject": "m_ev_fix",
+          "predicate": "resolves",
+          "object": "m_ev_compat"
+        },
+        {
+          "subject": "m_tongyi",
+          "predicate": "impacts",
+          "object": "m_p03"
+        },
+        {
+          "subject": "m_ev_complaints",
+          "predicate": "caused_by",
+          "object": "m_ev_stop"
+        },
+        {
+          "subject": "m_zhou",
+          "predicate": "prepared_report_for",
+          "object": "m_qinghe"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_ev_v3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-05-02"
+        },
+        {
+          "subject": "m_ev_compat",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-05-04"
+        },
+        {
+          "subject": "m_ev_rollback",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-05-04"
+        },
+        {
+          "subject": "m_ev_stop",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-05-10"
+        },
+        {
+          "subject": "m_ev_stop",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "duration_days"
+          },
+          "value": 18
+        },
+        {
+          "subject": "m_ev_fix",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-05-20"
+        },
+        {
+          "subject": "m_ev_complaints",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_ticket_count"
+          },
+          "value": "40→96条/月"
+        },
+        {
+          "subject": "m_p03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "q2_end_metric_change"
+          },
+          "value": {
+            "renewal_rate": "82%→74%",
+            "revenue": "9.9→7.1万"
+          }
+        },
+        {
+          "subject": "m_tongyi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_quota"
+          },
+          "value": "免费额度增加"
+        },
+        {
+          "subject": "m_p03",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "paid_value_impact"
+          },
+          "value": "付费价值相对降低，部分用户转向免费替代方案"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_089b9613bf0614f896be",
+      "mentions": [
+        {
+          "local_id": "m_exp",
+          "type": "Event",
+          "name": "定价策略AB实验",
+          "identifiers": [
+            "AB-2026-0321"
+          ]
+        },
+        {
+          "local_id": "m_zhou",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "m_switch",
+          "type": "Event",
+          "name": "全面切换为订阅制"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_zhou",
+          "predicate": "responsible_for",
+          "object": "m_exp"
+        },
+        {
+          "subject": "m_exp",
+          "predicate": "led_to",
+          "object": "m_switch"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_exp",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "experiment_period"
+          },
+          "value": "2026年3月21日 - 4月5日"
+        },
+        {
+          "subject": "m_exp",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "assignment_method"
+          },
+          "value": "用户ID哈希随机分流"
+        },
+        {
+          "subject": "m_exp",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "statistical_significance"
+          },
+          "value": "p值 < 0.05"
+        },
+        {
+          "subject": "m_exp",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "confidence_interval"
+          },
+          "value": "LTV差异95%CI [14.8, 28.4]"
+        },
+        {
+          "subject": "m_exp",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "conclusion"
+          },
+          "value": [
+            "订阅制短期转化率下降，但长期LTV显著提升",
+            "30日留存率提升，订阅制有助于用户粘性"
+          ]
+        },
+        {
+          "subject": "m_switch",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "effective_date"
+          },
+          "value": "2026-04-12"
+        },
+        {
+          "subject": "m_switch",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "basic_price"
+          },
+          "value": "8.9元/月"
+        },
+        {
+          "subject": "m_switch",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "advanced_price"
+          },
+          "value": "25.9元/月"
+        },
+        {
+          "subject": "m_switch",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "risk_plan"
+          },
+          "value": "课程类产品维持一次买断不变"
+        },
+        {
+          "subject": "m_switch",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "follow_up"
+          },
+          "value": "Q3持续监控LTV与流失率"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_13c7903e3d937b0a4852",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

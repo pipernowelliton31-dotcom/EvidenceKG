@@ -1,0 +1,887 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_2f592a7adb7175357833",
+      "mentions": [
+        {
+          "local_id": "m_v2",
+          "type": "Product",
+          "name": "创意素材包V2"
+        },
+        {
+          "local_id": "m_v3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "m_wenan",
+          "type": "Product",
+          "name": "文案助手"
+        },
+        {
+          "local_id": "m_zhoubao",
+          "type": "Product",
+          "name": "周报精灵"
+        },
+        {
+          "local_id": "m_aiwriter",
+          "type": "Product",
+          "name": "AI写作助手"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_v2",
+          "predicate": "replaced_by",
+          "object": "m_v3"
+        },
+        {
+          "subject": "m_wenan",
+          "predicate": "merged_into",
+          "object": "m_zhoubao"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_v2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "停售"
+        },
+        {
+          "subject": "p_108",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "complaint_ticket_volume"
+          },
+          "value": {
+            "previous_monthly_avg": 40,
+            "current": 96,
+            "trend": "激增"
+          }
+        },
+        {
+          "subject": "m_aiwriter",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "q2_income_change"
+          },
+          "value": "-28%"
+        },
+        {
+          "subject": "m_aiwriter",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "q2_attribution"
+          },
+          "value": {
+            "定价策略": "-16%",
+            "工具升级兼容": "-12%"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "unit_cbe37eca2f987ad38bdf",
+      "mentions": [
+        {
+          "local_id": "p03",
+          "type": "Product",
+          "name": "P03"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t_9",
+          "predicate": "causes_compatibility_issue_with",
+          "object": "rp_9_0"
+        },
+        {
+          "subject": "t_13",
+          "predicate": "reduces_paid_value_of",
+          "object": "p03"
+        },
+        {
+          "subject": "t_14",
+          "predicate": "diverts_users_from",
+          "object": "p03"
+        },
+        {
+          "subject": "t_22",
+          "predicate": "usage_increased_after",
+          "object": "rp_22_0"
+        },
+        {
+          "subject": "t_25",
+          "predicate": "complaint_about",
+          "object": "p03"
+        },
+        {
+          "subject": "t_25",
+          "predicate": "complaint_about",
+          "object": "rp_22_0"
+        },
+        {
+          "subject": "t_26",
+          "predicate": "complaint_about",
+          "object": "p03"
+        },
+        {
+          "subject": "t_26",
+          "predicate": "complaint_about",
+          "object": "rp_22_0"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t_8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "release"
+          },
+          "value": {
+            "version": "v3",
+            "effect": "语法变化"
+          }
+        },
+        {
+          "subject": "t_9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "usage_trend"
+          },
+          "value": "下降"
+        },
+        {
+          "subject": "t_10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "usage_trend"
+          },
+          "value": "逐步恢复"
+        },
+        {
+          "subject": "t_12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_quota"
+          },
+          "value": "增加"
+        },
+        {
+          "subject": "t_13",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_strategy"
+          },
+          "value": "上线"
+        },
+        {
+          "subject": "t_14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_strategy"
+          },
+          "value": "持续"
+        },
+        {
+          "subject": "t_22",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "usage_trend"
+          },
+          "value": "增加"
+        },
+        {
+          "subject": "t_24",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_ticket_volume"
+          },
+          "value": 40
+        },
+        {
+          "subject": "t_24",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "正常水平"
+        },
+        {
+          "subject": "t_25",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_ticket_volume"
+          },
+          "value": 96
+        },
+        {
+          "subject": "t_25",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "trend"
+          },
+          "value": "激增"
+        },
+        {
+          "subject": "t_25",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "complaint_types"
+          },
+          "value": [
+            "P03兼容性",
+            "V3稳定性"
+          ]
+        },
+        {
+          "subject": "t_26",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_ticket_volume"
+          },
+          "value": 120
+        },
+        {
+          "subject": "t_26",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "complaint_types"
+          },
+          "value": [
+            "定价",
+            "兼容性",
+            "V3质量"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_92e26802c25b7adfac38",
+      "mentions": [
+        {
+          "local_id": "m_mowen",
+          "type": "AITool",
+          "name": "墨文创作台"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "e_19",
+          "predicate": "caused_by",
+          "object": "m_mowen"
+        },
+        {
+          "subject": "e_20",
+          "predicate": "incompatible_with",
+          "object": "m_mowen"
+        },
+        {
+          "subject": "e_21",
+          "predicate": "adapts_to",
+          "object": "m_mowen"
+        },
+        {
+          "subject": "p_22",
+          "predicate": "replaced_by",
+          "object": "p_23"
+        },
+        {
+          "subject": "p_24",
+          "predicate": "merged_into",
+          "object": "p_30"
+        },
+        {
+          "subject": "e_30",
+          "predicate": "completes",
+          "object": "e_24"
+        },
+        {
+          "subject": "e_29",
+          "predicate": "related_to",
+          "object": "m_mowen"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "e_2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "v1.0发布",
+            "reason": "初始版本上线",
+            "impact": "全部用户"
+          }
+        },
+        {
+          "subject": "e_3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "v1.2上架",
+            "reason": "增加统计图表功能",
+            "impact": "全部用户"
+          }
+        },
+        {
+          "subject": "e_4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "v2.1发布",
+            "reason": "支持多语言写作补全",
+            "impact": "付费用户"
+          }
+        },
+        {
+          "subject": "e_5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "新增第7-9讲",
+            "reason": "补充提示词工程章节",
+            "impact": "课程购买者"
+          }
+        },
+        {
+          "subject": "e_6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "v1.5发布",
+            "reason": "增加批量测试功能",
+            "impact": "全部用户"
+          }
+        },
+        {
+          "subject": "e_7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "新增冬季主题素材20套",
+            "reason": "季节性更新",
+            "impact": "V2购买者"
+          }
+        },
+        {
+          "subject": "e_8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "接入豆包API",
+            "reason": "提升周报生成质量",
+            "impact": "全部用户"
+          }
+        },
+        {
+          "subject": "e_9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "v2.0发布",
+            "reason": "新增异步编程章节",
+            "impact": "电子书购买者"
+          }
+        },
+        {
+          "subject": "e_10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "增加文本审查功能",
+            "reason": "用户需求反馈",
+            "impact": "付费用户"
+          }
+        },
+        {
+          "subject": "e_11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "v1.3发布",
+            "reason": "支持交互式图表",
+            "impact": "全部用户"
+          }
+        },
+        {
+          "subject": "e_12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "支持Markdown导入",
+            "reason": "提升导入效率",
+            "impact": "全部用户"
+          }
+        },
+        {
+          "subject": "e_13",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "v2.0发布",
+            "reason": "智能润色功能上线",
+            "impact": "全部用户"
+          }
+        },
+        {
+          "subject": "e_14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "新增销售看板模板",
+            "reason": "用户需求",
+            "impact": "模板购买者"
+          }
+        },
+        {
+          "subject": "e_15",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "免费增值→订阅制：基础8.9/月，高级25.9/月",
+            "reason": "AB实验(D09)证明订阅制LTV更高",
+            "impact": "全部产品线",
+            "remark": "AB实验数据见Sheet3"
+          }
+        },
+        {
+          "subject": "e_16",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "一次性19.9→订阅8.9/月",
+            "reason": "跟随全局定价变更",
+            "impact": "灵记日记用户"
+          }
+        },
+        {
+          "subject": "e_17",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "一次性49→订阅25.9/月",
+            "reason": "跟随全局定价变更",
+            "impact": "P03付费用户"
+          }
+        },
+        {
+          "subject": "e_18",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "维持89元一次买断不变",
+            "reason": "课程类产品不纳入订阅制",
+            "impact": "课程购买者",
+            "remark": "维持原价"
+          }
+        },
+        {
+          "subject": "e_19",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "墨文创作台v3语法变化导致插件兼容问题",
+            "reason": "墨文创作台 v2→v3 升级",
+            "impact": "P03全部用户",
+            "remark": "适配停更18天"
+          }
+        },
+        {
+          "subject": "e_20",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "暂停v3.1更新，回退至v3.0",
+            "reason": "v3.1与墨文v3不兼容",
+            "impact": "v3.1用户"
+          }
+        },
+        {
+          "subject": "e_21",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "发布v3.2适配墨文v3",
+            "reason": "兼容性修复",
+            "impact": "全部付费用户",
+            "remark": "修复耗时2周"
+          }
+        },
+        {
+          "subject": "e_22",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "V2标记停售，由V3替代",
+            "reason": "V3新增3D素材+动效模板，覆盖V2全部内容",
+            "impact": "V2用户可免费升级V3"
+          }
+        },
+        {
+          "subject": "e_23",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "V3发布：3D素材+动效模板+全套V2内容",
+            "reason": "产品线升级",
+            "impact": "新用户/V2升级用户"
+          }
+        },
+        {
+          "subject": "e_24",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "文案助手功能并入周报精灵",
+            "reason": "减少产品分散，整合功能",
+            "impact": "文案助手用户",
+            "remark": "原用户自动获得周报工具使用权"
+          }
+        },
+        {
+          "subject": "e_25",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "用户反馈V3稳定性问题，评分3.4/5",
+            "reason": "动效模板渲染不稳定",
+            "impact": "V3用户",
+            "remark": "已收到14条反馈"
+          }
+        },
+        {
+          "subject": "e_26",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "Q2收入确认下降28%（9.9万→7.1万）",
+            "reason": "定价策略+兼容性双重影响",
+            "impact": "管理层",
+            "remark": "详细数据见Sheet3"
+          }
+        },
+        {
+          "subject": "e_27",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "Q2收入下降归因：定价策略-16%，兼容性-12%",
+            "reason": "综合分析",
+            "impact": "全部产品线"
+          }
+        },
+        {
+          "subject": "p_27",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "q2_income_attribution"
+          },
+          "value": {
+            "定价策略": "-16%",
+            "兼容性": "-12%"
+          }
+        },
+        {
+          "subject": "e_28",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "v1.1发布修复渲染问题",
+            "reason": "用户反馈驱动",
+            "impact": "V3用户"
+          }
+        },
+        {
+          "subject": "e_29",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "墨文创作台 v4 即将发布，需提前适配",
+            "reason": "墨文官方公告",
+            "impact": "P03产品线",
+            "remark": "Word §5.2有详细风险说明"
+          }
+        },
+        {
+          "subject": "e_30",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "文案助手功能正式作为内置模块",
+            "reason": "CHG-023后续完成",
+            "impact": "周报精灵用户"
+          }
+        },
+        {
+          "subject": "e_31",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_details"
+          },
+          "value": {
+            "content": "Q2策略复盘：订阅制长期LTV更优但短期转化率下降",
+            "reason": "季度复盘",
+            "impact": "全部产品线"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "unit_a54bc7ef6f91a627f9cc",
+      "mentions": [
+        {
+          "local_id": "m_mowen",
+          "type": "AITool",
+          "name": "墨文创作台"
+        },
+        {
+          "local_id": "t_tongyi",
+          "type": "AITool",
+          "name": "通义灵码"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "p_17",
+          "predicate": "affected_by",
+          "object": "m_mowen"
+        },
+        {
+          "subject": "p_28",
+          "predicate": "affected_by",
+          "object": "m_mowen"
+        },
+        {
+          "subject": "p_24",
+          "predicate": "users_waiting_for",
+          "object": "p_25"
+        },
+        {
+          "subject": "t_tongyi",
+          "predicate": "reduces_paid_value_of",
+          "object": "p_30"
+        },
+        {
+          "subject": "t_tongyi",
+          "predicate": "diverts_users_from",
+          "object": "p_31"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "p_13",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "P03收入峰值"
+        },
+        {
+          "subject": "p_14",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "4月12日定价变更，转化率下降"
+        },
+        {
+          "subject": "p_15",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "定价变更后首月，旧用户尚未续费"
+        },
+        {
+          "subject": "p_16",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "订阅制影响持续"
+        },
+        {
+          "subject": "p_17",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "墨文v3兼容性问题+定价变更双重影响"
+        },
+        {
+          "subject": "p_18",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "有所恢复"
+        },
+        {
+          "subject": "p_19",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "续费率降至66%，收入7.2万(较3月降28%)"
+        },
+        {
+          "subject": "p_20",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "课程不纳入订阅制"
+        },
+        {
+          "subject": "p_24",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "5月22日停售，用户等待V3"
+        },
+        {
+          "subject": "p_25",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "5月22日上线"
+        },
+        {
+          "subject": "p_26",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "V3评分3.4/5，稳定性问题影响续费"
+        },
+        {
+          "subject": "p_28",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "墨文v3间接影响"
+        },
+        {
+          "subject": "p_30",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "通义灵码免费额度增加，P03付费价值降低"
+        },
+        {
+          "subject": "p_31",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "remark"
+          },
+          "value": "通义灵码免费策略持续分流用户"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_045f27b2c79c658883a6",
+      "mentions": [
+        {
+          "local_id": "p_aiwriter",
+          "type": "Product",
+          "name": "AI写作助手"
+        },
+        {
+          "local_id": "ev_pricing",
+          "type": "Event",
+          "name": "定价策略变更"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "p_aiwriter",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "daily_active_users"
+          },
+          "value": "首次突破日均50人"
+        },
+        {
+          "subject": "ev_pricing",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_model"
+          },
+          "value": {
+            "from": "免费增值",
+            "to": "订阅制",
+            "basic": "8.9/月",
+            "premium": "25.9/月"
+          }
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

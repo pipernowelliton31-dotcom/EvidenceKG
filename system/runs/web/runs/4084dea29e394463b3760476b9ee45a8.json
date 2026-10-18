@@ -1,0 +1,250 @@
+{
+  "id": "4084dea29e394463b3760476b9ee45a8",
+  "project_id": "f0d3835c32e34b468bfff2e1adc79db5",
+  "kind": "build",
+  "question": "",
+  "status": "failed",
+  "events": [
+    {
+      "id": 1,
+      "type": "run.started",
+      "elapsed_s": 0.0,
+      "message": "已创建运行"
+    },
+    {
+      "id": 2,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[检查] 检查已有知识图谱是否完整、可用…"
+    },
+    {
+      "id": 3,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[构图] 未发现可用的完整图谱，开始构图；匹配的 checkpoint 会继续复用。"
+    },
+    {
+      "id": 4,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[输入] 业务语料=2，排除的问题集/参考资料=0"
+    },
+    {
+      "id": 5,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[Parse] 正在本地解析材料…"
+    },
+    {
+      "id": 6,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "  parsed: 启明寻洛，脉续中原-林硕锦-2243515519.docx"
+    },
+    {
+      "id": 7,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "  parsed: 英仔爱心社2025年度总结材料(1).docx"
+    },
+    {
+      "id": 8,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "[Parse] unit_count=114 cached=False"
+    },
+    {
+      "id": 9,
+      "type": "stage.progress",
+      "elapsed_s": 0.2,
+      "message": "[Prepare] 进行本地结构化预提取，筛选需要模型处理的内容…"
+    },
+    {
+      "id": 10,
+      "type": "stage.progress",
+      "elapsed_s": 0.3,
+      "message": "[Prepare] 自动处理=90，待模型抽取=24"
+    },
+    {
+      "id": 11,
+      "type": "stage.progress",
+      "elapsed_s": 0.4,
+      "message": "[Extraction wave 1] round=- pending=24 batches=5 tasks=24"
+    },
+    {
+      "id": 12,
+      "type": "stage.progress",
+      "elapsed_s": 10.4,
+      "message": "[Extraction] 等待模型，已耗时 10s，剩余 5 个批次…"
+    },
+    {
+      "id": 13,
+      "type": "stage.progress",
+      "elapsed_s": 20.5,
+      "message": "[Extraction] 等待模型，已耗时 20s，剩余 5 个批次…"
+    },
+    {
+      "id": 14,
+      "type": "stage.progress",
+      "elapsed_s": 30.5,
+      "message": "[Extraction] 等待模型，已耗时 30s，剩余 5 个批次…"
+    },
+    {
+      "id": 15,
+      "type": "stage.progress",
+      "elapsed_s": 40.5,
+      "message": "[Extraction] 等待模型，已耗时 40s，剩余 5 个批次…"
+    },
+    {
+      "id": 16,
+      "type": "stage.progress",
+      "elapsed_s": 50.5,
+      "message": "[Extraction] 等待模型，已耗时 50s，剩余 5 个批次…"
+    },
+    {
+      "id": 17,
+      "type": "stage.progress",
+      "elapsed_s": 60.5,
+      "message": "[Extraction] 等待模型，已耗时 60s，剩余 5 个批次…"
+    },
+    {
+      "id": 18,
+      "type": "stage.progress",
+      "elapsed_s": 70.5,
+      "message": "[Extraction] 等待模型，已耗时 70s，剩余 5 个批次…"
+    },
+    {
+      "id": 19,
+      "type": "stage.progress",
+      "elapsed_s": 80.5,
+      "message": "[Extraction] 等待模型，已耗时 80s，剩余 5 个批次…"
+    },
+    {
+      "id": 20,
+      "type": "stage.progress",
+      "elapsed_s": 83.4,
+      "message": "[extract] batch=1 tasks=5 time=77.0s tokens=16918"
+    },
+    {
+      "id": 21,
+      "type": "stage.progress",
+      "elapsed_s": 83.5,
+      "message": "  accept batch=1 pending=19"
+    },
+    {
+      "id": 22,
+      "type": "stage.progress",
+      "elapsed_s": 93.5,
+      "message": "[Extraction] 等待模型，已耗时 93s，剩余 4 个批次…"
+    },
+    {
+      "id": 23,
+      "type": "stage.progress",
+      "elapsed_s": 98.0,
+      "message": "[extract] batch=4 tasks=4 time=91.5s tokens=10173"
+    },
+    {
+      "id": 24,
+      "type": "stage.progress",
+      "elapsed_s": 98.0,
+      "message": "  accept batch=4 pending=15"
+    },
+    {
+      "id": 25,
+      "type": "stage.progress",
+      "elapsed_s": 108.0,
+      "message": "[Extraction] 等待模型，已耗时 108s，剩余 3 个批次…"
+    },
+    {
+      "id": 26,
+      "type": "stage.progress",
+      "elapsed_s": 118.1,
+      "message": "[Extraction] 等待模型，已耗时 118s，剩余 3 个批次…"
+    },
+    {
+      "id": 27,
+      "type": "stage.progress",
+      "elapsed_s": 120.3,
+      "message": "[extract] batch=2 tasks=5 time=113.9s tokens=17028"
+    },
+    {
+      "id": 28,
+      "type": "stage.progress",
+      "elapsed_s": 120.4,
+      "message": "  accept batch=2 pending=10"
+    },
+    {
+      "id": 29,
+      "type": "stage.progress",
+      "elapsed_s": 130.4,
+      "message": "[Extraction] 等待模型，已耗时 130s，剩余 2 个批次…"
+    },
+    {
+      "id": 30,
+      "type": "stage.progress",
+      "elapsed_s": 140.5,
+      "message": "[Extraction] 等待模型，已耗时 140s，剩余 2 个批次…"
+    },
+    {
+      "id": 31,
+      "type": "stage.progress",
+      "elapsed_s": 150.5,
+      "message": "[Extraction] 等待模型，已耗时 150s，剩余 2 个批次…"
+    },
+    {
+      "id": 32,
+      "type": "stage.progress",
+      "elapsed_s": 160.5,
+      "message": "[Extraction] 等待模型，已耗时 160s，剩余 2 个批次…"
+    },
+    {
+      "id": 33,
+      "type": "stage.progress",
+      "elapsed_s": 170.5,
+      "message": "[Extraction] 等待模型，已耗时 170s，剩余 2 个批次…"
+    },
+    {
+      "id": 34,
+      "type": "stage.progress",
+      "elapsed_s": 180.5,
+      "message": "[Extraction] 等待模型，已耗时 180s，剩余 2 个批次…"
+    },
+    {
+      "id": 35,
+      "type": "stage.progress",
+      "elapsed_s": 190.5,
+      "message": "[Extraction] 等待模型，已耗时 190s，剩余 2 个批次…"
+    },
+    {
+      "id": 36,
+      "type": "stage.progress",
+      "elapsed_s": 200.5,
+      "message": "[Extraction] 等待模型，已耗时 200s，剩余 2 个批次…"
+    },
+    {
+      "id": 37,
+      "type": "stage.progress",
+      "elapsed_s": 210.2,
+      "message": "[extract] batch=0 tasks=5 time=203.8s tokens=35533"
+    },
+    {
+      "id": 38,
+      "type": "stage.progress",
+      "elapsed_s": 210.3,
+      "message": "  accept batch=0 pending=5"
+    },
+    {
+      "id": 39,
+      "type": "stage.progress",
+      "elapsed_s": 211.7,
+      "message": "[Extraction] batch=3 失败：模型正文不是有效 JSON; content_type=str; finish_reason=stop; completion_tokens=9072; reasoning_tokens=7482; 诊断文件=\\\\?\\C:\\EvidenceKG\\system\\runs\\web\\projects\\f0d3835c32e34b468bfff2e1adc79db5\\model_outputs\\extract_b03_c2c29f81a7b9_a3_failed_response.json"
+    },
+    {
+      "id": 40,
+      "type": "run.error",
+      "elapsed_s": 211.7,
+      "message": "部分批次失败，成功结果已保存；可再次提问继续。\nbatch=3: 模型正文不是有效 JSON; content_type=str; finish_reason=stop; completion_tokens=9072; reasoning_tokens=7482; 诊断文件=\\\\?\\C:\\EvidenceKG\\system\\runs\\web\\projects\\f0d3835c32e34b468bfff2e1adc79db5\\model_outputs\\extract_b03_c2c29f81a7b9_a3_failed_response.json"
+    }
+  ],
+  "created_at": 1791381306.9108078
+}

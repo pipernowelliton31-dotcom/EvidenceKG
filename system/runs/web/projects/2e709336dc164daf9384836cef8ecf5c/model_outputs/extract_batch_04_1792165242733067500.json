@@ -1,0 +1,300 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_0af5249f051ca0c56479",
+      "mentions": [
+        {
+          "local_id": "m_org",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m_page",
+          "type": "DataAsset",
+          "name": "竞选PPT第2页目录"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_page",
+          "predicate": "belongs_to",
+          "object": "m_org"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_page",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "document_format"
+          },
+          "value": "pptx"
+        },
+        {
+          "subject": "m_page",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "slide_number"
+          },
+          "value": 2
+        },
+        {
+          "subject": "m_page",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "sections"
+          },
+          "value": [
+            "自我介绍",
+            "竞选理由",
+            "工作总结",
+            "部门规划"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_e25c02f0bf8f91ad1cf6",
+      "mentions": [
+        {
+          "local_id": "m_person",
+          "type": "Actor",
+          "name": "黎雅诗"
+        },
+        {
+          "local_id": "m_photo",
+          "type": "DataAsset",
+          "name": "黎雅诗照片"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_photo",
+          "predicate": "depicts",
+          "object": "m_person"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_person",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "age"
+          },
+          "value": 19
+        },
+        {
+          "subject": "m_person",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "native_place"
+          },
+          "value": "广西北海"
+        },
+        {
+          "subject": "m_person",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "college"
+          },
+          "value": "文治书院"
+        },
+        {
+          "subject": "m_person",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "class"
+          },
+          "value": "机械2501班"
+        },
+        {
+          "subject": "m_person",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "skills"
+          },
+          "value": [
+            "秀米",
+            "视频剪辑"
+          ]
+        },
+        {
+          "subject": "m_person",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "traits"
+          },
+          "value": [
+            "学习力",
+            "亲和力",
+            "执行力",
+            "责任感"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_23589ef4842629721243",
+      "mentions": [
+        {
+          "local_id": "m_org",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "m_role",
+          "type": "Actor",
+          "name": "部长"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_role",
+          "predicate": "belongs_to",
+          "object": "m_org"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_role",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "responsibilities"
+          },
+          "value": [
+            "方向掌舵人",
+            "内部凝聚人",
+            "部门发言人",
+            "成员导师",
+            "全局规划者"
+          ]
+        },
+        {
+          "subject": "m_role",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "descriptions"
+          },
+          "value": [
+            "决策未来走向，拥有魄力与眼光",
+            "协调信息对接，增强成员归属感",
+            "代表利益形象，跨部门高效交涉",
+            "技能培训，引领新成员能力发展",
+            "核心领导，高效分工，统筹资源协助活动顺利落地"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_0e1216d890a1a40814a0",
+      "mentions": [
+        {
+          "local_id": "m_org",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m_org",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "motto"
+          },
+          "value": "推己及人"
+        },
+        {
+          "subject": "m_org",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "applicant_statement"
+          },
+          "value": [
+            "价值观高度契合",
+            "勇于突破自我"
+          ]
+        },
+        {
+          "subject": "m_org",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "value_detail"
+          },
+          "value": "深植“推己及人”的社训。我渴望为那些素不相识的同学带来一丁点温暖和快乐，在奉献中找寻自我。"
+        },
+        {
+          "subject": "m_org",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "self_expectation"
+          },
+          "value": "部长的重担是磨砺也是平台。我不怕操心，期待在统筹全局中完善自我，在爱心事业中开拓成长路径。"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_8f7cc0cde41fbcfbe416",
+      "mentions": [
+        {
+          "local_id": "m_uni",
+          "type": "Actor",
+          "name": "西安交通大学"
+        },
+        {
+          "local_id": "m_event",
+          "type": "Event",
+          "name": "启明寻洛、脉续中原 三下乡社会实践"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m_event",
+          "predicate": "organized_by",
+          "object": "m_uni"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m_event",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "locations"
+          },
+          "value": [
+            "河南洛阳",
+            "开封"
+          ]
+        },
+        {
+          "subject": "m_event",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "themes"
+          },
+          "value": [
+            "文化传承",
+            "数字化科技"
+          ]
+        },
+        {
+          "subject": "m_event",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "purpose"
+          },
+          "value": "溯源悠久中华文脉，探寻古老文化在当今时代如何绽放新的花火"
+        },
+        {
+          "subject": "m_event",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "slogan"
+          },
+          "value": "知行合一，让青春在服务人民、扎根基层的过程中绽放别样光彩"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_031e801da803ca0f198f"
+}

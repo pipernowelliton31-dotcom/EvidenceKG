@@ -1,0 +1,1133 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_c4ef8833bdd6126b46a3",
+      "mentions": [
+        {
+          "local_id": "p1",
+          "type": "Product",
+          "name": "灵记日记"
+        },
+        {
+          "local_id": "p2",
+          "type": "Product",
+          "name": "番茄专注Pro"
+        },
+        {
+          "local_id": "p3",
+          "type": "Product",
+          "name": "灵雨写作助手",
+          "aliases": [
+            "AI写作助手插件"
+          ]
+        },
+        {
+          "local_id": "p4",
+          "type": "Product",
+          "name": "周报生成器"
+        },
+        {
+          "local_id": "p5",
+          "type": "Product",
+          "name": "接口调试大师"
+        },
+        {
+          "local_id": "p6",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "p7",
+          "type": "Product",
+          "name": "文案进阶课"
+        },
+        {
+          "local_id": "p8",
+          "type": "Product",
+          "name": "AI自动化手册"
+        },
+        {
+          "local_id": "p9",
+          "type": "Product",
+          "name": "思维导图工具"
+        },
+        {
+          "local_id": "p10",
+          "type": "Product",
+          "name": "配音TTS助手"
+        },
+        {
+          "local_id": "p11",
+          "type": "Product",
+          "name": "效率导航"
+        },
+        {
+          "local_id": "p12",
+          "type": "Product",
+          "name": "项目模板"
+        },
+        {
+          "local_id": "t1",
+          "type": "AITool",
+          "name": "墨文创作台",
+          "aliases": [
+            "墨文"
+          ]
+        },
+        {
+          "local_id": "t2",
+          "type": "AITool",
+          "name": "通义灵码",
+          "aliases": [
+            "通义"
+          ]
+        },
+        {
+          "local_id": "v3",
+          "type": "Version",
+          "name": "v3"
+        },
+        {
+          "local_id": "ev1",
+          "type": "Event",
+          "name": "墨文创作台v2→v3升级"
+        },
+        {
+          "local_id": "ev2",
+          "type": "Event",
+          "name": "通义灵码免费额度增加"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "ev1",
+          "predicate": "upgraded_to",
+          "object": "v3",
+          "qualifiers": {
+            "from_version": "v2"
+          }
+        },
+        {
+          "subject": "ev1",
+          "predicate": "caused_compatibility_issue_for",
+          "object": "p3"
+        },
+        {
+          "subject": "p3",
+          "predicate": "depends_on",
+          "object": "t1"
+        },
+        {
+          "subject": "ev2",
+          "predicate": "increased_free_quota_of",
+          "object": "t2"
+        },
+        {
+          "subject": "ev2",
+          "predicate": "reduced_paid_value_of",
+          "object": "p3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "APP",
+            "status": "正常",
+            "monthly_active_users": "7,600",
+            "development_tools": [
+              "墨文",
+              "通义"
+            ],
+            "maintenance_tools": [
+              "墨文"
+            ],
+            "operations_tools": [
+              "豆包"
+            ]
+          }
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "APP",
+            "status": "正常",
+            "monthly_active_users": "2,900",
+            "development_tools": [
+              "墨文"
+            ],
+            "maintenance_tools": [
+              "墨文"
+            ],
+            "operations_tools": [
+              "豆包"
+            ]
+          }
+        },
+        {
+          "subject": "p3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "插件",
+            "status": "兼容性问题",
+            "monthly_active_users": "10,800",
+            "development_tools": [
+              "墨文",
+              "通义"
+            ],
+            "maintenance_tools": [
+              "优先"
+            ],
+            "operations_tools": [
+              "Kimi"
+            ]
+          }
+        },
+        {
+          "subject": "p4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "小程序",
+            "status": "已合并文案助手",
+            "monthly_active_users": "2,600",
+            "development_tools": [
+              "墨文",
+              "Kimi"
+            ],
+            "maintenance_tools": [
+              "优先"
+            ],
+            "operations_tools": [
+              "Kimi"
+            ]
+          }
+        },
+        {
+          "subject": "p5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "桌面工具",
+            "status": "稳定",
+            "monthly_active_users": "1,400",
+            "development_tools": [
+              "墨文"
+            ],
+            "maintenance_tools": [
+              "优先"
+            ],
+            "operations_tools": [
+              "秘塔AI"
+            ]
+          }
+        },
+        {
+          "subject": "p6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "素材",
+            "status": "V2停售替代",
+            "monthly_active_users": "—",
+            "development_tools": [
+              "Figma AI",
+              "即梦"
+            ],
+            "maintenance_tools": [
+              "Figma AI"
+            ],
+            "operations_tools": [
+              "飞书智能"
+            ]
+          }
+        },
+        {
+          "subject": "p7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "在线课程",
+            "status": "稳定",
+            "monthly_active_users": "580",
+            "development_tools": [
+              "Kimi",
+              "豆包"
+            ],
+            "maintenance_tools": [
+              "Kimi"
+            ],
+            "operations_tools": [
+              "Gamma"
+            ]
+          }
+        },
+        {
+          "subject": "p8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "电子书",
+            "status": "稳定",
+            "monthly_active_users": "840",
+            "development_tools": [
+              "豆包",
+              "墨文"
+            ],
+            "maintenance_tools": [
+              "豆包"
+            ],
+            "operations_tools": [
+              "Kimi"
+            ]
+          }
+        },
+        {
+          "subject": "p9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "在线工具",
+            "status": "正常",
+            "monthly_active_users": "3,900",
+            "development_tools": [
+              "墨文",
+              "Kimi"
+            ],
+            "maintenance_tools": [
+              "优先"
+            ],
+            "operations_tools": [
+              "Kimi"
+            ]
+          }
+        },
+        {
+          "subject": "p10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "在线工具",
+            "status": "正常",
+            "monthly_active_users": "1,700",
+            "development_tools": [
+              "墨文",
+              "讯飞"
+            ],
+            "maintenance_tools": [
+              "优先"
+            ],
+            "operations_tools": [
+              "豆包"
+            ]
+          }
+        },
+        {
+          "subject": "p11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "网站",
+            "status": "广告收入",
+            "monthly_active_users": "13,500",
+            "development_tools": [
+              "墨文",
+              "v0.dev"
+            ],
+            "maintenance_tools": [
+              "优先"
+            ],
+            "operations_tools": [
+              "秘塔AI"
+            ]
+          }
+        },
+        {
+          "subject": "p12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "spec_overview"
+          },
+          "value": {
+            "type": "模板",
+            "status": "正常",
+            "monthly_active_users": "900",
+            "development_tools": [
+              "飞书智能"
+            ],
+            "maintenance_tools": [
+              "飞书智能"
+            ],
+            "operations_tools": [
+              "飞书智能"
+            ]
+          }
+        },
+        {
+          "subject": "ev1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026年5月"
+        },
+        {
+          "subject": "ev1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "impact"
+          },
+          "value": "文档语法变化导致灵雨写作助手插件兼容性问题，适配约2周，期间无法正常更新"
+        },
+        {
+          "subject": "ev2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "effect"
+          },
+          "value": "增加免费使用额度，降低灵雨写作助手付费价值感知"
+        },
+        {
+          "subject": "t1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "role"
+          },
+          "value": "灵雨写作助手的开发深度依赖墨文创作台环境"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_bd4c07a2b0c66896c63b",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "AITool",
+          "name": "墨文创作台",
+          "aliases": [
+            "墨文"
+          ]
+        },
+        {
+          "local_id": "m2",
+          "type": "AITool",
+          "name": "通义灵码",
+          "aliases": [
+            "通义"
+          ]
+        },
+        {
+          "local_id": "m3",
+          "type": "AITool",
+          "name": "Figma AI"
+        },
+        {
+          "local_id": "m4",
+          "type": "Actor",
+          "name": "青禾工作室",
+          "aliases": [
+            "Studio"
+          ]
+        },
+        {
+          "local_id": "m5",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "m6",
+          "type": "Event",
+          "name": "墨文创作台v2→v3升级"
+        },
+        {
+          "local_id": "m7",
+          "type": "Event",
+          "name": "通义灵码免费额度提升"
+        },
+        {
+          "local_id": "m8",
+          "type": "Event",
+          "name": "灵雨写作助手恢复更新"
+        },
+        {
+          "local_id": "m9",
+          "type": "Version",
+          "name": "v3"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m6",
+          "predicate": "upgraded_to",
+          "object": "m9",
+          "qualifiers": {
+            "from_version": "v2"
+          }
+        },
+        {
+          "subject": "m6",
+          "predicate": "impacted_compatibility_of",
+          "object": "m5"
+        },
+        {
+          "subject": "m7",
+          "predicate": "increased_free_quota_of",
+          "object": "m2"
+        },
+        {
+          "subject": "m7",
+          "predicate": "affected_paid_value_of",
+          "object": "m5"
+        },
+        {
+          "subject": "m8",
+          "predicate": "restored_updates_for",
+          "object": "m5"
+        },
+        {
+          "subject": "m5",
+          "predicate": "depends_on",
+          "object": "m1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_calls",
+            "note": "迁移后统计"
+          },
+          "value": "6万次"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "adaptation_progress"
+          },
+          "value": "已完成"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_resumed"
+          },
+          "value": "5月20日恢复更新"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_calls"
+          },
+          "value": "2.5万次"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "version"
+          },
+          "value": "v1.5"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_quota"
+          },
+          "value": {
+            "before": "80次/月",
+            "after": "300次/月"
+          }
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_calls"
+          },
+          "value": "1.2千次"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "version"
+          },
+          "value": "v2"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "purpose"
+          },
+          "value": "素材V3开发"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "total_cost"
+          },
+          "value": "245美元/月"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "cost_share"
+          },
+          "value": "占支出33%"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "total_revenue"
+          },
+          "value": "约18万/月"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "q2_revenue"
+          },
+          "value": "Q2前约14万/月"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "tool_chain_coverage"
+          },
+          "value": "17种（全产品线）"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "automation_saved_hours"
+          },
+          "value": "约80小时/月（Make+n8n合计）"
+        },
+        {
+          "subject": "m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2025年5月2日"
+        },
+        {
+          "subject": "m6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "impact"
+          },
+          "value": "新版本语法和补全策略变化，影响灵雨写作助手插件兼容性"
+        },
+        {
+          "subject": "m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change"
+          },
+          "value": "免费额度从每月80次增至300次"
+        },
+        {
+          "subject": "m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "timing"
+          },
+          "value": "同期"
+        },
+        {
+          "subject": "m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "impact"
+          },
+          "value": "影响P03付费价值"
+        },
+        {
+          "subject": "m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "5月20日"
+        },
+        {
+          "subject": "m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "恢复更新"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_ae9f726c7b049bd7ed3c",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "AITool",
+          "name": "墨文创作台",
+          "aliases": [
+            "墨文"
+          ]
+        },
+        {
+          "local_id": "m2",
+          "type": "Version",
+          "name": "v4"
+        },
+        {
+          "local_id": "m3",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "m4",
+          "type": "AITool",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "m5",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "m6",
+          "type": "Version",
+          "name": "v3.1"
+        },
+        {
+          "local_id": "m7",
+          "type": "Event",
+          "name": "墨文创作台v4发布"
+        },
+        {
+          "local_id": "m8",
+          "type": "Event",
+          "name": "灵雨写作助手v4适配"
+        },
+        {
+          "local_id": "m9",
+          "type": "Event",
+          "name": "创意素材包V3紧急修复"
+        },
+        {
+          "local_id": "m10",
+          "type": "Event",
+          "name": "创意素材包v3.1发布"
+        },
+        {
+          "local_id": "m11",
+          "type": "Event",
+          "name": "通义灵码免费策略风险"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m7",
+          "predicate": "requires_adaptation_of",
+          "object": "m3"
+        },
+        {
+          "subject": "m8",
+          "predicate": "targets_version",
+          "object": "m2"
+        },
+        {
+          "subject": "m8",
+          "predicate": "adapts_product",
+          "object": "m3"
+        },
+        {
+          "subject": "m11",
+          "predicate": "threatens_paid_value_of",
+          "object": "m3"
+        },
+        {
+          "subject": "m9",
+          "predicate": "improved",
+          "object": "m5"
+        },
+        {
+          "subject": "m5",
+          "predicate": "planned_release",
+          "object": "m6"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "expected_release"
+          },
+          "value": "2026年Q3（2026年9月-10月）"
+        },
+        {
+          "subject": "m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "risk_rating"
+          },
+          "value": "高"
+        },
+        {
+          "subject": "m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "possible_impact"
+          },
+          "value": "若v4适配期间灵雨写作助手再次停更，可能导致续费率进一步下降至50%以下"
+        },
+        {
+          "subject": "m7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "mitigation"
+          },
+          "value": "已预留v4适配开发时间，计划在v4 beta阶段提前适配"
+        },
+        {
+          "subject": "m8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "estimated_duration"
+          },
+          "value": "2-3周（视v4变更幅度）"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "risk"
+          },
+          "value": "若Q3续费率低于50%，需考虑调整产品方向"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "mitigation"
+          },
+          "value": "强化高级版差异化功能（自定义片段、团队协作），降低基础版对免费用户的依赖"
+        },
+        {
+          "subject": "m4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_strategy_risk"
+          },
+          "value": "若进一步增加免费额度或降低付费价格，灵雨写作助手的付费价值将进一步被压缩"
+        },
+        {
+          "subject": "m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "current_rating"
+          },
+          "value": "3.4分"
+        },
+        {
+          "subject": "m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "rating_gap"
+          },
+          "value": "持续低于V2"
+        },
+        {
+          "subject": "m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "threshold"
+          },
+          "value": "若3个月内无法提升至3.8分以上，需考虑V2恢复销售或V4紧急发布"
+        },
+        {
+          "subject": "m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "fix_status"
+          },
+          "value": "6月15日紧急修复批次已完成3D加载优化"
+        },
+        {
+          "subject": "m5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "planned_release"
+          },
+          "value": "7月将发布v3.1版本"
+        },
+        {
+          "subject": "m9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "6月15日"
+        },
+        {
+          "subject": "m9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "已完成"
+        },
+        {
+          "subject": "m9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "improvement"
+          },
+          "value": "3D加载优化"
+        },
+        {
+          "subject": "m10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "planned_date"
+          },
+          "value": "7月"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_868a849533589f14d095",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "青禾工作室",
+          "aliases": [
+            "Qinghe Studio"
+          ]
+        },
+        {
+          "local_id": "m2",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "m3",
+          "type": "Product",
+          "name": "灵雨写作助手",
+          "aliases": [
+            "AI写作助手插件"
+          ]
+        },
+        {
+          "local_id": "m4",
+          "type": "AITool",
+          "name": "墨文创作台",
+          "aliases": [
+            "墨文创作平台"
+          ]
+        },
+        {
+          "local_id": "m9",
+          "type": "Event",
+          "name": "青禾工作室成立"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m2",
+          "predicate": "founder_of",
+          "object": "m1"
+        },
+        {
+          "subject": "m1",
+          "predicate": "operates",
+          "object": "m3"
+        },
+        {
+          "subject": "m3",
+          "predicate": "part_of_ecosystem",
+          "object": "m4"
+        },
+        {
+          "subject": "m9",
+          "predicate": "established",
+          "object": "m1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "founded"
+          },
+          "value": "2025年9月"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "business_model"
+          },
+          "value": "一人公司（OPC）创业实践"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_count"
+          },
+          "value": 18
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_count"
+          },
+          "value": 17
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "client_count"
+          },
+          "value": 15
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_stack"
+          },
+          "value": {
+            "development_main_environment": "墨文创作台",
+            "code_completion": "通义灵码",
+            "operations_copywriting": "豆包",
+            "project_management": "飞书智能伙伴",
+            "data_analysis": "Tableau"
+          }
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_monthly_cost"
+          },
+          "value": "约245美元"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_cost_share"
+          },
+          "value": "33%"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "category"
+          },
+          "value": "AI写作助手插件"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ecosystem_position"
+          },
+          "value": "墨文创作平台生态中领先的AI写作辅助插件"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "monthly_active_users"
+          },
+          "value": "超过10,800"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "cumulative_creators"
+          },
+          "value": "超过2,600"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "peak_monthly_revenue"
+          },
+          "value": "约9.9万元"
+        },
+        {
+          "subject": "m3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "launched"
+          },
+          "value": "2025年9月"
+        },
+        {
+          "subject": "m9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2025年9月"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_fb279ee6ccb2a872fdca",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

@@ -1,0 +1,801 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_7e30c1d20a933a3e84c0",
+      "mentions": [
+        {
+          "local_id": "t1_pmd",
+          "type": "Product",
+          "name": "PMD模板"
+        },
+        {
+          "local_id": "t1_dataviz",
+          "type": "Product",
+          "name": "数据可视化插件"
+        },
+        {
+          "local_id": "t1_resume",
+          "type": "Product",
+          "name": "AI简历优化"
+        },
+        {
+          "local_id": "t1_assetv2",
+          "type": "Product",
+          "name": "创意素材包V2"
+        },
+        {
+          "local_id": "t1_assetv3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "t1_backup",
+          "type": "Product",
+          "name": "备份检查"
+        },
+        {
+          "local_id": "t1_nav",
+          "type": "Product",
+          "name": "效率导航"
+        },
+        {
+          "local_id": "t1_all",
+          "type": "Product",
+          "name": "全部产品"
+        },
+        {
+          "local_id": "t1_zhou",
+          "type": "Actor",
+          "name": "周然"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t1_assetv2",
+          "predicate": "replaced_by",
+          "object": "t1_assetv3",
+          "qualifiers": {
+            "date": "2026-05-22",
+            "reason": "停售标记"
+          }
+        },
+        {
+          "subject": "t1_zhou",
+          "predicate": "responsible_for",
+          "object": "t1_pmd"
+        },
+        {
+          "subject": "t1_zhou",
+          "predicate": "responsible_for",
+          "object": "t1_dataviz"
+        },
+        {
+          "subject": "t1_zhou",
+          "predicate": "responsible_for",
+          "object": "t1_resume"
+        },
+        {
+          "subject": "t1_zhou",
+          "predicate": "responsible_for",
+          "object": "t1_assetv2"
+        },
+        {
+          "subject": "t1_zhou",
+          "predicate": "responsible_for",
+          "object": "t1_backup"
+        },
+        {
+          "subject": "t1_zhou",
+          "predicate": "responsible_for",
+          "object": "t1_nav"
+        },
+        {
+          "subject": "t1_zhou",
+          "predicate": "responsible_for",
+          "object": "t1_all"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t1_pmd",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "maintenance_plan"
+          },
+          "value": {
+            "type": "功能迭代",
+            "cycle": "季度",
+            "date": "2026-08-22",
+            "owner": "周然",
+            "content": "新增OKR模板",
+            "impact": "已购用户免费更新"
+          }
+        },
+        {
+          "subject": "t1_assetv2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "停售"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_55d39716915166e5ff2b",
+      "mentions": [
+        {
+          "local_id": "t2_mowen",
+          "type": "AITool",
+          "name": "墨文创作台"
+        },
+        {
+          "local_id": "t2_tongyi",
+          "type": "AITool",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "t2_figma",
+          "type": "AITool",
+          "name": "Figma AI"
+        },
+        {
+          "local_id": "t2_jimeng",
+          "type": "AITool",
+          "name": "即梦AI"
+        },
+        {
+          "local_id": "t2_kimi",
+          "type": "AITool",
+          "name": "Kimi"
+        },
+        {
+          "local_id": "t2_doubao",
+          "type": "AITool",
+          "name": "豆包"
+        },
+        {
+          "local_id": "t2_keling",
+          "type": "AITool",
+          "name": "可灵AI"
+        },
+        {
+          "local_id": "t2_feishu",
+          "type": "AITool",
+          "name": "飞书智能表格"
+        },
+        {
+          "local_id": "t2_make",
+          "type": "AITool",
+          "name": "Make"
+        },
+        {
+          "local_id": "t2_n8n",
+          "type": "AITool",
+          "name": "n8n"
+        },
+        {
+          "local_id": "t2_xunfei",
+          "type": "AITool",
+          "name": "讯飞听见"
+        },
+        {
+          "local_id": "t2_jianying",
+          "type": "AITool",
+          "name": "剪映AI"
+        },
+        {
+          "local_id": "t2_gamma",
+          "type": "AITool",
+          "name": "Gamma"
+        },
+        {
+          "local_id": "t2_metaso",
+          "type": "AITool",
+          "name": "秘塔AI搜索"
+        },
+        {
+          "local_id": "t2_v0",
+          "type": "AITool",
+          "name": "v0.dev"
+        },
+        {
+          "local_id": "t2_replit",
+          "type": "AITool",
+          "name": "Replit"
+        },
+        {
+          "local_id": "t2_tableau",
+          "type": "AITool",
+          "name": "Tableau"
+        },
+        {
+          "local_id": "t2_lingyu",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "t2_lingji",
+          "type": "Product",
+          "name": "灵记日记"
+        },
+        {
+          "local_id": "t2_assetv3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "t2_sucaibao",
+          "type": "Product",
+          "name": "素材包"
+        },
+        {
+          "local_id": "t2_nav",
+          "type": "Product",
+          "name": "效率导航"
+        },
+        {
+          "local_id": "t2_python",
+          "type": "DataAsset",
+          "name": "Python手册"
+        },
+        {
+          "local_id": "t2_course",
+          "type": "DataAsset",
+          "name": "课程"
+        },
+        {
+          "local_id": "t2_weekly",
+          "type": "Product",
+          "name": "周报"
+        },
+        {
+          "local_id": "t2_copy",
+          "type": "AITool",
+          "name": "文案助手"
+        },
+        {
+          "local_id": "t2_pmtemplate",
+          "type": "Product",
+          "name": "PM模板"
+        },
+        {
+          "local_id": "t2_tts",
+          "type": "AITool",
+          "name": "配音TTS助手"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t2_mowen",
+          "predicate": "depends_on",
+          "object": "t2_lingyu"
+        },
+        {
+          "subject": "t2_mowen",
+          "predicate": "depends_on",
+          "object": "t2_lingji"
+        },
+        {
+          "subject": "t2_figma",
+          "predicate": "depends_on",
+          "object": "t2_assetv3"
+        },
+        {
+          "subject": "t2_jimeng",
+          "predicate": "depends_on",
+          "object": "t2_sucaibao"
+        },
+        {
+          "subject": "t2_jimeng",
+          "predicate": "depends_on",
+          "object": "t2_nav"
+        },
+        {
+          "subject": "t2_kimi",
+          "predicate": "depends_on",
+          "object": "t2_python"
+        },
+        {
+          "subject": "t2_kimi",
+          "predicate": "depends_on",
+          "object": "t2_course"
+        },
+        {
+          "subject": "t2_doubao",
+          "predicate": "depends_on",
+          "object": "t2_weekly"
+        },
+        {
+          "subject": "t2_doubao",
+          "predicate": "depends_on",
+          "object": "t2_copy"
+        },
+        {
+          "subject": "t2_feishu",
+          "predicate": "depends_on",
+          "object": "t2_pmtemplate"
+        },
+        {
+          "subject": "t2_jianying",
+          "predicate": "depends_on",
+          "object": "t2_tts"
+        },
+        {
+          "subject": "t2_v0",
+          "predicate": "depends_on",
+          "object": "t2_lingji",
+          "qualifiers": {
+            "artifact": "原型"
+          }
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t2_mowen",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "version_transition"
+          },
+          "value": {
+            "from": "v2",
+            "to": "v3"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "unit_f27e434a67bb37fc6e2b",
+      "mentions": [
+        {
+          "local_id": "t3_doc",
+          "type": "DataAsset",
+          "name": "QH-SPEC-2026-001",
+          "identifiers": {
+            "document_id": "QH-SPEC-2026-001"
+          }
+        },
+        {
+          "local_id": "t3_zhou",
+          "type": "Actor",
+          "name": "周然",
+          "aliases": [
+            "周然（青禾工作室创始人）"
+          ]
+        },
+        {
+          "local_id": "t3_studio",
+          "type": "Actor",
+          "name": "青禾工作室"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t3_zhou",
+          "predicate": "authored",
+          "object": "t3_doc"
+        },
+        {
+          "subject": "t3_zhou",
+          "predicate": "founder_of",
+          "object": "t3_studio"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t3_doc",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "version"
+          },
+          "value": "V2026.06"
+        },
+        {
+          "subject": "t3_doc",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "publication_date"
+          },
+          "value": "2026年6月18日"
+        },
+        {
+          "subject": "t3_doc",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "classification"
+          },
+          "value": "内部资料"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_63d2e244091079c0bf7b",
+      "mentions": [
+        {
+          "local_id": "p_lingyu",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "p_assetv3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "p_weekly",
+          "type": "Product",
+          "name": "周报生成器"
+        },
+        {
+          "local_id": "p_mindmap",
+          "type": "Product",
+          "name": "思维导图工具"
+        },
+        {
+          "local_id": "p_course",
+          "type": "Product",
+          "name": "文案进阶课"
+        },
+        {
+          "local_id": "p_manual",
+          "type": "Product",
+          "name": "AI自动化手册"
+        },
+        {
+          "local_id": "p_tts",
+          "type": "Product",
+          "name": "配音TTS助手"
+        },
+        {
+          "local_id": "p_nav",
+          "type": "Product",
+          "name": "效率导航"
+        },
+        {
+          "local_id": "p_pmd",
+          "type": "Product",
+          "name": "PMD模板"
+        },
+        {
+          "local_id": "p_dataviz",
+          "type": "Product",
+          "name": "数据可视化插件"
+        },
+        {
+          "local_id": "p_lingji",
+          "type": "Product",
+          "name": "灵记日记"
+        },
+        {
+          "local_id": "p_api",
+          "type": "Product",
+          "name": "接口调试大师"
+        },
+        {
+          "local_id": "c_chenmo",
+          "type": "Actor",
+          "name": "程序员陈默"
+        },
+        {
+          "local_id": "c_akai",
+          "type": "Actor",
+          "name": "独立开发者阿凯"
+        },
+        {
+          "local_id": "c_maker",
+          "type": "Actor",
+          "name": "创客实验室"
+        },
+        {
+          "local_id": "c_linqing",
+          "type": "Actor",
+          "name": "自由设计师林清"
+        },
+        {
+          "local_id": "c_zhiyuan",
+          "type": "Actor",
+          "name": "纸鸢设计"
+        },
+        {
+          "local_id": "c_yuedu",
+          "type": "Actor",
+          "name": "悦读传媒"
+        },
+        {
+          "local_id": "c_alan",
+          "type": "Actor",
+          "name": "效率控阿岚"
+        },
+        {
+          "local_id": "c_univ",
+          "type": "Actor",
+          "name": "高校新媒体社"
+        },
+        {
+          "local_id": "c_wang",
+          "type": "Actor",
+          "name": "王教授"
+        },
+        {
+          "local_id": "c_xiaoman",
+          "type": "Actor",
+          "name": "播客主理人小满"
+        },
+        {
+          "local_id": "c_blogger",
+          "type": "Actor",
+          "name": "自媒体博主"
+        },
+        {
+          "local_id": "c_zoe",
+          "type": "Actor",
+          "name": "产品经理Zoe"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "c_chenmo",
+          "predicate": "feedback_on",
+          "object": "p_lingyu",
+          "qualifiers": {
+            "date": "2026-06-02",
+            "score": 3.0,
+            "content": "墨文v3更新后插件经常报错，等了两周才修复"
+          }
+        },
+        {
+          "subject": "c_akai",
+          "predicate": "feedback_on",
+          "object": "p_lingyu",
+          "qualifiers": {
+            "date": "2026-06-05",
+            "score": 2.7,
+            "content": "改订阅制太贵了，而且通义灵码免费够用了"
+          }
+        },
+        {
+          "subject": "c_maker",
+          "predicate": "feedback_on",
+          "object": "p_lingyu",
+          "qualifiers": {
+            "date": "2026-05-28",
+            "score": 3.4,
+            "content": "功能还是不错的，就是适配慢了点"
+          }
+        },
+        {
+          "subject": "c_linqing",
+          "predicate": "feedback_on",
+          "object": "p_assetv3",
+          "qualifiers": {
+            "date": "2026-06-08",
+            "score": 3.0,
+            "content": "3D素材很好，但经常卡顿，不如V2稳定"
+          }
+        },
+        {
+          "subject": "c_zhiyuan",
+          "predicate": "feedback_on",
+          "object": "p_assetv3",
+          "qualifiers": {
+            "date": "2026-06-10",
+            "score": 3.5,
+            "content": "动效模板很赞，希望多出一些"
+          }
+        },
+        {
+          "subject": "c_yuedu",
+          "predicate": "feedback_on",
+          "object": "p_weekly",
+          "qualifiers": {
+            "date": "2026-06-12",
+            "score": 4.1,
+            "content": "AI生成的周报质量不错，省了很多时间"
+          }
+        },
+        {
+          "subject": "c_alan",
+          "predicate": "feedback_on",
+          "object": "p_mindmap",
+          "qualifiers": {
+            "date": "2026-06-15",
+            "score": 4.6,
+            "content": "文本转导图太方便了，强烈推荐"
+          }
+        },
+        {
+          "subject": "c_univ",
+          "predicate": "feedback_on",
+          "object": "p_course",
+          "qualifiers": {
+            "date": "2026-06-18",
+            "score": 4.2,
+            "content": "课程内容深入浅出，适合入门"
+          }
+        },
+        {
+          "subject": "c_wang",
+          "predicate": "feedback_on",
+          "object": "p_manual",
+          "qualifiers": {
+            "date": "2026-06-20",
+            "score": 4.4,
+            "content": "220页干货满满，自动化案例实用"
+          }
+        },
+        {
+          "subject": "c_xiaoman",
+          "predicate": "feedback_on",
+          "object": "p_tts",
+          "qualifiers": {
+            "date": "2026-06-22",
+            "score": 3.6,
+            "content": "音色不错，但中文情感表达还需提升"
+          }
+        },
+        {
+          "subject": "c_blogger",
+          "predicate": "feedback_on",
+          "object": "p_nav",
+          "qualifiers": {
+            "date": "2026-06-25",
+            "score": 4.2,
+            "content": "导航站很全，发现的工具很实用"
+          }
+        },
+        {
+          "subject": "c_zoe",
+          "predicate": "feedback_on",
+          "object": "p_pmd",
+          "qualifiers": {
+            "date": "2026-06-28",
+            "score": 3.9,
+            "content": "敏捷模板好用，瀑布模板略简陋"
+          }
+        },
+        {
+          "subject": "c_maker",
+          "predicate": "feedback_on",
+          "object": "p_dataviz",
+          "qualifiers": {
+            "date": "2026-06-30",
+            "score": 3.5,
+            "content": "和灵雨配合好，但独立用不够强"
+          }
+        },
+        {
+          "subject": "c_linqing",
+          "predicate": "feedback_on",
+          "object": "p_lingji",
+          "qualifiers": {
+            "date": "2026-07-01",
+            "score": 4.5,
+            "content": "简洁好用，云同步很方便"
+          }
+        },
+        {
+          "subject": "c_akai",
+          "predicate": "feedback_on",
+          "object": "p_api",
+          "qualifiers": {
+            "date": "2026-07-03",
+            "score": 3.9,
+            "content": "功能完善，比Postman轻量"
+          }
+        }
+      ],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_63902d699b33f3da0084",
+      "mentions": [
+        {
+          "local_id": "t5_aiwriter",
+          "type": "AITool",
+          "name": "AI写作助手插件",
+          "aliases": [
+            "灵雨写作助手",
+            "写作助手",
+            "写作插件P03",
+            "灵犀写作插件",
+            "AI写作工具"
+          ]
+        },
+        {
+          "local_id": "t5_lingji",
+          "type": "Product",
+          "name": "灵记日记",
+          "aliases": [
+            "灵记日记APP",
+            "日记APP",
+            "note-app",
+            "日记应用",
+            "记录工具"
+          ]
+        },
+        {
+          "local_id": "t5_tomato",
+          "type": "Product",
+          "name": "番茄专注Pro",
+          "aliases": [
+            "专注计时器",
+            "pomodoro-pro",
+            "专注工具",
+            "番茄工具"
+          ]
+        },
+        {
+          "local_id": "t5_assetv2",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "aliases": [
+            "素材包V2",
+            "asset-pack-v2",
+            "设计资源V2",
+            "素材V2"
+          ]
+        },
+        {
+          "local_id": "t5_assetv3",
+          "type": "Product",
+          "name": "创意素材包V3",
+          "aliases": [
+            "素材包V3",
+            "asset-pack-v3",
+            "设计资源V3",
+            "素材V3"
+          ]
+        },
+        {
+          "local_id": "t5_weekly",
+          "type": "Product",
+          "name": "周报生成器",
+          "aliases": [
+            "周报工具",
+            "weekly-gen",
+            "周报AI",
+            "周报生成"
+          ]
+        },
+        {
+          "local_id": "t5_copyai",
+          "type": "AITool",
+          "name": "营销文案AI助手",
+          "aliases": [
+            "营销文案助手",
+            "文案助手",
+            "copy-buddy",
+            "文案AI",
+            "文案工具"
+          ]
+        },
+        {
+          "local_id": "t5_resume",
+          "type": "AITool",
+          "name": "AI简历优化工具",
+          "aliases": [
+            "AI简历优化",
+            "简历工具",
+            "resume-ai",
+            "智能简历",
+            "简历优化"
+          ]
+        },
+        {
+          "local_id": "t5_tts",
+          "type": "AITool",
+          "name": "配音TTS助手",
+          "aliases": [
+            "TTS助手",
+            "tts-voice",
+            "AI配音",
+            "配音工具"
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": []
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

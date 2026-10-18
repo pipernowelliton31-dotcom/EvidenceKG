@@ -1,0 +1,618 @@
+{
+  "id": "f7c9cb75602342dbba2d52d739872493",
+  "project_id": "host",
+  "kind": "query",
+  "question": "阿明是干啥的",
+  "status": "completed",
+  "events": [
+    {
+      "id": 1,
+      "type": "run.started",
+      "elapsed_s": 0.0,
+      "message": "已创建运行"
+    },
+    {
+      "id": 2,
+      "type": "stage.started",
+      "elapsed_s": 0.0,
+      "stage": "validate",
+      "message": "检查并复用已有知识图谱"
+    },
+    {
+      "id": 3,
+      "type": "stage.completed",
+      "elapsed_s": 0.1,
+      "stage": "validate",
+      "message": "知识库通过完整性校验，无需重新构图"
+    },
+    {
+      "id": 4,
+      "type": "stage.started",
+      "elapsed_s": 0.1,
+      "stage": "retrieve",
+      "message": "检索结构化记录、事实、实体档案、图路径与原文"
+    },
+    {
+      "id": 5,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "plan",
+      "message": "已识别问题范围与检索方式",
+      "details": {
+        "plan": {
+          "intent": "factual",
+          "structured": false,
+          "cross_format_identity": false,
+          "table_reconstruction": false,
+          "column_requested": false,
+          "retrieval_mode": "ranked",
+          "requested_formats": [],
+          "list_all": false,
+          "causal": false,
+          "comparison": false,
+          "rank": false,
+          "timeline": false,
+          "expected_count": null,
+          "sheet_hints": [],
+          "column_hints": [],
+          "years": [],
+          "months": [],
+          "quarters": [],
+          "keywords": [
+            "阿明",
+            "干啥"
+          ],
+          "relation_weights": {}
+        }
+      }
+    },
+    {
+      "id": 6,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "records",
+      "message": "已查阅 0 条结构化记录、0 个表格",
+      "details": {
+        "sources": []
+      }
+    },
+    {
+      "id": 7,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "entities",
+      "message": "已匹配 0 条事实、0 个主体档案",
+      "details": {
+        "entities": []
+      }
+    },
+    {
+      "id": 8,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "paths",
+      "message": "已检查 0 条关联路径、0 条时间记录",
+      "details": {
+        "paths": []
+      }
+    },
+    {
+      "id": 9,
+      "type": "tool.completed",
+      "elapsed_s": 0.3,
+      "stage": "sources",
+      "message": "已补充 0 段原文并整理回答依据",
+      "details": {
+        "sources": [],
+        "stats": {
+          "structured": 0,
+          "facts": 0,
+          "seeds": 0,
+          "profiles": 0,
+          "paths": 0,
+          "raw_units": 0,
+          "timeline_events": 0,
+          "retrieval_mode": "ranked",
+          "table_units": 0,
+          "table_rows": 0,
+          "table_columns": 0,
+          "structured_rows": 0,
+          "structured_scope_matches": 0,
+          "structured_selected_for_augmentation": 0,
+          "timeline_context_events": 0,
+          "timeline_context_events_omitted": 0,
+          "table_context_rows": 0,
+          "table_context_rows_omitted": 0,
+          "structured_context_records": 0,
+          "structured_context_records_omitted": 0
+        }
+      }
+    },
+    {
+      "id": 10,
+      "type": "retrieval.completed",
+      "elapsed_s": 0.4,
+      "stage": "retrieve",
+      "stats": {
+        "structured": 0,
+        "facts": 0,
+        "seeds": 0,
+        "profiles": 0,
+        "paths": 0,
+        "raw_units": 0,
+        "timeline_events": 0,
+        "retrieval_mode": "ranked",
+        "table_units": 0,
+        "table_rows": 0,
+        "table_columns": 0,
+        "structured_rows": 0,
+        "structured_scope_matches": 0,
+        "structured_selected_for_augmentation": 0,
+        "timeline_context_events": 0,
+        "timeline_context_events_omitted": 0,
+        "table_context_rows": 0,
+        "table_context_rows_omitted": 0,
+        "structured_context_records": 0,
+        "structured_context_records_omitted": 0
+      },
+      "plan": {
+        "intent": "factual",
+        "structured": false,
+        "cross_format_identity": false,
+        "table_reconstruction": false,
+        "column_requested": false,
+        "retrieval_mode": "ranked",
+        "requested_formats": [],
+        "list_all": false,
+        "causal": false,
+        "comparison": false,
+        "rank": false,
+        "timeline": false,
+        "expected_count": null,
+        "sheet_hints": [],
+        "column_hints": [],
+        "years": [],
+        "months": [],
+        "quarters": [],
+        "keywords": [
+          "阿明",
+          "干啥"
+        ],
+        "relation_weights": {}
+      },
+      "graph": {
+        "nodes": [],
+        "edges": [],
+        "layout": "network"
+      },
+      "evidence": [],
+      "paths": [],
+      "context": "QUESTION\n阿明是干啥的\n\nQUERY_PLAN\n{\"intent\":\"factual\",\"structured\":false,\"cross_format_identity\":false,\"table_reconstruction\":false,\"column_requested\":false,\"retrieval_mode\":\"ranked\",\"requested_formats\":[],\"list_all\":false,\"causal\":false,\"comparison\":false,\"rank\":false,\"timeline\":false,\"expected_count\":null,\"sheet_hints\":[],\"column_hints\":[],\"years\":[],\"months\":[],\"quarters\":[],\"keywords\":[\"阿明\",\"干啥\"]}",
+      "message": "召回 0 处证据，0 条候选路径"
+    },
+    {
+      "id": 11,
+      "type": "stage.started",
+      "elapsed_s": 0.4,
+      "stage": "answer",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "message": "正在调用 nvidia/nemotron-3-super-120b-a12b:free，等待回答正文"
+    },
+    {
+      "id": 12,
+      "type": "stage.progress",
+      "elapsed_s": 9.1,
+      "stage": "answer",
+      "message": "模型已开始返回正文，正在生成回答"
+    },
+    {
+      "id": 13,
+      "type": "answer.delta",
+      "elapsed_s": 9.1,
+      "text": "##"
+    },
+    {
+      "id": 14,
+      "type": "answer.delta",
+      "elapsed_s": 9.2,
+      "text": " 1. "
+    },
+    {
+      "id": 15,
+      "type": "answer.delta",
+      "elapsed_s": 9.2,
+      "text": "结论\n在提供"
+    },
+    {
+      "id": 16,
+      "type": "answer.delta",
+      "elapsed_s": 9.2,
+      "text": "的材料中"
+    },
+    {
+      "id": 17,
+      "type": "answer.delta",
+      "elapsed_s": 9.2,
+      "text": "未发现关于"
+    },
+    {
+      "id": 18,
+      "type": "answer.delta",
+      "elapsed_s": 9.2,
+      "text": "“阿明”的"
+    },
+    {
+      "id": 19,
+      "type": "answer.delta",
+      "elapsed_s": 9.2,
+      "text": "任何记"
+    },
+    {
+      "id": 20,
+      "type": "answer.delta",
+      "elapsed_s": 9.2,
+      "text": "录，因此无"
+    },
+    {
+      "id": 21,
+      "type": "answer.delta",
+      "elapsed_s": 9.3,
+      "text": "法确定其"
+    },
+    {
+      "id": 22,
+      "type": "answer.delta",
+      "elapsed_s": 9.3,
+      "text": "具体"
+    },
+    {
+      "id": 23,
+      "type": "answer.delta",
+      "elapsed_s": 9.3,
+      "text": "职责或角色"
+    },
+    {
+      "id": 24,
+      "type": "answer.delta",
+      "elapsed_s": 9.3,
+      "text": "。\n\n## 2"
+    },
+    {
+      "id": 25,
+      "type": "answer.delta",
+      "elapsed_s": 9.4,
+      "text": ". 推理"
+    },
+    {
+      "id": 26,
+      "type": "answer.delta",
+      "elapsed_s": 9.4,
+      "text": "路径\n-"
+    },
+    {
+      "id": 27,
+      "type": "answer.delta",
+      "elapsed_s": 9.4,
+      "text": " 全"
+    },
+    {
+      "id": 28,
+      "type": "answer.delta",
+      "elapsed_s": 9.4,
+      "text": "部材"
+    },
+    {
+      "id": 29,
+      "type": "answer.delta",
+      "elapsed_s": 9.4,
+      "text": "料（包括 STR"
+    },
+    {
+      "id": 30,
+      "type": "answer.delta",
+      "elapsed_s": 9.4,
+      "text": "UCTURED_RO"
+    },
+    {
+      "id": 31,
+      "type": "answer.delta",
+      "elapsed_s": 9.4,
+      "text": "W、Can"
+    },
+    {
+      "id": 32,
+      "type": "answer.delta",
+      "elapsed_s": 9.5,
+      "text": "onical Fact"
+    },
+    {
+      "id": 33,
+      "type": "answer.delta",
+      "elapsed_s": 9.5,
+      "text": "、图路径"
+    },
+    {
+      "id": 34,
+      "type": "answer.delta",
+      "elapsed_s": 9.5,
+      "text": "、Raw Source）"
+    },
+    {
+      "id": 35,
+      "type": "answer.delta",
+      "elapsed_s": 9.5,
+      "text": "均未检"
+    },
+    {
+      "id": 36,
+      "type": "answer.delta",
+      "elapsed_s": 9.5,
+      "text": "索到含"
+    },
+    {
+      "id": 37,
+      "type": "answer.delta",
+      "elapsed_s": 9.5,
+      "text": "有“阿明"
+    },
+    {
+      "id": 38,
+      "type": "answer.delta",
+      "elapsed_s": 9.6,
+      "text": "”的条"
+    },
+    {
+      "id": 39,
+      "type": "answer.delta",
+      "elapsed_s": 9.6,
+      "text": "目（来源："
+    },
+    {
+      "id": 40,
+      "type": "answer.delta",
+      "elapsed_s": 9.6,
+      "text": "全部材"
+    },
+    {
+      "id": 41,
+      "type": "answer.delta",
+      "elapsed_s": 9.6,
+      "text": "料，未命"
+    },
+    {
+      "id": 42,
+      "type": "answer.delta",
+      "elapsed_s": 9.6,
+      "text": "中）。\n\n## "
+    },
+    {
+      "id": 43,
+      "type": "answer.delta",
+      "elapsed_s": 9.7,
+      "text": "3. 不确"
+    },
+    {
+      "id": 44,
+      "type": "answer.delta",
+      "elapsed_s": 9.7,
+      "text": "定项\n"
+    },
+    {
+      "id": 45,
+      "type": "answer.delta",
+      "elapsed_s": 9.7,
+      "text": "缺少"
+    },
+    {
+      "id": 46,
+      "type": "answer.delta",
+      "elapsed_s": 9.7,
+      "text": "任何"
+    },
+    {
+      "id": 47,
+      "type": "answer.delta",
+      "elapsed_s": 9.7,
+      "text": "关于“阿明"
+    },
+    {
+      "id": 48,
+      "type": "answer.delta",
+      "elapsed_s": 9.7,
+      "text": "”的证据是"
+    },
+    {
+      "id": 49,
+      "type": "answer.delta",
+      "elapsed_s": 9.7,
+      "text": "导致无法"
+    },
+    {
+      "id": 50,
+      "type": "answer.delta",
+      "elapsed_s": 9.8,
+      "text": "给"
+    },
+    {
+      "id": 51,
+      "type": "answer.delta",
+      "elapsed_s": 9.8,
+      "text": "出明"
+    },
+    {
+      "id": 52,
+      "type": "answer.delta",
+      "elapsed_s": 9.8,
+      "text": "确答案"
+    },
+    {
+      "id": 53,
+      "type": "answer.delta",
+      "elapsed_s": 9.8,
+      "text": "的主要不"
+    },
+    {
+      "id": 54,
+      "type": "answer.delta",
+      "elapsed_s": 9.8,
+      "text": "确定性。"
+    },
+    {
+      "id": 55,
+      "type": "answer.delta",
+      "elapsed_s": 9.8,
+      "text": "若"
+    },
+    {
+      "id": 56,
+      "type": "answer.delta",
+      "elapsed_s": 9.8,
+      "text": "后"
+    },
+    {
+      "id": 57,
+      "type": "answer.delta",
+      "elapsed_s": 9.8,
+      "text": "续材"
+    },
+    {
+      "id": 58,
+      "type": "answer.delta",
+      "elapsed_s": 9.9,
+      "text": "料中出现"
+    },
+    {
+      "id": 59,
+      "type": "answer.delta",
+      "elapsed_s": 9.9,
+      "text": "相关记"
+    },
+    {
+      "id": 60,
+      "type": "answer.delta",
+      "elapsed_s": 9.9,
+      "text": "录，结论"
+    },
+    {
+      "id": 61,
+      "type": "answer.delta",
+      "elapsed_s": 9.9,
+      "text": "可能会"
+    },
+    {
+      "id": 62,
+      "type": "answer.delta",
+      "elapsed_s": 9.9,
+      "text": "改变。"
+    },
+    {
+      "id": 63,
+      "type": "format.warning",
+      "elapsed_s": 9.9,
+      "missing_sections": [
+        "结论",
+        "推理路径",
+        "不确定项"
+      ],
+      "message": "模型回答缺少规范段落：结论、推理路径、不确定项"
+    },
+    {
+      "id": 64,
+      "type": "answer.completed",
+      "elapsed_s": 9.9,
+      "answer": "## 1. 结论\n在提供的材料中未发现关于“阿明”的任何记录，因此无法确定其具体职责或角色。\n\n## 2. 推理路径\n- 全部材料（包括 STRUCTURED_ROW、Canonical Fact、图路径、Raw Source）均未检索到含有“阿明”的条目（来源：全部材料，未命中）。\n\n## 3. 不确定项\n缺少任何关于“阿明”的证据是导致无法给出明确答案的主要不确定性。若后续材料中出现相关记录，结论可能会改变。",
+      "usage": {
+        "prompt_tokens": 966,
+        "completion_tokens": 706,
+        "total_tokens": 1672,
+        "cost": 0
+      },
+      "mode": "answer",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "message": "回答已生成"
+    },
+    {
+      "id": 65,
+      "type": "run.completed",
+      "elapsed_s": 9.9,
+      "message": "运行完成"
+    }
+  ],
+  "created_at": 1791453383.885014,
+  "parent_run_id": null,
+  "conversation_id": "f7c9cb75602342dbba2d52d739872493",
+  "conversation_context": [],
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "retrieval": {
+    "question": "阿明是干啥的",
+    "query_plan": {
+      "intent": "factual",
+      "structured": false,
+      "cross_format_identity": false,
+      "table_reconstruction": false,
+      "column_requested": false,
+      "retrieval_mode": "ranked",
+      "requested_formats": [],
+      "list_all": false,
+      "causal": false,
+      "comparison": false,
+      "rank": false,
+      "timeline": false,
+      "expected_count": null,
+      "sheet_hints": [],
+      "column_hints": [],
+      "years": [],
+      "months": [],
+      "quarters": [],
+      "keywords": [
+        "阿明",
+        "干啥"
+      ],
+      "relation_weights": {}
+    },
+    "structured_hits": [],
+    "table_hits": [],
+    "structured_rows": [],
+    "timeline_hits": [],
+    "fact_hits": [],
+    "entity_candidates": [],
+    "entity_profiles": [],
+    "paths": [],
+    "fusion": [],
+    "raw_units": [],
+    "augmentation_sources": [],
+    "augmentation_query": null,
+    "stats": {
+      "structured": 0,
+      "facts": 0,
+      "seeds": 0,
+      "profiles": 0,
+      "paths": 0,
+      "raw_units": 0,
+      "timeline_events": 0,
+      "retrieval_mode": "ranked",
+      "table_units": 0,
+      "table_rows": 0,
+      "table_columns": 0,
+      "structured_rows": 0,
+      "structured_scope_matches": 0,
+      "structured_selected_for_augmentation": 0,
+      "timeline_context_events": 0,
+      "timeline_context_events_omitted": 0,
+      "table_context_rows": 0,
+      "table_context_rows_omitted": 0,
+      "structured_context_records": 0,
+      "structured_context_records_omitted": 0
+    },
+    "context": "QUESTION\n阿明是干啥的\n\nQUERY_PLAN\n{\"intent\":\"factual\",\"structured\":false,\"cross_format_identity\":false,\"table_reconstruction\":false,\"column_requested\":false,\"retrieval_mode\":\"ranked\",\"requested_formats\":[],\"list_all\":false,\"causal\":false,\"comparison\":false,\"rank\":false,\"timeline\":false,\"expected_count\":null,\"sheet_hints\":[],\"column_hints\":[],\"years\":[],\"months\":[],\"quarters\":[],\"keywords\":[\"阿明\",\"干啥\"]}"
+  },
+  "answer": "## 1. 结论\n在提供的材料中未发现关于“阿明”的任何记录，因此无法确定其具体职责或角色。\n\n## 2. 推理路径\n- 全部材料（包括 STRUCTURED_ROW、Canonical Fact、图路径、Raw Source）均未检索到含有“阿明”的条目（来源：全部材料，未命中）。\n\n## 3. 不确定项\n缺少任何关于“阿明”的证据是导致无法给出明确答案的主要不确定性。若后续材料中出现相关记录，结论可能会改变。",
+  "usage": {
+    "prompt_tokens": 966,
+    "completion_tokens": 706,
+    "total_tokens": 1672,
+    "cost": 0
+  },
+  "finish_reason": "stop",
+  "continuations": 0
+}

@@ -1,0 +1,367 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_73f5e7614d11dd2083aa",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_3b652414a1cf746eff00",
+      "mentions": [
+        {
+          "local_id": "t2_studio",
+          "type": "Actor",
+          "name": "青禾工作室",
+          "aliases": [
+            "Qinghe Studio"
+          ]
+        },
+        {
+          "local_id": "t2_founder",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "t2_doc",
+          "type": "DataAsset",
+          "name": "青禾工作室产品规格与定价文档"
+        },
+        {
+          "local_id": "t2_version",
+          "type": "Version",
+          "name": "V2026.06"
+        },
+        {
+          "local_id": "t2_p1",
+          "type": "Product",
+          "name": "灵记日记"
+        },
+        {
+          "local_id": "t2_p2",
+          "type": "Product",
+          "name": "番茄专注Pro"
+        },
+        {
+          "local_id": "t2_p3",
+          "type": "Product",
+          "name": "周报精灵"
+        },
+        {
+          "local_id": "t2_p4",
+          "type": "Product",
+          "name": "文案助手"
+        },
+        {
+          "local_id": "t2_p5",
+          "type": "Product",
+          "name": "AI简历优化"
+        },
+        {
+          "local_id": "t2_p6",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "t2_p7",
+          "type": "Product",
+          "name": "数据可视化插件"
+        },
+        {
+          "local_id": "t2_p8",
+          "type": "Product",
+          "name": "晨间灵感模板"
+        },
+        {
+          "local_id": "t2_p9",
+          "type": "Product",
+          "name": "数据大屏模板"
+        },
+        {
+          "local_id": "t2_p10",
+          "type": "Product",
+          "name": "PM模板"
+        },
+        {
+          "local_id": "t2_p11",
+          "type": "Product",
+          "name": "文案进阶课"
+        },
+        {
+          "local_id": "t2_p12",
+          "type": "Product",
+          "name": "Python自动化手册"
+        },
+        {
+          "local_id": "t2_p13",
+          "type": "Product",
+          "name": "思维导图工具"
+        },
+        {
+          "local_id": "t2_p14",
+          "type": "Product",
+          "name": "配音TTS助手"
+        },
+        {
+          "local_id": "t2_p15",
+          "type": "Product",
+          "name": "创意素材包V2"
+        },
+        {
+          "local_id": "t2_p16",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "t2_p17",
+          "type": "Product",
+          "name": "效率工具导航"
+        },
+        {
+          "local_id": "t2_p18",
+          "type": "Product",
+          "name": "接口调试大师"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "t2_founder",
+          "predicate": "founder_of",
+          "object": "t2_studio"
+        },
+        {
+          "subject": "t2_founder",
+          "predicate": "maintains",
+          "object": "t2_doc"
+        },
+        {
+          "subject": "t2_doc",
+          "predicate": "has_version",
+          "object": "t2_version"
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p1",
+          "qualifiers": {
+            "category": "APP应用"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p2",
+          "qualifiers": {
+            "category": "APP应用"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p3",
+          "qualifiers": {
+            "category": "小程序"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p4",
+          "qualifiers": {
+            "category": "小程序"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p5",
+          "qualifiers": {
+            "category": "小程序"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p6",
+          "qualifiers": {
+            "category": "插件"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p7",
+          "qualifiers": {
+            "category": "插件"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p8",
+          "qualifiers": {
+            "category": "模板"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p9",
+          "qualifiers": {
+            "category": "模板"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p10",
+          "qualifiers": {
+            "category": "模板"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p11",
+          "qualifiers": {
+            "category": "在线课程"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p12",
+          "qualifiers": {
+            "category": "电子书"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p13",
+          "qualifiers": {
+            "category": "在线工具"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p14",
+          "qualifiers": {
+            "category": "在线工具"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p15",
+          "qualifiers": {
+            "category": "素材包"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p16",
+          "qualifiers": {
+            "category": "素材包"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p17",
+          "qualifiers": {
+            "category": "网站"
+          }
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "operates",
+          "object": "t2_p18",
+          "qualifiers": {
+            "category": "桌面工具"
+          }
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "t2_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "founded"
+          },
+          "value": "2025-09"
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "legal_form"
+          },
+          "value": "一人公司（OPC）"
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_count"
+          },
+          "value": 18
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_count"
+          },
+          "value": 17
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "client_count"
+          },
+          "value": 15
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_usage"
+          },
+          "value": "借助AI工具链，独立完成数字产品设计、开发、运营、客服全链路"
+        },
+        {
+          "subject": "t2_studio",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_formats"
+          },
+          "value": [
+            "APP应用",
+            "小程序",
+            "插件",
+            "模板",
+            "在线课程",
+            "电子书",
+            "在线工具",
+            "素材包",
+            "网站",
+            "桌面工具"
+          ]
+        },
+        {
+          "subject": "t2_doc",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_frequency"
+          },
+          "value": "每季度更新一次"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

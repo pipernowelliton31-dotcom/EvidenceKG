@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './style.css';
+import './reading.css';
+import './conversation.css';
+import './theme.css';
+import './workspace-management.css';
+import './typography.css';
+import './interaction-refinement.css';
+import { applyTheme, initialTheme } from './theme';
+applyTheme(initialTheme());
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);

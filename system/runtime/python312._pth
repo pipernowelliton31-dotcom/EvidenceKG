@@ -1,0 +1,8 @@
+python312.zip
+.
+Lib
+DLLs
+Lib/site-packages
+..
+../skill/evidence-kg-builder/scripts
+import site

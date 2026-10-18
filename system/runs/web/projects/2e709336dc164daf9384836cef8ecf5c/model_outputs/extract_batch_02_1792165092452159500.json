@@ -1,0 +1,197 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_dedf2dbc2e87d6c2bf68",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "西安交通大学英仔爱心社启明星部门部长换届答辩"
+        },
+        {
+          "local_id": "m2",
+          "type": "Actor",
+          "name": "黎雅诗"
+        },
+        {
+          "local_id": "m3",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m2",
+          "predicate": "participates_in",
+          "object": "m1"
+        },
+        {
+          "subject": "m3",
+          "predicate": "organizes",
+          "object": "m1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026年5月"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "location"
+          },
+          "value": "西安交通大学"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_72fe5e3dafcea651e780",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "黎雅诗"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026年5月30日"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_7dad138cb16a8ec8059b",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Actor",
+          "name": "黎雅诗"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "advantage"
+          },
+          "value": "价值观契合"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "score"
+          },
+          "value": "100%"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_a240fd556c7d66b11b94",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "梧桐节"
+        },
+        {
+          "local_id": "m2",
+          "type": "Observation",
+          "name": "参与梧桐节摆摊"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m2",
+          "predicate": "part_of",
+          "object": "m1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "follow_up"
+          },
+          "value": "制作总结推送"
+        },
+        {
+          "subject": "m2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "detail"
+          },
+          "value": "创意共同作画吸引大量参与者"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_b0cb4fb7381dd70411e3",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Event",
+          "name": "守望者系列"
+        },
+        {
+          "local_id": "m2",
+          "type": "Event",
+          "name": "百卅交大，予你温柔"
+        },
+        {
+          "local_id": "m3",
+          "type": "Event",
+          "name": "心声倾诉，暖心护航"
+        },
+        {
+          "local_id": "m4",
+          "type": "Event",
+          "name": "粮安守护，共筑未来"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "m2",
+          "predicate": "part_of",
+          "object": "m1"
+        },
+        {
+          "subject": "m3",
+          "predicate": "part_of",
+          "object": "m1"
+        },
+        {
+          "subject": "m4",
+          "predicate": "part_of",
+          "object": "m1"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "activity"
+          },
+          "value": "参加摆摊，制作总结推送"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_031e801da803ca0f198f"
+}

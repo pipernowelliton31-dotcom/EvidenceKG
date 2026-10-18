@@ -1,0 +1,604 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_9d4b749e5a8de90ff382",
+      "mentions": [
+        {
+          "local_id": "m1",
+          "type": "Product",
+          "name": "AI写作助手插件",
+          "aliases": [
+            "灵雨写作助手",
+            "写作助手",
+            "写作插件P03",
+            "灵犀写作插件",
+            "AI写作工具"
+          ]
+        },
+        {
+          "local_id": "m2",
+          "type": "Product",
+          "name": "灵记日记",
+          "aliases": [
+            "灵记日记APP",
+            "日记APP",
+            "note-app",
+            "日记应用",
+            "记录工具"
+          ]
+        },
+        {
+          "local_id": "m3",
+          "type": "Product",
+          "name": "番茄专注Pro",
+          "aliases": [
+            "专注计时器",
+            "pomodoro-pro",
+            "专注工具",
+            "番茄工具"
+          ]
+        },
+        {
+          "local_id": "m4",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "aliases": [
+            "素材包V2",
+            "asset-pack-v2",
+            "设计资源V2",
+            "素材V2"
+          ]
+        },
+        {
+          "local_id": "m5",
+          "type": "Product",
+          "name": "创意素材包V3",
+          "aliases": [
+            "素材包V3",
+            "asset-pack-v3",
+            "设计资源V3",
+            "素材V3"
+          ]
+        },
+        {
+          "local_id": "m6",
+          "type": "Product",
+          "name": "周报生成器",
+          "aliases": [
+            "周报工具",
+            "weekly-gen",
+            "周报AI",
+            "周报生成"
+          ]
+        },
+        {
+          "local_id": "m7",
+          "type": "Product",
+          "name": "营销文案AI助手",
+          "aliases": [
+            "营销文案助手",
+            "文案助手",
+            "copy-buddy",
+            "文案AI",
+            "文案工具"
+          ]
+        },
+        {
+          "local_id": "m8",
+          "type": "Product",
+          "name": "AI简历优化工具",
+          "aliases": [
+            "AI简历优化",
+            "简历工具",
+            "resume-ai",
+            "智能简历",
+            "简历优化"
+          ]
+        },
+        {
+          "local_id": "m9",
+          "type": "Product",
+          "name": "配音TTS助手",
+          "aliases": [
+            "TTS助手",
+            "tts-voice",
+            "AI配音",
+            "配音工具"
+          ]
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ppt_iteration_record"
+          },
+          "value": "IT-2026-008"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ppt_review_number"
+          },
+          "value": "RV-2026-0412"
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "cross_format_unique_info"
+          },
+          "value": {
+            "pdf": "定价规格矩阵",
+            "word": "兼容性问题和风险预警",
+            "excel": "收入和续费率数据",
+            "ppt": "迭代记录号IT-2026-008和评审编号RV-2026-0412",
+            "architecture": "产品依赖关系和姊妹产品连线"
+          }
+        },
+        {
+          "subject": "m1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "alias_count"
+          },
+          "value": 5
+        }
+      ]
+    },
+    {
+      "task_id": "unit_5c3f8173142daeee7f11",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_0bf9eddceddb42f03f3f",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_df6c185250dfccf09be1",
+      "mentions": [],
+      "relations": [],
+      "assertions": []
+    },
+    {
+      "task_id": "unit_b15b82135224da76e147",
+      "mentions": [
+        {
+          "local_id": "p1",
+          "type": "Product",
+          "name": "灵雨写作助手"
+        },
+        {
+          "local_id": "p2",
+          "type": "Product",
+          "name": "创意素材包V3",
+          "aliases": [
+            "素材包V3"
+          ]
+        },
+        {
+          "local_id": "p3",
+          "type": "Product",
+          "name": "创意素材包V2",
+          "aliases": [
+            "素材包V2"
+          ]
+        },
+        {
+          "local_id": "p4",
+          "type": "AITool",
+          "name": "通义灵码"
+        },
+        {
+          "local_id": "p5",
+          "type": "Product",
+          "name": "灵记日记"
+        },
+        {
+          "local_id": "p6",
+          "type": "Product",
+          "name": "番茄专注Pro"
+        },
+        {
+          "local_id": "p7",
+          "type": "Product",
+          "name": "周报生成器"
+        },
+        {
+          "local_id": "p8",
+          "type": "Product",
+          "name": "接口调试大师"
+        },
+        {
+          "local_id": "p9",
+          "type": "Product",
+          "name": "思维导图工具"
+        },
+        {
+          "local_id": "p10",
+          "type": "Product",
+          "name": "文案进阶课"
+        },
+        {
+          "local_id": "p11",
+          "type": "Product",
+          "name": "AI自动化手册"
+        },
+        {
+          "local_id": "p12",
+          "type": "Product",
+          "name": "配音TTS助手"
+        },
+        {
+          "local_id": "p13",
+          "type": "Product",
+          "name": "效率导航"
+        },
+        {
+          "local_id": "a1",
+          "type": "Actor",
+          "name": "周然"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "p2",
+          "predicate": "replaces",
+          "object": "p3"
+        },
+        {
+          "subject": "p1",
+          "predicate": "competes_with",
+          "object": "p4"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "base_price"
+          },
+          "value": "8.9元/月"
+        },
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "advanced_price"
+          },
+          "value": "25.9元/月"
+        },
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "advanced_user_share"
+          },
+          "value": "11%"
+        },
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "competitive_differentiation"
+          },
+          "value": [
+            "自定义片段",
+            "团队协作"
+          ]
+        },
+        {
+          "subject": "p1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "紧急适配",
+              "周期": "按需",
+              "计划日期": "2026-05-02",
+              "负责人": "周然",
+              "更新内容": "墨文v3适配",
+              "影响范围": "停更18天"
+            },
+            {
+              "更新类型": "功能迭代",
+              "周期": "月度",
+              "计划日期": "每月10日",
+              "负责人": "周然",
+              "更新内容": "新增语言支持、Bug修复",
+              "影响范围": "更新期间约30分钟"
+            },
+            {
+              "更新类型": "深度维护",
+              "周期": "季度",
+              "计划日期": "2026-08-05",
+              "负责人": "周然",
+              "更新内容": "v4风险评估、架构升级",
+              "影响范围": "停更1天"
+            }
+          ]
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability_rating"
+          },
+          "value": "3.4分"
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "new_features"
+          },
+          "value": [
+            "3D素材",
+            "动效模板"
+          ]
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "3d_support_platform"
+          },
+          "value": "仅Figma"
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "photoshop_support"
+          },
+          "value": "不支持"
+        },
+        {
+          "subject": "p2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "紧急修复",
+              "周期": "按需",
+              "计划日期": "2026-06-15",
+              "负责人": "周然",
+              "更新内容": "稳定性修复、3D素材优化",
+              "影响范围": "已购用户免费更新"
+            }
+          ]
+        },
+        {
+          "subject": "p3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "stability_rating"
+          },
+          "value": "4.2分"
+        },
+        {
+          "subject": "p3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "已停售"
+        },
+        {
+          "subject": "p3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_usage"
+          },
+          "value": "部分客户仍使用"
+        },
+        {
+          "subject": "p4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "free_quota"
+          },
+          "value": "300次/月"
+        },
+        {
+          "subject": "p5",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "功能迭代",
+              "周期": "月度",
+              "计划日期": "每月15日",
+              "负责人": "周然",
+              "更新内容": "新增功能、Bug修复",
+              "影响范围": "云同步短暂中断"
+            },
+            {
+              "更新类型": "深度维护",
+              "周期": "季度",
+              "计划日期": "2026-07-22",
+              "负责人": "周然",
+              "更新内容": "架构重构、性能优化",
+              "影响范围": "停服3小时"
+            }
+          ]
+        },
+        {
+          "subject": "p6",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "功能迭代",
+              "周期": "月度",
+              "计划日期": "每月20日",
+              "负责人": "周然",
+              "更新内容": "新增统计图表",
+              "影响范围": "无影响"
+            }
+          ]
+        },
+        {
+          "subject": "p7",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "功能迭代",
+              "周期": "月度",
+              "计划日期": "每月25日",
+              "负责人": "周然",
+              "更新内容": "AI模型调优、文案模板更新",
+              "影响范围": "无影响"
+            },
+            {
+              "更新类型": "功能合并",
+              "周期": "按需",
+              "计划日期": "2026-05-22",
+              "负责人": "周然",
+              "更新内容": "并入文案助手功能",
+              "影响范围": "新增文案模块"
+            }
+          ]
+        },
+        {
+          "subject": "p8",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "功能迭代",
+              "周期": "季度",
+              "计划日期": "2026-08-12",
+              "负责人": "周然",
+              "更新内容": "新增GraphQL支持",
+              "影响范围": "无影响"
+            }
+          ]
+        },
+        {
+          "subject": "p9",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "功能迭代",
+              "周期": "月度",
+              "计划日期": "每月5日",
+              "负责人": "周然",
+              "更新内容": "AI分析增强、导图模板更新",
+              "影响范围": "无影响"
+            },
+            {
+              "更新类型": "深度维护",
+              "周期": "半年",
+              "计划日期": "2026-10-08",
+              "负责人": "周然",
+              "更新内容": "性能优化、协作功能",
+              "影响范围": "停服2小时"
+            }
+          ]
+        },
+        {
+          "subject": "p10",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "内容更新",
+              "周期": "季度",
+              "计划日期": "2026-09-05",
+              "负责人": "周然",
+              "更新内容": "新增2讲前沿内容",
+              "影响范围": "已购用户免费更新"
+            }
+          ]
+        },
+        {
+          "subject": "p11",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "版本更新",
+              "周期": "半年",
+              "计划日期": "2026-10-18",
+              "负责人": "周然",
+              "更新内容": "新增案例、修正勘误",
+              "影响范围": "已购用户免费更新"
+            }
+          ]
+        },
+        {
+          "subject": "p12",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "功能迭代",
+              "周期": "月度",
+              "计划日期": "每月12日",
+              "负责人": "周然",
+              "更新内容": "新增音色、情感参数",
+              "影响范围": "无影响"
+            }
+          ]
+        },
+        {
+          "subject": "p13",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "update_plan"
+          },
+          "value": [
+            {
+              "更新类型": "内容更新",
+              "周期": "每周",
+              "计划日期": "每周一",
+              "负责人": "周然",
+              "更新内容": "新增工具推荐、排版优化",
+              "影响范围": "无影响"
+            }
+          ]
+        },
+        {
+          "subject": "a1",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "role"
+          },
+          "value": "产品更新负责人"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

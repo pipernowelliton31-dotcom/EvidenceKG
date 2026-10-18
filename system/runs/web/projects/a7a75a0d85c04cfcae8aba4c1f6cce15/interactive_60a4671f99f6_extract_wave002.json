@@ -1,0 +1,1482 @@
+{
+  "schema_version": "1.3",
+  "fingerprint": "run_d645a1ecf5d985abd818",
+  "stage": "extract",
+  "pending_count": 17,
+  "concurrent_batches": true,
+  "batches": [
+    {
+      "batch_index": 0,
+      "batch_chars": 11671,
+      "tasks": [
+        {
+          "task_id": "unit_c4ef8833bdd6126b46a3",
+          "selection": {
+            "unit_id": "unit_c4ef8833bdd6126b46a3",
+            "mode": "llm_semantic",
+            "priority": 69,
+            "score": 9,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 10,
+              "metric": 1,
+              "event": 2,
+              "alias": 0,
+              "id_like": 2,
+              "date": 1,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 7,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n       3.2 其他产品规格概览                                                               \n                                                                                  \n       以下为各产品开发的AI工具使用情况和主要功能模块概览。产品开发过程中，不同产品使用不同的AI工具组合，                        \n       形成工具-产品依赖矩阵。                                                               \n                                                                                  \n                                表4：产品规格与AI工具使用概览                                  \n      产品          类型     开发工具        维护工具    运营工具       月活用户   状态                 \n      灵记日记        APP    墨文+通义       墨文      豆包         7,600  正常                 \n                                                                                  \n      番茄专注Pro     APP    墨文          墨文      豆包         2,900  正常                 \n      灵雨写作助手      插件     墨文+通义       优先      Kimi       10,800 兼容性问题              \n      周报生成器       小程序    墨文+Kimi     优先      Kimi       2,600  已合并文案助手            \n                                                                                  \n      接口调试大师      桌面工具   墨文          优先      秘塔AI       1,400  稳定                 \n      创意素材包V3     素材     Figma AI+即梦 Figma AI 飞书智能      —      V2停售替代             \n      文案进阶课       在线课程   Kimi+豆包     Kimi    Gamma      580    稳定                 \n                                                                                  \n      AI自动化手册     电子书    豆包+墨文       豆包      Kimi       840    稳定                 \n      思维导图工具      在线工具   墨文+Kimi     优先      Kimi       3,900  正常                 \n      配音TTS助手     在线工具   墨文+讯飞       优先      豆包         1,700  正常                 \n      效率导航        网站     墨文+v0.dev   优先      秘塔AI       13,500 广告收入               \n                                                                                  \n      项目模板        模板     飞书智能        飞书智能    飞书智能       900    正常                 \n       注：灵雨写作助手的开发深度依赖墨文创作台环境。2026年5月墨文创作台      v2→v3升级后，文档语法变化导致插件出现兼容           \n       性问题，适配耗时约2周，期间无法正常更新。同时通义灵码增加了免费使用额度，使得灵雨写作助手的付费价值感知降低。                    \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 7 页                   AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 116
+          },
+          "unit_id": "unit_c4ef8833bdd6126b46a3"
+        },
+        {
+          "task_id": "unit_bd4c07a2b0c66896c63b",
+          "selection": {
+            "unit_id": "unit_bd4c07a2b0c66896c63b",
+            "mode": "llm_semantic",
+            "priority": 69,
+            "score": 9,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 6,
+              "metric": 6,
+              "event": 3,
+              "alias": 0,
+              "id_like": 2,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 9,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n                              表5-续表：AI工具使用统计（第2部分）                                \n                                                v2→                               \n      墨文月调用量      —    —          6万次     —          —             迁移后统计          \n                                                v3                                \n                                                                   免费额度50000      \n      通义灵码月调用量    —    —          2.5万次   —     v1.5 —                            \n                                                                   次              \n      Figma AI月调用量 —   —          1.2千次   —     v2   —             素材V3开发         \n      Studio总成本   —    —          245美元/月 —     —    —             占支出33%         \n      Studio总收入   —    —          约18万/月  —     —    —             Q2前约14万/月      \n                                                                   5月20日恢复更       \n      墨文v3适配进度    —    已完成        —       —     v3   —                            \n                                                                   新              \n                                  80→300次                          影响P03付费价       \n      通义免费政策      —    —                  —     v1.5 —                            \n                                  /月                               值              \n      Tool链覆盖率    —    17种        —       —     —    —             全产品线           \n                                  约80小时/                                          \n      自动化节省工时     —    —                  —     —    —             Make+n8n合计     \n                                  月                                               \n       注：墨文创作台于2025年5月2日从v2升级至v3，新版本语法和补全策略发生变化。这直接影响灵雨写作助手插件的兼容性—                \n       —插件依赖v2的API接口进行文档分析，v3变更了部分接口签名和补全机制。适配期间（5月2日-5月20日）插件无法正常发布              \n       更新。通义灵码在同期增加了免费使用额度（从每月80次增至300次），进一步压缩了灵雨写作助手的付费价值。                       \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 9 页                   AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 98
+          },
+          "unit_id": "unit_bd4c07a2b0c66896c63b"
+        },
+        {
+          "task_id": "unit_ae9f726c7b049bd7ed3c",
+          "selection": {
+            "unit_id": "unit_ae9f726c7b049bd7ed3c",
+            "mode": "llm_semantic",
+            "priority": 67,
+            "score": 7,
+            "chars": 470,
+            "format": "docx",
+            "structured_kind": "",
+            "signals": {
+              "relation": 2,
+              "metric": 8,
+              "event": 16,
+              "alias": 0,
+              "id_like": 0,
+              "date": 1,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_cfe578b0acec48e146c6",
+          "format": "docx",
+          "locator": {
+            "section": [
+              "5. 产品迭代与维护",
+              "5.2 兼容性风险与应对"
+            ],
+            "paragraph_start": 60,
+            "paragraph_end": 74,
+            "precision": "source_xml_blocks"
+          },
+          "content_md": "## 5.2 兼容性风险与应对\n\n当前面临的兼容性风险及应对措施：\n\n一、墨文创作台 v4 风险预警：\n\n根据墨文官方路线图，v4预计于2026年Q3发布（2026年9月-10月）\n\nv4可能再次变更API接口，灵雨写作助手需要再次适配\n\n预估适配周期：2-3周（视v4变更幅度）\n\n风险：若v4适配期间灵雨写作助手再次停更，可能导致续费率进一步下降至50%以下\n\n应对：已预留v4适配开发时间，计划在v4 beta阶段提前适配\n\n风险评级：高。墨文v4发布后，灵雨写作助手面临持续收入风险。若Q3续费率低于50%，需考虑调整产品方向。\n\n二、通义灵码免费策略风险：\n\n若通义灵码进一步增加免费额度或降低付费价格，灵雨写作助手的付费价值将进一步被压缩\n\n应对：强化高级版差异化功能（自定义片段、团队协作），降低基础版对免费用户的依赖\n\n三、创意素材包V3稳定性风险：\n\nV3评分3.4分持续低于V2，若3个月内无法提升至3.8分以上，需考虑V2恢复销售或V4紧急发布\n\n应对：6月15日紧急修复批次已完成3D加载优化，7月将发布v3.1版本",
+          "asset_refs": [],
+          "parse_warnings": [],
+          "unit_id": "unit_ae9f726c7b049bd7ed3c"
+        },
+        {
+          "task_id": "unit_868a849533589f14d095",
+          "selection": {
+            "unit_id": "unit_868a849533589f14d095",
+            "mode": "llm_semantic",
+            "priority": 66,
+            "score": 6,
+            "chars": 354,
+            "format": "docx",
+            "structured_kind": "",
+            "signals": {
+              "relation": 2,
+              "metric": 3,
+              "event": 1,
+              "alias": 0,
+              "id_like": 0,
+              "date": 1,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_cfe578b0acec48e146c6",
+          "format": "docx",
+          "locator": {
+            "section": [
+              "1. 工作室简介"
+            ],
+            "paragraph_start": 4,
+            "paragraph_end": 7,
+            "precision": "source_xml_blocks"
+          },
+          "content_md": "# 1. 工作室简介\n\n青禾工作室（Qinghe Studio）成立于2025年9月，是一人公司（OPC）创业实践。创始人周然借助AI工具链，独立完成数字产品设计、开发、运营、客服全链路。工作室目前运营18个数字产品，使用17种AI工具辅助开发与运营，服务15个客户。\n\n工作室的核心产品为AI写作助手插件（灵雨写作助手），该产品是墨文创作平台生态中领先的AI写作辅助插件，月活用户超过10,800人。2025年9月上线以来，累计服务超过2,600名创作者，月均收入峰值约9.9万元。\n\n产品开发以墨文创作台（文档创作与自动化平台）为主力环境，辅以通义灵码进行代码补全。日常运营使用豆包生成文案、飞书智能伙伴进行项目管理、Tableau进行数据分析。AI工具月度总成本约245美元，占工作室月均支出的33%。",
+          "asset_refs": [],
+          "parse_warnings": [],
+          "unit_id": "unit_868a849533589f14d095"
+        },
+        {
+          "task_id": "unit_fb279ee6ccb2a872fdca",
+          "selection": {
+            "unit_id": "unit_fb279ee6ccb2a872fdca",
+            "mode": "llm_batch",
+            "priority": 23,
+            "score": 3,
+            "chars": 619,
+            "format": "docx",
+            "structured_kind": "source_xml_table",
+            "signals": {
+              "relation": 0,
+              "metric": 3,
+              "event": 1,
+              "alias": 0,
+              "id_like": 0,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_cfe578b0acec48e146c6",
+          "format": "docx",
+          "locator": {
+            "section": [
+              "3. 产品线管理",
+              "3.1 各产品运营状态"
+            ],
+            "table": 1,
+            "row_start": 2,
+            "row_end": 13
+          },
+          "content_md": "| 产品名称 | 类型 | 状态 | 月活用户 | 月收入 | 评分 |\n| --- | --- | --- | --- | --- | --- |\n| 灵记日记 | APP | 正常运营 | 7,600 | 约2.6万 | 4.5 |\n| 番茄专注Pro | APP | 正常运营 | 2,900 | 约1.1万 | 4.0 |\n| 灵雨写作助手 | 插件 | 兼容性问题 | 10,800 | 约7.1万 | 3.0 |\n| 周报精灵 | 小程序 | 正常运营 | 2,600 | 约1.4万 | 4.1 |\n| 接口调试大师 | 桌面工具 | 稳定运营 | 1,400 | 约2.1万 | 3.9 |\n| 创意素材包V3 | 素材 | 稳定性修复中 | — | 约1.2万 | 3.4 |\n| 文案进阶课 | 在线课程 | 稳定运营 | 580 | 约1.8万 | 4.2 |\n| Python手册 | 电子书 | 稳定运营 | 840 | 约1.3万 | 4.4 |\n| 思维导图工具 | 在线工具 | 正常运营 | 3,900 | 约2.6万 | 4.6 |\n| 配音TTS工具 | 在线工具 | 正常运营 | 1,700 | 约2.0万 | 3.6 |\n| 效率工具导航 | 网站 | 广告收入 | 13,500 | 约0.7万 | 4.2 |\n| PM模板 | 模板 | 正常运营 | 900 | 约0.9万 | 3.9 |",
+          "asset_refs": [],
+          "parse_warnings": [],
+          "structured": {
+            "kind": "source_xml_table",
+            "records": [
+              [
+                {
+                  "row": 2,
+                  "cell": 1,
+                  "text": "灵记日记",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 2,
+                  "cell": 2,
+                  "text": "APP",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 2,
+                  "cell": 3,
+                  "text": "正常运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 2,
+                  "cell": 4,
+                  "text": "7,600",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 2,
+                  "cell": 5,
+                  "text": "约2.6万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 2,
+                  "cell": 6,
+                  "text": "4.5",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 3,
+                  "cell": 1,
+                  "text": "番茄专注Pro",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 3,
+                  "cell": 2,
+                  "text": "APP",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 3,
+                  "cell": 3,
+                  "text": "正常运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 3,
+                  "cell": 4,
+                  "text": "2,900",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 3,
+                  "cell": 5,
+                  "text": "约1.1万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 3,
+                  "cell": 6,
+                  "text": "4.0",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 4,
+                  "cell": 1,
+                  "text": "灵雨写作助手",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 4,
+                  "cell": 2,
+                  "text": "插件",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 4,
+                  "cell": 3,
+                  "text": "兼容性问题",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 4,
+                  "cell": 4,
+                  "text": "10,800",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 4,
+                  "cell": 5,
+                  "text": "约7.1万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 4,
+                  "cell": 6,
+                  "text": "3.0",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 5,
+                  "cell": 1,
+                  "text": "周报精灵",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 5,
+                  "cell": 2,
+                  "text": "小程序",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 5,
+                  "cell": 3,
+                  "text": "正常运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 5,
+                  "cell": 4,
+                  "text": "2,600",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 5,
+                  "cell": 5,
+                  "text": "约1.4万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 5,
+                  "cell": 6,
+                  "text": "4.1",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 6,
+                  "cell": 1,
+                  "text": "接口调试大师",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 6,
+                  "cell": 2,
+                  "text": "桌面工具",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 6,
+                  "cell": 3,
+                  "text": "稳定运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 6,
+                  "cell": 4,
+                  "text": "1,400",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 6,
+                  "cell": 5,
+                  "text": "约2.1万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 6,
+                  "cell": 6,
+                  "text": "3.9",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 7,
+                  "cell": 1,
+                  "text": "创意素材包V3",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 7,
+                  "cell": 2,
+                  "text": "素材",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 7,
+                  "cell": 3,
+                  "text": "稳定性修复中",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 7,
+                  "cell": 4,
+                  "text": "—",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 7,
+                  "cell": 5,
+                  "text": "约1.2万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 7,
+                  "cell": 6,
+                  "text": "3.4",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 8,
+                  "cell": 1,
+                  "text": "文案进阶课",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 8,
+                  "cell": 2,
+                  "text": "在线课程",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 8,
+                  "cell": 3,
+                  "text": "稳定运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 8,
+                  "cell": 4,
+                  "text": "580",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 8,
+                  "cell": 5,
+                  "text": "约1.8万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 8,
+                  "cell": 6,
+                  "text": "4.2",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 9,
+                  "cell": 1,
+                  "text": "Python手册",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 9,
+                  "cell": 2,
+                  "text": "电子书",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 9,
+                  "cell": 3,
+                  "text": "稳定运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 9,
+                  "cell": 4,
+                  "text": "840",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 9,
+                  "cell": 5,
+                  "text": "约1.3万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 9,
+                  "cell": 6,
+                  "text": "4.4",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 10,
+                  "cell": 1,
+                  "text": "思维导图工具",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 10,
+                  "cell": 2,
+                  "text": "在线工具",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 10,
+                  "cell": 3,
+                  "text": "正常运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 10,
+                  "cell": 4,
+                  "text": "3,900",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 10,
+                  "cell": 5,
+                  "text": "约2.6万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 10,
+                  "cell": 6,
+                  "text": "4.6",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 11,
+                  "cell": 1,
+                  "text": "配音TTS工具",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 11,
+                  "cell": 2,
+                  "text": "在线工具",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 11,
+                  "cell": 3,
+                  "text": "正常运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 11,
+                  "cell": 4,
+                  "text": "1,700",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 11,
+                  "cell": 5,
+                  "text": "约2.0万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 11,
+                  "cell": 6,
+                  "text": "3.6",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 12,
+                  "cell": 1,
+                  "text": "效率工具导航",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 12,
+                  "cell": 2,
+                  "text": "网站",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 12,
+                  "cell": 3,
+                  "text": "广告收入",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 12,
+                  "cell": 4,
+                  "text": "13,500",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 12,
+                  "cell": 5,
+                  "text": "约0.7万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 12,
+                  "cell": 6,
+                  "text": "4.2",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ],
+              [
+                {
+                  "row": 13,
+                  "cell": 1,
+                  "text": "PM模板",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 13,
+                  "cell": 2,
+                  "text": "模板",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 13,
+                  "cell": 3,
+                  "text": "正常运营",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 13,
+                  "cell": 4,
+                  "text": "900",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 13,
+                  "cell": 5,
+                  "text": "约0.9万",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                },
+                {
+                  "row": 13,
+                  "cell": 6,
+                  "text": "3.9",
+                  "grid_span": 1,
+                  "vertical_merge": null
+                }
+              ]
+            ],
+            "header_cells": [
+              {
+                "row": 1,
+                "cell": 1,
+                "text": "产品名称",
+                "grid_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "row": 1,
+                "cell": 2,
+                "text": "类型",
+                "grid_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "row": 1,
+                "cell": 3,
+                "text": "状态",
+                "grid_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "row": 1,
+                "cell": 4,
+                "text": "月活用户",
+                "grid_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "row": 1,
+                "cell": 5,
+                "text": "月收入",
+                "grid_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "row": 1,
+                "cell": 6,
+                "text": "评分",
+                "grid_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          "unit_id": "unit_fb279ee6ccb2a872fdca"
+        }
+      ]
+    },
+    {
+      "batch_index": 1,
+      "batch_chars": 11285,
+      "tasks": [
+        {
+          "task_id": "unit_afda62cde316c5ac4cbc",
+          "selection": {
+            "unit_id": "unit_afda62cde316c5ac4cbc",
+            "mode": "llm_semantic",
+            "priority": 67,
+            "score": 7,
+            "chars": 5861,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 1,
+              "metric": 4,
+              "event": 5,
+              "alias": 0,
+              "id_like": 2,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 6,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n                                 表3：产品定价规格表（续表）                                   \n      产品名称           产品类型   定价        适用平台       有效期   授权数   备注                   \n                                                                                  \n                                                       团队专                        \n                                                       注计时                        \n      APP扩展          28元买断  iOS/Android 永久       5人                               \n                                                       +排行                        \n                                                       榜                          \n                                                       基础写                        \n                                                       作补全                        \n      插件订阅           8.9元/月 墨文创作台     月度         1人                               \n                                                       +语法                        \n                                                       检查                         \n                                                       自定义                        \n                                                       片段+                        \n      插件订阅           25.9元/月 墨文创作台    月度         5人                               \n                                                       团队协                        \n                                                       作                          \n                                                       含商业                        \n                            Figma/PS/Sketc             授权（                        \n      素材授权           25元买断            永久         1人                               \n                            h                          已停售                        \n                                                       ）                          \n                                                       含商业                        \n                            Figma/PS/Sketc                                        \n      素材授权           35元买断            永久         1人    授权+3                       \n                            h                                                     \n                                                       D素材                        \n                                                       每月2                        \n      课程附加           15元/月  Web       月度         1人    次在线                        \n                                                       答疑                         \n                                                       每年2                        \n      电子书附加          9.9元/年 PDF/EPUB  年度         1人    次版本                        \n                                                       更新                         \n                                                       无限导                        \n      在线工具           10元/月  Web       月度         1人    图+AI                       \n                                                       分析                         \n                                                       50+行                       \n      小程序内购          9.9元买断 微信小程序     永久         1人    业简历                        \n                                                       模板                         \n                                                       自定义                        \n      插件订阅           15元/月  VSCode    月度         1人    图表+                        \n                                                       数据源                        \n                                                       50+AI                      \n      在线工具           12元/月  Web       月度         1人    音色选                        \n                                                       择                          \n                                                       敏捷开                        \n      模板扩展           12元买断  Notion    永久         1人    发6套                        \n                                                       模板                         \n                                                       瀑布开                        \n      模板扩展           10元买断  Notion    永久         1人    发4套                        \n                                                       模板                         \n                                                       首页推                        \n      网站服务           500元/月 Web       月度         不限                               \n                                                       荐位                         \n                     3000元/                            工具置                        \n      网站服务                  Web       年度         不限                               \n                     年                                 顶展示                        \n                                                       优惠20                       \n      APP内购          48元/年  iOS/Android 年度       1人                               \n                                                       %                          \n                                                       优惠17                       \n      在线工具           100元/年 Web       年度         1人                               \n                                                       %                          \n       注：灵雨写作助手于2026年4月12日从免费增值模式调整为订阅制（基础版8.9元/月、高级版25.9元/月）。定价调整前该产             \n       品月均收入约9.9万元，调整后Q2收入降至约7.1万元（详见运营记录Excel）。创意素材包V2（asset-pack-v2）已于2026年     \n       5月22日标记为停售，由V3版本替代。营销文案助手功能已并入周报生成器，不再作为独立产品销售。                            \n      文档版本 V2026.06 | 内部资料 第 6 页                   AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 165
+          },
+          "unit_id": "unit_afda62cde316c5ac4cbc"
+        },
+        {
+          "task_id": "unit_d2fe5d839615e7b083cb",
+          "selection": {
+            "unit_id": "unit_d2fe5d839615e7b083cb",
+            "mode": "llm_semantic",
+            "priority": 67,
+            "score": 7,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 7,
+              "metric": 5,
+              "event": 0,
+              "alias": 0,
+              "id_like": 3,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 8,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n       4. AI工具使用对照                                                                \n                                                                                  \n       青禾工作室使用17种AI工具覆盖写作、编程、设计、文案、运营、自动化等环节。下表详细列出各AI工具的使用                       \n       情况、调用频次和月度成本。                                                              \n                                                                                  \n                                 表5：AI工具使用对照表（T2）                                 \n                用途              调用频次/                                             \n      工具名称           主要使用场景             月度成本  版本  依赖产品           备注               \n                分类              月                                                 \n                     文档创作/插件开                 v2→ 灵雨写作助手、灵记日                      \n      墨文创作台     写作              约6万次    25美元                     主力创作平台           \n                     发                        v3  记                               \n      通义灵码      编程   代码补全       约2.5万次  8美元   v1.6 辅助开发          免费额度增加           \n      Figma AI  设计   UI设计       约1.8千次  10美元  v2  创意素材包V3        界面+图标            \n      即梦AI      设计   AI生图       约900次   28美元  v4  素材包、效率导航       营销配图             \n      Kimi      写作   长文写作       约8千次    20美元  v5  Python手册、课程    技术文档             \n      豆包        写作   文案/内容生成    约1.2万次  15美元  v3  周报、文案助手        主力文案             \n      可灵AI      视频   AI视频生成     约60次    24美元  v1  营销短视频          素材包推广            \n                                                                                  \n      飞书智能表格    管理   项目管理/知识库   约2.5千次  9美元   v1  PM模板           任务+知识库           \n                自动                                                                \n      Make           工作流自动化     约1万次    18美元  v1  产品间数据流转        5个Zap            \n                化                                                                 \n                自动                                                                \n      n8n            复杂流程编排     约4千次    0美元   v1  产品自动化          自托管              \n                化                                                                 \n      讯飞听见      语音   会议转写       约180次   14美元  v3  客户需求记录         英文转写             \n      剪映AI      语音   AI配音       约1.5千次  16美元  v2  配音TTS助手        TTS核心引擎          \n      Gamma     演示   AI生成PPT    约90次    9美元   v1  产品演示文档         本次PPT使用          \n      秘塔AI搜索    搜索   AI搜索       约2.6千次  0美元   v2  竞品调研           实时搜索             \n      v0.dev    前端   AI生成UI     约700次   18美元  v1  灵记日记原型         快速原型             \n      Replit    编程   在线IDE      约450次   10美元  v1  快速验证想法         轻量验证             \n                                              v20                                 \n      Tableau   分析   数据分析       约1.1千次  14美元      收入分析           可视化              \n                                              24                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 8 页                   AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 173
+          },
+          "unit_id": "unit_d2fe5d839615e7b083cb"
+        },
+        {
+          "task_id": "unit_965b51003801e6d31740",
+          "selection": {
+            "unit_id": "unit_965b51003801e6d31740",
+            "mode": "llm_batch",
+            "priority": 23,
+            "score": 3,
+            "chars": 207,
+            "format": "docx",
+            "structured_kind": "",
+            "signals": {
+              "relation": 2,
+              "metric": 0,
+              "event": 1,
+              "alias": 0,
+              "id_like": 0,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_cfe578b0acec48e146c6",
+          "format": "docx",
+          "locator": {
+            "section": [
+              "4. 客户服务流程"
+            ],
+            "paragraph_start": 39,
+            "paragraph_end": 45,
+            "precision": "source_xml_blocks"
+          },
+          "content_md": "# 4. 客户服务流程\n\n青禾工作室的客户服务流程如下：\n\n客户通过产品内反馈、邮件或微信社群提交问题\n\n周然使用讯飞听见记录客户需求，使用豆包生成回复模板\n\n常见问题整理至知识库（飞书智能表格管理），供后续查询\n\n严重问题（如兼容性故障）优先处理，通过社群公告和产品内通知告知所有用户\n\nQ2期间，因灵雨写作助手兼容性问题，客户工单量从月均40条增至月均96条。工单分类统计详见运营记录Excel Sheet4。",
+          "asset_refs": [],
+          "parse_warnings": [],
+          "unit_id": "unit_965b51003801e6d31740"
+        },
+        {
+          "task_id": "unit_64965d5d01eb223447c0",
+          "selection": {
+            "unit_id": "unit_64965d5d01eb223447c0",
+            "mode": "llm_batch",
+            "priority": 22,
+            "score": 2,
+            "chars": 62,
+            "format": "docx",
+            "structured_kind": "",
+            "signals": {
+              "relation": 0,
+              "metric": 0,
+              "event": 0,
+              "alias": 0,
+              "id_like": 1,
+              "date": 1,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_cfe578b0acec48e146c6",
+          "format": "docx",
+          "locator": {
+            "section": [],
+            "paragraph_start": 1,
+            "paragraph_end": 3,
+            "precision": "source_xml_blocks"
+          },
+          "content_md": "青禾工作室 · 运营手册\n\nV2026.06 | 2026年6月\n\n一人公司(OPC) · 数字产品工作室 · 产品运营参考",
+          "asset_refs": [],
+          "parse_warnings": [],
+          "unit_id": "unit_64965d5d01eb223447c0"
+        },
+        {
+          "task_id": "unit_0b8b1fa41cced6ccabd9",
+          "selection": {
+            "unit_id": "unit_0b8b1fa41cced6ccabd9",
+            "mode": "llm_batch",
+            "priority": 21,
+            "score": 1,
+            "chars": 41,
+            "format": "docx",
+            "structured_kind": "",
+            "signals": {
+              "relation": 1,
+              "metric": 0,
+              "event": 0,
+              "alias": 0,
+              "id_like": 0,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_cfe578b0acec48e146c6",
+          "format": "docx",
+          "locator": {
+            "section": [
+              "6. 产品名称对照表"
+            ],
+            "paragraph_start": 75,
+            "paragraph_end": 76,
+            "precision": "source_xml_blocks"
+          },
+          "content_md": "# 6. 产品名称对照表\n\n以下为各产品在不同文档中的名称对照，供跨文档查询使用：",
+          "asset_refs": [],
+          "parse_warnings": [],
+          "unit_id": "unit_0b8b1fa41cced6ccabd9"
+        }
+      ]
+    },
+    {
+      "batch_index": 2,
+      "batch_chars": 10228,
+      "tasks": [
+        {
+          "task_id": "unit_d8e39973deed18c5146b",
+          "selection": {
+            "unit_id": "unit_d8e39973deed18c5146b",
+            "mode": "llm_semantic",
+            "priority": 66,
+            "score": 6,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 0,
+              "metric": 1,
+              "event": 3,
+              "alias": 0,
+              "id_like": 2,
+              "date": 15,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 10,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n       5. 客户反馈摘要                                                                  \n                                                                                  \n       以下为客户对青禾工作室产品的反馈摘要，数据来源于2026年Q2客户满意度调研和产品评价系统。反馈数据对应                       \n       数据集D05（产品评价反馈），与Excel运营数据中的评价统计交叉验证。                                       \n                                                                                  \n       5.1 客户评价摘要                                                                 \n                                                                                  \n                                 表6：客户评价摘要（部分）                                    \n      产品          日期     评分   反馈内容                             客户                 \n                                                                                  \n                  2026-06                                                         \n      灵雨写作助手             3.0  墨文v3更新后插件经常报错，等了两周才修复            程序员陈默              \n                  -02                                                             \n                  2026-06                                                         \n      灵雨写作助手             2.7  改订阅制太贵了，而且通义灵码免费够用了              独立开发者阿凯            \n                  -05                                                             \n                  2026-05                                                         \n      灵雨写作助手             3.4  功能还是不错的，就是适配慢了点                  创客实验室              \n                  -28                                                             \n                  2026-06                                                         \n      创意素材包V3            3.0  3D素材很好，但经常卡顿，不如V2稳定              自由设计师林清            \n                  -08                                                             \n                  2026-06                                                         \n      创意素材包V3            3.5  动效模板很赞，希望多出一些                    纸鸢设计               \n                  -10                                                             \n                  2026-06                                                         \n      周报生成器              4.1  AI生成的周报质量不错，省了很多时间               悦读传媒               \n                  -12                                                             \n                  2026-06                                                         \n      思维导图工具             4.6  文本转导图太方便了，强烈推荐                   效率控阿岚              \n                  -15                                                             \n                  2026-06                                                         \n      文案进阶课              4.2  课程内容深入浅出，适合入门                    高校新媒体社             \n                  -18                                                             \n                  2026-06                                                         \n      AI自动化手册            4.4  220页干货满满，自动化案例实用                 王教授                \n                  -20                                                             \n                  2026-06                                                         \n      配音TTS助手            3.6  音色不错，但中文情感表达还需提升                 播客主理人小满            \n                  -22                                                             \n                  2026-06                                                         \n      效率导航               4.2  导航站很全，发现的工具很实用                   自媒体博主              \n                  -25                                                             \n                  2026-06                                                         \n      PMD模板              3.9  敏捷模板好用，瀑布模板略简陋                   产品经理Zoe            \n                  -28                                                             \n                  2026-06                                                         \n      数据可视化插件            3.5  和灵雨配合好，但独立用不够强                   创客实验室              \n                  -30                                                             \n                  2026-07                                                         \n      灵记日记               4.5  简洁好用，云同步很方便                      自由设计师林清            \n                  -01                                                             \n                  2026-07                                                         \n      接口调试大师             3.9  功能完善，比Postman轻量                  独立开发者阿凯            \n                  -03                                                             \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 10 页                  AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 117
+          },
+          "unit_id": "unit_d8e39973deed18c5146b"
+        },
+        {
+          "task_id": "unit_5177d54a41e10e4af012",
+          "selection": {
+            "unit_id": "unit_5177d54a41e10e4af012",
+            "mode": "llm_semantic",
+            "priority": 65,
+            "score": 5,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 0,
+              "metric": 2,
+              "event": 0,
+              "alias": 0,
+              "id_like": 2,
+              "date": 10,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 11,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n                                   表6续：客户反馈摘要                                     \n                  2026-07                                                         \n      番茄专注Pro            4.0  简洁专注，但缺少桌面小组件支持                  学生小张               \n                  -05                                                             \n                  2026-07                                                         \n      周报生成器              3.4  模板更新后旧周报导出格式不兼容                  行政小李               \n                  -08                                                             \n                  2026-07                                                         \n      文案进阶课              3.7  内容不错，但缺少进阶实战课程                   转行创作者老范            \n                  -10                                                             \n                  2026-07                                                         \n      效率导航               3.8  分类太细了，找东西有点麻烦                    工具收藏者阿星            \n                  -12                                                             \n                  2026-07                                                         \n      灵雨写作助手             2.4  v3适配后仍有偶发崩溃，体验下降明显               后端工程师赵伟            \n                  -15                                                             \n                  2026-07                                                         \n      创意素材包V3            2.9  动效模板导出格式太少，只有JSON                动画设计师May           \n                  -18                                                             \n                  2026-07                                                         \n      AI自动化手册            4.2  案例丰富，但部分爬虫代码已过时                  数据分析师小周            \n                  -20                                                             \n                  2026-07                                                         \n      AI简历优化             3.8  AI润色效果一般，但模板设计不错                 应届毕业生小吴            \n                  -22                                                             \n                  2026-07                                                         \n      思维导图工具             4.4  导出PDF清晰度不够，矢量导出就好了               产品经理王磊             \n                  -25                                                             \n                  2026-07                                                         \n      配音TTS助手            3.1  多音字读错率较高，整体音色可以                  有声书团队              \n                  -28                                                             \n       注：灵雨写作助手在Q2的平均评分降至3.0分（5分制），较Q1的4.1分显著下降。主要差评集中在墨文v3兼容性问题和订阅制              \n       定价两个方面。创意素材包V3平均评分3.4分，低于V2同期的4.2分，客户反馈V3稳定性不如V2。                          \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 11 页                  AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 78
+          },
+          "unit_id": "unit_5177d54a41e10e4af012"
+        }
+      ]
+    },
+    {
+      "batch_index": 3,
+      "batch_chars": 10228,
+      "tasks": [
+        {
+          "task_id": "unit_136413fce53374ebfe94",
+          "selection": {
+            "unit_id": "unit_136413fce53374ebfe94",
+            "mode": "llm_batch",
+            "priority": 24,
+            "score": 4,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 0,
+              "metric": 0,
+              "event": 1,
+              "alias": 0,
+              "id_like": 4,
+              "date": 2,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 1,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                  青禾工作室                                           \n                                                                                  \n                             产品规格与定价文档                                            \n                                                                                  \n                                                                                  \n                       一人公司(OPC) · 数字产品工作室   · 产品规格与运营参考                          \n                                                                                  \n                                                                                  \n                                                                                  \n       文档编号                 QH-SPEC-2026-001                                      \n                                                                                  \n       版本                   V2026.06                                              \n       编制人                  周然（青禾工作室创始人）                                          \n                                                                                  \n       发布日期                 2026年6月18日                                            \n                                                                                  \n       密级                   内部资料                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 1 页                   AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 32
+          },
+          "unit_id": "unit_136413fce53374ebfe94"
+        },
+        {
+          "task_id": "unit_00bf1eab1c7e94cf3066",
+          "selection": {
+            "unit_id": "unit_00bf1eab1c7e94cf3066",
+            "mode": "llm_batch",
+            "priority": 24,
+            "score": 4,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 1,
+              "metric": 0,
+              "event": 1,
+              "alias": 0,
+              "id_like": 2,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 12,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n       5.2 产品功能对比矩阵                                                               \n                                                                                  \n       以下为灵雨写作助手与通义灵码的功能对比矩阵，以及创意素材包V2与V3的功能对比。                                   \n                               表7：产品功能对比矩阵（第1部分）                                  \n                                                                                  \n      功能维度           灵雨基础版          灵雨高级版           通义免费版        通义付费版            \n      写作补全           支持（单语言）        支持（多语言）         支持（300次/月）   支持（无限次）          \n      自定义片段          不支持            支持              不支持          支持               \n                                                                                  \n      团队协作           不支持            支持（5人）          不支持          支持               \n      文本审查           基础检查           深度审查+建议         不支持          基础检查             \n      墨文兼容           是（v2完整，v3适配后）  是（v2完整，v3适配后）   是（墨文内置）      是（墨文内置）          \n                                                                                  \n      定价             8.9元/月         25.9元/月         免费           10美元/月           \n                                表8：素材包功能对比（第2部分）                                  \n                                                                                  \n      功能维度        素材包V2      素材包V3            差异说明            迁移影响                \n      UI图标        480个       620个             新增140个          兼容                  \n      插画素材        180张       230张             新增50张           兼容                  \n                                                                                  \n      配色方案        60套        90套              新增30套           兼容                  \n      3D素材        无          130个             全新模块            V3独有                \n      动效模板        无          55个              全新模块            V3独有                \n                                                                                  \n      商业授权        包含         包含               —               —                   \n      Figma兼容     完整         完整               —               —                   \n      PS兼容        完整         部分（3D不支持PS）      注意限制            3D素材仅Figma可用        \n                                                                                  \n      Sketch兼容    完整         完整               —               —                   \n      稳定性         4.2分       3.4分             V3卡顿问题          待修复                 \n      定价          25元        35元              涨10元            —                   \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 12 页                  AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 115
+          },
+          "unit_id": "unit_00bf1eab1c7e94cf3066"
+        }
+      ]
+    },
+    {
+      "batch_index": 4,
+      "batch_chars": 10228,
+      "tasks": [
+        {
+          "task_id": "unit_73f5e7614d11dd2083aa",
+          "selection": {
+            "unit_id": "unit_73f5e7614d11dd2083aa",
+            "mode": "llm_batch",
+            "priority": 24,
+            "score": 4,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 2,
+              "metric": 0,
+              "event": 0,
+              "alias": 0,
+              "id_like": 2,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 2,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n       目 录                                                                        \n                                                                                  \n       1. 工作室简介                                                                   \n                                                                                  \n       2. 产品总览                                                                    \n       3. 产品定价规格                                                                  \n                                                                                  \n       3.1 产品定价规格表                                                                \n       3.2 其他产品规格概览                                                               \n                                                                                  \n       4. AI工具使用对照                                                                \n                                                                                  \n       4.1 AI工具使用对照表                                                              \n       5. 客户反馈摘要                                                                  \n                                                                                  \n       5.1 产品功能对比矩阵                                                               \n       6. 产品兼容性与更新计划                                                              \n                                                                                  \n       6.1 产品更新计划表                                                                \n                                                                                  \n       7. 产品名称对照说明                                                                \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 2 页                   AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient",
+            "no_ruled_table_detected: inspect text for borderless tables"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 41
+          },
+          "unit_id": "unit_73f5e7614d11dd2083aa"
+        },
+        {
+          "task_id": "unit_3b652414a1cf746eff00",
+          "selection": {
+            "unit_id": "unit_3b652414a1cf746eff00",
+            "mode": "llm_batch",
+            "priority": 24,
+            "score": 4,
+            "chars": 5114,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 2,
+              "metric": 0,
+              "event": 0,
+              "alias": 0,
+              "id_like": 3,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 3,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n       1. 工作室简介                                                                   \n                                                                                  \n       青禾工作室（Qinghe Studio）成立于2025年9月，是一人公司（OPC）创业实践。创始人周然借助AI工具链，                \n       独立完成数字产品设计、开发、运营、客服全链路。工作室目前运营18个数字产品（APP、小程序、插件、模板                        \n       、在线课程、电子书、在线工具、素材包、网站等），使用17种AI工具辅助开发与运营，服务15个客户。                          \n                                                                                  \n       本文档详细记录青禾工作室全部产品的规格、定价、AI工具使用情况及客户反馈，为产品管理和运营决策提供依                         \n       据。文档由创始人维护，每季度更新一次。                                                        \n                                                                                  \n                                    表1：产品清单概览                                     \n      类别        数量    代表产品                            主要用途                        \n                                                                                  \n      APP应用     2     灵记日记、番茄专注Pro                    移动端效率工具                     \n      小程序       3     周报精灵、文案助手、AI简历优化                微信生态轻应用                     \n      插件        2     灵雨写作助手、数据可视化插件                  写作/开发辅助工具                   \n                                                                                  \n      模板        3     晨间灵感模板、数据大屏模板、PM模板              办公模板                        \n      在线课程      1     文案进阶课                           知识付费                        \n      电子书       1     Python自动化手册                     知识付费                        \n                                                                                  \n      在线工具      2     思维导图工具、配音TTS助手                  效率工具                        \n      素材包       2     创意素材包V2/V3                      设计资源                        \n      网站        1     效率工具导航                          导航站                         \n                                                                                  \n      桌面工具      1     接口调试大师                          开发调试                        \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n                                                                                  \n      文档版本 V2026.06 | 内部资料 第 3 页                   AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 68
+          },
+          "unit_id": "unit_3b652414a1cf746eff00"
+        }
+      ]
+    },
+    {
+      "batch_index": 5,
+      "batch_chars": 5363,
+      "tasks": [
+        {
+          "task_id": "unit_18a71bb4d5877b560463",
+          "selection": {
+            "unit_id": "unit_18a71bb4d5877b560463",
+            "mode": "llm_batch",
+            "priority": 23,
+            "score": 3,
+            "chars": 5363,
+            "format": "pdf",
+            "structured_kind": "pdf_page",
+            "signals": {
+              "relation": 0,
+              "metric": 0,
+              "event": 1,
+              "alias": 0,
+              "id_like": 2,
+              "date": 0,
+              "hidden": false,
+              "table_like": false,
+              "visual": false
+            }
+          },
+          "extraction_policy": {
+            "coverage": "full",
+            "representation": "sparse",
+            "node_rule": "identity/event only; prefer literal fact over new node",
+            "observation_rule": "use Observation only when it participates in a relation/path",
+            "llm_role": "semantic delta only; never restate deterministic table facts",
+            "output_rule": "minimal JSON only; omit evidence/quote/review reason unless essential; unit locator is inherited automatically",
+            "known_mentions_rule": "known_mentions already exist; relations/assertions may reference those local_ids without repeating the mention"
+          },
+          "document_id": "doc_3bcac89431c560cea055",
+          "format": "pdf",
+          "locator": {
+            "page": 5,
+            "bbox": [
+              "0",
+              "0",
+              "595.2756",
+              "841.8898"
+            ]
+          },
+          "content_md": "青禾工作室 · 产品规格与定价文档                                           V2026.06 | 内部资料 \n                                                                                  \n       3. 产品定价规格                                                                  \n                                                                                  \n                                表2：产品定价规格表（第1部分）                                  \n      产品名称           产品类型   定价        适用平台       有效期   授权数   备注                   \n                                                                                  \n                                                       基础免                        \n                     免费+内                              费，云                        \n      APP                   iOS/Android 永久       1人                               \n                     购                                 同步8                        \n                                                       元/月                        \n      APP            7.9元买断 iOS/Android 永久       1人    无内购                        \n                     8.9元/月                                                       \n                                                       基础版/                       \n      插件             或25.9元/ 墨文创作台    订阅         1人/5人                            \n                                                       高级版                        \n                     月                                                            \n                            Notion/Obsidia             开源模                        \n      模板             免费               永久         不限                               \n                            n                          板                          \n                                                       AI生成                       \n      小程序            4.9元/月 微信小程序     订阅         1人                               \n                                                       周报                         \n      桌面工具           39元买断  Win/Mac/Linux 永久     1人    跨平台                        \n                                                       已停售                        \n                            Figma/PS/Sketc                                        \n      素材             25元买断            永久         1人    ，V3替                       \n                            h                                                     \n                                                       代                          \n                                                       含5种                        \n      模板             18元买断  Excel/PowerBI 永久     1人    行业模                        \n                                                       板                          \n                                                       12讲视                       \n      在线课程           89元买断  Web       永久         1人                               \n                                                       频                          \n      电子书            35元买断  PDF/EPUB  永久         1人    220页                       \n                                                       已并入                        \n      小程序            6.9元/月 微信小程序     订阅         1人    周报生                        \n                                                       成器                         \n                     免费+10                             AI转导                       \n      在线工具                  Web       订阅         1人                               \n                     元/月                               图                          \n                                                       新增3D                       \n                            Figma/PS/Sketc                                        \n      素材             35元买断            永久         1人    素材+                        \n                            h                                                     \n                                                       动效                         \n                                                       AI润色                       \n      小程序            5.9元/月 微信小程序     订阅         1人                               \n                                                       +模板                        \n                                                       灵雨姊                        \n      插件             15元/月  VSCode    订阅         1人                               \n                                                       妹产品                        \n                                                       含敏捷/                       \n      模板             22元买断  Notion    永久         1人    瀑布模                        \n                                                       板                          \n                                                       AI文本                       \n      在线工具           12元/月  Web       订阅         1人                               \n                                                       转语音                        \n                                                       推荐站                        \n      网站             免费     Web       永久         不限    ，含广                        \n                                                       告                          \n      文档版本 V2026.06 | 内部资料 第 5 页                   AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f\n      AIGC:6b2e91d4-3f7a-4c5b-9e8d-1a2b3c4d5e6f",
+          "asset_refs": [],
+          "parse_warnings": [
+            "page_image_skipped_text_layer_sufficient"
+          ],
+          "structured": {
+            "kind": "pdf_page",
+            "word_count": 163
+          },
+          "unit_id": "unit_18a71bb4d5877b560463"
+        }
+      ]
+    }
+  ]
+}

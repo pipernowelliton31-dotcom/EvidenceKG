@@ -1,0 +1,1142 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_8d03006013a7d02d31ac",
+      "mentions": [
+        {
+          "local_id": "it008",
+          "type": "Event",
+          "name": "IT-2026-008 产品迭代记录",
+          "identifiers": [
+            "IT-2026-008"
+          ]
+        },
+        {
+          "local_id": "lingxi",
+          "type": "Product",
+          "name": "灵犀写作插件",
+          "aliases": [
+            "P03"
+          ]
+        },
+        {
+          "local_id": "v32",
+          "type": "Version",
+          "name": "v3.2"
+        },
+        {
+          "local_id": "mo_wen",
+          "type": "Product",
+          "name": "墨文"
+        },
+        {
+          "local_id": "mo_wen_v3",
+          "type": "Version",
+          "name": "墨文v3"
+        },
+        {
+          "local_id": "zhou",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "chg020",
+          "type": "Event",
+          "name": "CHG-020 变更"
+        },
+        {
+          "local_id": "rv",
+          "type": "Event",
+          "name": "RV-2026-0412 产品评审记录",
+          "identifiers": [
+            "RV-2026-0412"
+          ]
+        },
+        {
+          "local_id": "pricing_change",
+          "type": "Event",
+          "name": "定价策略变更方案"
+        },
+        {
+          "local_id": "chg014",
+          "type": "Event",
+          "name": "CHG-014 变更"
+        },
+        {
+          "local_id": "feedback",
+          "type": "Event",
+          "name": "创意素材包V3质量反馈处理单"
+        },
+        {
+          "local_id": "creative_v3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "it008",
+          "predicate": "concerns_product",
+          "object": "lingxi"
+        },
+        {
+          "subject": "it008",
+          "predicate": "released_version",
+          "object": "v32"
+        },
+        {
+          "subject": "it008",
+          "predicate": "adapted_to",
+          "object": "mo_wen_v3"
+        },
+        {
+          "subject": "it008",
+          "predicate": "owned_by",
+          "object": "zhou"
+        },
+        {
+          "subject": "it008",
+          "predicate": "related_change",
+          "object": "chg020"
+        },
+        {
+          "subject": "mo_wen",
+          "predicate": "has_version",
+          "object": "mo_wen_v3"
+        },
+        {
+          "subject": "rv",
+          "predicate": "reviews",
+          "object": "pricing_change"
+        },
+        {
+          "subject": "rv",
+          "predicate": "reviewed_by",
+          "object": "zhou"
+        },
+        {
+          "subject": "rv",
+          "predicate": "related_change",
+          "object": "chg014"
+        },
+        {
+          "subject": "feedback",
+          "predicate": "reuses_identifier_of",
+          "object": "rv",
+          "qualifiers": {
+            "date": "2026-05-26"
+          }
+        },
+        {
+          "subject": "feedback",
+          "predicate": "concerns_product",
+          "object": "creative_v3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "it008",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "record_number"
+          },
+          "value": "IT-2026-008"
+        },
+        {
+          "subject": "it008",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "record_date"
+          },
+          "value": "2026-05-20"
+        },
+        {
+          "subject": "it008",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "iteration_content"
+          },
+          "value": "v3.2发布，适配墨文v3"
+        },
+        {
+          "subject": "it008",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "已完成"
+        },
+        {
+          "subject": "it008",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "recorded_only_in_ppt"
+          },
+          "value": "是"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "review_number"
+          },
+          "value": "RV-2026-0412"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "review_date"
+          },
+          "value": "2026-04-12"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "review_topic"
+          },
+          "value": "定价策略变更方案评审"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "conclusion"
+          },
+          "value": "通过（附条件：课程类产品维持原价）"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "note"
+          },
+          "value": "此编号亦用于2026-05-26创意素材包V3质量反馈处理单（编号重复使用）"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "recorded_only_in_ppt"
+          },
+          "value": "是"
+        },
+        {
+          "subject": "feedback",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "use_date"
+          },
+          "value": "2026-05-26"
+        },
+        {
+          "subject": "feedback",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "record_number"
+          },
+          "value": "RV-2026-0412"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_0412d0ed425ac92afff3",
+      "mentions": [
+        {
+          "local_id": "lingxi",
+          "type": "Product",
+          "name": "灵犀写作插件"
+        },
+        {
+          "local_id": "pricing_change",
+          "type": "Event",
+          "name": "定价策略变更"
+        },
+        {
+          "local_id": "compat_issue",
+          "type": "Event",
+          "name": "墨文创作台 v3 兼容性问题"
+        },
+        {
+          "local_id": "mo_wen_v3",
+          "type": "Product",
+          "name": "墨文创作台 v3"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "pricing_change",
+          "predicate": "affects",
+          "object": "lingxi"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "affects",
+          "object": "lingxi"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "related_to",
+          "object": "mo_wen_v3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "lingxi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "trend_period"
+          },
+          "value": "2025.10-2026.06"
+        },
+        {
+          "subject": "lingxi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_peak"
+          },
+          "value": "9.9万元"
+        },
+        {
+          "subject": "lingxi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "peak_month"
+          },
+          "value": "2026-03"
+        },
+        {
+          "subject": "lingxi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_after_pricing_change"
+          },
+          "value": "9.5万元"
+        },
+        {
+          "subject": "lingxi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_after_compatibility_issue"
+          },
+          "value": "8.2万元"
+        },
+        {
+          "subject": "lingxi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_2026_06"
+          },
+          "value": "7.1万元"
+        },
+        {
+          "subject": "lingxi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_decline_from_peak"
+          },
+          "value": "28%"
+        },
+        {
+          "subject": "lingxi",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "renewal_rate_2026_06"
+          },
+          "value": "66%"
+        },
+        {
+          "subject": "pricing_change",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-04-12"
+        },
+        {
+          "subject": "pricing_change",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "change_type"
+          },
+          "value": "定价变更"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-05-02"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "description"
+          },
+          "value": "墨文创作台 v3 兼容性问题"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_impact"
+          },
+          "value": "收入降至8.2万元"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_a66d6f08033a7c2f2d71",
+      "mentions": [
+        {
+          "local_id": "qinghe",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "zhou",
+          "type": "Actor",
+          "name": "周然"
+        },
+        {
+          "local_id": "report",
+          "type": "DataAsset",
+          "name": "Q2产品运营分析报告"
+        },
+        {
+          "local_id": "v10",
+          "type": "Version",
+          "name": "v1.0"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "report",
+          "predicate": "produced_by",
+          "object": "qinghe"
+        },
+        {
+          "subject": "report",
+          "predicate": "prepared_by",
+          "object": "zhou"
+        },
+        {
+          "subject": "report",
+          "predicate": "has_version",
+          "object": "v10"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "report",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "title"
+          },
+          "value": "Q2产品运营分析报告"
+        },
+        {
+          "subject": "report",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "quarter"
+          },
+          "value": "2026年第二季度"
+        },
+        {
+          "subject": "report",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "subtitle"
+          },
+          "value": "产品收入分析与策略复盘"
+        },
+        {
+          "subject": "report",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "report_date"
+          },
+          "value": "2026-07-05"
+        },
+        {
+          "subject": "zhou",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "role"
+          },
+          "value": "编制人"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_cbe1d97232d9fa10bc25",
+      "mentions": [
+        {
+          "local_id": "qinghe",
+          "type": "Actor",
+          "name": "青禾工作室",
+          "aliases": [
+            "Qinghe Studio"
+          ]
+        },
+        {
+          "local_id": "lingxi",
+          "type": "Product",
+          "name": "灵犀写作插件"
+        },
+        {
+          "local_id": "pricing_change",
+          "type": "Event",
+          "name": "全局定价策略变更"
+        },
+        {
+          "local_id": "mo_wen",
+          "type": "Product",
+          "name": "墨文创作台"
+        },
+        {
+          "local_id": "v2",
+          "type": "Version",
+          "name": "v2"
+        },
+        {
+          "local_id": "v3",
+          "type": "Version",
+          "name": "v3"
+        },
+        {
+          "local_id": "upgrade",
+          "type": "Event",
+          "name": "墨文创作台 v2→v3升级"
+        },
+        {
+          "local_id": "compat_issue",
+          "type": "Event",
+          "name": "灵犀写作插件兼容性问题"
+        },
+        {
+          "local_id": "creative_v2",
+          "type": "Product",
+          "name": "创意素材包V2"
+        },
+        {
+          "local_id": "creative_v3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "copy_assistant",
+          "type": "Product",
+          "name": "文案助手"
+        },
+        {
+          "local_id": "weekly_elf",
+          "type": "Product",
+          "name": "周报精灵"
+        },
+        {
+          "local_id": "revenue_confirm",
+          "type": "Event",
+          "name": "Q2收入确认"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "qinghe",
+          "predicate": "implemented",
+          "object": "pricing_change"
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "has_star_product",
+          "object": "lingxi"
+        },
+        {
+          "subject": "pricing_change",
+          "predicate": "affects",
+          "object": "lingxi"
+        },
+        {
+          "subject": "mo_wen",
+          "predicate": "has_version",
+          "object": "v2"
+        },
+        {
+          "subject": "mo_wen",
+          "predicate": "has_version",
+          "object": "v3"
+        },
+        {
+          "subject": "upgrade",
+          "predicate": "concerns_product",
+          "object": "mo_wen"
+        },
+        {
+          "subject": "upgrade",
+          "predicate": "from_version",
+          "object": "v2"
+        },
+        {
+          "subject": "upgrade",
+          "predicate": "to_version",
+          "object": "v3"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "related_to",
+          "object": "upgrade"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "affects",
+          "object": "lingxi"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "related_to",
+          "object": "v3"
+        },
+        {
+          "subject": "creative_v2",
+          "predicate": "replaced_by",
+          "object": "creative_v3",
+          "qualifiers": {
+            "date": "2026-05-22"
+          }
+        },
+        {
+          "subject": "copy_assistant",
+          "predicate": "merged_into",
+          "object": "weekly_elf",
+          "qualifiers": {
+            "date": "2026-05-22",
+            "status": "完成"
+          }
+        },
+        {
+          "subject": "revenue_confirm",
+          "predicate": "concerns_product",
+          "object": "lingxi"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "founded"
+          },
+          "value": "2025年9月"
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "operating_model"
+          },
+          "value": "1人 + N个AI智能体"
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_count"
+          },
+          "value": 18
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_types"
+          },
+          "value": [
+            "APP",
+            "插件",
+            "模板",
+            "课程",
+            "素材",
+            "工具"
+          ]
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_count"
+          },
+          "value": 17
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "ai_tool_coverage"
+          },
+          "value": [
+            "写作",
+            "编程",
+            "设计",
+            "文案",
+            "运营",
+            "分析"
+          ]
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "core_customer_count"
+          },
+          "value": 15
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_types"
+          },
+          "value": [
+            "个人",
+            "团队",
+            "企业"
+          ]
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "data_asset_count"
+          },
+          "value": 14
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "total_entities"
+          },
+          "value": 64
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "q2_revenue_decline"
+          },
+          "value": "28%"
+        },
+        {
+          "subject": "pricing_change",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-04-12"
+        },
+        {
+          "subject": "pricing_change",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "model_change"
+          },
+          "value": "免费增值 → 订阅制"
+        },
+        {
+          "subject": "pricing_change",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "basic_price"
+          },
+          "value": "8.9元/月"
+        },
+        {
+          "subject": "pricing_change",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "premium_price"
+          },
+          "value": "25.9元/月"
+        },
+        {
+          "subject": "upgrade",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-05-02"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "affected_product"
+          },
+          "value": "灵犀写作插件"
+        },
+        {
+          "subject": "compat_issue",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "downtime"
+          },
+          "value": "停更2周"
+        },
+        {
+          "subject": "creative_v2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "停售"
+        },
+        {
+          "subject": "revenue_confirm",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "date"
+          },
+          "value": "2026-06-01"
+        },
+        {
+          "subject": "revenue_confirm",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_before"
+          },
+          "value": "9.9万"
+        },
+        {
+          "subject": "revenue_confirm",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "revenue_after"
+          },
+          "value": "7.1万"
+        },
+        {
+          "subject": "revenue_confirm",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "decline"
+          },
+          "value": "28%"
+        },
+        {
+          "subject": "revenue_confirm",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "attribution_pricing"
+          },
+          "value": "-16%"
+        },
+        {
+          "subject": "revenue_confirm",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "attribution_compatibility"
+          },
+          "value": "-12%"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_4faeedef8934bfa5594b",
+      "mentions": [
+        {
+          "local_id": "qinghe",
+          "type": "Actor",
+          "name": "青禾工作室"
+        },
+        {
+          "local_id": "mo_wen",
+          "type": "Product",
+          "name": "墨文"
+        },
+        {
+          "local_id": "v4",
+          "type": "Version",
+          "name": "v4"
+        },
+        {
+          "local_id": "copy_assistant",
+          "type": "Product",
+          "name": "文案助手"
+        },
+        {
+          "local_id": "weekly_elf",
+          "type": "Product",
+          "name": "周报精灵"
+        },
+        {
+          "local_id": "daotu",
+          "type": "Product",
+          "name": "导图工具"
+        },
+        {
+          "local_id": "lingji",
+          "type": "Product",
+          "name": "灵记日记"
+        },
+        {
+          "local_id": "creative_v2",
+          "type": "Product",
+          "name": "创意素材包V2"
+        },
+        {
+          "local_id": "creative_v3",
+          "type": "Product",
+          "name": "创意素材包V3"
+        },
+        {
+          "local_id": "v11",
+          "type": "Version",
+          "name": "v1.1"
+        },
+        {
+          "local_id": "it008",
+          "type": "Event",
+          "name": "IT-2026-008 迭代记录",
+          "identifiers": [
+            "IT-2026-008"
+          ]
+        },
+        {
+          "local_id": "lingxi",
+          "type": "Product",
+          "name": "灵犀写作插件",
+          "aliases": [
+            "P03"
+          ]
+        },
+        {
+          "local_id": "v32",
+          "type": "Version",
+          "name": "v3.2"
+        },
+        {
+          "local_id": "mo_wen_v3",
+          "type": "Version",
+          "name": "墨文v3"
+        },
+        {
+          "local_id": "rv",
+          "type": "Event",
+          "name": "RV-2026-0412 评审记录",
+          "identifiers": [
+            "RV-2026-0412"
+          ]
+        },
+        {
+          "local_id": "pricing_review",
+          "type": "Event",
+          "name": "定价策略变更评审"
+        },
+        {
+          "local_id": "feedback",
+          "type": "Event",
+          "name": "创意素材包V3质量反馈处理单"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "mo_wen",
+          "predicate": "has_upcoming_version",
+          "object": "v4"
+        },
+        {
+          "subject": "copy_assistant",
+          "predicate": "merged_into",
+          "object": "weekly_elf",
+          "qualifiers": {
+            "status": "完成"
+          }
+        },
+        {
+          "subject": "daotu",
+          "predicate": "under_evaluation_for_merger_into",
+          "object": "lingji"
+        },
+        {
+          "subject": "creative_v3",
+          "predicate": "planned_to_replace",
+          "object": "creative_v2"
+        },
+        {
+          "subject": "creative_v3",
+          "predicate": "has_fix_version",
+          "object": "v11"
+        },
+        {
+          "subject": "it008",
+          "predicate": "concerns_product",
+          "object": "lingxi"
+        },
+        {
+          "subject": "it008",
+          "predicate": "uses_version",
+          "object": "v32"
+        },
+        {
+          "subject": "it008",
+          "predicate": "adapted_to",
+          "object": "mo_wen_v3"
+        },
+        {
+          "subject": "rv",
+          "predicate": "used_for",
+          "object": "pricing_review"
+        },
+        {
+          "subject": "rv",
+          "predicate": "identifier_reused_for",
+          "object": "feedback",
+          "qualifiers": {
+            "date": "2026-05-26"
+          }
+        },
+        {
+          "subject": "feedback",
+          "predicate": "concerns_product",
+          "object": "creative_v3"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_optimization"
+          },
+          "value": [
+            "新用户首月免费试用",
+            "年付方案8折优惠",
+            "老用户过渡期3个月保持原价"
+          ]
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "pricing_strategy_assessment"
+          },
+          "value": "订阅制长期LTV更优但短期流失严重"
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "compatibility_risk_response"
+          },
+          "value": [
+            "建立墨文版本变更监控机制",
+            "预留2周适配窗口",
+            "与墨文团队建立技术沟通渠道"
+          ]
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "product_line_integration"
+          },
+          "value": [
+            "减少产品分散，聚焦核心产品",
+            "文案助手已并入周报精灵（完成）",
+            "评估导图工具是否并入灵记日记",
+            "V3稳定性修复后逐步替代V2用户"
+          ]
+        },
+        {
+          "subject": "qinghe",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "customer_retention_response"
+          },
+          "value": [
+            "建立客户成功机制，主动跟进",
+            "P03用户专属兼容性公告和补偿",
+            "V3用户免费获得v1.1修复版"
+          ]
+        },
+        {
+          "subject": "v4",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "status"
+          },
+          "value": "即将发布"
+        },
+        {
+          "subject": "it008",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "record_number"
+          },
+          "value": "IT-2026-008"
+        },
+        {
+          "subject": "it008",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "iteration_content"
+          },
+          "value": "灵犀写作插件v3.2适配墨文v3"
+        },
+        {
+          "subject": "it008",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "recorded_only_in_ppt"
+          },
+          "value": "是"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "review_number"
+          },
+          "value": "RV-2026-0412"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "review_topic"
+          },
+          "value": "定价策略变更评审"
+        },
+        {
+          "subject": "rv",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "recorded_only_in_ppt"
+          },
+          "value": "是"
+        },
+        {
+          "subject": "feedback",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "reuse_date"
+          },
+          "value": "2026-05-26"
+        },
+        {
+          "subject": "feedback",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "record_number"
+          },
+          "value": "RV-2026-0412"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_d645a1ecf5d985abd818"
+}

@@ -1,0 +1,886 @@
+{
+  "id": "6ad1cb5116bf4198b89356c42669c8f0",
+  "project_id": "f0d3835c32e34b468bfff2e1adc79db5",
+  "kind": "build",
+  "question": "",
+  "status": "completed",
+  "events": [
+    {
+      "id": 1,
+      "type": "run.started",
+      "elapsed_s": 0.0,
+      "message": "已创建运行"
+    },
+    {
+      "id": 2,
+      "type": "stage.progress",
+      "elapsed_s": 0.0,
+      "message": "[检查] 检查已有知识图谱是否完整、可用…"
+    },
+    {
+      "id": 3,
+      "type": "stage.progress",
+      "elapsed_s": 0.1,
+      "message": "[检查] 已有完整知识图谱，跳过 Parse / Extraction / Alignment / Build。"
+    },
+    {
+      "id": 4,
+      "type": "graph.updated",
+      "elapsed_s": 0.1,
+      "graph": {
+        "nodes": [
+          {
+            "id": "entity_01cf9da64bc6eb8f0b00",
+            "type": "Event",
+            "name": "中原文化传承主题调研",
+            "aliases": [
+              "中原文化传承主题调研"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_d35a27151040cadab788"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_02e6660e3f43ef68546d",
+            "type": "Actor",
+            "name": "尹厚泽",
+            "aliases": [
+              "尹厚泽"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_f1be9c1d64c6b598f316"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_032979a845ae2eaf8ac4",
+            "type": "Event",
+            "name": "学习党的二十届三中全会精神",
+            "aliases": [
+              "学习党的二十届三中全会精神"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_ce0eb57b1bb63b990c50"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_04525dd1b55d21b144e2",
+            "type": "Event",
+            "name": "贯彻中央八项规定",
+            "aliases": [
+              "贯彻中央八项规定"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_8cf2f48efc91c7aa3421"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_059d05d4673f3751082d",
+            "type": "Actor",
+            "name": "唐仲英爱心社团支书",
+            "aliases": [
+              "唐仲英爱心社团支书"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_51770653cf1ab55e248c"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_081d82ba6ded76a3f3c0",
+            "type": "Actor",
+            "name": "刘晗梦",
+            "aliases": [
+              "刘晗梦"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_9ba060039c93d3df574c",
+              "m_b13e7fb4a1d09909e4cf"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_475522a3889c565df599"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e32f8410f546861e7481"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_0dbd1f04968b9ff29611",
+            "type": "Event",
+            "name": "【普利司通】“丝路同心结・筑梦共成长”主题帮扶活动",
+            "aliases": [
+              "【普利司通】“丝路同心结・筑梦共成长”主题帮扶活动"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_025b3213f4e4a3ef473d"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_52c38d9f5fc5f0027c4a"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_1bba77b90095714cca9b",
+            "type": "Actor",
+            "name": "冯琳雅",
+            "aliases": [
+              "冯琳雅"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_db99ed5d98b51d54dbda"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_1f8202f610a0ffc70efd",
+            "type": "Event",
+            "name": "传承西迁精神",
+            "aliases": [
+              "传承西迁精神"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_50c6c77170dc93445f42"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_2b1773d94017bfe1bc5d",
+            "type": "Event",
+            "name": "回顾党史和新中国史",
+            "aliases": [
+              "回顾党史和新中国史"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_3ed6a4e3716f59e137bc"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_2b269da87d78c93824be",
+            "type": "Event",
+            "name": "最佳团日决赛评比",
+            "aliases": [
+              "最佳团日决赛评比"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_8370796f05ea5ef43d18"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_2c9d39286e387ca20c30",
+            "type": "Actor",
+            "name": "郭嘉文",
+            "aliases": [
+              "郭嘉文"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_2d0a6b67020c27e14adf"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_325c627b93e04d455e22",
+            "type": "Event",
+            "name": "从志愿服务出发看国家战略",
+            "aliases": [
+              "从志愿服务出发看国家战略"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_bb9e8088e01a2766c4b7"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_327eb0542666ba2fda6d",
+            "type": "Event",
+            "name": "总结寒假社会实践",
+            "aliases": [
+              "总结寒假社会实践"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_4592344581e960793809"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_37a97606f519dcbd1fbb",
+            "type": "Event",
+            "name": "“公益知行：志愿服务实训与能力提升”综能课",
+            "aliases": [
+              "“公益知行：志愿服务实训与能力提升”综能课"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_77ba0422d664a9091018"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_52c38d9f5fc5f0027c4a"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_3a201247676549164ade",
+            "type": "Event",
+            "name": "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖",
+            "aliases": [
+              "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_7fd0b252db2f1ce7ce7d"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fdfefb9e563868bbd047"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_3c17ab1ff97b0c579505",
+            "type": "Actor",
+            "name": "张煜奇",
+            "aliases": [
+              "张煜奇"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_eb15e0f7759b0129783c"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_3ed369f10ebce4490f0d",
+            "type": "Actor",
+            "name": "西安交通大学",
+            "aliases": [
+              "西安交通大学"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_1dd227ac2377bfd7c345"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_63c45950da1c1fa9634f"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_4511fc462aa8f97fdf81",
+            "type": "DataAsset",
+            "name": "英仔爱心社抖音账号",
+            "aliases": [
+              "xjtu英仔爱心社官方",
+              "英仔爱心社",
+              "英仔爱心社抖音账号"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_1a29baa07c9500667778",
+              "m_4682d1ed951696d3741c"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_6f0dc8e32be941274e9e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_4b41da42c6fd559049dc",
+            "type": "Event",
+            "name": "校园政治生活",
+            "aliases": [
+              "校园政治生活"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_1f0cdf646dd58271d3c1"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_4e1fdb793f5f4619a854",
+            "type": "Event",
+            "name": "“公益启航：志愿服务技能培训”综能课",
+            "aliases": [
+              "“公益启航：志愿服务技能培训”综能课"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_f88179b731297a3f5281"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_52c38d9f5fc5f0027c4a"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_512e4570f6cead1f0240",
+            "type": "Actor",
+            "name": "知行秦川，梦启今夏支教团",
+            "aliases": [
+              "“知行秦川，梦启今夏”支教团",
+              "知行秦川，梦启今夏支教团"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_561bc92b9cfafa682b3e",
+              "m_846dada885ec7c771f6d"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_d28e248a46bed3c660bb"
+                ]
+              },
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_fdfefb9e563868bbd047"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_52710a52671c55e67ef1",
+            "type": "Event",
+            "name": "校庆纪念活动",
+            "aliases": [
+              "校庆纪念活动"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_bb98a6a656ad96cd1d2e"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_535c07f28d5a083b0d38",
+            "type": "Actor",
+            "name": "王力川",
+            "aliases": [
+              "王力川"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_21a095cd841b98ba2b9f"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e32f8410f546861e7481"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_558ddff283e104060674",
+            "type": "Actor",
+            "name": "马克思主义学院",
+            "aliases": [
+              "马克思主义学院"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_ce28b8ed317a68ca7478"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_63c45950da1c1fa9634f"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_5b0350f597cf52bd1325",
+            "type": "Event",
+            "name": "2026薪火π重庆大学交流活动",
+            "aliases": [
+              "2026薪火π重庆大学交流活动"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_41d3925e08059dcdb932"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_52c38d9f5fc5f0027c4a"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_6aa9789b0549b5f95a62",
+            "type": "Event",
+            "name": "活动1",
+            "aliases": [
+              "活动1"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_7de2cdf5897776688fde"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8febd32501d48e846efc"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_73fa86da825c8eb0d43d",
+            "type": "DataAsset",
+            "name": "英仔爱心社公众号",
+            "aliases": [
+              "英仔爱心社公众号"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_64757cf5afc7b5655110"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_783fb8a3d8ef3df0c5f5",
+            "type": "Event",
+            "name": "走实走深思想教育工作",
+            "aliases": [
+              "走实走深思想教育工作"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_7a7faafe734614f66a3c"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_7a0f87a29fe405b23180",
+            "type": "Event",
+            "name": "观看《大先生》话剧视频",
+            "aliases": [
+              "观看《大先生》话剧视频"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_2d611a3288b35679adaa"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_8660272abe757a060d72",
+            "type": "DataAsset",
+            "name": "《西安交通大学学生社团建设管理办法》",
+            "aliases": [
+              "《西安交通大学学生社团建设管理办法》"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_9f67b40fbb3cf1081758"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8cb4f769297eb7da6d7"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_91ff357714cd23696bf1",
+            "type": "Actor",
+            "name": "交大团委",
+            "aliases": [
+              "交大团委"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_038c7dd9ee38b23f3052"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_bb40445460c1c8ec5977"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_93b286f754fe8600a973",
+            "type": "Event",
+            "name": "唐仲英基金会2023-2024学年社团公益活动优秀奖",
+            "aliases": [
+              "唐仲英基金会2023-2024学年社团公益活动优秀奖"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_9d037e07466e195a546a"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_24a7b84f28d7d33ed4da"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_97b894f8416d91dc6815",
+            "type": "Event",
+            "name": "活动2",
+            "aliases": [
+              "活动2"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_6cc27c38b9b40ac9f8df"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_8febd32501d48e846efc"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_97dee8135640a6a4f33e",
+            "type": "Event",
+            "name": "夯实基层团务建设",
+            "aliases": [
+              "夯实基层团务建设"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_93ed3806a282cacf563f"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_e8a9899f6cbd69ea861e"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          },
+          {
+            "id": "entity_9bd051c73ac2c47adff0",
+            "type": "Actor",
+            "name": "杨可欣",
+            "aliases": [
+              "杨可欣"
+            ],
+            "alias_bindings": [],
+            "mention_ids": [
+              "m_4928d408ae0c9634f1d7"
+            ],
+            "attribute_claims": [
+              {
+                "attributes": {},
+                "identifiers": [],
+                "evidence_ids": [
+                  "ev_18c3e7f87f9ed7d6765b"
+                ]
+              }
+            ],
+            "review_status": "supported"
+          }
+        ],
+        "edges": [
+          {
+            "id": "edge_28ad42abc5a25b64c7ab",
+            "source": "entity_512e4570f6cead1f0240",
+            "target": "entity_3a201247676549164ade",
+            "predicate": "received_award",
+            "fact_ids": [
+              "fact_3471b3358a0fbc27f1c6"
+            ],
+            "qualifiers": {}
+          },
+          {
+            "id": "edge_805acac790f6b64533bf",
+            "source": "entity_73fa86da825c8eb0d43d",
+            "target": "entity_91ff357714cd23696bf1",
+            "predicate": "获媒体报道",
+            "fact_ids": [
+              "fact_bf55ed9de585454a5bed"
+            ],
+            "qualifiers": {}
+          }
+        ],
+        "layout": "architecture"
+      },
+      "message": "图谱已构建并通过校验"
+    },
+    {
+      "id": 5,
+      "type": "run.completed",
+      "elapsed_s": 0.1,
+      "message": "运行完成"
+    }
+  ],
+  "created_at": 1791381812.3067935
+}

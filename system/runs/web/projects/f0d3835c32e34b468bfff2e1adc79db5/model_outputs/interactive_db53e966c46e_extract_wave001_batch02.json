@@ -1,0 +1,307 @@
+{
+  "tasks": [
+    {
+      "task_id": "unit_7a1731908d720d597070",
+      "mentions": [
+        {
+          "local_id": "student",
+          "type": "Actor",
+          "name": "林硕锦"
+        },
+        {
+          "local_id": "advisor",
+          "type": "Actor",
+          "name": "刘晗梦"
+        },
+        {
+          "local_id": "team",
+          "type": "Actor",
+          "name": "启明寻洛，脉续中原实践队"
+        },
+        {
+          "local_id": "activity",
+          "type": "Event",
+          "name": "中原文化传承主题调研"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "student",
+          "predicate": "participates_in",
+          "object": "activity"
+        },
+        {
+          "subject": "team",
+          "predicate": "conducts",
+          "object": "activity"
+        },
+        {
+          "subject": "student",
+          "predicate": "guided_by",
+          "object": "advisor"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "student",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "student_id"
+          },
+          "value": "2243515519"
+        },
+        {
+          "subject": "student",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "college"
+          },
+          "value": "励志书院"
+        },
+        {
+          "subject": "student",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "class"
+          },
+          "value": "信计2401"
+        },
+        {
+          "subject": "student",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "signature_date"
+          },
+          "value": "2026年7月26日"
+        },
+        {
+          "subject": "advisor",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "signature_date"
+          },
+          "value": "2026年7月28日"
+        },
+        {
+          "subject": "activity",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "practice_time"
+          },
+          "value": "2026.7.19-2026.7.25"
+        },
+        {
+          "subject": "activity",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "cumulative_hours"
+          },
+          "value": 60
+        },
+        {
+          "subject": "activity",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "practice_type"
+          },
+          "value": "主题调研"
+        },
+        {
+          "subject": "activity",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "visited_sites"
+          },
+          "value": [
+            "隋唐洛阳城国家遗址公园",
+            "龙门石窟",
+            "洛阳博物馆",
+            "二里头夏都遗址博物馆",
+            "清明上河园",
+            "万岁山武侠城"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "unit_faa988ec76d5092b2357",
+      "mentions": [
+        {
+          "local_id": "record_book",
+          "type": "DataAsset",
+          "name": "思政课实践教学记录册"
+        },
+        {
+          "local_id": "university",
+          "type": "Actor",
+          "name": "西安交通大学"
+        },
+        {
+          "local_id": "marxism_school",
+          "type": "Actor",
+          "name": "马克思主义学院"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "record_book",
+          "predicate": "managed_by",
+          "object": "university"
+        },
+        {
+          "subject": "record_book",
+          "predicate": "archived_at",
+          "object": "marxism_school"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "record_book",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "purpose"
+          },
+          "value": "交大本科生获得思政实践学分的必要材料"
+        },
+        {
+          "subject": "record_book",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "process"
+          },
+          "value": "实践学生本人填写，组织单位认定，学生交由辅导员收集后报备至马克思主义学院留存"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_cde68c145de0197d06f2",
+      "mentions": [
+        {
+          "local_id": "team",
+          "type": "Actor",
+          "name": "梦绽格桑原，玉树支教团"
+        },
+        {
+          "local_id": "organization",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "award",
+          "type": "Event",
+          "name": "榜样100全国优秀大学生团队"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "team",
+          "predicate": "belongs_to",
+          "object": "organization"
+        },
+        {
+          "subject": "team",
+          "predicate": "received_award",
+          "object": "award"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "award",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "year"
+          },
+          "value": "2024"
+        },
+        {
+          "subject": "team",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "value": "https://mp.weixin.qq.com/s/scv8IMHIs_mOAuMiVX51Mw"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_b30df0174f2821927f30",
+      "mentions": [
+        {
+          "local_id": "team2",
+          "type": "Actor",
+          "name": "知行秦川，梦启今夏支教团"
+        },
+        {
+          "local_id": "organization",
+          "type": "Actor",
+          "name": "英仔爱心社"
+        },
+        {
+          "local_id": "award2",
+          "type": "Event",
+          "name": "第八届立邦「为爱上色」中国大学生农村支教奖全国优秀奖"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "team2",
+          "predicate": "belongs_to",
+          "object": "organization"
+        },
+        {
+          "subject": "team2",
+          "predicate": "received_award",
+          "object": "award2"
+        }
+      ],
+      "assertions": [
+        {
+          "subject": "award2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "year"
+          },
+          "value": "2024"
+        },
+        {
+          "subject": "team2",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "value": "https://mp.weixin.qq.com/s/q2YlDcofpiVEZYrNwwdJ1A"
+        }
+      ]
+    },
+    {
+      "task_id": "unit_9caff1c04fc3465d105c",
+      "mentions": [
+        {
+          "local_id": "award3",
+          "type": "Event",
+          "name": "唐仲英基金会2023-2024学年社团公益活动优秀奖"
+        }
+      ],
+      "relations": [],
+      "assertions": [
+        {
+          "subject": "award3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "academic_year"
+          },
+          "value": "2023-2024"
+        },
+        {
+          "subject": "award3",
+          "predicate": "attribute",
+          "qualifiers": {
+            "attribute": "push_link"
+          },
+          "value": "https://mp.weixin.qq.com/s/WfT6qWPk4AAwtCvXU933MQ"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "run_32421f2d375c226a0323"
+}
