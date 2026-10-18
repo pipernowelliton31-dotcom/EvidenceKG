@@ -219,7 +219,7 @@ export default function App() {
     setSelectedId(id); setDetail(undefined);
     if (!id) { setEvidencePanel(undefined); return; }
     setPanelRevision(value => value + 1);
-    setEvidencePanel({ projectId, tab: 'sources', turn: graphTurn || latest, relationId: id, origin: { view: 'graph' } });
+    setEvidencePanel({ projectId, tab: 'sources', turn: queryView ? graphTurn || latest : undefined, graph: displayGraph, relationId: id, origin: { view: 'graph' } });
     try { const value = await api(`/projects/${projectId}/evidence/${encodeURIComponent(id)}`); if (request === graphSelectionRequest.current && projectRef.current === projectAtStart) setDetail(value); }
     catch (error: any) { if (request === graphSelectionRequest.current && projectRef.current === projectAtStart) setError(error.message); }
   }

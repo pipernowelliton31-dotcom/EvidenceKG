@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T22:23:14.5306428+08:00",
+  "title": "知源资料工作区",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "composer",
+        "value": "0 4px 18px var(--shadow)",
+        "purpose": "区分输入区域与阅读背景"
+      },
+      {
+        "name": "dialog",
+        "value": "0 20px 60px var(--shadow)",
+        "purpose": "保护弹窗和展开面板的任务焦点"
+      }
+    ],
+    "motion": [
+      {
+        "name": "control",
+        "value": "background .16s ease, color .16s ease",
+        "purpose": "控件状态反馈；减少动态效果时关闭"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop",
+        "value": "1200px"
+      },
+      {
+        "name": "tablet",
+        "value": "800px"
+      }
+    ]
+  },
+  "narrative": {
+    "northStar": "对话优先，证据并排",
+    "overview": "用户确认的 Claude 式暖色资料问答工作区。",
+    "keyCharacteristics": [
+      "暖白与炭灰双主题",
+      "陶土色强调",
+      "本地字体",
+      "独立滚动的证据面板"
+    ],
+    "dos": [
+      "复用既有业务逻辑",
+      "保持来源与回答绑定"
+    ],
+    "donts": [
+      "不改变后端协议",
+      "不将模拟内容当作真实证据"
+    ]
+  }
+}

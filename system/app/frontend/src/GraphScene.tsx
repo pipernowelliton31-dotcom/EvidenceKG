@@ -118,7 +118,7 @@ export default function GraphScene({ graph, select, path, preview = false, selec
       const ease = flags.current.reduced ? 1 : .13; scale += (targetScale - scale) * ease; panX += (targetX - panX) * ease; panY += (targetY - panY) * ease;
       ctx.clearRect(0, 0, width, height);
       const night = themeRef.current === 'night', palette = graphPalettes[themeRef.current];
-      const paint = night ? { edge: '#7997b448', selected: '#8affdf', particle: '#7bb5cf', litParticle: '#b7fff1', heading: '#b8cad7', muted: '#8ba4b8', labelBg: '#0b1421ee', selectedText: '#f6fffb', relationBg: '#173b37', relationText: '#b3ffe1' } : { edge: '#b6c3d5b8', selected: '#576acb', particle: '#899bb9', litParticle: '#6174ce', heading: '#425879', muted: '#6b7e97', labelBg: '#f8faffef', selectedText: '#23375b', relationBg: '#e8ecfc', relationText: '#475db5' };
+      const paint = night ? { edge: '#aea69a60', selected: '#e3a087', particle: '#a69b8a', litParticle: '#efc1a9', heading: '#d1cbc1', muted: '#aea69a', labelBg: '#2b2925ee', selectedText: '#fff5e9', relationBg: '#4c382d', relationText: '#efc1a9' } : { edge: '#b9b1a5b8', selected: '#a84f36', particle: '#a89b87', litParticle: '#ae563d', heading: '#514e48', muted: '#716b62', labelBg: '#faf9f5ef', selectedText: '#302e2b', relationBg: '#f0dfd4', relationText: '#93432e' };
       const t = animated ? time / 1000 : 0;
       ctx.save(); ctx.translate(width / 2 + panX, height / 2 + panY); ctx.scale(scale, scale);
       nodes.forEach(n => { n.dx = (n.x || 0) + (animated ? Math.sin(t * .24 + n.phase) * 5 : 0); n.dy = (n.y || 0) + (animated ? Math.cos(t * .2 + n.phase) * 6 : 0); });
