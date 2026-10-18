@@ -1,10 +1,11 @@
 import { useLayoutEffect, useRef } from 'react';
-import { ArrowUp, FolderOpen, Plus, Square } from 'lucide-react';
+import { ArrowUp, Plus, Square } from 'lucide-react';
+import LibraryOverview, { type OverviewFile } from './LibraryOverview';
 
 type Props = {
   value: string; onChange: (value: string) => void; onSend: () => void; onStop: () => void;
   running: boolean; canStop: boolean; disabled: boolean; configured: boolean;
-  projectName: string; onLibrary: () => void; onUpload: () => void; uploadDisabled: boolean;
+  projectName: string; files: OverviewFile[]; onUpload: () => void; uploadDisabled: boolean;
 };
 
 export default function Composer(props: Props) {
@@ -23,7 +24,7 @@ export default function Composer(props: Props) {
       <div className="composer-bottom">
         <div className="composer-context">
           <button className="composer-attach" aria-label="上传资料" title="上传文件或文件夹" disabled={props.uploadDisabled} onClick={props.onUpload}><Plus size={20}/></button>
-          <button className="composer-project" onClick={props.onLibrary} title={props.projectName}><FolderOpen size={15}/><span>{props.projectName}</span></button>
+          <LibraryOverview name={props.projectName} files={props.files}/>
         </div>
         <div className="composer-submit">{!props.running && <span>Shift + Enter 换行</span>}
           {props.running ? <button className="send" aria-label="停止生成" disabled={!props.canStop} onClick={props.onStop}><Square size={16}/></button>
@@ -31,6 +32,5 @@ export default function Composer(props: Props) {
         </div>
       </div>
     </div>
-    <p className="composer-note">回答基于当前资料库，请结合原文核对重要信息。</p>
   </div>;
 }

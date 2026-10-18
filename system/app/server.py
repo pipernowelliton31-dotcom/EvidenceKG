@@ -26,8 +26,10 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 from urllib.parse import urlsplit
 from xml.etree import ElementTree as ET
-from app.api_config import public_settings, save_settings, stored_settings
+from app.api_config import public_settings, resolve_settings, save_settings, stored_settings
 from app.graph_views import RELATIONS, entity_network, mindmap_html
+from app.json_store import atomic_write_json
+from app.question_router import classifier_payload, local_route, numeric_usage, record_mode
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = ROOT / 'skill/evidence-kg-builder/scripts'
@@ -51,15 +53,13 @@ projects = {'sample': {'id': 'sample', 'name': '仓库旧示例 · 测试集 A',
 
 
 def read_json(path):
-    return json.loads(Path(path).read_text(encoding='utf-8-sig'))
+    with lock:
+        return json.loads(Path(path).read_text(encoding='utf-8-sig'))
 
 
 def write_json(path, body):
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temp = path.with_suffix('.tmp')
-    temp.write_text(json.dumps(body, ensure_ascii=False, indent=2, default=str), encoding='utf-8')
-    temp.replace(path)
+    with lock:
+        atomic_write_json(path, body)
 
 
 for path in DATA.glob('projects/*/project.json'):
@@ -170,7 +170,7 @@ def settings():
             'base': str(values.get('OPENROUTER_BASE_URL') or 'https://openrouter.ai/api/v1').rstrip('/'),
             'effort': str(values.get('LLM_REASONING_EFFORT') or 'medium'),
             'max_tokens': QA_MAX_TOKENS, 'auto_continue': 2}
-    return {**defaults, **stored_settings(DATA)}
+    return resolve_settings({**defaults, **stored_settings(DATA)}, values)
 
 
 @app.middleware('http')
@@ -183,6 +183,8 @@ async def local_origin_guard(request: Request, call_next):
 
 
 class APISettings(BaseModel):
+    mode: str = Field(default='custom', pattern='^(custom|builtin)$')
+    builtin_provider: str = Field(default='deepseek', pattern='^(deepseek|openrouter)$')
     base: str = Field(max_length=500)
     model: str = Field(max_length=200)
     key: str = Field(default='', max_length=4000)
@@ -201,8 +203,8 @@ def get_settings():
 def update_settings(body: APISettings):
     try:
         with lock:
-            config = save_settings(DATA, settings(), body)
-        return public_settings(config)
+            save_settings(DATA, settings(), body)
+            return public_settings(settings())
     except ValueError as exc:
         raise HTTPException(400, str(exc)) from exc
 
@@ -374,7 +376,7 @@ def retrieval_answer(result):
             '## 不确定项\n未配置在线模型。可在右侧查阅原文，并导出检索上下文供宿主模型回答。')
 
 
-def provider_stream(run, config, payload):
+def provider_stream(run, config, payload, *, deadline=None):
     # A provider can remain silent before its first token. Keep cancellation responsive
     # while a bounded background reader waits on the network; only this thread emits events.
     incoming = queue.Queue(maxsize=256)
@@ -388,8 +390,10 @@ def provider_stream(run, config, payload):
                 pass
     def read_provider():
         try:
+            remaining = max(.1, deadline - time.monotonic()) if deadline is not None else 120
             with requests.post(config['base'] + '/chat/completions', json=payload,
-                               headers={'Authorization': 'Bearer ' + config['key']}, stream=True, timeout=(15, 120)) as response:
+                               headers={'Authorization': 'Bearer ' + config['key']}, stream=True,
+                               timeout=(min(15, remaining), min(120, remaining))) as response:
                 response.raise_for_status()
                 for line in response.iter_lines(chunk_size=1):
                     if run['cancel'].is_set() or stopped.is_set():
@@ -407,8 +411,10 @@ def provider_stream(run, config, payload):
     try:
         while True:
             check_cancel(run)
+            if deadline is not None and time.monotonic() >= deadline:
+                raise TimeoutError('Question classification timed out')
             try:
-                body = incoming.get(timeout=.2)
+                body = incoming.get(timeout=min(.2, max(.001, deadline - time.monotonic())) if deadline is not None else .2)
             except queue.Empty:
                 continue
             if body is None:
@@ -424,12 +430,86 @@ def provider_stream(run, config, payload):
         stopped.set()
 
 
-def answer_stream(run, config, result):
-    messages = [{'role': 'system', 'content': ANSWER_PROMPT + '\n历史对话仅用于理解追问，不是事实依据。只用本轮来源支持结论；请回答 CURRENT_QUESTION。'}]
+def routing_catalog(project):
+    """Metadata only: classification never validates or retrieves source content."""
+    parts = [str(project.get('name', ''))[:300]]
+    size = len(parts[0])
+    # Uploads already have a source manifest before parsing creates document units.
+    for name in project.get('source_binding', {}):
+        if project.get('roles', {}).get(name, default_role(name)) != 'corpus':
+            continue
+        text = str(name)[:200]
+        parts.append(text); size += len(text) + 1
+        if size >= 4000:
+            return '\n'.join(parts)[:4000]
+    for filename, key in [('00_document_units.json', 'documents'), ('04_knowledge_graph.json', 'nodes')]:
+        try:
+            items = read_json(project['work'] / filename).get(key, [])
+            for item in items:
+                if key == 'documents' and item.get('role', 'corpus') != 'corpus':
+                    continue
+                for value in ([item.get('path', '')] if key == 'documents' else [item.get('name', ''), *item.get('aliases', [])]):
+                    text = str(value).strip()[:200]
+                    if text:
+                        parts.append(text); size += len(text) + 1
+                    if size >= 4000:
+                        return '\n'.join(parts)[:4000]
+        except (OSError, ValueError, TypeError, AttributeError):
+            continue
+    return '\n'.join(parts)[:4000]
+
+
+def route_question(run, project, config):
+    started = time.monotonic()
+    check_cancel(run)
+    route = local_route(run['question'])
+    source, usage = 'rule', {}
+    if route is None:
+        source, route = 'fallback', 'knowledge'
+        payload = classifier_payload(run['question'], run.get('conversation_context', []),
+                                     routing_catalog(project), config['model'], config.get('effort', ''))
+        try:
+            content, finish = '', None
+            for body in provider_stream(run, config, payload, deadline=started + 15):
+                if isinstance(body.get('usage'), dict):
+                    usage.update(numeric_usage(body['usage']))
+                for choice in body.get('choices', []):
+                    if choice.get('index', 0) != 0:
+                        continue
+                    delta = choice.get('delta') or {}
+                    if choice.get('error') or delta.get('refusal'):
+                        raise ValueError('Invalid classification')
+                    fragment = delta.get('content')
+                    if isinstance(fragment, list):
+                        fragment = normalize_content(fragment)
+                    if isinstance(fragment, str):
+                        content += fragment
+                    if len(content) > 100:
+                        raise ValueError('Invalid classification')
+                    finish = choice.get('finish_reason') or finish
+            result = content.strip().casefold()
+            if finish == 'stop' and result in {'general', 'knowledge'}:
+                route, source = result, 'model'
+        except Cancelled:
+            raise
+        except (RuntimeError, OSError, ValueError, TypeError, KeyError, AttributeError, requests.RequestException):
+            pass
+    check_cancel(run)
+    run['routing'] = {'result': route, 'source': source,
+                      'elapsed_s': round(time.monotonic() - started, 3), 'usage': usage}
+    return 'general' if route == 'general' else 'answer'
+
+
+def answer_stream(run, config, result=None):
+    general = run.get('mode') == 'general'
+    prompt = ('你是一位乐于助人的助手。请自然地回答用户当前的问题，并遵循用户要求的语言和格式。' if general else
+              ANSWER_PROMPT + '\n历史对话仅用于理解追问，不是事实依据。只用本轮来源支持结论；请回答 CURRENT_QUESTION。')
+    messages = [{'role': 'system', 'content': prompt}]
     for previous in run.get('conversation_context', [])[-6:]:
         messages.extend([{'role': 'user', 'content': previous['question'][:3000]},
                          {'role': 'assistant', 'content': previous['answer'][:6000]}])
-    messages.append({'role': 'user', 'content': 'CURRENT_QUESTION\n' + run['question'] + '\n\n' + result['context']})
+    messages.append({'role': 'user', 'content': run['question'] if general else
+                     'CURRENT_QUESTION\n' + run['question'] + '\n\n' + result['context']})
     budget = max(1024, min(MAX_OUTPUT_TOKENS, int(config.get('max_tokens', QA_MAX_TOKENS))))
     continuations = max(0, min(3, int(config.get('auto_continue', 2))))
     answer, usage = '', {}
@@ -472,7 +552,8 @@ def answer_stream(run, config, result):
             emit(run, 'stage.progress', stage='answer', message=f'回答较长，正在接续生成（{attempt + 1}/{continuations}）', continuation=attempt + 1)
             if segment:
                 messages.extend([{'role': 'assistant', 'content': segment}, {'role': 'user', 'content':
-                    '上条回答因输出长度限制中断。请从断点直接继续，补完剩余正文；不要重复已写内容，不要重新开头，表格或句子中断时接上原内容。仍只使用 CURRENT_QUESTION 对应的资料，完成后正常结束。'}])
+                    '上条回答因输出长度限制中断。请从断点直接继续，补完剩余正文；不要重复已写内容，不要重新开头，表格或句子中断时接上原内容。'
+                    + ('完成后正常结束。' if general else '仍只使用 CURRENT_QUESTION 对应的资料，完成后正常结束。')}])
             else:
                 # Reasoning can consume a segment before any visible text is returned.
                 budget = min(MAX_OUTPUT_TOKENS, budget * 2)
@@ -496,7 +577,19 @@ class Query(BaseModel):
 def query_worker(run, mode, config=None):
     project = project_for(run['project_id'])
     check_cancel(run)
-    emit(run, 'stage.started', stage='validate', message='检查并复用已有知识图谱')
+    config = config or settings()
+    if mode == 'auto':
+        mode = route_question(run, project, config)
+    run['mode'] = mode
+    if mode == 'general':
+        emit(run, 'stage.started', stage='answer', mode=mode, model=config['model'], message='正在生成回答')
+        answer, usage = answer_stream(run, config)
+        run.update(answer=answer, model=config['model'])
+        emit(run, 'answer.completed', answer=answer, usage=usage, mode=mode, model=config['model'], message='回答已完成')
+        return
+    emit(run, 'stage.started', stage='validate', mode=mode, message='检查并复用已有知识图谱')
+    if not (project['work'] / '04_knowledge_graph.json').is_file():
+        raise RuntimeError('请先在资料页面完成解析与构图。')
     _validate_query_graph(project['work'])
     read_graph(project)
     emit(run, 'stage.completed', stage='validate', message='知识库通过完整性校验，无需重新构图')
@@ -526,7 +619,7 @@ def query_worker(run, mode, config=None):
         config = config or settings()
         if not config['key']:
             raise RuntimeError('请点击页面顶部「配置模型」，保存 API Key 后开始问答。')
-        emit(run, 'stage.started', stage='answer', model=config['model'], message=f"正在调用 {config['model']}，等待回答正文")
+        emit(run, 'stage.started', stage='answer', mode=mode, model=config['model'], message=f"正在调用 {config['model']}，等待回答正文")
         answer, usage = answer_stream(run, config, result)
         run['model'] = config['model']
         missing = [section for section in ('结论', '推理路径', '不确定项') if not re.search(r'(?m)^\s*(?:#{1,6}\s*|\*\*)' + section, answer)]
@@ -647,13 +740,14 @@ def query(query: Query):
         project = project_for(query.project_id)
         if not query.question.strip():
             raise HTTPException(400, '请输入问题')
-        if query.mode not in {'retrieve', 'answer'}:
+        if query.mode not in {'auto', 'retrieve', 'answer'}:
             raise HTTPException(400, '非法问答模式')
-        if not (project['work'] / '04_knowledge_graph.json').is_file():
-            raise HTTPException(409, '请先完成构图或导入知识库')
-        read_graph(project)
+        if query.mode != 'auto':
+            if not (project['work'] / '04_knowledge_graph.json').is_file():
+                raise HTTPException(409, '请先完成构图或导入知识库')
+            read_graph(project)
         config = settings()
-        if query.mode == 'answer' and not config['key']:
+        if query.mode in {'auto', 'answer'} and not config['key']:
             raise HTTPException(400, '请先在「配置模型」中保存 API Key；未配置时可浏览离线图谱和原始资料。')
         ancestors = []
         if query.parent_run_id:
@@ -663,9 +757,11 @@ def query(query: Query):
         run = new_run(query.project_id, 'query', query.question.strip())
         run['parent_run_id'] = query.parent_run_id
         run['conversation_id'] = ancestors[0].get('conversation_id') or ancestors[0]['id'] if ancestors else run['id']
-        run['conversation_context'] = [{'question': p.get('question', ''), 'answer': p.get('answer', '')}
+        run['requested_mode'] = query.mode
+        run['mode'] = query.mode
+        run['conversation_context'] = [{'question': p.get('question', ''), 'answer': p.get('answer', ''), 'mode': record_mode(p)}
                                         for p in ancestors[-6:] if p.get('answer')]
-        run['model'] = config['model'] if query.mode == 'answer' else None
+        run['model'] = config['model'] if query.mode in {'auto', 'answer'} else None
         launch(run, lambda run: query_worker(run, query.mode, config))
         return {'run_id': run['id']}
 
@@ -755,6 +851,54 @@ def conversation_detail(run_id):
     return {'turns': conversation_records(run_id)}
 
 
+def conversation_key(item):
+    return item.get('conversation_id') or item['id']
+
+
+def delete_run_disk(run_id):
+    path = DATA / 'runs' / (run_id + '.json')
+    if path.is_file():
+        path.unlink()
+
+
+def delete_query_runs(project_id, predicate):
+    project_for(project_id)
+    to_delete = []
+    for path in (DATA / 'runs').glob('*.json'):
+        item = read_json(path)
+        if item.get('project_id') != project_id or item.get('kind') != 'query':
+            continue
+        if not predicate(item):
+            continue
+        rid = item['id']
+        with lock:
+            live = runs.get(rid)
+            if live and live['status'] == 'running':
+                raise HTTPException(409, '仍有问答正在生成，请先停止后再删除')
+        to_delete.append(rid)
+    for rid in to_delete:
+        with lock:
+            runs.pop(rid, None)
+        delete_run_disk(rid)
+    return {'deleted': len(to_delete), 'ids': to_delete}
+
+
+@app.delete('/api/conversations/{run_id}')
+def delete_conversation(run_id, project_id: str | None = None):
+    project_id = project_id or default_project_id()
+    anchor = history_detail(run_id)
+    if anchor['project_id'] != project_id or anchor.get('kind') != 'query':
+        raise HTTPException(404, '对话不存在')
+    key = conversation_key(anchor)
+    return delete_query_runs(project_id, lambda item: conversation_key(item) == key)
+
+
+@app.delete('/api/history')
+def clear_history(project_id: str | None = None):
+    project_id = project_id or default_project_id()
+    return delete_query_runs(project_id, lambda _item: True)
+
+
 @app.get('/api/history/{run_id}')
 def history_detail(run_id):
     if not re.fullmatch('[a-f0-9]{32}', run_id):
@@ -764,9 +908,12 @@ def history_detail(run_id):
         raise HTTPException(404)
     item = read_json(path)
     project = project_for(item['project_id'])
-    graph = read_graph(project)
+    needs_graph = bool(item.get('retrieval')) or any(
+        event.get('type') == 'retrieval.completed' or event.get('graph') or event.get('evidence')
+        for event in item.get('events', []))
+    graph = read_graph(project) if needs_graph else None
     # Saved query snapshots must obey the same current source scope as live graphs.
-    if project.get('source_binding'):
+    if graph is not None and project.get('source_binding'):
         nodes = {n['id']: n for n in graph['nodes']}
         edges = {e['id']: e for e in graph['edges']}
         corpus = {d['path'] for d in graph['documents'] if d['role'] == 'corpus'}
@@ -1045,6 +1192,16 @@ def export(project_id):
             if path.is_file() and (path.name in {'04_knowledge_graph.json', '00_document_units.json', '03_canonical_facts.json'} or 'assets' in path.relative_to(project['work']).parts):
                 archive.write(path, path.relative_to(project['work']).as_posix())
     return Response(out.getvalue(), media_type='application/zip', headers={'Content-Disposition': 'attachment; filename="evidence-knowledge-base.zip"'})
+
+
+@app.get('/api/projects/{project_id}/export/json')
+def export_graph_json(project_id):
+    project = project_for(project_id)
+    graph = read_graph(project)
+    body = json.dumps(graph, ensure_ascii=False, indent=2)
+    return Response(body, media_type='application/json; charset=utf-8', headers={
+        'Content-Disposition': 'attachment; filename="knowledge-graph.json"',
+    })
 
 
 @app.get('/api/projects/{project_id}/export/html')

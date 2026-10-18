@@ -1,13 +1,15 @@
-/* Local fonts keep the portable app usable offline. */
+/* Latin titles: Palatino 500; CJK glyphs fall through to 华文中宋 in --font-editorial. */
 :root {
   --font-ui: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-  --font-editorial: 'Noto Serif SC', 'Songti SC', 'SimSun', Georgia, serif;
-  --font-data: var(--font-ui);
+  --font-brand: 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --font-editorial: 'Palatino Linotype', Palatino, 'Book Antiqua', 'STZhongsong', '华文中宋', 'STSong', '华文宋体', 'Noto Serif SC', 'Songti SC', SimSun, Georgia, serif;
+  --font-data: 'Baskerville', 'Libre Baskerville', Georgia, serif;
   --font-code: 'Cascadia Code', Consolas, monospace;
   --type-title: 28px; --type-section: 22px; --type-body: 16px; --type-ui: 14px; --type-caption: 12px;
 }
 body, button, input, textarea, select { font-family: var(--font-ui); }
 .workspace-v2 { font: 14px/1.6 var(--font-ui); }
-.workspace-v2 h1, .workspace-v2 h2, .workspace-v2 h3 { font-family: var(--font-ui); letter-spacing: -.02em; }
+.workspace-v2 h1, .workspace-v2 h2, .workspace-v2 h3, .workspace-v2 h4, .workspace-v2 h5, .workspace-v2 h6 { font-family: var(--font-editorial); font-weight: 500; font-synthesis: none; letter-spacing: .03em; }
+.workspace-v2 .brand-name { font-family: var(--font-brand); font-weight: 500; }
 .data-number { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
 .markdown pre, .markdown code, .step-detail pre { font-family: var(--font-code); }

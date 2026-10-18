@@ -1,6 +1,11 @@
 # Ignore chat records and local config files
 *.md
 *.txt
+# Public documentation and runtime manifests are intentionally versioned.
+!/README.md
+!/change.md
+!/system/app/requirements.txt
+!/system/skill/evidence-kg-builder/requirements.txt
 MANIFEST.json
 密钥配置修复补丁-20261009.zip
 
@@ -8,6 +13,14 @@ MANIFEST.json
 local_api.json
 .env*
 *.env
+
+# Local conversations, logs and generated development caches.
+/system/runs/web/runs/
+**/__pycache__/
+*.py[cod]
+*.tsbuildinfo
+**/node_modules/.vite/
+.venv/
 
 # Ignore sites static deployment
 /sites/

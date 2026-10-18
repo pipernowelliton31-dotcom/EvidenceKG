@@ -8,7 +8,7 @@ async function moduleFrom(file) {
   return import(`data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`);
 }
 const { droppedFiles, validateUpload } = await moduleFrom('uploadFiles');
-const { conversationLog, chatMarkdown } = await moduleFrom('conversationExport');
+const { conversationLog, chatMarkdown, conversationHtml } = await moduleFrom('conversationExport');
 const file = (name, size = 1) => ({ name, size });
 const entry = name => ({ name, isFile: true, file: resolve => resolve(file(name)) });
 const directory = (name, batches) => ({ name, isDirectory: true, createReader: () => {
@@ -42,4 +42,13 @@ assert.deepEqual(log.project, { id: 'project-1', name: '测试资料库' });
 assert.equal(log.exported_at, '2026-10-18T00:00:00.000Z');
 assert.equal(chatMarkdown(records), `## Question\n\n原始问题\n\n## Answer\n\n${records[0].answer}\n\n---\n\n## Question\n\n追问\n\n## Answer\n\n部分正文\n`, 'Chat export must contain only question/answer, without execution metadata or errors');
 assert.equal(chatMarkdown([{ question: '只保留问答', events: [{ type: 'answer.completed', answer: '完成的回答' }] }]), '## Question\n\n只保留问答\n\n## Answer\n\n完成的回答\n');
+const page = conversationHtml([{ question: '<script>alert(1)</script>', answer: '安全正文' }], { id: 'p', name: '库' }, new Date('2026-10-18T00:00:00Z'));
+assert.match(page, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
+assert.doesNotMatch(page, /<script>alert\(1\)<\/script>/);
+assert.match(page, /安全正文/);
+const rich = conversationHtml([{ question: '程序员老王买了啥', model: 'deepseek-flash', answer: '## 1. 结论\n\n**番茄时钟Pro** 于 **2025-10-03** 购买。' }], { id: 'p', name: '库' }, new Date('2026-10-18T00:00:00Z'));
+assert.match(rich, /<h2>1\. 结论<\/h2>/);
+assert.match(rich, /<strong>番茄时钟Pro<\/strong>/);
+assert.match(rich, /class="markdown"/);
+assert.doesNotMatch(rich, /<pre>## 1\. 结论/);
 console.log('PASS: folder upload, complete JSON logs and question/answer-only Markdown export.');

@@ -5,6 +5,6 @@ export function initialTheme(): Theme {
 }
 export function applyTheme(theme: Theme) {
   document.documentElement.dataset.theme = theme;
-  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'night' ? '#262522' : '#faf9f5');
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', getComputedStyle(document.documentElement).getPropertyValue('--bg').trim());
   try { localStorage.setItem('evidence-theme', theme); } catch { /* Preferences are optional when browser storage is restricted. */ }
 }

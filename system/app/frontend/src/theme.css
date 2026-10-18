@@ -1,16 +1,23 @@
 /* Shared semantic palette. A theme changes every surface, including graph controls. */
 :root {
   color-scheme: light;
-  --bg: #faf9f5; --surface: #fffefa; --surface-soft: #f0eee8; --sidebar: #eeece5;
+  --bg: #fcfcfb; --surface: #fffefa; --surface-soft: #f0eee8; --sidebar: #fbfbf9;
   --fg: #302e2b; --fg-2: #514e48; --fg-muted: #716b62;
   --text: var(--fg); --muted: var(--fg-muted); --panel: var(--surface-soft); --mint: var(--accent);
-  --line: #dedbd3; --accent: #a84f36; --accent-solid: #ae563d; --accent-hover: #93432e;
+  --line: #dedbd3; --accent: #9a5848; --accent-solid: #8f5c4c; --accent-hover: #7a4e41;
   --accent-line: #c28c77; --on-accent: #fffaf7; --bubble: #eeece5;
   --success: #3e735d; --success-bg: #edf3ed; --success-line: #c7d9cb;
   --danger: #a13935; --danger-bg: #faeeeb; --danger-line: #e4bdb7; --warning: #856023;
   --disabled: #d8d3c9; --scrollbar: #c9c3b8; --shadow: #30271b12;
-  --overlay: #27241f55; --focus-wash: #a84f360c;
+  --overlay: #27241f55; --focus-wash: #9a584812;
+  --sidebar-control: #f5f5f1; --sidebar-control-hover: #efefea; --sidebar-line: #e5e5de;
+  --sidebar-hover: #f3f3ef; --sidebar-active: #f0f0eb;
+  --sidebar-new-chat: #ffffff; --sidebar-new-chat-hover: #f5f5f1; --sidebar-new-chat-fg: var(--fg);
   --graph-bg: #f6f4ee; --graph-glow: transparent;
+  --graph-edge: #b9b1a5b8; --graph-label-bg: #fcfcfbef;
+  --graph-selection-bg: #f0dfd4; --graph-selection-fg: #7a4e41; --graph-node-fallback: #8b8175;
+  --table-stripe: #f7f6f2; --table-selection: #f7eee7;
+  --control-active: #2563eb; --on-control-active: #ffffff;
   --node-product: #a56635; --node-tool: #447c73; --node-actor: #807098; --node-version: #517b98;
   --selection-bg: #ead2c4; --selection-fg: #372a23;
 }
@@ -18,13 +25,20 @@
   color-scheme: dark;
   --bg: #262522; --surface: #2e2c29; --surface-soft: #35322e; --sidebar: #201f1d;
   --fg: #eeeae2; --fg-2: #d1cbc1; --fg-muted: #aea69a;
-  --line: #48443e; --accent: #e3a087; --accent-solid: #b85f43; --accent-hover: #a85138;
+  --line: #48443e; --accent: #e3a087; --accent-solid: #98604d; --accent-hover: #8f5c4a;
   --accent-line: #9b705e; --on-accent: #fffaf7; --bubble: #393530;
   --success: #a1c4a9; --success-bg: #28392e; --success-line: #475f4c;
   --danger: #eda9a0; --danger-bg: #432d29; --danger-line: #775047; --warning: #d9bb82;
   --disabled: #514b43; --scrollbar: #5b554c; --shadow: #15141140;
   --overlay: #15141199; --focus-wash: #e3a08712;
+  --sidebar-control: #2a2825; --sidebar-control-hover: #32302c; --sidebar-line: var(--line);
+  --sidebar-hover: var(--focus-wash); --sidebar-active: var(--focus-wash);
+  --sidebar-new-chat: var(--accent-solid); --sidebar-new-chat-hover: var(--accent-hover); --sidebar-new-chat-fg: var(--on-accent);
   --graph-bg: #2b2925; --graph-glow: transparent;
+  --graph-edge: #aea69a60; --graph-label-bg: #2b2925ee;
+  --graph-selection-bg: #4c382d; --graph-selection-fg: #efc1a9; --graph-node-fallback: #b7ab9b;
+  --table-stripe: #32302c; --table-selection: #48382f;
+  --control-active: #6085bb;
   --node-product: #d6ab77; --node-tool: #92b9a6; --node-actor: #b6a3c7; --node-version: #9bb4c9;
   --selection-bg: #70503f; --selection-fg: #fff8f0;
 }
@@ -56,7 +70,15 @@ body { background: var(--bg); color: var(--fg); }
 .workspace-v2 .api-settings form label { color: var(--fg-2); }
 .workspace-v2 .api-settings label small, .workspace-v2 .api-settings label span { color: var(--fg-muted); }
 .workspace-v2 .reader-locator { border-color: var(--line); }
-.workspace-v2 .fact-detail p > span { color: var(--fg-2); }
+.workspace-v2 .reader-file-open small, .workspace-v2 .reader-index small,
+.workspace-v2 .role-editor, .workspace-v2 .graph-empty,
+.workspace-v2 .fact-detail small { color: var(--fg-muted); }
+.workspace-v2 .selected-relation strong { color: var(--fg); }
+.workspace-v2 .source-scope-popover { box-shadow: 0 8px 24px var(--shadow); }
+.workspace-v2 .reader-unit .markdown pre { color: var(--fg); background: var(--surface-soft); border-color: var(--line); }
+.workspace-v2 .fact-detail { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 4px 14px; color: var(--fg-2); }
+.workspace-v2 .fact-detail p { color: var(--fg-muted); }
+.workspace-v2 .fact-detail p > span { color: var(--fg); }
 .workspace-v2 .selected-relation > span, .workspace-v2 .selected-relation small { color: var(--accent); }
 .workspace-v2 .graph-query-status .eyebrow, .workspace-v2 .graph-query-status small { color: var(--fg-muted); }
 .workspace-v2 .source-scope-popover > strong { color: var(--fg); }
@@ -69,7 +91,8 @@ body { background: var(--bg); color: var(--fg); }
 /* Canvas itself and every overlay use the same palette. */
 .workspace-v2 .graph-canvas { background: var(--graph-bg); border-color: var(--line); }
 .workspace-v2 .constellation { background: radial-gradient(ellipse at 50% 50%, var(--graph-glow), transparent 78%); }
-.workspace-v2 .graph-caption, .workspace-v2 .graph-caption small { color: var(--fg-muted); }
+.workspace-v2 .graph-caption, .workspace-v2 .graph-caption small { color: var(--fg-2); }
+.workspace-v2 .graph-canvas .graph-caption small { color: var(--fg-muted); }
 .workspace-v2 .graph-caption .live-dot { background: var(--accent); box-shadow: 0 0 10px var(--focus-wash); }
 .workspace-v2 .graph-controls, .workspace-v2 .graph-category-tabs, .workspace-v2 .graph-node-picker select, .workspace-v2 .graph-hover { background: var(--surface); color: var(--fg-2); border-color: var(--line); box-shadow: 0 3px 12px var(--shadow); }
 .workspace-v2 .graph-controls button, .workspace-v2 .graph-category-tabs button { color: var(--fg-2); }
@@ -79,15 +102,13 @@ body { background: var(--bg); color: var(--fg); }
 .workspace-v2 .graph-legend { color: var(--fg-2); }
 .workspace-v2 .graph-source-scope { color: var(--fg-2); }
 .workspace-v2 .graph-legend small { color: var(--fg-muted); }
-.workspace-v2 .graph-caption { letter-spacing: .06em; }
+.workspace-v2 .graph-canvas .graph-caption { letter-spacing: 0; }
 
 /* Static opaque surfaces keep night mode quiet, without decorative rendering. */
 :root[data-theme="night"] .workspace-v2,
 :root[data-theme="night"] .workspace-v2 .conversation,
 :root[data-theme="night"] .workspace-v2 .graph-page,
 :root[data-theme="night"] .workspace-v2 .composer-wrap { background: var(--bg); }
-.workspace-v2 .graph-expanded { background: var(--bg)!important; }
-.workspace-v2:has(.graph-expanded) .composer-wrap { background: var(--bg); }
 
 @media(max-width:800px) {
   .workspace-v2 .topbar-actions { gap: 7px; }

@@ -5,6 +5,7 @@ import DocumentReader, { type SourceDocument } from './DocumentReader';
 import { type Evidence, type Turn } from './ChatTurn';
 import { relationLabel } from './relations';
 import { type Theme } from './theme';
+import GraphChoice from './GraphChoice';
 
 export type EvidencePanelState = {
   projectId: string;
@@ -94,7 +95,7 @@ export default function EvidencePanel({ state, theme, files, ready, entityGraph,
     return () => controller.abort();
   }, [scope, ready, state.projectId]);
 
-  const graph = !ready ? undefined : scope === 'context' ? state.graph : scope === 'query' ? state.turn?.graph : scope === 'architecture' ? architectureGraph : scope === 'all' ? allGraph : entityGraph;
+  const graph: GraphData | undefined = !ready ? undefined : scope === 'context' ? state.graph : scope === 'query' ? state.turn?.graph : scope === 'architecture' ? architectureGraph : scope === 'all' ? allGraph : entityGraph;
   const names = new Map<string, string>((graph?.nodes || []).map((node: { id: string; name: string }) => [node.id, node.name]));
   const relationEvidence: Evidence[] = (detail?.evidence || []).map((item: any) => ({ id: item.evidence_id, source: item.source, location: item.location, excerpt: item.quote, source_url: item.source_url }));
   const sources = selectedId ? relationEvidence : state.turn?.evidence || (state.evidence ? [state.evidence] : []);
@@ -144,14 +145,19 @@ export default function EvidencePanel({ state, theme, files, ready, entityGraph,
             onSelect={file => { setSelectedFile(file); setLocation(''); setReaderError(''); }} onClear={() => { setSelectedFile(undefined); setLocation(''); setReaderError(''); }}/>
         </section>
         <section id="evidence-view-graph" role="tabpanel" aria-labelledby="evidence-tab-graph" hidden={tab !== 'graph'}>
-          <div className="panel-graph-tools"><label>图谱范围<select aria-label="证据面板图谱范围" disabled={!ready} value={scope} onChange={event => { setScope(event.target.value); setPathIndex(-1); setSelectedId(''); }}>
-            {state.graph && <option value="context">当前选中的图谱</option>}{state.turn?.graph && <option value="query">当前回答关联子图</option>}<option value="entities">主体关系网络</option><option value="architecture">产品与工具架构</option><option value="all">全部抽取结果</option>
-          </select></label>
-          {scope === 'query' && !!state.turn?.paths?.length && <label>关联路径<select value={pathIndex} onChange={event => { setPathIndex(Number(event.target.value)); setSelectedId(''); }}><option value={-1}>全部相关路径</option>{state.turn.paths.map((path, index) => <option value={index} key={path.path_id || index}>路径 {index + 1} · {path.steps.length} 跳</option>)}</select></label>}</div>
+          <div className="panel-graph-tools"><label>图谱范围<GraphChoice label="证据面板图谱范围" placeholder="选择图谱" disabled={!ready || tab !== 'graph'} value={scope} searchable={false} options={[
+            ...(state.graph ? [{ value: 'context', label: '当前选中的图谱' }] : []),
+            ...(state.turn?.graph ? [{ value: 'query', label: '本轮问答' }] : []),
+            { value: 'entities', label: '业务关系' }, { value: 'architecture', label: '产品架构' }, { value: 'all', label: '完整图谱' },
+          ]} onChange={value => { setScope(value); setPathIndex(-1); setSelectedId(''); }}/></label>
+          {scope === 'query' && !!state.turn?.paths?.length && <label>关联路径<GraphChoice label="关联路径" placeholder="全部路径" value={String(pathIndex)} disabled={tab !== 'graph'} searchable={false} options={[{ value: '-1', label: '全部路径' }, ...state.turn.paths.map((path, index) => ({ value: String(index), label: `路径 ${index + 1} · ${path.steps.length} 跳` }))]} onChange={value => { setPathIndex(Number(value)); setSelectedId(''); }}/></label>}</div>
           {graphLoading && scope === 'all' && <p className="panel-status"><Loader2 className="spin" size={16}/>读取图谱…</p>}{graphError && scope === 'all' && <p className="api-error">{graphError}</p>}
           <div className="panel-graph-canvas">{tab === 'graph' && <Graph theme={theme} graph={graph} selectedId={selectedId} select={selectRelation} path={scope === 'query' && pathIndex >= 0 ? state.turn?.paths?.[pathIndex] : undefined}/>}</div>
           <div className="panel-legend">{Object.entries(graphTypeLabels).filter(([type]) => graph?.nodes.some((node: { type: string }) => node.type === type)).map(([type, label]) => <span key={type}><i style={{ background: graphPalettes[theme][type] }}/>{label}</span>)}</div>
-          <label className="panel-relation-select">查看主体关系<select aria-label="证据面板主体关系" value={graph?.edges.some((edge: { id: string }) => edge.id === selectedId) ? selectedId : ''} onChange={event => selectRelation(event.target.value)}><option value="">选择关系，或点击图谱连线</option>{graph?.edges.map((edge: { id: string; source: string; target: string; predicate: string }) => <option key={edge.id} value={edge.id}>{names.get(edge.source)} —{relationLabel(edge.predicate)}→ {names.get(edge.target)}</option>)}</select></label>
+          <label className="panel-relation-select">查看主体关系<GraphChoice label="主体关系" placeholder="选择关系" value={graph?.edges.some(edge => edge.id === selectedId) ? selectedId : ''} disabled={!ready || tab !== 'graph' || !graph?.edges.length} searchable options={(graph?.edges || []).map(edge => {
+            const source = names.get(edge.source) || edge.source, target = names.get(edge.target) || edge.target, verb = relationLabel(edge.predicate);
+            return { value: edge.id, label: `${source} · ${verb} · ${target}`, relation: { source, verb, target } };
+          })} onChange={selectRelation}/></label>
           {detailSection}{selectedId && sourceList(relationEvidence)}
         </section>
       </div>

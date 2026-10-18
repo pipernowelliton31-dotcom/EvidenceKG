@@ -9,6 +9,8 @@ import './typography.css';
 import './interaction-refinement.css';
 import './api-settings.css';
 import './workspace.css';
+import './graph-controls.css';
+import './spreadsheet.css';
 import { applyTheme, initialTheme } from './theme';
 applyTheme(initialTheme());
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
