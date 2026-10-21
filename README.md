@@ -49,14 +49,15 @@ Copy-Item .\system\env.example .\system\.env
 notepad .\system\.env
 ```
 
-填写 `BUILTIN_DEEPSEEK_API_KEY` 和／或 `BUILTIN_OPENROUTER_API_KEY`，然后在“模型设置”开启“使用内置API密钥进行测试”，选择服务商和模型并保存。
+填写需要使用的 `BUILTIN_DEEPSEEK_API_KEY`、`BUILTIN_OPENROUTER_API_KEY` 或 `BUILTIN_OLLAMA_API_KEY`，然后在“模型设置”开启“使用内置API密钥进行测试”，选择服务商和模型并保存。
 
 | 服务商 | 环境变量 | 可选模型 |
 | --- | --- | --- |
 | DeepSeek | `BUILTIN_DEEPSEEK_API_KEY` | `deepseek-flash`（开启内置模式时的默认选择） |
 | OpenRouter | `BUILTIN_OPENROUTER_API_KEY` | `nvidia/nemotron-3.5-super-vl:free`（该服务商默认）、`dots-studio/dots-3-note-preview:free`、`deepseek/deepseek-v4.1-flash-1017` |
+| Ollama Cloud | `BUILTIN_OLLAMA_API_KEY` | `gemma4:31b`（唯一选项） |
 
-两种服务商使用各自固定地址及后端模型允许列表。没有配置对应密钥时不能保存该内置选择或测试连接。程序不会将内置密钥回传前端或复制进本地模型选择配置。模型名称是当前应用的配置列表，实际可用性及计费以服务商为准。
+各服务商使用各自固定地址及后端模型允许列表，Ollama Cloud 使用 `https://ollama.com/v1`。没有配置对应密钥时不能保存该内置选择或测试连接。程序不会将内置密钥回传前端或复制进本地模型选择配置。模型名称是当前应用的配置列表，实际可用性及计费以服务商为准。
 
 服务端读取的环境文件位于 **`system/.env`**，不是仓库根目录。系统环境变量优先于该文件，已保存的自定义网页设置再覆盖对应默认值。不要使用 `VITE_` 变量保存密钥。
 

@@ -14,6 +14,8 @@ BUILTIN_PROVIDERS = {
                        'nvidia/nemotron-3.5-super-vl:free',
                        'dots-studio/dots-3-note-preview:free',
                        'deepseek/deepseek-v4.1-flash-1017']},
+    'ollama': {'label': 'Ollama', 'base': 'https://ollama.com/v1',
+               'env': 'BUILTIN_OLLAMA_API_KEY', 'models': ['gemma4:31b']},
 }
 
 

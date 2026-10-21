@@ -184,7 +184,7 @@ async def local_origin_guard(request: Request, call_next):
 
 class APISettings(BaseModel):
     mode: str = Field(default='custom', pattern='^(custom|builtin)$')
-    builtin_provider: str = Field(default='deepseek', pattern='^(deepseek|openrouter)$')
+    builtin_provider: str = Field(default='deepseek', pattern='^(deepseek|openrouter|ollama)$')
     base: str = Field(max_length=500)
     model: str = Field(max_length=200)
     key: str = Field(default='', max_length=4000)
