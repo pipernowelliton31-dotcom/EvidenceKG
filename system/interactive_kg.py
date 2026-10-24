@@ -84,8 +84,11 @@ def notebook_runtime(notebook_path, overrides=None):
         source = Path(namespace["SKILL_UNPACK_DIR"])
         source.mkdir(parents=True, exist_ok=True)
         shutil.unpack_archive(str(namespace["SKILL_ZIP"]), str(source))
-    hits = [source] if (source / "SKILL.md").is_file() else [
-        p for p in source.iterdir() if p.is_dir() and (p / "SKILL.md").is_file()
+    # Releases include the executable pipeline even when authoring docs are omitted.
+    def is_skill(path):
+        return (path / 'scripts/kg_pipeline.py').is_file() and (path / 'scripts/kg_core.py').is_file()
+    hits = [source] if is_skill(source) else [
+        p for p in source.iterdir() if p.is_dir() and is_skill(p)
     ] if source.is_dir() else []
     if len(hits) != 1:
         raise FileNotFoundError(f"找不到唯一的 Skill 目录，请检查 skill/ 或 skill.zip：{source}")

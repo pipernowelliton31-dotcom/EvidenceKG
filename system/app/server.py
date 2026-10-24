@@ -277,6 +277,8 @@ def launch(run, worker):
     def guarded():
         try:
             worker(run)
+            if run['status'] == 'completed':
+                return  # Rebuild publication already finalized under the lock.
             check_cancel(run)
             run['status'] = 'completed'
             emit(run, 'run.completed', message='运行完成')
@@ -633,7 +635,14 @@ def query_worker(run, mode, config=None):
 
 def build_worker(run):
     project = project_for(run['project_id'])
+    previous = project
     config = settings()
+    if run.get('rebuild'):
+        if not config['key']:
+            raise RuntimeError('请先连接模型，再重新生成图谱')
+        work_dir = 'work-' + uuid.uuid4().hex
+        project = {**project, 'work_dir': work_dir, 'work': project['materials'].parent / work_dir}
+        emit(run, 'stage.started', stage='parse', message='正在重新解析资料；完成前保留现有图谱')
     def progress(message):
         check_cancel(run)
         emit(run, 'stage.progress', message=message)
@@ -661,7 +670,30 @@ def build_worker(run):
             emit(run, 'host.required', message='已导出宿主任务。由当前对话的模型处理后导入响应，或配置在线模型继续构图。')
     else:
         session.ensure_graph()
-        emit(run, 'graph.updated', graph=graph_bundle(project), message='图谱已构建并通过校验')
+        graph = graph_bundle(project)
+        if run.get('rebuild'):
+            with lock:
+                check_cancel(run)
+                if projects[project['id']] is not previous:
+                    raise RuntimeError('资料库已变更，请基于最新资料重新生成图谱')
+                event_count = len(run['events'])
+                published = False
+                try:
+                    emit(run, 'graph.updated', graph=graph, message='图谱已构建并通过校验')
+                    save_project(project)
+                    published = True
+                    projects[project['id']] = project
+                    run['status'] = 'completed'
+                    emit(run, 'run.completed', message='运行完成')
+                except Exception:
+                    run['status'] = 'running'
+                    del run['events'][event_count:]
+                    projects[project['id']] = previous
+                    if published:
+                        save_project(previous)
+                    raise
+            return
+        emit(run, 'graph.updated', graph=graph, message='图谱已构建并通过校验')
 
 
 @app.get('/api/bootstrap')
@@ -766,15 +798,20 @@ def query(query: Query):
         return {'run_id': run['id']}
 
 
+class BuildRequest(BaseModel):
+    rebuild: bool = False
+
+
 @app.post('/api/projects/{project_id}/build')
-def build(project_id):
+def build(project_id, body: BuildRequest | None = None):
     project = project_for(project_id)
-    if project['read_only']:
+    if project['read_only'] or project.get('imported'):
         raise HTTPException(400, '当前知识库只读，更新资料请重新收录')
     with lock:
-        if any(r['project_id'] == project_id and r['kind'] == 'build' and r['status'] == 'running' for r in runs.values()):
-            raise HTTPException(409, '该知识库正在构建')
+        if any(r['project_id'] == project_id and r['status'] == 'running' for r in runs.values()):
+            raise HTTPException(409, '该知识库正在运行任务，请完成或停止后生成图谱')
         run = new_run(project_id, 'build')
+        run['rebuild'] = bool(body and body.rebuild)
     launch(run, build_worker)
     return {'run_id': run['id']}
 
@@ -813,9 +850,10 @@ async def events(run_id, request: Request):
 @app.post('/api/runs/{run_id}/cancel')
 def cancel(run_id):
     run = run_for(run_id)
-    if run['status'] == 'running':
-        run['cancel'].set()
-        emit(run, 'cancel.requested', message='正在停止生成…' if run['kind'] == 'query' else '已请求停止；等待当前构图批次退出')
+    with lock:
+        if run['status'] == 'running':
+            run['cancel'].set()
+            emit(run, 'cancel.requested', message='正在停止生成…' if run['kind'] == 'query' else '已请求停止；等待当前构图批次退出')
     return {'status': run['status']}
 
 

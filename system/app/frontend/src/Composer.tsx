@@ -1,15 +1,28 @@
-import { useLayoutEffect, useRef } from 'react';
+import { useEffect, useLayoutEffect, useRef } from 'react';
 import { ArrowUp, Plus, Square } from 'lucide-react';
 import LibraryOverview, { type OverviewFile } from './LibraryOverview';
 
 type Props = {
   value: string; onChange: (value: string) => void; onSend: () => void; onStop: () => void;
   running: boolean; canStop: boolean; disabled: boolean; configured: boolean;
+  responding?: boolean;
   projectName: string; files: OverviewFile[]; onUpload: () => void; uploadDisabled: boolean;
 };
 
 export default function Composer(props: Props) {
   const textarea = useRef<HTMLTextAreaElement>(null);
+  const flow = useRef<HTMLSpanElement>(null);
+  useEffect(() => {
+    const border = flow.current;
+    if (!border) return;
+    let visible = true;
+    const update = () => { border.style.animationPlayState = visible && !document.hidden ? 'running' : 'paused'; };
+    const observer = new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; update(); });
+    observer.observe(border);
+    document.addEventListener('visibilitychange', update);
+    update();
+    return () => { observer.disconnect(); document.removeEventListener('visibilitychange', update); };
+  }, [props.responding]);
   useLayoutEffect(() => {
     const field = textarea.current;
     if (!field) return;
@@ -17,7 +30,8 @@ export default function Composer(props: Props) {
     field.style.height = `${Math.min(200, Math.max(62, field.scrollHeight))}px`;
   }, [props.value]);
   return <div className="composer-wrap">
-    <div className={`composer ${props.running ? 'running' : ''}`}>
+    <div className={`composer ${props.running ? 'running' : ''}`} aria-busy={!!props.responding}>
+      {props.responding && <span ref={flow} className="composer-flow" aria-hidden="true"/>}
       <textarea ref={textarea} aria-label="输入问题" placeholder={props.configured ? '想从资料中了解什么？' : '输入问题，连接模型后开始对话…'}
         value={props.value} disabled={props.running || props.disabled} onChange={e => props.onChange(e.target.value)}
         onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) { e.preventDefault(); props.onSend(); } }}/>

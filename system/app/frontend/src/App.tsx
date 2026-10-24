@@ -77,6 +77,8 @@ export default function App() {
   const [pendingRemoval, setPendingRemoval] = useState<SourceDocument>(); const [deleting, setDeleting] = useState(false); const [removalError, setRemovalError] = useState(''); const [buildFailure, setBuildFailure] = useState('');
   const [pendingDeleteConversation, setPendingDeleteConversation] = useState<{ runId: string; conversationId: string; question: string }>();
   const [pendingClearHistory, setPendingClearHistory] = useState(false);
+  const [pendingRebuild, setPendingRebuild] = useState(false);
+  const [rebuildAttempt, setRebuildAttempt] = useState(false);
   const [historyDeleting, setHistoryDeleting] = useState(false);
   const [historyDeleteError, setHistoryDeleteError] = useState('');
   const [historyMenu, setHistoryMenu] = useState<{ id: string; conversationId: string; question: string; top: number; left: number }>();
@@ -92,6 +94,7 @@ export default function App() {
   useEffect(() => {
     setView(current => current === 'tests' ? 'chat' : current);
     setUploadNew(false); setUploadNotice(''); setPendingRemoval(undefined); setRemovalError(''); setBuildFailure('');
+    setPendingRebuild(false); setRebuildAttempt(false);
     graphReturnRef.current = { view: 'chat' }; sourceAnswerRef.current = { view: 'chat' };
     setReadingFromAnswer(false); setProject(undefined); setGraphTurn(undefined); setTurns([]); setHistory([]); setResults({}); setActivities([]); setReading(undefined); setDetail(undefined); setEvidencePanel(undefined); setGraphMode('entities'); setPathIndex(-1); setSelectedId(''); setFullGraph(undefined); parentRef.current = undefined;
     if (!projectId) return; const controller = new AbortController();
@@ -284,10 +287,18 @@ export default function App() {
     xhr.onerror = () => { setUploading(false); uploadLock.current = false; setError('无法读取文件或上传连接中断，请重新选择文件夹后重试。'); };
     try { xhr.send(form); } catch { setUploading(false); uploadLock.current = false; setError('无法读取所选文件，请确认文件可访问后重试。'); }
   }
-  async function build() {
+  async function build(rebuild = false) {
     if (!boot.api_configured) { setSettingsOpen(true); return; }
-    if (activeRef.current || uploading || deleting || !project?.files.length) return; setBuilding(true); setBusy(true); activeRef.current = true; setActivities([]); setView('chat'); setError(''); setBuildFailure('');
-    try { const data = await post(`/projects/${projectId}/build`); await listen(data.run_id); setProject(await api(`/projects/${projectId}`)); await refresh(); }
+    if (activeRef.current || testing || uploading || deleting || !project?.files.length || project.read_only || !project.can_append) return; setBuilding(true); setRebuildAttempt(rebuild); setBusy(true); activeRef.current = true; setRunId(''); setActivities([]); setView('chat'); setError(''); setBuildFailure('');
+    try {
+      const data = await post(`/projects/${projectId}/build`, { rebuild });
+      const result = await listen(data.run_id);
+      if (result?.status === 'completed') {
+        setProject(await api(`/projects/${projectId}`));
+        setFullGraph(undefined); setGraphTurn(undefined); setSelectedId(''); setDetail(undefined); setEvidencePanel(undefined); setGraphMode('entities'); setPathIndex(-1);
+        await refresh();
+      }
+    }
     catch (e: any) { setError(e.message); setBuildFailure(e.message); } finally { setBuilding(false); setBusy(false); activeRef.current = false; }
   }
   async function roleChange(path: string, role: string) { try { const roles = Object.fromEntries((project?.files || []).map(f => [f.path, f.path === path ? role : f.role])); setProject(await post(`/projects/${projectId}/roles`, { roles })); setReading(r => r?.path === path ? { ...r, role } : r); } catch (e: any) { setError(e.message); } }
@@ -355,6 +366,7 @@ export default function App() {
   const navItems = [['chat', MessageSquare, '知识问答'], ['graph', Network, '知识图谱'], ['documents', FileText, '原始资料'], ['tests', FlaskConical, '十题问答']] as const;
   const composer = <Composer value={input} onChange={setInput} onSend={() => { setView('chat'); ask().catch(() => {}); }} onStop={cancel}
     running={busy} canStop={!!runId} disabled={testing || uploading || deleting} configured={!!boot?.api_configured}
+    responding={busy && !building && !testing && turns.some(turn => turn.status === 'running')}
     projectName={project?.name || '资料库'} files={project?.files || []}
     onUpload={() => setUploadOpen(true)} uploadDisabled={busy || testing || uploading || deleting}/>;
   return <div className={`workspace workspace-v2 drawer-closed ${sidebarOpen ? '' : 'sidebar-hidden'} ${evidencePanel ? 'evidence-open' : ''}`} style={workspaceStyle}>
@@ -384,18 +396,18 @@ export default function App() {
       <div className="mobile-nav">{navItems.map(([id, Icon, label]) => <button aria-label={label} disabled={id === 'tests' && !benchmarkAvailable} title={id === 'tests' && !benchmarkAvailable ? '十题问答仅适用于测试集 A' : undefined} className={view === id ? 'active' : ''} key={id} onClick={() => { if (id === 'tests' && !benchmarkAvailable) return; setEvidencePanel(undefined); setView(id); }}><Icon size={17}/>{label}</button>)}</div>
       {uploadNotice && view === 'documents' && <div className="upload-notice" role="status">{uploadNotice}<button aria-label="关闭上传提示" onClick={() => setUploadNotice('')}><X size={16}/></button></div>}
       {error && <div className="error-bar" role="alert">{error}<button aria-label="关闭错误" onClick={() => setError('')}><X size={16}/></button></div>}
-      {view !== 'chat' && <div className="page-toolbar"><div>{view === 'graph' && graphAnswer && <button type="button" className="back-to-answer" onClick={() => returnToAnswer()}><ArrowLeft size={16}/>返回回答</button>}{view === 'documents' && readingFromAnswer && <button type="button" className="back-to-answer" onClick={() => sourceReturnView.current === 'graph' ? setView('graph') : returnToAnswer(sourceAnswerRef.current)}><ArrowLeft size={16}/>{sourceReturnView.current === 'graph' ? '返回图谱' : '返回回答'}</button>}<h1>{{ graph: '知识图谱', documents: '原始资料', tests: '十题完整问答' }[view]}</h1><p>{{ graph: '查看主体之间的关系，点击连线核对中文关系与原文。', documents: '上传、阅读和管理参与问答的文件。', tests: '使用当前模型逐题生成答案，并保留执行过程与来源。' }[view]}</p></div><div className="toolbar-actions">{view === 'graph' && <details className={`export-menu graph-export-menu${project?.ready ? '' : ' is-disabled'}`} onToggle={event => { if (!project?.ready) (event.currentTarget as HTMLDetailsElement).open = false; }}><summary className="soft-button" aria-label="导出知识图谱"><Download size={15}/><span>导出</span><ChevronDown size={12}/></summary><div>
+      {view !== 'chat' && <div className="page-toolbar"><div>{view === 'graph' && graphAnswer && <button type="button" className="back-to-answer" onClick={() => returnToAnswer()}><ArrowLeft size={16}/>返回回答</button>}{view === 'documents' && readingFromAnswer && <button type="button" className="back-to-answer" onClick={() => sourceReturnView.current === 'graph' ? setView('graph') : returnToAnswer(sourceAnswerRef.current)}><ArrowLeft size={16}/>{sourceReturnView.current === 'graph' ? '返回图谱' : '返回回答'}</button>}<h1>{{ graph: '知识图谱', documents: '原始资料', tests: '十题完整问答' }[view]}</h1><p>{{ graph: '查看主体之间的关系，点击连线核对中文关系与原文。', documents: '上传、阅读和管理参与问答的文件。', tests: '使用当前模型逐题生成答案，并保留执行过程与来源。' }[view]}</p></div><div className="toolbar-actions">{view === 'graph' && project?.ready && project.can_append && <button type="button" className="soft-button" disabled={busy || testing || uploading || deleting || !project.files.length} onClick={() => setPendingRebuild(true)}><RotateCcw size={15}/>重新生成图谱</button>}{view === 'graph' && <details className={`export-menu graph-export-menu${project?.ready ? '' : ' is-disabled'}`} onToggle={event => { if (!project?.ready) (event.currentTarget as HTMLDetailsElement).open = false; }}><summary className="soft-button" aria-label="导出知识图谱"><Download size={15}/><span>导出</span><ChevronDown size={12}/></summary><div>
           <button type="button" disabled={!project?.ready} onClick={event => { event.currentTarget.closest('details')?.removeAttribute('open'); window.location.assign(`/api/projects/${projectId}/export/html`); }}><FileText size={16}/><span>思维导图 HTML<small>可离线浏览 · 适合展示</small></span></button>
           <button type="button" disabled={!project?.ready} onClick={event => { event.currentTarget.closest('details')?.removeAttribute('open'); window.location.assign(`/api/projects/${projectId}/export/json`); }}><Braces size={16}/><span>知识图谱 JSON<small>完整图谱数据 · 适合评委核验</small></span></button>
         </div></details>}{view === 'documents' && <button className="primary" disabled={busy} onClick={() => setUploadOpen(true)}><Plus size={17}/>上传资料</button>}</div></div>}
-      {view === 'documents' && <><div className="document-tools"><span><span className="data-number">{project?.files.length || 0}</span> 份文件 · <span className="data-number">{project?.files.filter(f => f.role === 'corpus').length || 0}</span> 份参与构图</span>{!project?.ready && <button className="primary" disabled={busy || testing || uploading || deleting || !project?.files.length} onClick={build}>{busy ? <Loader2 className="spin" size={15}/> : <Network size={15}/>}解析资料并生成图谱</button>}<details><summary>备份与恢复<ChevronDown size={13}/></summary><div><a href={`/api/projects/${projectId}/export`}>下载知识库备份 ZIP</a><button disabled={busy} onClick={() => setBackupOpen(true)}>从本系统备份恢复…</button></div></details></div>{sourceLocation && <div className="source-jump-note">来源位置：{sourceLocation}</div>}<DocumentReader location={sourceLocation} projectId={projectId} document={reading} files={project?.files || []} onSelect={openDocument} onClear={() => { setReading(undefined); setSourceLocation(''); setReadingFromAnswer(false); }} onRemove={project?.can_append ? requestRemoval : undefined} busy={busy || testing || uploading || deleting} onRole={!project?.read_only && reading ? role => roleChange(reading.path, role) : undefined}/></>}
+      {view === 'documents' && <><div className="document-tools"><span><span className="data-number">{project?.files.length || 0}</span> 份文件 · <span className="data-number">{project?.files.filter(f => f.role === 'corpus').length || 0}</span> 份参与构图</span>{!project?.ready && project?.can_append && <button className="primary" disabled={busy || testing || uploading || deleting || !project?.files.length} onClick={() => build()}>{busy ? <Loader2 className="spin" size={15}/> : <Network size={15}/>}解析资料并生成图谱</button>}{project?.ready && project.can_append && <button type="button" className="soft-button" disabled={busy || testing || uploading || deleting || !project.files.length} onClick={() => setPendingRebuild(true)}><RotateCcw size={15}/>重新生成图谱</button>}<details><summary>备份与恢复<ChevronDown size={13}/></summary><div><a href={`/api/projects/${projectId}/export`}>下载知识库备份 ZIP</a><button disabled={busy} onClick={() => setBackupOpen(true)}>从本系统备份恢复…</button></div></details></div>{sourceLocation && <div className="source-jump-note">来源位置：{sourceLocation}</div>}<DocumentReader location={sourceLocation} projectId={projectId} document={reading} files={project?.files || []} onSelect={openDocument} onClear={() => { setReading(undefined); setSourceLocation(''); setReadingFromAnswer(false); }} onRemove={project?.can_append ? requestRemoval : undefined} busy={busy || testing || uploading || deleting} onRole={!project?.read_only && reading ? role => roleChange(reading.path, role) : undefined}/></>}
       {<div hidden={view !== 'chat'} ref={scrollRef} tabIndex={0} aria-label="对话内容" className={`conversation ${turns.length ? 'has-turns' : ''}`} onScroll={() => { const el = scrollRef.current; if (el) followScroll.current = el.scrollHeight - el.scrollTop - el.clientHeight < 180; }}>
         {!turns.length && <div className="chat-welcome"><span className="welcome-icon"><Network size={27}/></span><h1>从你的资料，找到答案</h1>{!boot?.api_configured && <button className="connect-banner" onClick={() => setSettingsOpen(true)}><Settings2 size={18}/><span><strong>连接模型，开始对话</strong><small>暂未配置 API · 仍可浏览离线图谱和资料</small></span><ArrowUpRight size={17}/></button>}
-          {!project?.ready && <button className="primary" disabled={busy || testing || uploading || deleting || !project?.files.length} onClick={build}><Network size={17}/>解析资料并生成图谱</button>}
+          {!project?.ready && project?.can_append && <button className="primary" disabled={busy || testing || uploading || deleting || !project?.files.length} onClick={() => build()}><Network size={17}/>解析资料并生成图谱</button>}
           {!building && composer}
         </div>}
         {(building || buildFailure || (!turns.length && activities.length > 0)) && <div className="build-progress"><Execution events={activities} running={building} elapsed={elapsed} error={buildFailure || undefined}/>
-          {buildFailure && !building && <div className="retry-actions build-retry"><button className="primary" disabled={busy || testing || uploading || deleting} onClick={build}><RotateCcw size={15}/>继续生成图谱</button><span>已完成的批次会保留，从失败处继续。</span></div>}</div>}
+          {buildFailure && !building && <div className="retry-actions build-retry"><button className="primary" disabled={busy || testing || uploading || deleting} onClick={() => build(rebuildAttempt)}><RotateCcw size={15}/>{rebuildAttempt ? '重新尝试重建' : '继续生成图谱'}</button><span>{rebuildAttempt ? '现有图谱已保留，可以重新尝试。' : '已完成的批次会保留，从失败处继续。'}</span></div>}</div>}
         {turns.map((turn, i) => <ChatTurn key={turn.id || i} sources={() => showEvidence(turn, 'sources', { view: 'chat', turnId: turn.runId || turn.id })} turn={turn} elapsed={elapsed} read={e => readEvidence(e, { view: 'chat', turnId: turn.runId || turn.id })} graph={() => openTurnGraph(turn, { view: 'chat', turnId: turn.runId || turn.id })} download={saveText} retry={() => retryTurn(turn)} retryDisabled={busy || testing || uploading || deleting}/>)}<div ref={contentEnd}/>
       </div>}
       {view === 'graph' && <div className="graph-page">
@@ -441,6 +453,11 @@ export default function App() {
       <p>将永久删除当前资料库下的全部问答对话记录（含本地保存的 JSON），当前聊天窗口也会被清空。此操作无法撤销。</p>
       {historyDeleteError && <p className="api-error" role="alert">{historyDeleteError}</p>}
       <div className="modal-actions"><button className="soft-button" disabled={historyDeleting} onClick={() => setPendingClearHistory(false)}>取消</button><button className="danger-button" disabled={historyDeleting} onClick={clearAllHistory}>{historyDeleting ? <Loader2 size={16} className="spin"/> : <Trash2 size={16}/>} {historyDeleting ? '正在清空…' : '清空全部'}</button></div>
+    </Modal>}
+    {pendingRebuild && <Modal title="重新生成图谱？" className="remove-modal" initialFocusSelector=".modal-actions .soft-button" onClose={() => setPendingRebuild(false)}>
+      <p>将根据「{project?.name}」的当前资料重新解析、抽取并生成图谱，使用当前模型，可能产生 API 费用。</p>
+      <p>生成成功后切换到新图谱；失败或停止时保留现有图谱，原始资料和对话记录不变。</p>
+      <div className="modal-actions"><button type="button" className="soft-button" onClick={() => setPendingRebuild(false)}>取消</button><button type="button" className="primary" disabled={busy || testing || uploading || deleting} onClick={() => { setPendingRebuild(false); build(true); }}><RotateCcw size={15}/>重新生成</button></div>
     </Modal>}
     {pendingRemoval && <Modal title="删除这份资料？" className="remove-modal" disabled={deleting} onClose={() => setPendingRemoval(undefined)}>
       <div className="removal-file"><FileText size={24}/><strong>{pendingRemoval.path}</strong></div>
